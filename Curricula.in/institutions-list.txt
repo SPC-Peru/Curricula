@@ -1,0 +1,32 @@
+CS-CLEI   : CLEIC	: Computing  : CLEI,SPC   : Plan2010 : draft
+CS-SPC    : Peru	: Computing  : SPC        : Plan2010 : final
+CS-SPC    : Peru	: Computing  : SPC        : Plan2015 : final
+CS-UCSP   : Peru	: Computing  : UCSP       : Plan2006 : final
+CS-UCSP   : Peru	: Computing  : UCSP       : Plan2010 : final
+CS-UCSP   : Peru	: Computing  : UCSP       : Plan2015 : final
+CS-UNSA   : Peru	: Computing  : UNSA,SPC   : Plan2010 : final
+CS-ANR    : Peru	: Computing  : SPC        : Plan2010 : final
+CS-UNAM   : Peru	: Computing  : UNSA,SPC   : Plan2014 : final
+CS-UNMSM  : Peru        : Computing  : UNMSM,UNSA,SPC: Plan2010 : final
+
+******UNI    : Peru	: Computing  : SPC,UNI    : Plan2010 : draft
+
+******UNA    : Peru        : Computing  : UNA,SPC    : Plan2010 : draft
+******UNAJMA : Peru        : Computing  : UNSA,SPC   : Plan2010 : draft
+******UNE    : Peru        : Computing  : UNSA,SPC   : Plan2010 : draft
+
+******ULCIMA : Peru        : Computing  : ULCIMA,SPC : Plan2010 : draft
+******UNIA   : Peru        : Computing  : UNIA,UNSA,SPC: Plan2010 : draft
+******UNAMBA : Peru        : Computing  : UNAMBA,SPC : Plan2010 : draft
+******UNU    : Peru	: Computing  : UNU,SPC    : Plan2010 : draft
+
+******UCHILE : Chile       : Computing  : SPC,UTALCA : Plan2010 : draft
+******UTALCA : Chile       : Computing  : SPC,UTALCA : Plan2010 : draft
+******UJPII  : Costa Rica  : Computing  : CR,UJPII   : Plan2010 : draft
+CS-UCR    : Costa Rica  : Computing  : CR,UCR     : Plan2010 : draft
+CS-USGP   : Ecuador     : Computing  : USGP,SPC   : Plan2010 : final
+******EAFIT  : Colombia    : Computing  : SPC,EAFIT  : Plan2010 : draft
+
+IS-SPC : Peru	: Computing  : SPC      : Plan2010 : final
+IS-UCSP: Peru	: Computing  : UCSP     : Plan2010 : final
+IS-UNSA: Peru	: Computing  : UNSA,SPC : Plan2010 : final

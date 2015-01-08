@@ -1,0 +1,37 @@
+\usepackage[spanish]{babel}
+\usepackage{ae}
+\usepackage{tabularx}
+\usepackage{xspace}
+\usepackage{paralist}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{html}
+\usepackage{multicol}
+% \usepackage{multibib}
+\usepackage[top=15mm,bottom=2cm,left=15mm,right=15mm]{geometry}
+
+\usepackage{\InStyDir/bok-macros}
+\input{\OutputTexDir/macros-only}
+\input{\InTexDir/outcomes-macros}
+\input{\InInstDir/institution-info}
+
+\newcounter{SyllabiUnitCount}
+\addtocounter{SyllabiUnitCount}{0}
+\newcounter{SyllabiSectionCount}
+\setcounter{SyllabiSectionCount}{0}
+
+\newenvironment{unitgoals}%
+{ \begin{itemize} }%
+{ \end{itemize}   }
+
+\newenvironment{topics}%
+{ \begin{itemize} }%
+{ \end{itemize}   }
+
+\newenvironment{subtopics}%
+{ \begin{itemize} }%
+{ \end{itemize}   }
+
+\newenvironment{evaluation}%
+{\begin{description}}%
+{\end{description}}

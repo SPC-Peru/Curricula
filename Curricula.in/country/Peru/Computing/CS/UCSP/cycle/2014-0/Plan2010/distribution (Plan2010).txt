@@ -1,0 +1,42 @@
+
+% Semester #1 .
+
+
+% Semester #2 .
+% CS101O(CS101O). Introducción a la Programación Orientada a Objetos (Obligatorio)
+CS101O->rensso.mora@ucsp.edu.pe
+
+
+% Semester #3 .
+% CS107(CS107). Álgebra Abstracta (Obligatorio)
+CS107->ana.maria.cuadros@ucsp.edu.pe
+
+
+% Semester #4 .
+% CB201(CB201). Análisis Matemático III (Obligatorio)
+CB201->dnina@ucsp.edu.pe,saquise@ucsp.edu.pe
+
+
+% Semester #5 .
+% CB306(CB306). Análisis Numérico (Obligatorio)
+CB306->lvasquez@ucsp.edu.pe
+
+
+% Semester #6 .
+% CS225T(CS225T). Sistemas Operativos (Obligatorio)
+CS225T->jsantisteban@ucsp.edu.pe
+% CB307(CB307). Matemática aplicada a la computación (Obligatorio)
+CB307->ldiaz@ucsp.edu.pe
+
+
+% Semester #7 .
+
+
+% Semester #8 .
+
+
+% Semester #9 .
+
+
+% Semester #10 .
+

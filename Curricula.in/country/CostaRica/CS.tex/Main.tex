@@ -1,0 +1,44 @@
+\input{\InTexDir/outcomes-macros}
+\input{\InTexAllDir/expand-outcomes}
+
+\input{\InTexDir/firstpage}				\newpage
+\input{\InTexDir/copyright}				\newpage
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+\pagestyle{plain}
+\input{\InInstDir/team}					\newpage
+\input{\InTexDir/abstract-\LanguageWithoutAccent}	\newpage
+
+\tableofcontents
+\listoffigures
+\listoftables
+ 
+\input{\InInstDir/ack}					\newpage
+\input{\OutputTexDir/acronyms}				\newpage
+. \newpage
+
+\begin{btUnit}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{\InCountryTexDir/carta-solicitud}
+\input{\InCountryTexDir/presentacion}
+\input{\InCountryTexDir/perfil-profesional}
+\begin{btSect}{curricula-main}
+\section*{\BibliographySection}
+\btPrintCited
+\end{btSect}
+\end{btUnit}
+
+\input{\InCountryTexDir/plan-de-estudios}
+
+% \input{\InCountryTexDir/chap-introduction}
+\input{\InTexDir/BodyOfKnowledge}
+\input{\InTexDir/GeneralInfo}
+
+\input{\InTexDir/lab-description}
+\input{\InTexDir/Laboratories}
+
+

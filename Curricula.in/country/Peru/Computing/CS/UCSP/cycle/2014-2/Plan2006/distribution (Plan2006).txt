@@ -1,0 +1,62 @@
+
+% Semester #1 .
+
+
+% Semester #2 .
+
+
+% Semester #3 .
+
+
+% Semester #4 .
+
+
+% Semester #5 .
+
+
+% Semester #6 .
+
+
+% Semester #7 .
+
+
+% Semester #8 .
+
+
+% Semester #9 .
+% CS370(CS370). Tópicos en Bases de Datos (Obligatorio)
+CS370->jtejadac@ucsp.edu.pe
+% CS369(CS369). Computación Evolutiva (Electivo)
+CS369->ytupac@ucsp.edu.pe
+% CS230W(CS230W). Computación Centrada en Redes I (Obligatorio)
+CS230W->jsantisteban@ucsp.edu.pe
+% CS356(CS356). Tópicos en Computación Gráfica I (Electivo)
+CS356->jcgutierrezc@ucsp.edu.pe
+% CS360(CS360). Tópicos en Inteligencia Artificial I (Electivo)
+CS360->dbarrios@ucsp.edu.pe
+% CS393(CS393). Métodos Formales (Electivo)
+CS393->igor.calizaya@ucsp.edu.pe
+% CS403(CS403). Proyecto de Tesis (Obligatorio)
+CS403->gcalderon@ucsp.edu.pe,ana.maria.cuadros@ucsp.edu.pe,jcgutierrezc@ucsp.edu.pe,gmezal@ucsp.edu.pe
+% ET102(ET102). Formación de Empresas de Base Tecnológica II (Obligatorio)
+ET102->jeochoa@ucsp.edu.pe
+
+
+% Semester #10 .
+% CS404(CS404). Seminario de Tesis (Obligatorio)
+CS404->acuadros@ucsp.edu.pe,ytupac@ucsp.edu.pe,jeochoa@ucsp.edu.pe,jcgutierrezc@ucsp.edu.pe
+% CS361(CS361). Tópicos en Inteligencia Artificial II (Electivo)
+CS361->dbarrios@ucsp.edu.pe
+% CS231W(CS231W). Computación Centrada en Redes II (Obligatorio)
+CS231W->rmedina@ucsp.edu.pe
+% CS357(CS357). Tópicos en Computación Gráfica II (Electivo)
+CS357->jcgutierrezc@ucsp.edu.pe
+% FG211(HU211). Ética Profesional (Obligatorio)
+FG211->gmaldonado@ucsp.edu.pe
+% FG221(HU221). Historia de la Ciencia y Tecnología (Obligatorio)
+FG221->tmedina@ucsp.edu.pe
+% FG302(HU302). Visión Cristiana de nuestro tiempo (Obligatorio)
+FG302->rvilcab@ucsp.edu.pe
+% ET103(ET103). Formación de Empresas de Base Tecnológica III (Obligatorio)
+ET103->evargas@ucsp.edu.pe
+

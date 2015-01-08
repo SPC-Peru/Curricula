@@ -1,0 +1,2586 @@
+\begin{thebibliography}{}
+
+\bibitem[Abernethy et~al., 1999]{Abernethy:99}
+Abernethy, R., Morin, R., and Chahín, J. (1999).
+\newblock {\em {COM-DCOM} Unleashed}.
+\newblock Sams Publishing.
+
+\bibitem[ACM and IEEE-CS, 2005]{InformationTechnology2005}
+ACM and IEEE-CS (2005).
+\newblock {C}omputing {C}urricula: {I}nformation {T}echnology.
+\newblock Technical report, ACM, IEEE-CS.
+
+\bibitem[{ACM/IEEE-CS Joint Task Force on Computing Curricula}, 2013]{CS2013}
+{ACM/IEEE-CS Joint Task Force on Computing Curricula} (2013).
+\newblock Computer science curricula 2013.
+\newblock Technical report, ACM Press and IEEE Computer Society Press.
+
+\bibitem[Alahakoon et~al., 1998a]{Alahakoon:98a:GSOM}
+Alahakoon, D., Halgamuge, S., and Srinivasan, B. (1998a).
+\newblock {A} {S}tructure {A}dapting {F}eature {M}ap for {O}ptimal {C}luster
+  {R}epresentation.
+\newblock In {\em International Conference on Neural Information Processing},
+  pages 809--812, Kitakyushu, Japan.
+
+\bibitem[Alahakoon et~al., 1998b]{Alahakoon:98b:GSOM}
+Alahakoon, D., Halgamuge, S., and Srinivasan, B. (1998b).
+\newblock A self growing cluster development approach to data mining.
+\newblock In {\em IEEE International Conference on Systems, Man and
+  Cybernetics}, volume~3, pages 2901--2906.
+
+\bibitem[Alahakoon et~al., 2000]{Alahakoon:00:GSOM}
+Alahakoon, D., Halgamuge, S., and Srinivasan, B. (2000).
+\newblock Dynamic self-organizing map with controlled growth for knowledge
+  discovery.
+\newblock {\em {IEEE} Transactions on Neural Networks}, 11(3):601--614.
+
+\bibitem[Albers and Westbrook, 1996]{albers96selforganizing}
+Albers, S. and Westbrook, J. (1996).
+\newblock Self-organizing data structures.
+\newblock In {\em Online Algorithms}, pages 13--51.
+
+\bibitem[Albrecht and Merkl, 1999]{Rudolf:99}
+Albrecht, R. and Merkl, D. (1999).
+\newblock Extracting information from text data bases.
+\newblock {\em ASP Conferense Series}, 172.
+
+\bibitem[Amari, 1983]{Amari:83}
+Amari, S.~I. (1983).
+\newblock Field theory of self-organizing neural nets.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics},
+  SMC-13:741--748.
+
+\bibitem[Anderson and Essen, 1994]{Anderson:94}
+Anderson, C. and Essen, D.~V. (1994).
+\newblock Neurobiological computational cystems.
+\newblock In {\em Computational Intelligence Imitating Life}, pages 213--222,
+  New York. {IEEE Press}.
+
+\bibitem[Anderson and Krathwohl, 2001]{Anderson2001Bloom}
+Anderson, L.~W. and Krathwohl, D.~R., editors (2001).
+\newblock {\em A taxonomy for learning, teaching and assessing: A revision of
+  Bloom's Taxonomy of educational objectives}.
+\newblock New York : Longman, complete edition edition.
+
+\bibitem[Anderson, 1994]{Anderson:94a}
+Anderson, T. (1994).
+\newblock Auditory models with {K}ohonen {SOFM} and {LVQ} for speaker
+  independent phoneme recognition.
+\newblock In {\em International Conference on Neural Networks}, pages
+  4466--4469, Piscataway, NJ. {IEEE} Service Center.
+
+\bibitem[Annamalai et~al., 2000]{Annamalai:00:Oracle8i}
+Annamalai, M., Chopra, R., and Defazio, S. (2000).
+\newblock Indexing {I}mages in {O}racle8i.
+\newblock In {\em ACM SIGMOD international Conference on the Management of
+  Data}, pages 539--547, Dallas.
+
+\bibitem[Atukorale and Suganthan, 1998]{atukorale-hierarchical}
+Atukorale, A. and Suganthan, P. (1998).
+\newblock Hierarchical overlapped neural-gas network with application to
+  pattern classification.
+
+\bibitem[Aurenhammer, 1991]{Aurenhammer:91:Voronoi}
+Aurenhammer, F. (1991).
+\newblock Voronoi diagrams -- a survey of a fundamental geometric data
+  structure.
+\newblock {\em ACM Computing Survey}, 23(3).
+
+\bibitem[Bachelder et~al., 1993]{Bachelder:93}
+Bachelder, I., Waxman, A., and Seibert, M. (1993).
+\newblock A neural system for mobile robot visual place learning and
+  recognition.
+\newblock In {\em World Congress on Neural Networks}, volume~I, pages 512--517,
+  Hillsdale. NJ: Erlbaum Associates.
+
+\bibitem[Baeza-Yates, 1997]{Baeza:97:AlgorithmicTour}
+Baeza-Yates, R. (1997).
+\newblock Searching: an algorithmic tour.
+\newblock In Kent, A. and Williams, J., editors, {\em Encyclopedia of
+  {C}omputer {S}cience and {T}echnology}, volume~37, pages 331--359. Marcel
+  Dekker Inc.
+
+\bibitem[Baeza-Yates and Navarro, 1998]{Baeza:98:FastApproximationString}
+Baeza-Yates, R. and Navarro, G. (1998).
+\newblock Fast approximate string matching in a dictionary.
+\newblock In {\em South American Symposium on String Processing and Information
+  Retrieval}, pages 14--22. {IEEE CS P}ress.
+
+\bibitem[Baeza-Yates, 1990]{baezayates90adaptive}
+Baeza-Yates, R.~A. (1990).
+\newblock An adaptive overflow technique for b-trees.
+\newblock In {\em Extending Database Technology}, pages 16--28.
+
+\bibitem[Baeza-Yates et~al., 1994]{Baeza:94:FQTrees}
+Baeza-Yates, R.~A., Cunto, W., Manber, U., and Wu, S. (1994).
+\newblock Proximity matching using fixed-queries trees.
+\newblock In Crochemore, M. and Gusfield, D., editors, {\em Annual Symposium on
+  Combinatorial Pattern Matching}, volume 807, pages 198--212, Asilomar, CA.
+  Springer-Verlag, Berlin.
+
+\bibitem[Baeza-Yates and Ribeiro-Neto, 1999]{baezayates99modern}
+Baeza-Yates, R.~A. and Ribeiro-Neto, B.~A. (1999).
+\newblock {\em Modern Information Retrieval}.
+\newblock ACM Press / Addison-Wesley.
+
+\bibitem[Baldi and Hornik, 1989]{Baldi:89}
+Baldi, P. and Hornik, K. (1989).
+\newblock Neural networks and principal component analysis: learning from
+  examples without local minima.
+\newblock {\em Neural networks}, 2:53--58.
+
+\bibitem[Baraldi and Blonda, 1998]{Baraldi:98:FOSART}
+Baraldi, A. and Blonda, P. (1998).
+\newblock A survey of fuzzy clustering algorithms for pattern recognition.
+\newblock TR-98 038, International Computer Science Institute, 1947 Center St.
+  Suite 600, Berkeley, California 94704-1198.
+
+\bibitem[Baraldi and Parmiggiani, 1998]{Baraldi:98:Fuzzy}
+Baraldi, A. and Parmiggiani, F. (1998).
+\newblock A fuzzy neural network model capable of generating/removing neurons
+  and synaptic links dynamically.
+\newblock In P.~Blonda, M.~C. and Petrosino, A., editors, {\em II Italian
+  Workshop on Fuzzy Logic}, pages 247--259, Singapure. World Scientific.
+
+\bibitem[Barbalho et~al., 2001]{Barbalho:01}
+Barbalho, J., Duarte, A., Neto, D., Costa, and Netto, J.~M. (2001).
+\newblock Hierarchical som applied to image compression.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~1,
+  pages 442--447, Washington DC. {IEEE Press}.
+
+\bibitem[Barlow, 1989]{Barlow:89}
+Barlow, H.~B. (1989).
+\newblock Unsupervised learning.
+\newblock {\em Neural Computation}, 1(3):295--311.
+
+\bibitem[Bartfai, 1994]{Bartfai:94}
+Bartfai, G. (1994).
+\newblock Hierarchical {C}lustering with {ART} {N}eural {N}etworks.
+\newblock In {\em International Conference on Neural Networks}, volume~2, pages
+  940--944. {IEEE Press.}
+
+\bibitem[Bartfai, 1995]{Bartfai:95}
+Bartfai, G. (1995).
+\newblock An art-based modular architecture for learning hierarchical
+  clusterings.
+\newblock {\em TR}, CS-TR-95/3.
+
+\bibitem[Bartfai, 1996]{Bartfai:96}
+Bartfai, G. (1996).
+\newblock An art-based modular architecture for learning hierarchical
+  clusterings.
+\newblock http://citeseer.nj.nec.com/54299.html.
+
+\bibitem[Bartolini et~al., 2002]{BCP02}
+Bartolini, I., Ciaccia, P., and Patella, M. (2002).
+\newblock String matching with metric trees using an approximate distance.
+\newblock In {\em International Symposium on String Processing and Information
+  Retrieval ({SPIRE 2002}), 9th}, pages 271--283, Lisbon, Portugal. Springer.
+
+\bibitem[Bayer and McCreight, 1972]{Bayern:72:BTree}
+Bayer, R. and McCreight, E. (1972).
+\newblock Organization and maintenance of large ordered indexes.
+\newblock {\em Acta Informatica}, 1(3):173--189.
+
+\bibitem[Beale and Jackson, 1990]{Beale:90}
+Beale, R. and Jackson, T. (1990).
+\newblock {\em Neural Computing: an Introduction}.
+\newblock Adam Hilder.
+
+\bibitem[Beckmann et~al., 1990]{Beckmann90RStarTree}
+Beckmann, N., Kriegel, H., Schneider, R., and Seeger, B. (1990).
+\newblock {T}he {R}*-{T}ree: {A}n efficient and robust access method for points
+  and rectangles.
+\newblock In {\em ACM SIGMOD International Conference on Management of Data},
+  volume~1, pages 322--331.
+
+\bibitem[Beker, 1997]{Beker:97}
+Beker, M.~F. (1997).
+\newblock Representação de Áudio em bancos de dados.
+\newblock Master's thesis, Universidade de São Paulo, ICMC-USP, São Carlos-SP.
+
+\bibitem[Belew, 1987]{Belew:87}
+Belew, R. (1987).
+\newblock A connectionist approach to conceptual information retrieval.
+\newblock In {\em International Conference on IA and Law}.
+
+\bibitem[Belussi and Faloutsos, 1995]{Belussi95}
+Belussi, A. and Faloutsos, C. (1995).
+\newblock Estimating the {S}electivity of {S}patial {Q}ueries {U}sing the
+  '{C}orrelation' {F}ractal {D}imension.
+\newblock In {\em International Conference on Very Large Data Bases, 21st},
+  pages 299--310, Zurich.
+
+\bibitem[Belussi and Faloutsos, 1998]{Belussi98}
+Belussi, A. and Faloutsos, C. (1998).
+\newblock Self-{S}pacial {J}oin {S}electivity {E}stimation {U}sing {F}ractal
+  {C}oncepts.
+\newblock {\em ACM Transactions on Information Systems}, 16(2):161--201.
+
+\bibitem[Bentley, 1975]{Bentley:75}
+Bentley, J. (1975).
+\newblock Multidimensional binary search trees used for associative searching.
+\newblock {\em Communications of the ACM}, 18(9):509--517.
+
+\bibitem[Berchtold et~al., 1996]{Berchtold:96:XTree}
+Berchtold, S., Keim, D., and Kriegel, H. (1996).
+\newblock The {X}-{T}ree: {A}n index structure for high-dimensional data.
+\newblock In {\em International Conference on Very Large Data Bases, 22nd},
+  pages 28--39, Mumbai (Bombay).
+
+\bibitem[Bernardon and Carrick, 1995]{Bernardon:95}
+Bernardon, A.~M. and Carrick, J.~E. (1995).
+\newblock A neural system for automatic target learning and recognition applied
+  to bare and camoulflaged sar target.
+\newblock {\em Neural Networks}, 8:1103--1108.
+
+\bibitem[Berthold and Diamond, 1995]{Berthold:95}
+Berthold, M.~R. and Diamond, J. (1995).
+\newblock Boosting the performance of {RBF} networks with dynamic decay
+  adjustment.
+\newblock In {\em Advances in Neural Information Processing Systems}, volume~7,
+  pages 521--528. {MIT Press}.
+
+\bibitem[Beucher and Lantuéjoul, 1979]{Beucher:79:Watershed}
+Beucher, S. and Lantuéjoul, C. (1979).
+\newblock {U}se of {W}atersheds in {C}ontour {D}etection.
+\newblock In {\em Int'l Workshop Image Processing, Real-Time Edge and Motion
+  Detection / Estimation}, Rennes, France.
+
+\bibitem[Bezdek, 1992]{Bezdek:92}
+Bezdek, J.~C. (1992).
+\newblock Integration and generalization of {LVQ} and c-means clustering.
+\newblock In {\em Intelligent Robots and Computer Vision XI: Biological, Neural
+  Net, and 3-D Methods}, volume 1826, pages 280--299, Bellingham, WA. SPIE.
+
+\bibitem[Bishop et~al., 1998]{bishop98gtm}
+Bishop, C.~M., Svensen, M., and Williams, C. K.~I. (1998).
+\newblock {GTM}: {T}he {G}enerative {T}opographic {M}apping.
+\newblock {\em Neural Computation}, 10(1):215--234.
+
+\bibitem[Blackmore and Miikkulainen, 1993]{Blackmore:93:Incremental}
+Blackmore, J. and Miikkulainen, R. (1993).
+\newblock {I}ncremental {G}rid {G}rowing: {E}ncoding {H}igh-{D}imensional
+  {S}tructure into a {T}wo-{D}imensional {F}eature {M}ap.
+\newblock In {\em International Conference on Neural Networks}, volume~I, pages
+  450--455, San Francisco-CA. IEEE Service Center.
+
+\bibitem[Blackmore and Miikkulainen, 1995]{blackmore95visualizing}
+Blackmore, J. and Miikkulainen, R. (1995).
+\newblock {V}isualizing {H}igh-{D}imensional {S}tructure with {I}ncremental
+  {G}rid {G}rowing {N}eural {N}etwork.
+\newblock In Prieditis, A. and Russell, S., editors, {\em International
+  Conference on Machine Learning, 12th}, pages 55--63, San Francisco, CA, USA.
+  Morgan Kaufmann Publishers.
+
+\bibitem[Blackmore, 1995]{Blackmore:95:IGG}
+Blackmore, J.~M. (1995).
+\newblock {V}isualizing {H}igh-{D}imensional {S}tructure with {I}ncremental
+  {G}rid {G}rowing {N}eural {N}etwork.
+\newblock Master's thesis, University of Texas at Austin, Austin.
+
+\bibitem[Blonda et~al., 1997]{Blonda:97}
+Blonda, P., Baraldi, A., Bafunno, G., Satalino, G., and Ria, G. (1997).
+\newblock Experimental comparison of {FOSART} and {F {LVQ} } in a remotely
+  sensed image classification task.
+\newblock {\em Proceedings of the SPIE---The International Society for Optical
+  Engineering}, 3165:113--22.
+\newblock Applications of Soft Computing Conf. Date: 28--29 July.
+
+\bibitem[Bloom and Krathwohl, 1956]{Bloom56Taxonomy}
+Bloom, B.~S. and Krathwohl, D.~R. (1956).
+\newblock {\em Taxonomy of educational objectives: The classification of
+  educational goals}.
+\newblock Committee of college and university examiners, New York, Longmans.
+\newblock Handbook 1: Cognitive domain.
+
+\bibitem[Blott and Weber, 1997]{Blott:97}
+Blott, S. and Weber, R. (1997).
+\newblock A simple vector-approximation file for similarity search in
+  high-dimensional vector spaces.
+\newblock Technical report, Institute for Informatics Systems - ETH Zentrum,
+  Zurich, Switzerland.
+
+\bibitem[Bose and Murthy, 1996]{Bose:96}
+Bose, S. and Murthy, C. (1996).
+\newblock New {LVQ} model. technical rept.
+
+\bibitem[Bouton et~al., 1991]{Bouton:91}
+Bouton, C., Cottrell, M., Fort, J.~C., and Pagès, G. (1991).
+\newblock Self-organization and convergence of the kohonen algorithm.
+\newblock In Bouleau, N. and Talay, D., editors, {\em Probabilités Numériques},
+  volume~2, pages 163--180, Paris, France. INRIA.
+
+\bibitem[Bouton and Pagès, 1994]{Bouton:94}
+Bouton, C. and Pagès, G. (1994).
+\newblock Convergence in distribution of the one-dimensional kohonen algorithms
+  when the stimuli are not uniform.
+\newblock {\em Advances in Applied Probability}, 26:80--103.
+
+\bibitem[Bozkaya and Ozsoyoglu, 1997]{Bozkaya-Ozsoyoglu:97}
+Bozkaya, T. and Ozsoyoglu, M. (1997).
+\newblock Distance-based indexing for high-dimensional metric spaces.
+\newblock In {\em {ACM SIGMOD} {I}nternational {C}onference on {M}anagement of
+  {D}ata}, pages 357--368.
+\newblock Sigmod Record 26(2).
+
+\bibitem[Bozkaya and Ozsoyoglu, 1999]{Bozkaya:99}
+Bozkaya, T. and Ozsoyoglu, M. (1999).
+\newblock Indexing large metric spaces for similarity search queries.
+\newblock {\em ACM TRANSACTIONS ON DATABASE SYSTEMS}, 24(3):361--404.
+
+\bibitem[Braga et~al., 1998]{Braga:98}
+Braga, A., de~Carvalho, A., and Ludermir, T. (1998).
+\newblock {\em Fundamentos de Redes Neurais Artificiais}.
+\newblock XI Escola Brasileira de Computa\c{c}\~ao.
+
+\bibitem[Braga et~al., 2000]{Braga:00}
+Braga, A., Ludermir, T., and Carvalho, A. (2000).
+\newblock {\em Redes Neurais Artificiais: Teoria e Aplicações}.
+\newblock LTC - Livros Técnicos e Científicos.
+
+\bibitem[Brin, 1995]{Brin:95:GNAT}
+Brin, S. (1995).
+\newblock {N}ear {N}eighbor {S}earch in {L}arge {M}etric {S}paces.
+\newblock In {\em International Conference on Very Large Databases}, pages
+  574--584.
+
+\bibitem[Bruske and Sommer, 1995]{bruske95dynamic}
+Bruske, J. and Sommer, G. (1995).
+\newblock Dynamic cell structure learns perfectly topology preserving map.
+\newblock {\em Neural Computation}, 7(4):845--865.
+
+\bibitem[Bugnion et~al., 1993]{Bugnion:93}
+Bugnion, E., Fhei, S., Roos, T., Widmayer, P., and Widmer, F. (1993).
+\newblock A spatial index for approximate multiple string matching.
+\newblock In Baeza-Yates, R. and Ziviani, N., editors, {\em South American
+  Workshop on String Processing (WSP'93)}, pages 43--53.
+
+\bibitem[Burgess, 1992]{Burgess:92}
+Burgess, N. (1992).
+\newblock The generalization of a constructive algorithm in pattern
+  classification problems.
+\newblock {\em International Journal of Neural Systems}, 3(2).
+
+\bibitem[Burkhard and Keller, 1973]{Burkhard:73}
+Burkhard, W. and Keller, R. (1973).
+\newblock Some approaches to best-match file searching.
+\newblock {\em Communications of the ACM}, 16(4):230--236.
+
+\bibitem[Burzevski and Mohan, 1996]{Burzevski:96:HiGS}
+Burzevski, V. and Mohan, C.~K. (1996).
+\newblock Hierarchical growing cell structures.
+\newblock {\em Neural Networks, IEEE International Conference on},
+  3:1658--1663.
+
+\bibitem[Bustos et~al., 2001]{Bustos:01:PivotsSelection}
+Bustos, B., Navarro, G., and Chávez, E. (2001).
+\newblock {P}ivot {S}election {T}echniques for {P}roximity {S}earching in
+  {M}etric {S}paces.
+\newblock In {\em Conference of the Chilean Computer Science Society (SCCC'01),
+  XXI}, pages 33--40. IEEE CS Press.
+
+\bibitem[Böhm et~al., 2001]{Bohm:01:SurveyForSAM}
+Böhm, C., Berchtold, S., and Keim, D. (2001).
+\newblock {S}earching in {H}igh-{D}imensional {S}paces – {I}ndex {S}tructures
+  for {I}mproving the {P}erformance of {M}ultimedia {D}atabases.
+\newblock {\em ACM Computing Surveys}, 33(3):322--373.
+
+\bibitem[Caldwell, 1995]{Caldwell95GraphGlossary}
+Caldwell, C. (1995).
+\newblock Graph {T}heory {T}utorial.
+\newblock Última visita em 22 de Dezembro de 2004.
+
+\bibitem[Carpenter and Grossberg, 1990]{Carpenter:90:ART3}
+Carpenter, A. and Grossberg, S. (1990).
+\newblock Art 3 hierarchical search: Chemical transmitter in self-organizing
+  pattern recognition architectures.
+\newblock {\em Neural Networks}, 3:129--152.
+
+\bibitem[Carpenter and Grossberg, 1991]{Carpenter:91}
+Carpenter, G. and Grossberg, S. (1991).
+\newblock {\em {P}attern {R}ecognition by {S}elf-{O}rganizing {N}eural
+  {N}etworks}.
+\newblock Mit Press, Cambridge.
+
+\bibitem[Carpenter et~al., 1992]{Carpenter:92:FuzzyARTMAP}
+Carpenter, G., Grossberg, S., Markuzon, N., Reynolds, J.~H., and Rosen, D.~B.
+  (1992).
+\newblock {Fuzzy {ARTMAP}}: A neural network architecture for incremental
+  supervised learning of analog multidimensional maps.
+\newblock {\em IEEE Transactions on Neural Networks}, 3(5):698--713.
+
+\bibitem[Carpenter et~al., 1991a]{Carpenter:91:ARTMAP}
+Carpenter, G., Grossberg, S., Neurophysiol, C., and Reynolds, S. (1991a).
+\newblock {ARTMAP}: {S}upervised real-time learning and classification of
+  nonstationary data by a self-organizing neural network.
+\newblock {\em Neural Networks}, 4:565--588.
+
+\bibitem[Carpenter et~al., 1991b]{Carpenter:91:FuzzyART}
+Carpenter, G., Grossberg, S., and Rosen, D. (1991b).
+\newblock {F}uzzy {ART}: {F}ast {S}table {L}earning and {C}ategorization of
+  {A}nalog {P}atterns by an {A}daptive {R}esonance {S}ystem.
+\newblock {\em Neural Networks}, 4:759--771.
+
+\bibitem[Carpenter and Grossberg, 1986]{Carpenter:86}
+Carpenter, G.~A. and Grossberg, S. (1986).
+\newblock Absolutely stable learning of recognition codes by a self-organising
+  neural network.
+\newblock {\em AIP Conf. Proc. 151: Neural networks for computing}, pages
+  77--85.
+\newblock New York: American Institute of Physics.
+
+\bibitem[Carpenter and Grossberg, 1987a]{Carpenter:87:ART2}
+Carpenter, G.~A. and Grossberg, S. (1987a).
+\newblock {ART} 2 : self-organization of stable category recognition codes for
+  analog input patterns.
+\newblock {\em Applied Optics}, 26(23):4919--4930.
+
+\bibitem[Carpenter and Grossberg, 1987b]{Carpenter:87}
+Carpenter, G.~A. and Grossberg, S. (1987b).
+\newblock A massively parallel architecture for a self-organizing neural
+  pattern recognition machine.
+\newblock {\em Computer Vision, Graphics, and Image Processing}, 37(1):54--115.
+
+\bibitem[Carpenter and Grossberg, 1988]{Carpenter:88}
+Carpenter, G.~A. and Grossberg, S. (1988).
+\newblock The {ART} of {A}daptive {P}attern {R}ecognition by a
+  {S}elf-{O}rganizing {N}eural {N}etwork.
+\newblock {\em IEEE Computer}, 21(3):77--90.
+
+\bibitem[Carpenter et~al., 1991c]{Carpenter:91ART2A}
+Carpenter, G.~A., Grossberg, S., and Rosen, D.~B. (1991c).
+\newblock {ART} 2-{A}: An adaptive resonance algorithm for rapid category
+  learning and recognition.
+\newblock {\em Neural Networks}, 4:493--504.
+
+\bibitem[Carter and Catlett, 1987]{Carter:87}
+Carter, C. and Catlett, J. (1987).
+\newblock Assessing credit card applications using machine learning.
+\newblock {\em IEEE Expert}, 2(3):71--79.
+
+\bibitem[Carvalho et~al., 1997]{Carvalho:97}
+Carvalho, A., Fairhurst, M.~C., and Bisset, D.~L. (1997).
+\newblock Combining boolean neural architectures for image recognition.
+\newblock {\em Connection Science}, 9(4):405--418.
+
+\bibitem[Cassel et~al., 2008]{ComputerScience2008}
+Cassel, L., Clements, A., Davies, G., Guzdial, M., {McCauley}, R.,
+  {McGettrick}, A., Roberts, E., Sloan, B., Snyder, L., Tymann, P., and Weide,
+  B.~W. (2008).
+\newblock Computer science curriculum 2008: An interim revision of cs2001.
+\newblock Technical report, ACM/IEEE-CS.
+
+\bibitem[Caudell et~al., 1994]{Caudell:94b}
+Caudell, T., Smith, S., Escobedo, R., and Anderson, M. (1994).
+\newblock Nirs: Large scale art-1 neural architectures for engineering design
+  retrieval.
+\newblock {\em Neural Networks}, 7(9).
+
+\bibitem[Caudell and Healy, 1994]{Caudell:94a}
+Caudell, T.~P. and Healy, M.~J. (1994).
+\newblock Adaptive resonance theory networks in the encephalon autonomous
+  vision system.
+\newblock In {\em IEEE International Conference on Neural Networks}, pages
+  1235--1240, Orlando, Florida. {IEEE}.
+
+\bibitem[Celsia, 1976]{Celsia:76}
+Celsia, G.~G. (1976).
+\newblock Organization of auditory cortical areas in man.
+\newblock {\em Brain}, 99:403--414.
+
+\bibitem[Celsia et~al., 1968]{Celsia:68}
+Celsia, G.~G., Broughton, R.~J., Rasmussen, T., and Branch, C. (1968).
+\newblock Auditory evoked responses from the exposed human cortex.
+\newblock {\em Electroencephalography and Clinical Neurophysiology},
+  24:458--466.
+
+\bibitem[Chakrabarti and Mehrotra, 1999]{Chakrabarti:99}
+Chakrabarti, K. and Mehrotra, S. (1999).
+\newblock The hybrid tree: an index structure for high dimensional feature
+  spaces.
+\newblock {\em Proceedings, IEEE International Conference on Data Engineering,
+  15}, pages 440--447.
+\newblock Sidney.
+
+\bibitem[Chalkiadakis et~al., 2001]{Chalkiadakis:01}
+Chalkiadakis, I., Rovithakis, G., and Zervakis, M. (2001).
+\newblock A structural genetic algorithm to optimize high order neural network
+  architecture.
+\newblock {\em ESANN'2001 proceedings - European Symposium on Artificial Neural
+  Networks}, pages 185--192.
+\newblock ES2001-454.
+
+\bibitem[Chan et~al., 1995]{Chan95ParallelSOM}
+Chan, L.-W., Chau, M.-W., and Chung, W.-C. (1995).
+\newblock Globalor: a parallel implementation of the self-organizing map.
+\newblock In Zhong, Y., Yang, Y., and Wang, M., editors, {\em International
+  Conference on Neural Information Processing}, volume~2, pages 625--628,
+  Beijing, China. Dept. of Computer Science, Chinese Univ. of Hong Kong,
+  Shatin, Hong Kong, Publishing House of Electron. Ind.
+
+\bibitem[Chang et~al., 2001]{ComputerScience2001}
+Chang, C., Denning, P.~J., II, J. H.~C., Engel, G., Sloan, R., Carver, D.,
+  Eckhouse, R., King, W., Lau, F., Mengel, S., Srimani, P., Roberts, E.,
+  Shackelford, R., Austing, R., Cover, C.~F., Davies, G., McGettrick, A.,
+  Schneider, G.~M., and Wolz, U. (2001).
+\newblock Computing curricula 2001 computer science.
+\newblock Technical report, ACM/IEEE,
+  http://www.computer.org/education/cc2001/steelman/cc2001/index.htm.
+\newblock Last visited March 2004.
+
+\bibitem[Changeoux and Danchin., 1976]{Changeoux:76}
+Changeoux, J.~P. and Danchin., A. (1976).
+\newblock Seletive stabilization of developing sinpases as a mechanism for the
+  specification of neural network.
+\newblock {\em Nature(London)}, 264:705--712.
+
+\bibitem[Chazelle, 1994]{Chazelle:94:CurseOfDimensionality}
+Chazelle, B. (1994).
+\newblock Computational geometry: a retrospective.
+\newblock In {\em ACM Symposium on the Theory of Computing (STOC'94), 26th},
+  pages 75--94.
+
+\bibitem[Chen et~al., 1995]{Chen:95}
+Chen, C.-H., Parekh, R., Yang, J., Balakrishnan, K., and Honavar, V. (1995).
+\newblock {A}nalysis of {D}ecision {B}oundaries {G}enerated by {C}onstructive
+  {N}eural {N}etworks {L}earning {A}lgorithms.
+\newblock In {\em WCNN'95}, volume~1, pages 628--635, Washington, DC.
+
+\bibitem[Chen and Aberer, 1997]{Chen:97}
+Chen, W. and Aberer, K. (1997).
+\newblock Efficient querying on genomic databases by using metric space
+  indexing technology.
+\newblock In {\em PMIDS'97}, Toulouse, France.
+
+\bibitem[Chiueh, 1994]{Chiueh:94}
+Chiueh, T. (1994).
+\newblock Content-based image indexing.
+\newblock In {\em International Conference on Very Large Databases}, pages
+  582--593, Santiago, Chile.
+
+\bibitem[Chávez et~al., 1999a]{Chavez:99:Spaghettis}
+Chávez, E., Marroquín, J., and Baeza-Yates, R. (1999a).
+\newblock Spaghettis: an array based algorithm for similarity queries in metric
+  spaces.
+\newblock In {\em South American Symposium on String Processing and Information
+  Retrieval}, pages 38--46. IEEE CS Press.
+
+\bibitem[Chávez et~al., 1999b]{Chavez:99:FQA}
+Chávez, E., Marroquín, J., and Navarro, G. (1999b).
+\newblock Overcoming the curse of dimensionality.
+\newblock In {\em European Workshop on Content-Based Multimedia Indexing
+  (CBMI'99)}, pages 57--64.
+
+\bibitem[Chávez et~al., 2001]{Chavez:01}
+Chávez, E., Navarro, G., Baeza-Yates, R., and Marroquín, J. (2001).
+\newblock Proximity searching in metric spaces.
+\newblock {\em ACM Computing Surveys}, 33(3):273--321.
+
+\bibitem[Ciaccia et~al., 1999]{CNP99}
+Ciaccia, P., Nanni, A., and Patella, M. (1999).
+\newblock {A} {Q}uery-sensitive {C}ost {M}odel for {S}imilarity {Q}ueries with
+  {M}-{T}ree.
+\newblock In Roddick, J., editor, {\em Australasian Database Conference
+  ({ADC'99}), 10th}, pages 65--76, Auckland, New Zealand. Springer Verlag.
+
+\bibitem[Ciaccia and Patella, 1998]{CP98}
+Ciaccia, P. and Patella, M. (1998).
+\newblock Bulk loading the {M}-tree.
+\newblock In McDonald, C., editor, {\em Australasian Database Conference
+  ({ADC'98}), 9th}, pages 15--26, Perth, Australia. Springer Verlag.
+
+\bibitem[Ciaccia and Patella, 2002]{CP02}
+Ciaccia, P. and Patella, M. (2002).
+\newblock Searching in metric spaces with user-defined and approximate
+  distances.
+\newblock {\em {ACM} Transactions on Database Systems ({TODS})},
+  27(4):398--437.
+
+\bibitem[Ciaccia et~al., 1997a]{CPRZ97}
+Ciaccia, P., Patella, M., Rabitti, F., and Zezula, P. (1997a).
+\newblock Indexing metric spaces with {M}-tree.
+\newblock In Cristiani, M. and Tanca, L., editors, {\em Atti del Quinto
+  Convegno Nazionale su Sistemi Evoluti per Basi di Dati ({SEBD'97})}, pages
+  67--86, Verona, Italy.
+
+\bibitem[Ciaccia et~al., 1997b]{CPR+97}
+Ciaccia, P., Patella, M., Rabitti, F., and Zezula, P. (1997b).
+\newblock {P}erformance of {M}-tree, an {A}ccess {M}ethod for {S}imilarity
+  {S}earch in {M}etric {S}paces.
+\newblock Technical Report~13, {HERMES} {ESPRIT} {LTR} Project.
+
+\bibitem[Ciaccia et~al., 1997c]{Ciaccia97MTree}
+Ciaccia, P., Patella, M., and Zezula, P. (1997c).
+\newblock {M}-{T}ree: An efficient access method for similarity search in
+  metric spaces.
+\newblock In {\em International Conference on Very Large Databases}, pages
+  426--435.
+
+\bibitem[Clarkson, 1999]{Clarkson99kNN}
+Clarkson, K. (1999).
+\newblock Nearest neighbor queries in metric spaces.
+\newblock {\em Discrete Computational Geometry}, 22(1):63--93.
+
+\bibitem[Cohen et~al., 1998]{Aaron:98:MT}
+Cohen, A., Woodring, M., and (Editor), R.~P. (1998).
+\newblock {\em Win32 Multithreaded Programming}.
+\newblock O'Reilly \& Associates.
+
+\bibitem[Comer, 1979]{Comer:79}
+Comer, D. (1979).
+\newblock The ubiquitous b-tree.
+\newblock {\em ACM Computing Surveys}, 11(2):121--137.
+
+\bibitem[Costa and {Andrade Netto}, 2001]{Costa:01:TS-SOM}
+Costa, J. and {Andrade Netto}, M. (2001).
+\newblock A new tree-structured self-organizing map for data analysis.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~3,
+  pages 1931 --1936, Washington DC. {IEEE Press}.
+
+\bibitem[Costa, 1999]{Costa:99:PhDThesis}
+Costa, J. A.~F. (1999).
+\newblock {\em {C}lassificação {A}utomática e {A}nálise de {D}ados por {R}edes
+  neurais {A}uto-{O}rganizáveis}.
+\newblock PhD thesis, UNICAMP - Universidade de Campinas (Faculdade de
+  Engenharia Elétrica e de Computação).
+\newblock Tese de Doutorado.
+
+\bibitem[Cottrell, 1997]{Cottrell97Theoretical}
+Cottrell, M. (1997).
+\newblock Theoretical aspects of the {SOM} algorithm.
+\newblock In {\em Workshop on Self-Organizing Maps}, pages 246--267, Helsinki,
+  Finland. University of Technology, Neural Networks Research Centre.
+
+\bibitem[Cottrell et~al., 1994]{Cottrell94}
+Cottrell, M., Fort, J.~C., and Pagès, G. (1994).
+\newblock Two or three things that we know about the kohonen algorithm.
+\newblock Technical Report~31, Université Paris 1, Paris, France.
+
+\bibitem[Cottrell et~al., 1995]{Cottrell95Convergence}
+Cottrell, M., Fort, J.~C., and Pagès, G. (1995).
+\newblock Comment about 'analysis of the convergence properties of topology
+  preserving neural networks'.
+\newblock {\em IEEE Transactions on Neural Networks}, 6(3):797--799.
+
+\bibitem[Cottrell et~al., 1998]{Cottrell98Theoretical}
+Cottrell, M., Fort, J.~C., and Pagès, G. (1998).
+\newblock Theoretical aspects of the {SOM} algorithm.
+\newblock {\em Neurocomputing}, 21(1-3):119--138.
+
+\bibitem[Cuadros-Vargas, 1998]{Cuadros:98}
+Cuadros-Vargas, E. (1998).
+\newblock Kipu: Um simulador para redes neurais construtivas.
+\newblock Master's thesis, ICMC - University of São Paulo.
+
+\bibitem[Cuadros-Vargas et~al., 1998a]{Vargas:98a}
+Cuadros-Vargas, E., de~Sousa, H.~C., and de~Carvalho, A. C.~F. (1998a).
+\newblock {T}arget {R}ecognition using {C}onstructive {N}eural {N}etworks.
+\newblock In {European Space Agency}, editor, {\em Image Processing Techniques
+  - Latino-American Seminar on Radar Remote Sensing, 2nd}, volume 433, pages
+  83--88.
+
+\bibitem[Cuadros-Vargas and Romero, 2000]{Cuadros:00}
+Cuadros-Vargas, E. and Romero, R. A.~F. (2000).
+\newblock {E}studo de {M}odelos de {R}edes {N}eurais para {I}ndexação e
+  {R}ecuperação de {D}ados.
+\newblock Technical report, ICMC - University of São Paulo, São Carlos - SP,
+  Brazil.
+\newblock Notas Didáticas, N$^o$ 44.
+
+\bibitem[Cuadros-Vargas and Romero, 2002]{Cuadros:02:SAM-SOM}
+Cuadros-Vargas, E. and Romero, R. A.~F. (2002).
+\newblock A {SAM-SOM} {F}amily: {I}ncorporating {S}patial {A}ccess {M}ethods
+  into {C}onstructive {S}elf-{O}rganizing {M}aps.
+\newblock In {\em International Joint COnference on Neural Networks}, pages
+  1172--1177, Hawaii, HI. {IEEE Press}.
+
+\bibitem[Cuadros-Vargas et~al., 1998b]{Vargas:98b}
+Cuadros-Vargas, E., Sousa, H., and de~Carvalho, A. (1998b).
+\newblock {A}utomatic {T}arget {R}ecognition using a {C}onstructive {A}pproach.
+\newblock In {IEEE Computer Press}, editor, {\em Brazilian Symposium on Neural
+  Networks, Vth}, pages 112--117.
+
+\bibitem[Cybenko, 1988]{Cybenko88}
+Cybenko, G. (1988).
+\newblock Approximation by superpositions of a sigmoidal function.
+\newblock Urbana, IL University of Illinois.
+
+\bibitem[Cybenko, 1989]{Cybenko89}
+Cybenko, G. (1989).
+\newblock Approximation by superpositions of a sigmoidal function.
+\newblock {\em Mathematical of Control, Signals, and Systems}, 2:303--314.
+
+\bibitem[de~Carvalho, 2000]{Carvalho:00a}
+de~Carvalho, A. P. L.~F. (2000).
+\newblock Redes neurais artificiais.
+
+\bibitem[Dehne and Nolteimer, 1987]{Dehne:87:VT}
+Dehne, F. and Nolteimer, H. (1987).
+\newblock Voronoi trees and clustering problems.
+\newblock {\em Information Systems}, 12(2):171--175.
+
+\bibitem[Demian and Mignot, 1993]{Demian93ParallelSOM}
+Demian, V. and Mignot, J.~C. (1993).
+\newblock Optimization of the self-organizing feature map on parallel
+  computers.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~I,
+  pages 483--486, Nagoya, Japan. JNNS, IEEE Service Center.
+
+\bibitem[Demian and Mignot, 1996]{Demian96ParallelSOM}
+Demian, V. and Mignot, J.~C. (1996).
+\newblock Implementation of the self-organizing feature map on parallel
+  computers.
+\newblock {\em Computers and Artificial Intelligence}, 15(1):63--80.
+
+\bibitem[Dempster et~al., 1977]{Dempster77ExpectationMaximization}
+Dempster, A., Laird, N., and Rubin, D. (1977).
+\newblock {M}aximum {L}ikelihood from incomplete data via the {EM} algorithm.
+\newblock {\em Royal Statistical Society Series B}, 39(1):1--38.
+
+\bibitem[der Malsburgs, 1973]{Malsburgs:73}
+der Malsburgs, C.~V. (1973).
+\newblock An automation with brain-like properties.
+\newblock {\em Kibernets}, 14:85--100.
+
+\bibitem[Dietterich, 1997]{Dietterich:97}
+Dietterich, T.~G. (1997).
+\newblock Machine learning research: Four current directions.
+\newblock ftp://ftp.cs.orst.edu/pub/tgd/papers.
+
+\bibitem[Dittenbach et~al., 2000]{Dittenbach:00:GH-SOM}
+Dittenbach, M., Merkl, D., and Rauber, A. (2000).
+\newblock {T}he {G}rowing {H}ierarchical {S}elf-{O}rganizing {M}ap.
+\newblock In Amari, S., Giles, C.~L., Gori, M., and Puri, V., editors, {\em
+  International Joint COnference on Neural Networks}, volume~VI, pages 15--19,
+  Como, Italy. IEEE Computer Society.
+
+\bibitem[Dittenbach et~al., 2001a]{dittenbach01hierarchical}
+Dittenbach, M., Merkl, D., and Rauber, A. (2001a).
+\newblock {H}ierarchical {C}lustering of {D}ocument {A}rchives with the
+  {G}rowing {H}ierarchical {S}elf-{O}rganizing {M}ap.
+\newblock In {\em International Conference on Artificial Neural Networks},
+  Vienna, Austria.
+\newblock http://citeseer.nj.nec.com/dittenbach01hierarchical.html.
+
+\bibitem[Dittenbach et~al., 2001b]{dittenbach01wsom}
+Dittenbach, M., Rauber, A., and Merkl, D. (2001b).
+\newblock {R}ecent {A}dvances with the {G}rowing {H}ierarchical
+  {S}elf-{O}rganizing {M}ap.
+\newblock In Allinson, N., Yin, H., Allinson, L., and Slack, J., editors, {\em
+  Workshop on Self-Organizing Maps}, Advances in Self-Organizing Maps, pages
+  140--145, Lincoln, England. Springer.
+
+\bibitem[Dittenbach et~al., 2002]{Dittenbach02GHSOM-Journal}
+Dittenbach, M., Rauber, A., and Merkl, D. (2002).
+\newblock Uncovering hierarchical structure in data using the growing
+  hierarchical self-organizing map.
+\newblock {\em Neurocomputing}, 48:199--216.
+
+\bibitem[Dubner and Keller, 1999]{Dubner:99:Fibonacci}
+Dubner, H. and Keller, W. (1999).
+\newblock New fibonacci and lucas primes.
+\newblock {\em Mathematics of Computation}, 68(225):417--427.
+
+\bibitem[Duch, 1994]{Duch:94}
+Duch, W. (1994).
+\newblock Quantitative measures for self-organizing topographic maps.
+\newblock {\em Open Systems \& Information Dynamics}, 2(3):295--302.
+
+\bibitem[Duda and Hart, 1973]{Duda:73}
+Duda, R.~O. and Hart, P.~E. (1973).
+\newblock {\em Pattern Classification and Scene Analysis}.
+\newblock Wiley, New York.
+
+\bibitem[Díaz-Herrera and Hilburn, 2004]{SoftwareEngineering2004}
+Díaz-Herrera, J.~L. and Hilburn, T.~B. (2004).
+\newblock Software engineering: {C}urriculum {G}uidelines for {U}ndergraduate
+  {D}egree {P}rograms in {S}oftware {E}ngineering.
+\newblock Technical report, ACM, IEEE.
+\newblock Last visit June 2004.
+
+\bibitem[Eccles and Su, 2004]{CurseOfDimensionalityRTree:2004}
+Eccles, I. and Su, M. (2004).
+\newblock Illustrating the curse of dimensionality numerically through
+  different data distribution models.
+\newblock In {\em Proceedings of the 2004 international symposium on
+  Information and communication technologies}, volume~90 of {\em ACM
+  International Conference Proceeding Series}, pages 232--237, Las Vegas,
+  Nevada. ACM.
+
+\bibitem[Eckel, 2002]{eckel:2002:java}
+Eckel, B. (2002).
+\newblock {\em The {J}ava {P}rogramming {L}anguage}.
+\newblock Prentice Hall PTR, 2nd edition.
+
+\bibitem[Elmasri and Navathe, 1994]{Elmasri:94}
+Elmasri, R. and Navathe, S. (1994).
+\newblock {\em Fundamentals of Database Systems}.
+\newblock Addison-Wesley, Redwood City, 2 edition.
+
+\bibitem[Erwin et~al., 1992a]{Erwin-et-al92a}
+Erwin, E., Obermayer, K., and Schulten, K. (1992a).
+\newblock I {S}elf-{O}rganizing {M}aps: {S}tationary states, metastability and
+  convergence rate.
+\newblock {\em Biological Cybernetics}, 67:35--45.
+
+\bibitem[Erwin et~al., 1992b]{Erwin-et-al92b}
+Erwin, E., Obermayer, K., and Schulten, K. (1992b).
+\newblock {II} {S}elf-{O}rganizing {M}aps: {O}rdering, convergence properties
+  and energy functions.
+\newblock {\em Biological Cybernetics}, 67:47--55.
+
+\bibitem[F.~Serratosa and Sanfeliu, 1999]{Serratosa:99}
+F.~Serratosa, J. Vergés-Llahí, R.~A. and Sanfeliu, A. (1999).
+\newblock Face recognition: Graph matchingversus neuraltechniques.
+
+\bibitem[Fahlman, 1988]{Fahlman:88}
+Fahlman, S. (1988).
+\newblock {A}n {E}mpirical {S}tudy of {L}earning {S}peed in
+  {B}ack-{P}ropagation {N}etworks.
+\newblock Technical report, School of Computer Science, Carnegie Mellon
+  University.
+\newblock CMU-CS-88-162.
+
+\bibitem[Fahlman and Lebiere, 1990]{Fahlman:90}
+Fahlman, S. and Lebiere, C. (1990).
+\newblock {T}he {C}ascade {C}orrelation {L}earning {A}rchtecture.
+\newblock Technical Report CMU-CS-90-100, School of Computer Science, Carnegie
+  Mellon University.
+
+\bibitem[Faloutsos et~al., 1994]{Faloutsos:94}
+Faloutsos, C., Barber, R., Flickner, M., Hafner, J., Niblack, W., Petkovic, D.,
+  and Equitz, W. (1994).
+\newblock Efficient and effective querying by image content.
+\newblock {\em Journal of Intelligent Information Systems}, 3(3/4):231--262.
+
+\bibitem[Faloutsos et~al., 1993]{Faloutsos:93}
+Faloutsos, C., Equitz, W., Flickner, M., Niblack, W., Petkovic, D., and Barber,
+  R. (1993).
+\newblock {E}fficient and {E}ffective {Q}uerying by {I}mage {C}ontent.
+\newblock In {\em IBM Almaden Research Division}, San Jose, CA.
+
+\bibitem[Faloutsos and Lin, 1994]{Faloutsos:95:FastMap}
+Faloutsos, C. and Lin, K. (1994).
+\newblock {F}ast{M}ap: {A} {F}ast {A}lgorithm for {I}ndexing, {D}ata-{M}ining
+  and {V}isualization of {T}raditional and {M}ultimedia {D}ata.
+\newblock In {\em Int. Conf. on Management of Data -- ACM SIGMOD}, pages
+  163--174, San Jose, CA.
+
+\bibitem[Fasulo, 1999]{Fasulo:99:Clustering}
+Fasulo, D. (1999).
+\newblock An analysis of recent work on clustering algorithms.
+\newblock TR-99 01-03-02, Department of Computer Science \& Engineering,
+  University of Washington. Seattle, WA 98195. Box 352350.
+
+\bibitem[Fausett, 1994]{Fausett:94}
+Fausett, L. (1994).
+\newblock {\em Fundamental of Neural Network: Architectures, Algorithms, and
+  Applications.}
+\newblock Prentice Hall.
+
+\bibitem[Fayyad et~al., 1996]{Fayyad:96}
+Fayyad, U.~M., Djorgovski, S.~G., and Weir, N. (1996).
+\newblock From digitized images to on-line catalogs: Data mining a sky survey.
+\newblock {\em AIMag}, 17(2):51--66.
+
+\bibitem[Fernández and Isasi, 2001]{Fernandez:01AG}
+Fernández, F. and Isasi, P. (2001).
+\newblock Designing nearest neighbour classifiers by the evolution of a
+  population of prototypes.
+\newblock {\em European Symposium on Artificial Neural Networks}, pages
+  171--178.
+\newblock ES2001-456.
+
+\bibitem[Fernández-Redondo and Hernández-Espinosa, 2001]{Fernandez:01Weight}
+Fernández-Redondo, M. and Hernández-Espinosa, C. (2001).
+\newblock Weight initialization methods for multilayer feedforward.
+\newblock In {\em European Symposium on Artificial Neural Networks}, pages
+  119--124, Bruges (Belgium).
+\newblock ISBN 2-930307-01-3.
+
+\bibitem[Finkel and Bentley, 1974]{Finkel:74}
+Finkel, R. and Bentley, J. (1974).
+\newblock {Quad Trees: A Data Structure for Retrieval of Composite Keys}.
+\newblock {\em Acta Informatica}, 4(1):1--9.
+
+\bibitem[Flanagan, 1994]{Flanagan94}
+Flanagan, J.~A. (1994).
+\newblock {\em Self-Organizing Neural Networks}.
+\newblock PhD thesis, École Polytechnique Fédérale de Lausanne, Lausanne,
+  France.
+
+\bibitem[Flanagan, 1996]{Flanagan96}
+Flanagan, J.~A. (1996).
+\newblock Self-organization in kohonen's som.
+\newblock {\em Neural Networks}, 9:1185--1197.
+
+\bibitem[Folk et~al., 1998]{Folk:98}
+Folk, M., Zoellick, B., and Riccardi, G. (1998).
+\newblock {\em {F}ile {S}tructures, {A}n {O}bject {O}riented {A}pproach {U}sing
+  {C}++.}
+\newblock Addison-Wesley, 3 edition.
+
+\bibitem[Fonseca and Jorge, 2003]{Fonseca03BNTree}
+Fonseca, M.~J. and Jorge, J.~A. (2003).
+\newblock Indexing high-dimensional data for content-based retrieval in large
+  databases.
+\newblock In {\em International Conference on Database Systems for Advanced
+  Applications (DASFAA 2003), 8th}, pages 267--274, Kyoto, Japan.
+
+\bibitem[Frean, 1989]{Frean:91}
+Frean, M. (1989).
+\newblock The upstar algorithm: A method for constructing and training
+  feed-foward neural networks.
+\newblock Technical Report.
+
+\bibitem[Frean, 1990]{Frean:90}
+Frean, M. (1990).
+\newblock The upstar algorithm: a method for constructing and training
+  feed-foward neural networks.
+\newblock {\em Neural Computation}, 1(2):198--209.
+
+\bibitem[Fritzke, 1991]{fritzke91let}
+Fritzke, B. (1991).
+\newblock {L}et {I}t {G}row---{S}elf-{O}rganizing {F}eature {M}aps with
+  {P}roblem {D}ependent {C}ell {S}tructure.
+\newblock In Kohonen, T., Mäkisara, K., Simula, O., and Kangas, J., editors,
+  {\em Artificial Neural Networks}, volume~I, pages 403--408, Amsterdam,
+  Netherlands. North-Holland.
+
+\bibitem[Fritzke, 1992]{fritzke92growing}
+Fritzke, B. (1992).
+\newblock {G}rowing {C}ell {S}tructures---a {S}elf-{O}rganizing {N}etwork in
+  {\it {k}} {D}imensions.
+\newblock In Aleksander, I. and Taylor, J., editors, {\em Artificial Neural
+  Networks}, volume~II, pages 1051--1056, Amsterdam, Netherlands.
+  North-Holland.
+
+\bibitem[Fritzke, 1993a]{Fritzke93GCS}
+Fritzke, B. (1993a).
+\newblock Growing cell structures--a self organizing network for unsupervised
+  and supervised training.
+\newblock Technical Report TR-93-026, ICSI Berkeley.
+
+\bibitem[Fritzke, 1993b]{Fritzke93Kohonen-Vs-GCS}
+Fritzke, B. (1993b).
+\newblock Kohonen feature maps and growing cell structures--a performance
+  comparison.
+\newblock In {\em Neural Information Processing Systems}, volume~5, pages
+  123--130. Morgan Kaufmann, San Mateo, CA.
+
+\bibitem[Fritzke, 1994a]{Fritzke:94:IncrementalRBF}
+Fritzke, B. (1994a).
+\newblock Fast learning with incremental rbf networks.
+\newblock {\em Neural Processing Letters}, 1(1):2--5.
+
+\bibitem[Fritzke, 1994b]{Fritzke:94:GCS}
+Fritzke, B. (1994b).
+\newblock Growing cell structures - a self-organizing networks for unsupervised
+  and supervised learning.
+\newblock {\em Neural Networks}, 7(9):1441--1460.
+
+\bibitem[Fritzke, 1995a]{Fritzke:95:GrowingGrid}
+Fritzke, B. (1995a).
+\newblock Growing grid: {A} self organizing network with constant neighborhood
+  range and adaptation strength.
+\newblock {\em Neural Processing Letters}, 2(5):9--13.
+
+\bibitem[Fritzke, 1995b]{Fritzke:95:GNG}
+Fritzke, B. (1995b).
+\newblock A {G}rowing {N}eural {G}as {N}etworks learns topologies.
+\newblock {\em Advances in Neural Information Processing Systems}, 7:625--632.
+
+\bibitem[Fritzke, 1997]{Fritzke:97}
+Fritzke, B. (1997).
+\newblock Some competitive learning methods.
+\newblock {\em Neural Networks}.
+\newblock Institute of Neural Computation.
+
+\bibitem[Fukunaga, 1990]{Fukunaga:90}
+Fukunaga, K. (1990).
+\newblock {\em {I}ntroduction to {S}tatistical {P}attern {R}ecognition}.
+\newblock Academic Press.
+\newblock 2nd Edition.
+
+\bibitem[Fukushima, 1975]{Fukushima:75}
+Fukushima, K. (1975).
+\newblock Cognitron: a self-organizing multilayered neural network.
+\newblock {\em Biological Cybernetics}, 23:121--134.
+
+\bibitem[Fukushima, 1980]{Fukushima:80}
+Fukushima, K. (1980).
+\newblock Neocognitron: a self-organizing neural network model for a mechanism
+  of pattern recognition unaffected by shift in position.
+\newblock {\em Biological Cybernetics}, 36:196--202.
+
+\bibitem[Gaede and Günther, 1998]{Gaede98multidimensional}
+Gaede, V. and Günther, O. (1998).
+\newblock Multidimensional {A}ccess {M}ethods.
+\newblock {\em ACM Computing Surveys}, 30(2):170--231.
+
+\bibitem[Gallant, 1990]{Gallant:90}
+Gallant, S.~I. (1990).
+\newblock Perceptron-{B}ased {L}earning {A}lgorithms.
+\newblock {\em {IEEE} Transactions on Neural Networks}, 1(2):179--191.
+
+\bibitem[Gamma et~al., 1994]{Gamma:94:DesignPattern}
+Gamma, E., Helm, R., Johnson, R., and Vlissides, J. (1994).
+\newblock {\em Design Patterns Elements of Reusable Object-Oriented Software}.
+\newblock Computing Series. Addison Wesley Professional.
+
+\bibitem[Gan and Lua, 1992]{Gan:92}
+Gan, K. and Lua, K. (1992).
+\newblock Chinese character classification using adaptive resonanse network.
+\newblock {\em Pattern Recognition}, 25:877--888.
+
+\bibitem[Garey and Johnson, 1979]{Garey:79:NPCompleteness}
+Garey, M.~R. and Johnson, D.~S. (1979).
+\newblock {\em Computers and Intractability: A {G}uide to the {T}heory, of
+  {NP}-{C}ompleteness}.
+\newblock W. H. Freeman and Company.
+
+\bibitem[Geiger, 1995]{Geiger:95:ODBC}
+Geiger, K. (1995).
+\newblock {\em Inside ODBC}.
+\newblock Microsoft Press.
+
+\bibitem[Goldberg, 1989]{Goldberg89GA}
+Goldberg, D.~E. (1989).
+\newblock {\em Genetic Algorithms in Search, Optimization and Machine
+  Learning}.
+\newblock Addison-Wesley Pub Co.
+
+\bibitem[Golub and Loan, 1989]{Golub:89}
+Golub, G.~H. and Loan, C. F.~V. (1989).
+\newblock {\em Matrix Computations}.
+\newblock The Johns Hopkins University Press, Baltimore, second edition.
+
+\bibitem[Gonzales, 1985]{Gonzales:85}
+Gonzales, T.~F. (1985).
+\newblock Clustering to minimize the maximum intercluster distance.
+\newblock {\em Theoretical Computer Science}, 38:293--306.
+
+\bibitem[Gorgone et~al., 2002a]{InformationSystemsCurricula2002Book}
+Gorgone, J.~T., Davis, G.~B., Topi, J. S. V.~H., Feinstein, D.~L., and Jr, H.
+  E.~L. (2002a).
+\newblock {\em Model Curriculum and Guidelines for Undergraduate Degree
+  Programs in Information Systems (IS2002)}.
+\newblock ACM, AIS, AITP.
+
+\bibitem[Gorgone et~al., 2002b]{InformationSystems2002Journal}
+Gorgone, J.~T., Gray, P., Feinstein, D., Kasper, G.~M., Luftman, J.~N., Stohr,
+  E.~A., Valacich, J.~S., and Wigand, R. (2002b).
+\newblock Model {C}urriculum and {G}uidelines for {G}raduate {D}egree
+  {P}rograms in {I}nformation {S}ystems.
+\newblock {\em Communications of the Association for Information Systems
+  (CAIS))}, 3(1).
+
+\bibitem[Graepel et~al., 1998]{graepel98selforganizing}
+Graepel, T., Burger, M., and Obermayer, K. (1998).
+\newblock Self-organizing maps: generalizations and new optimization
+  techniques.
+\newblock {\em Neurocomputing}, 21:173--190.
+
+\bibitem[Gray and Moore, 2000]{Gray:2000:NIPS}
+Gray, A.~G. and Moore, A.~W. (2000).
+\newblock {`$N$-Body'} problems in statistical learning.
+\newblock {\em Advances in Neural Information Processing Systems}, 13:521--527.
+
+\bibitem[Grimmer, 1996]{Clementine}
+Grimmer, U. (1996).
+\newblock Clementine: Data mining software.
+\newblock In {\em Classification and Multivariate Graphics: Models, Software
+  and Applications}.
+\newblock WIAS-Report No. 10.
+
+\bibitem[Grossberg, 1972]{Grossberg:72}
+Grossberg, S. (1972).
+\newblock Neural expectation: {C}erebellar and retinal analogs of cells fired
+  by learnable or unlearned pattern classes.
+\newblock {\em Kybernetik}, 10:49--57.
+
+\bibitem[Grossberg, 1976a]{Grossberg:76a}
+Grossberg, S. (1976a).
+\newblock Adaptive pattern classification and universal recoding, {I}:
+  {P}arallel development and coding of neural feature detectors.
+\newblock {\em Biological Cybernetics}, 23:121--134.
+
+\bibitem[Grossberg, 1976b]{Grossberg:76b}
+Grossberg, S. (1976b).
+\newblock Adaptive pattern classification and universal recoding, {II}:
+  {F}eedback, expectation, olfaction, illusions.
+\newblock {\em Biological Cybernetics}, 23:187--202.
+
+\bibitem[Grossberg, 1987]{Grossberg:87}
+Grossberg, S. (1987).
+\newblock Competitive learning: From interactive activation to adaptive
+  resonance.
+\newblock {\em Cognitive Science}, 11(1):23--63.
+
+\bibitem[Grossberg, 1988]{Grossberg88Book}
+Grossberg, S. (1988).
+\newblock {\em Neural networks and natural intelligence}.
+\newblock MIT Press, Cambridge, MA.
+
+\bibitem[Guojian~Cheng, 2000]{Guojian:00}
+Guojian~Cheng, A.~Z. (2000).
+\newblock Double growing neural gas for disease diagnosis.
+\newblock In {\em Artificial Neural Networks in Medicine and Biology Conference
+  (ANNIMAB-1) in Goteborg}, volume~5, pages 309--314, Sweden. Springer.
+
+\bibitem[Guttman, 1984]{Guttman:84:RTree}
+Guttman, A. (1984).
+\newblock {R}-{T}rees: {A} {D}ynamic {I}ndex {S}tructure for {S}patial
+  {S}earching.
+\newblock In {\em ACM SIGMOD Conference}, pages 47--57, Boston.
+
+\bibitem[H. and Ooi, 1993]{Lu:93}
+H., L. and Ooi, B.~C. (1993).
+\newblock Spatial indexing: past and future.
+\newblock {\em {IEEE} Data Engineering Bulletin}, 16(3):16--21.
+
+\bibitem[Halgamuge, 1997]{Halgamuge:97}
+Halgamuge, S. (1997).
+\newblock {S}elf-{E}volving neural {N}etworks for {R}ule-{B}ased {D}ata
+  {P}rocessing.
+\newblock {\em IEEE Transactions on Signal Processing}, 45(11).
+
+\bibitem[Ham and Han, 1996]{Ham:96}
+Ham, F. and Han, S. (1996).
+\newblock Classification of cardiac arrhythmias using fuzzy artmap.
+\newblock {\em {IEEE} Transactions on Biomedical Engineering}, 43(4):425--430.
+
+\bibitem[Hammer and Villmann, 2001]{Hammer:01}
+Hammer, B. and Villmann, T. (2001).
+\newblock Input pruning for neural gas architectures.
+\newblock {\em ESANN'2001 proceedings - European Symposium on Artificial Neural
+  Networks}, pages 283--288.
+\newblock ES2001-2.
+
+\bibitem[Haring et~al., 1994]{Haring:94}
+Haring, S., Viergever, M.~A., and Kok, J.~N. (1994).
+\newblock Kohonen networks for multiscale image segmentation.
+\newblock {\em Image and Vision Computing}, 12(6):339 -- 44.
+
+\bibitem[Haykin, 1994]{Haykin:94}
+Haykin, S. (1994).
+\newblock Neural networks-a comprehensive foundation.
+\newblock {\em Macmillan And {IEEE} Press}.
+
+\bibitem[Haykin, 1999]{Haykin:99}
+Haykin, S. (1999).
+\newblock {\em Neural {N}etworks: a {C}omprehensive {F}oundation}.
+\newblock Prentice Hall.
+
+\bibitem[Hebb, 1949]{Hebb:49}
+Hebb, D.~O. (1949).
+\newblock {\em The Organization of Behavior}.
+\newblock John Wiley \& Sons, New York, NY.
+
+\bibitem[Hellerstein et~al., 1995]{Hellerstein:95}
+Hellerstein, J.~M., Naughton, J.~F., and Pfeffer, A. (1995).
+\newblock {G}eneralized {S}earch {T}rees for {D}atabase {S}ystems.
+\newblock In {\em International Conference on Very Large Databases}, pages
+  562--573. Morgan Kaufmann.
+\newblock editors Umeshwar Dayal and Peter M. D. Gray and Shojiro Nishio, isbn
+  1-55860-379-4.
+
+\bibitem[Hoare, 1962]{Hoare:62:Quicksort}
+Hoare, C. (1962).
+\newblock Quicksort.
+\newblock {\em Comput. J.}, 1(5):10--15.
+
+\bibitem[Hodge and Austin, 2001a]{Hodge:01:TreeGCS}
+Hodge, V. and Austin, J. (2001a).
+\newblock Hierarchical growing cell structures: Treegcs.
+\newblock {\em Knowledge and Data Engineering, IEEE Transactions on},
+  13(2):207--218.
+
+\bibitem[Hodge and Austin, 2001b]{Hodge:01:IntegratedIRSystem}
+Hodge, V.~J. and Austin, J. (2001b).
+\newblock An integrated neural ir system.
+\newblock {\em ESANN'2001 proceedings - European Symposium on Artificial Neural
+  Networks}, pages 265--270.
+\newblock ES2001-301.
+
+\bibitem[Hodge and Austin, 2002]{Hodge02TreeGCS-WordClustering}
+Hodge, V.~J. and Austin, J. (2002).
+\newblock Hierarchical word clustering - automatic thesaurus generation.
+\newblock {\em NeuroComputing}, 48(1-4):819--846.
+
+\bibitem[Holland, 1975]{Holland:75}
+Holland, J. (1975).
+\newblock {\em Adaptation in Natural and Artificial Systems}.
+\newblock The University of Michigan Press.
+
+\bibitem[Hopfield, 1982]{Hopfield:82}
+Hopfield, J.~J. (1982).
+\newblock Neural networks and systems with emergent selective computational
+  abilities.
+\newblock In {\em National Academy of Sciences of the USA}, volume~79, pages
+  3088--3082.
+
+\bibitem[Hote, 1933]{Hote:33:PCA}
+Hote, H. (1933).
+\newblock {A}nalysis of a {C}omplex of {S}tatistical {V}ariables into
+  {P}rincipal {C}omponents.
+\newblock {\em Educational Psychology}, 24:417--441, 498--520.
+
+\bibitem[Hrönel and Ragg, 2000]{Dominik:00}
+Hrönel, D. and Ragg, T. (2000).
+\newblock Learning musical structure and style by recognition, prediction and
+  evolution.
+
+\bibitem[Huang et~al., 2001]{Huang:2001:UsingFastMap}
+Huang, Z., Ng, M.~K., and Cheung, D. W.-L. (2001).
+\newblock {A}n {E}mpirical {S}tudy on the {V}isual {C}luster {V}alidation
+  {M}ethod with {F}astmap.
+\newblock In {\em International Conference on Database Systems for Advanced
+  Applications (DASFAA), 7th}, pages 84--91, Hong Kong, China. IEEE.
+
+\bibitem[Hubel and Wiesel, 1962]{Hubel62}
+Hubel, D. and Wiesel, T. (1962).
+\newblock Receptive fields, binocular interaction and functional arquitecture
+  in the cat's visual cortex.
+\newblock {\em Journal of Physicology}, 160:104--154.
+\newblock London.
+
+\bibitem[Hubel and Wiesel, 1977]{Hubel77VisualCortex}
+Hubel, D. and Wiesel, T. (1977).
+\newblock Functional arquitecture of macaque visual cortex.
+\newblock In {\em Royal Society}, volume 198, pages 1--59, London.
+
+\bibitem[Hughes and Hughes, 1997]{Cameron:97:MT}
+Hughes, C. and Hughes, T. (1997).
+\newblock {\em Object-Oriented Multithreading Using C++}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Huntsberger and Ajjimarangsee, 1990]{Huntsberger90ParallelSOM}
+Huntsberger, T.~L. and Ajjimarangsee, P. (1990).
+\newblock Parallel self-organizing feature maps for unsupervised pattern
+  recognition.
+\newblock {\em International. Journal on General Systems}, 16(4):357--372.
+
+\bibitem[Hussain, 1993]{Talib:93}
+Hussain, T.~S. (1993).
+\newblock {ARTSTAR}: {A} {S}upervised {M}odular {A}daptive {R}esonance
+  {N}etwork {C}lassifier.
+\newblock Master's thesis, Quenn's University, Kingston, Ontario - Canada.
+
+\bibitem[Hämälainen, 2002]{Hamalainen02ParallelSOM}
+Hämälainen, T.~D. (2002).
+\newblock {\em Self-Organizing Neural Networks: Recent Advances and
+  Applications of Studies in Fuzziness and Soft Computing}, volume~78, chapter
+  Parallel Implementations of Self-Organizing Maps, pages 245--278.
+\newblock Physica-Verlag Heidelberg.
+
+\bibitem[{IEEE}, 2013]{IEEECompetences}
+{IEEE} (2013).
+\newblock {IEEE} common nomenclature for computing related programs in latin
+  america.
+\newblock Technical report, IEEE R9.
+
+\bibitem[Jain, 1999]{Jain99Clustering}
+Jain, A. (1999).
+\newblock {D}ata {C}lustering: {A} {R}eview.
+\newblock {\em ACM Computing Surveys}, 31(3):264--323.
+
+\bibitem[John et~al., 1994]{John:94}
+John, G., Kohavi, R., and Pfleger, K. (1994).
+\newblock Irrelevant features and the subset selection problem.
+\newblock In Kaufmann, M., editor, {\em International Conference on Machine
+  Learning, 10th}, pages 167--173, San Francisco, CA.
+
+\bibitem[Jolliffe, 1986]{Jolliffe:86}
+Jolliffe, I. (1986).
+\newblock Principal component analysis.
+\newblock {\em Springer-Verlag}.
+\newblock New York.
+
+\bibitem[Joy et~al., 2000]{BillJoy:2000:Java}
+Joy, B., Steele, G., Gosling, J., and Bracha, G. (2000).
+\newblock {\em Java(TM) Language Specification}.
+\newblock Addison-Wesley Pub Co, 2nd edition.
+
+\bibitem[Jr, 1956]{Kruskal:56:MST}
+Jr, J. B.~K. (1956).
+\newblock {O}n the {S}hortest {S}panning {S}ubtree of a {G}raph and the
+  {T}raveling {S}alesman {P}roblem.
+\newblock In {\em American Mathematical Society}, volume~7, pages 48--50.
+
+\bibitem[J.W.Sammon, 1969]{Sammon:69:NLM}
+J.W.Sammon (1969).
+\newblock A nonlinear mapping for data structure analysis.
+\newblock {\em IEEE Transactions on Computers}, C-18(5):401–409.
+
+\bibitem[Kalantari and McDonald, 1983]{Kalantari:83:BST}
+Kalantari, I. and McDonald, G. (1983).
+\newblock A data structure and an algorithm for the nearest point problem.
+\newblock {\em IEEE Transactions on Software Engineering}, 9(5).
+
+\bibitem[Kangas et~al., 1990]{Kangas90Variants}
+Kangas, J., Kohonen, T., and Laaksonen, J. (1990).
+\newblock Variants of self-organizing maps.
+\newblock {\em IEEE Transactions on Neural Networks}, 1(1):93--99.
+
+\bibitem[Kangas et~al., 1989]{Kangas89Variants}
+Kangas, J., Kohonen, T., Laaksonen, J., Simula, O., and Venta, O. (1989).
+\newblock Variants of self-organizing maps.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~2,
+  pages 517--522.
+
+\bibitem[Kanth et~al., 1999]{Kanth:99:RTreeInOracle}
+Kanth, K. V.~R., Ravada, S., Sharma, J., and Banerjee, J. (1999).
+\newblock Indexing medium dimensionality data in {O}racle.
+\newblock In {\em ACM SIGMOD International Conference on Management of Data},
+  pages 521--522, Philadelphia.
+
+\bibitem[Karnin, 1990]{Karnin:90}
+Karnin, E.~D. (1990).
+\newblock A simple procedure for pruning back-propagation trained neural
+  networks.
+\newblock {\em IEEE Transactions on Neural Networks}, 1(2):239--242.
+
+\bibitem[Kaski, 1999]{Kaski99FastWinnerUnit}
+Kaski, S. (1999).
+\newblock {F}ast {W}inner {S}earch for {SOM}-based {M}onitoring and {R}etrieval
+  of {H}igh-dimensional {D}ata.
+\newblock In {\em International Conference on Artificial Neural Networks},
+  volume~2, pages 940--945, London. {IEEE} Conference Publication.
+
+\bibitem[Kaski, 2001]{Kaski:01:LearningMetrics-SPSW}
+Kaski, S. (2001).
+\newblock Learning metrics for exploratory data analysis.
+\newblock In {\em Signal Processing Society Workshop}, pages 53--62.
+
+\bibitem[Kaski et~al., 1998]{BibliographySOM-1}
+Kaski, S., Kangas, J., and Kohonen, T. (1998).
+\newblock Bibliography of {S}elf-{O}rganizing {M}ap ({SOM}) {P}apers:
+  1981-1997.
+\newblock {\em Neural Computing Surveys}, 1:102--350.
+
+\bibitem[Kaski and Sinkkonen, 2001]{Kaski:01:LearningMetricsWSOM}
+Kaski, S. and Sinkkonen, J. (2001).
+\newblock A topography-preserving latent variable model with learning metrics.
+\newblock In {\em Workshop on Self-Organizing Maps}, pages 224--229.
+
+\bibitem[Kaski et~al., 2001]{Kaski:01:LearningMetricsIJCNN}
+Kaski, S., Sinkkonen, J., and Peltonen, J. (2001).
+\newblock Learning metrics for self-organizing maps.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~2,
+  pages 914--919, Washington DC. {IEEE Press}.
+
+\bibitem[Katayama and Satoh, 1997]{katayama97srtree}
+Katayama, N. and Satoh, S. (1997).
+\newblock {T}he {SR}-tree: {A}n {I}ndex {S}tructure for {H}igh-{D}imensional
+  {N}earest {N}eighbor {Q}ueries.
+\newblock In {\em ACM SIGMOD International Conference on Management of Data},
+  pages 369--380, Tucson.
+
+\bibitem[Kaufman and Rosseeauw, 1990]{Kaufman:90}
+Kaufman, L. and Rosseeauw, P.~J. (1990).
+\newblock {\em {F}inding {G}roups in {D}ata: An Introduction to {C}luster
+  {A}nalysis}.
+\newblock John Wiley \& Sons, Inc.
+
+\bibitem[Kim et~al., 1995]{Kim:95}
+Kim, J.~W., Jung, K.~C., Kim, S.~K., and Kim, J.~H. (1995).
+\newblock Shape classification of on-line {C}hinese character strokes using
+  {ART1} neural network.
+\newblock In {\em World Congress on Neural Networks (WCNN'95)}, Hillsdale.
+  NJ:Erlbaum.
+
+\bibitem[Kirk et~al., 2001]{Kirk:01}
+Kirk, J., Chang, D.-J., and Zurada, J. (2001).
+\newblock A self-organizing map with dynamic architecture for efficient color
+  quantization.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~3,
+  pages 2128--2132, Washington DC. {IEEE Press}.
+
+\bibitem[Klinger, 1971]{Klinger71PointQuadTree}
+Klinger, A. (1971).
+\newblock Pattern and search statistics.
+\newblock In Rustagi, S., editor, {\em Optimizing Methods in Statistics}, pages
+  303--337.
+
+\bibitem[Knuth, 1973]{Knuth:TAOCP:73}
+Knuth, D.~E. (1973).
+\newblock {\em The Art of Computer Programming, vol. 1-3}.
+\newblock Addison-Wesley, Reading, MA.
+
+\bibitem[Kohavi et~al., 1994]{Kohavi:94}
+Kohavi, R., Sommerfield, D., and Dougherty, J. (1994).
+\newblock {\em MLC++: A Machine Learning Library in C++}.
+\newblock {IEEE} Computer Society Press.
+
+\bibitem[Kohonen, 1982]{Kohonen82}
+Kohonen, T. (1982).
+\newblock Self-organized formation of topologically correct feature maps.
+\newblock {\em Biological Cybernetics}, 43:59--69.
+
+\bibitem[Kohonen, 1984]{Kohonen:84}
+Kohonen, T. (1984).
+\newblock Self-organization and associative memory.
+\newblock {\em Springer Series of Information Science}, 8.
+
+\bibitem[Kohonen, 1989a]{Kohonen:89a}
+Kohonen, T. (1989a).
+\newblock The 'neural' phonetic typewriter.
+\newblock In {\em European Seminar on Neural Networks, 2nd}, London, UK.
+  British Neural Networks Society.
+
+\bibitem[Kohonen, 1989b]{Kohonen:89}
+Kohonen, T. (1989b).
+\newblock Self-organization and associative memory.
+\newblock {\em Springer Series of Information Science}, 3rd Ed.
+
+\bibitem[Kohonen, 1990]{Kohonen90IEEE}
+Kohonen, T. (1990).
+\newblock The self-organizing map.
+\newblock In {\em Institute of Electrical and Electronics Engineers},
+  volume~78, pages 1464--1480.
+
+\bibitem[Kohonen, 1992]{Kohonen:92b}
+Kohonen, T. (1992).
+\newblock Learning-{V}ector {Q}uantization and the {S}elf-{O}rganizing {M}ap.
+\newblock In Taylor, J.~G. and Mannion, C. L.~T., editors, {\em Theory and
+  Applications of Neural Networks}, pages 235--242, London, UK. Springer.
+
+\bibitem[Kohonen, 1993a]{Kohonen93Generalizations}
+Kohonen, T. (1993a).
+\newblock Generalizations of the self-organizing map.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~1,
+  Nagoya, Japan.
+
+\bibitem[Kohonen, 1993b]{Kohonen93PhysiologicalInterpretation}
+Kohonen, T. (1993b).
+\newblock Physiological interpretation of the self-organizing map algorithm.
+\newblock {\em Neural Networks}, 6:895--905.
+
+\bibitem[Kohonen, 1997a]{Kohonen97ICNN}
+Kohonen, T. (1997a).
+\newblock Exploration of very large databases by self-organizing maps.
+\newblock In {\em International Conference on Neural Networks}, pages PL1--PL6,
+  Houston. IEEE Service Center.
+
+\bibitem[Kohonen, 1997b]{Kohonen97Book}
+Kohonen, T. (1997b).
+\newblock {\em Self-organization Maps}.
+\newblock Springer-Verlag: Berlin.
+
+\bibitem[Kohonen, 1998]{Kohonen98WEBSOM}
+Kohonen, T. (1998).
+\newblock Self-organization of very large document collections: State of the
+  art.
+\newblock In Niklasson, L., Bodén, M., and Ziemke, T., editors, {\em
+  International Conference on Artificial Neural Networks}, volume~1, pages
+  65--74, London. Springer.
+
+\bibitem[Kohonen et~al., 1996a]{Kohonen:96}
+Kohonen, T., Hynninen, J., Kangas, J., Laaksonen, J., and Torkkola, K. (1996a).
+\newblock {LVQ\_PAK}: {T}he {L}earning {V}ector {Q}uantization program package.
+\newblock Technical Report A30, Helsinki University of Technology, Laboratory
+  of Computer and Information Science.
+
+\bibitem[Kohonen et~al., 1992]{Kohonen:92a}
+Kohonen, T., Kangas, J., Laaksonen, J., and Torkkola, K. (1992).
+\newblock {LVQ\_PAK}: A program package for the correct application of
+  {L}earning {V}ector {Q}uantization algorithms.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~I,
+  pages 725--730, Piscataway, NJ. IEEE Service Center.
+
+\bibitem[Kohonen et~al., 1996b]{Kohonen:96:Very}
+Kohonen, T., Kaski, S., Lagus, K., and Honkela, T. (1996b).
+\newblock Very large two-level {SOM} for the browsing of newsgroups.
+\newblock In {von der Malsburg}, C., {von Seelen}, W., Vorbr{\"u}ggen, J.~C.,
+  and Sendhoff, B., editors, {\em Proceedings of ICANN96, International
+  Conference on Artificial Neural Networks}, pages 269--274. Springer, Bochum,
+  Germany.
+
+\bibitem[Kohonen and Somervuo, 1997]{Kohonen:97:Speech}
+Kohonen, T. and Somervuo, P. (1997).
+\newblock Self-organizing maps of symbol strings with application to speech
+  recognition.
+\newblock In {\em Workshop on Self-Organizing Maps}, pages 2--7, Espoo,
+  Finland. Helsinki University of Technology, Neural Networks Research Centre.
+
+\bibitem[Koikkalainen and Oja, 1990]{Koikkalainen90HierarchicalsMaps}
+Koikkalainen, P. and Oja, E. (1990).
+\newblock Self-organizing hierarchical feature maps.
+\newblock In {\em International Joint COnference on Neural Networks},
+  volume~II, pages 279–--284, San Diego, CA.
+
+\bibitem[Kolinummi et~al., 1997]{Kolinummi:97}
+Kolinummi, P., H{\"a}m{\"a}l{\"a}inen, T., and Kaski, K. (1997).
+\newblock Mappings of {SOM} and {LVQ} on the partial tree shape neurocomputer.
+\newblock In {\em International Conference on Neural Networks}, volume~II,
+  pages 904--909, Piscataway, NJ. IEEE Service Center.
+
+\bibitem[Kolinummi et~al., 2000]{Kolinummi00ParallelSOM}
+Kolinummi, P., Pulkkinen, P., Hamalainen, T., and Saarinen, J. (2000).
+\newblock Parallel implementation of self-organizing map on the partial tree
+  shape neurocomputer.
+\newblock {\em Neural Processing Letters}, 12(2):171--182.
+
+\bibitem[Koskela, 1999]{Markus:99}
+Koskela, M. (1999).
+\newblock {C}ontent-{B}ased {I}mage {R}etrieval with {S}elf-{O}rganizing
+  {M}aps.
+\newblock Master's thesis, Helsinki University Of Technology Department of
+  Engineering Physics and Mathematics, Helsinki, Finland.
+
+\bibitem[Kuan and Lewis, 1997]{Kuan:97:FastNearestNeighbor}
+Kuan, J. and Lewis, P. (1997).
+\newblock Fast k nearest neighbour search for {R}-{T}ree family.
+\newblock In {\em International Conference on Information, Communication and
+  Signal Processing}, Singapore.
+
+\bibitem[Kusumoputro et~al., 1999]{Kusumoputro:99}
+Kusumoputro, B., Widyanto, M.~R., Fanany, M.~I., and Budiarto, H. (1999).
+\newblock Improvement of artificial odor discrimination system using
+  fuzzy-{LVQ} neural network.
+\newblock In {\em International Conference on Computational Intelligence and
+  Multimedia Applications. ICCIMA99. IEEE Comput. Soc, Los Alamitos, CA, USA},
+  pages 474--481.
+
+\bibitem[Kwok and Yeung, 1997]{Kwok:97}
+Kwok, T.-Y. and Yeung, D.-Y. (1997).
+\newblock Objective functions for training new hidden units in constructive
+  neural networks.
+\newblock {\em IEEE Transactions on Neural Networks}, 8(5):1131--1148.
+
+\bibitem[Laaksonen et~al., 1999]{Laaksonen:99:PicSOM}
+Laaksonen, J., Koskela, M., and Oja, E. (1999).
+\newblock Application of tree structured self-organizing maps in content-based
+  image retrieval.
+\newblock In {\em International Conference on Artificial Neural Networks},
+  volume~1, pages 174--179.
+
+\bibitem[Lagus et~al., 1996]{Lagus:96}
+Lagus, K., Honkela, T., Kaski, S., and Kohonen, T. (1996).
+\newblock Self-organizing maps of document collections: {A} new approach to
+  interactive exploration.
+\newblock In Simoudis, E., Han, J., and Fayyad, U., editors, {\em International
+  Conference on Knowledge Discovery and Data Mining, 2}, pages 238--243, Menlo
+  Park, California. AAAI Press.
+
+\bibitem[Lambooy, 1995]{Lambooy:95}
+Lambooy, R. (1995).
+\newblock Calm, a different approach: Evolution in and experimenting with calm
+  architectures.
+
+\bibitem[Lampinen, 1992]{lampinen92clustering}
+Lampinen, J. (1992).
+\newblock On clustering properties of hierarchical self-organizing maps.
+\newblock In Aleksander, I. and Taylor, J., editors, {\em Artificial Neural
+  Networks, 2}, volume~II, pages 1219--1222, Amsterdam, Netherlands.
+  North-Holland.
+
+\bibitem[Lampinen and Oja, 1992]{lampinen92clustering-journal}
+Lampinen, J. and Oja, E. (1992).
+\newblock Clustering properties of hierarchical self-organizing maps.
+\newblock {\em Journal of Mathematical Imaging and Vision}, 2(2-3):261--272.
+
+\bibitem[Lampinen and Oja, 1995]{lampinen95distortion}
+Lampinen, J. and Oja, E. (1995).
+\newblock Distortion tolerant pattern recognition based on self-organizing
+  feature extraction.
+\newblock {\em IEEE Transactions on Neural Networks}, 6(3):539--547.
+
+\bibitem[Land and Hilton, 1988]{Lang88TDNN}
+Land, K. and Hilton, G. (1988).
+\newblock The development of the time-delay neural network architecture for
+  speech recognition.
+\newblock Technical Report CMU-CS-88-152, Carnegie Mellon University,
+  Pittsburgh, PA.
+
+\bibitem[Lang and Warwick, 2002]{PSOM}
+Lang, R. and Warwick, K. (2002).
+\newblock The {P}lastic {S}elf {O}rganising {M}ap.
+
+\bibitem[Lee et~al., 2001]{Lee:01}
+Lee, H.-M., Chen, C.-M., and Lu, Y.-F. (2001).
+\newblock A self-organizing hcmac neural network classifier.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~3,
+  pages 1960--1965, Washington DC. {IEEE Press}.
+
+\bibitem[Levenshtein, 1966]{Levenshtein66LEdit}
+Levenshtein, V. (1966).
+\newblock Binary codes capable of correcting deletions, insertions, and
+  reversals.
+\newblock {\em Cybernetics and Control Theory}, 10(8):707--710.
+
+\bibitem[Lim et~al., 2001]{Lim:01}
+Lim, J.-H., Wu, J.~K., Singh, S., and Narasimhalu, D. (2001).
+\newblock {L}earning {S}imilarity {M}atching in {M}ultimedia {C}ontent-{B}ased
+  {R}etrieval.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  13(5):846--850.
+
+\bibitem[Lin et~al., 1994]{LinK:94}
+Lin, K., Jagadish, H., and Faloutsos, C. (1994).
+\newblock The {TV}-tree - {A}n {I}ndex {S}tructure for {H}igh-{D}imensional
+  {D}ata.
+\newblock {\em Very Large Data Bases Journal}, 3(4):517--542.
+\newblock Santiago de Chile.
+
+\bibitem[Linsker, 1986]{Linsker:86}
+Linsker, R. (1986).
+\newblock From basic network principles to neural architecture: Emergence of
+  spacial-opponent cells / orientation-selective cells / orientation columns.
+\newblock {\em Proceedings of the National Academy of Sciences}, 83:7508--7512,
+  8390--8394, 8779--8783.
+
+\bibitem[Lippmann, 1992]{Lippman:87}
+Lippmann, R.~P. (1992).
+\newblock {\em An Introduction to Computing with Neural Nets}, pages 13--31.
+\newblock Volume~1 of \cite{Mehra:92}.
+
+\bibitem[Lloyd, 1982]{Lloyd:82:Batch:kMeans}
+Lloyd, S.~P. (1982).
+\newblock Least squares quantization in pcm.
+\newblock {\em {IEEE} Transactions on Information Theory}, 28(2):129--137.
+
+\bibitem[Lo et~al., 1991]{Lo91}
+Lo, Z., Fujita, M., and Bavarian, B. (1991).
+\newblock Analysis of neighborhood interaction in {K}ohonen {N}eural networks.
+\newblock In {\em International Parallel Processing Symposium, 6th}, pages
+  247--249, Los Alamitos, CA.
+
+\bibitem[M.~Moya and Hostetler, 1993]{Moya:93}
+M.~Moya, M.~K. and Hostetler, L. (1993).
+\newblock One-class classifier networks for target recognition applications.
+\newblock In {\em World Congress on Neural Networks}, pages 797--801, Portland,
+  OR.
+\newblock International Neural Network Society, INNS.
+
+\bibitem[MacQueen, 1967]{MacQueen:67:kMeans}
+MacQueen, J. (1967).
+\newblock Some methods for classification and analysis of multivariate
+  observations.
+\newblock {\em Proceedings - 5th Berkeley Symposium}, 1:281--297.
+
+\bibitem[Maio and Maltoni, 1996]{Maio:96}
+Maio, D. and Maltoni, D. (1996).
+\newblock A structural approach to fingerprint classification.
+
+\bibitem[Martinetz, 1993]{Martinetz:93}
+Martinetz, T. (1993).
+\newblock Competitive hebbian learning rule forms perfectly preserving maps.
+\newblock In {\em International Conference on Artificial Neural Networks},
+  pages 427--434, Amsterdam. Springer.
+
+\bibitem[Martinetz and Schulten, 1994]{Martinetz:94}
+Martinetz, T. and Schulten, K.~J. (1994).
+\newblock Topology representing networks.
+\newblock In {\em Neural Networks, 7}, volume~3, pages 507--522, Amsterdam.
+  Springer.
+
+\bibitem[Martinetz and Schulten, 1991]{MartinetzSchulten:91}
+Martinetz, T.~M. and Schulten, K.~J. (1991).
+\newblock {N}etwork {L}earns {T}opologies.
+\newblock In T.~Kohonen, K.~Makisara, O.~S. and Kangas, J., editors, {\em
+  Artificial Neural Networks}, pages 397--402, North-Holland, Amsterdam.
+
+\bibitem[Martins and e~Silva, 2001]{Martins:01}
+Martins, W. and e~Silva, J. C.~M. (2001).
+\newblock Multidimensional data ranking using self-organising maps and genetic
+  algorithms.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~4,
+  pages 2382--2387, Washington DC. {IEEE Press}.
+
+\bibitem[Matsuoka, 1995]{Matsuoka:95}
+Matsuoka, Y. (1995).
+\newblock Embodiment and manipulation learning process for a humanoid hand.
+\newblock Technical Report AITR-1546, Massachusetts Institute of Technology.
+
+\bibitem[Mehra and Wah, 1992]{Mehra:92}
+Mehra, P. and Wah, B.~W., editors (1992).
+\newblock {\em Artificial Neural Networks: Concepts and Theory.}, volume~1.
+\newblock IEEE Computer Society Press.
+
+\bibitem[Mehta et~al., 1993]{Mehta:93}
+Mehta, B., Vij, L., and Rabelo, L. (1993).
+\newblock Prediction of secondary structures of proteins using fuzzy artmap.
+\newblock Lawrence Erlbaum Ass., Inc., Hillsdale, NJ.
+
+\bibitem[Merkl, 1997]{merkl97exploration}
+Merkl, D. (1997).
+\newblock {E}xploration of {T}ext {C}ollections with {H}ierarchical {F}eature
+  {M}aps.
+\newblock In {\em Research and Development in Information Retrieval}, pages
+  186--195.
+
+\bibitem[{Microsoft Corporation}, 1995]{Microsoft:95Revisar}
+{Microsoft Corporation} (1995).
+\newblock {The COM Core Technology Specification}.
+
+\bibitem[Micó et~al., 1996]{Mico:96:kNN}
+Micó, L., Oncina, J., and Carrasco, R. (1996).
+\newblock A fast branch and bound nearest neighbors classifier in metric
+  spaces.
+\newblock {\em Pattern Recognition Letters}, 17:731--739.
+
+\bibitem[Micó et~al., 1994]{Mico:94:LAESA}
+Micó, L., Oncina, J., and Vidal, E. (1994).
+\newblock A new version of the nearest neighbors approximating and eliminating
+  search (aesa) with linear pre-processing and memory requirements.
+\newblock {\em Pattern Recognition Letters}, 15:9--17.
+
+\bibitem[Mitchell, 1997]{Mitchell:97}
+Mitchell, T.~M. (1997).
+\newblock {\em Machine learning}.
+\newblock McGraw Hill, New York, US.
+
+\bibitem[Moody and Darken, 1989]{Moody:89:On-line:kMeans}
+Moody, J. and Darken, C. (1989).
+\newblock Fast learning in networks of locally tuned processing units.
+\newblock {\em Neural Computation}, 1(2):281--294.
+
+\bibitem[Morris et~al., 2001]{Morris:01}
+Morris, S., Wu, Z., and Yen, G. (2001).
+\newblock A {SOM} mapping technique for visualizing documents in a database.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~3,
+  pages 1914--1919, Washington DC. {IEEE Press}.
+
+\bibitem[Morton, 1966]{Morton66}
+Morton, G. (1966).
+\newblock A computer oriented geodetic data base and a new technique in file
+  sequencing.
+\newblock IBM Ltd.
+
+\bibitem[Murre et~al., 1989]{Murre:89}
+Murre, J.~M., Pfaf, R.~H., and Wolters, G. (1989).
+\newblock Calm networks: A modular approach to supervised and unsupervised
+  learning.
+\newblock In {\em International Joint COnference on Neural Networks}.
+
+\bibitem[myinbook xxauthor, year]{myinbook}
+myinbook xxauthor (xxyear).
+\newblock {\em xxtitle}, volume xxvolume of {\em xxseries}, xxtype xxchapter,
+  page xxpages.
+\newblock xxpublisher, xxaddress, xxedition edition.
+\newblock xxnote.
+
+\bibitem[myinproceedings xxauthor, year]{myinproceedings}
+myinproceedings xxauthor (xxyear).
+\newblock xxtitle.
+\newblock In xxeditor, editor, {\em xxbooktitle}, volume xxvolume of {\em
+  xxseries}, page xxpages, xxaddress. xxorganization, xxpublisher.
+\newblock xxnote.
+
+\bibitem[mymastersthesis xxauthor, year]{mymastersthesis}
+mymastersthesis xxauthor (xxyear).
+\newblock xxtitle.
+\newblock xxtype, xxschool, xxaddress.
+\newblock xxnote.
+
+\bibitem[myphdthesis xxauthor, year]{myphdthesis}
+myphdthesis xxauthor (xxyear).
+\newblock {\em xxtitle}.
+\newblock xxtype, xxschool, xxaddress.
+\newblock xxnote.
+
+\bibitem[mytechreport xxauthor, 1985]{mytechreport}
+mytechreport xxauthor (1985).
+\newblock xxtitle.
+\newblock xxtype~99, xxinstitution, xxaddress.
+\newblock xxnote.
+
+\bibitem[N.~A.~Murshed and Sabourin, 1995]{Murshed:95}
+N.~A.~Murshed, F.~B. and Sabourin, R. (1995).
+\newblock Off-line signature verification without {a priori} knowledge of class
+  $\omega$2.
+\newblock In NJ:IEEE, editor, {\em International Conference on Document
+  Analysis and Recognition}, Piscataway.
+
+\bibitem[Navarro, 1999]{Navarro:99:SAT}
+Navarro, G. (1999).
+\newblock Searching in metric spaces by spatial approximation.
+\newblock In {\em South American Symposium on String Processing and Information
+  Retrieval}, pages 141--148. IEEE CS Press.
+
+\bibitem[Navarro, 2002]{Navarro:02:VLDBJ}
+Navarro, G. (2002).
+\newblock Searching in metric spaces by spatial approximation.
+\newblock {\em The Very Large Databases Journal (VLDBJ)}, 11(1):28--46.
+
+\bibitem[Navarro and Reyes, 2002]{Navarro:02:FullyDynamicSAT}
+Navarro, G. and Reyes, N. (2002).
+\newblock {F}ully {D}ynamic {S}patial {A}pproximation {T}rees.
+\newblock In {\em South American Symposium on String Processing and Information
+  Retrieval}, LNCS 2476, pages 254--270. Springer.
+
+\bibitem[Nehmzow et~al., 1991]{Nehmzow:91}
+Nehmzow, U., Smithers, T., and Hallam, J. (1991).
+\newblock Location recognition in a mobile robot using self-organising feature
+  maps.
+\newblock In Schmidt, G., editor, {\em Information Processing in Autonomous
+  Mobile Robots. Proc. of the Int. Workshop}, pages 267--277, Berlin,
+  Heidelberg. Springer.
+
+\bibitem[Nene and Nayar, 1997]{Nene:97:FastkNN}
+Nene, S. and Nayar, S. (1997).
+\newblock A simple algorithm for nearest neighbors search in high dimensions.
+\newblock {\em IEEE Trans. on Pattern Analysis and Machine Intelligence},
+  19(9):989--1003.
+
+\bibitem[Ng and Huang, 2002]{Ng:2002:MFastMap}
+Ng, M.~K. and Huang, J.~Z. (2002).
+\newblock M-fastmap: A modified fastmap algorithm for visual cluster validation
+  in data mining.
+\newblock In {\em Pacific-Asia Conference on Knowledge Discovery and Data
+  Mining (PAKDD'02), 6th}, pages 224--236.
+
+\bibitem[Ni, 1996]{Simone:96}
+Ni, S.~S. (1996).
+\newblock The self-organizing field.
+\newblock {\em IEEE Transactions on Neural Network}.
+
+\bibitem[Nolteimer, 1989]{Nolteimer:89}
+Nolteimer, H. (1989).
+\newblock Voronoi trees and applications.
+\newblock In {\em International Workshop on Discrete Algorithms and
+  Complexity}, pages 69--74, Fukuoka Recent Hotel, Fukuoka, Japan.
+
+\bibitem[Nolteimer et~al., 1992]{Nolteimer:92:BST}
+Nolteimer, H., Verbarg, K., and Zirkelbach, C. (1992).
+\newblock {M}onotonous {B}isector* {T}rees - a tool for efficient partiotioning
+  of complex schemes of geometric object.
+\newblock In {\em Data Structures and Efficient Algorithms, LNCS 594}, pages
+  186--203. Springer-Verlag.
+
+\bibitem[Obermayer et~al., 1990]{Obermayer90SomatotopicMaps}
+Obermayer, K., Ritter, K., and Schulten, H. (1990).
+\newblock Large-scale simulation of a self-organizing neural network: Formation
+  of a somatotopic map.
+\newblock In {Eckmiller, R.}, H. and Hauske, G., editors, {\em Parallel
+  Processing in Neural Systems and Computers}, pages 71--74, Urbana, Illinois.
+  Elsevier Science Publisher B.V. (North Holland).
+
+\bibitem[Ohta and Saito, 2001]{Ohta:01}
+Ohta, R. and Saito, T. (2001).
+\newblock A growing self-organizing algorithm for dynamic clustering.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~1,
+  pages 469--473, Washington DC. {IEEE Press}.
+
+\bibitem[Oja and Kohonen, 1992]{Oja:88}
+Oja, E. and Kohonen, T. (1992).
+\newblock {\em The Subspace Learning Algorithm as a Formalism for Pattern
+  Recognition and Neural Networks.}, pages 13--31.
+\newblock Volume~1 of \cite{Mehra:92}.
+
+\bibitem[Oja et~al., 2003]{BibliographySOM-2}
+Oja, M., Kaski, S., and Kohonen, T. (2003).
+\newblock {B}ibliography of {S}elf-{O}rganizing {M}ap ({SOM}) {P}apers:
+  1998-2001 addendum.
+\newblock {\em Neural Computing Surveys}, 3:1--156.
+
+\bibitem[Papadias et~al., 1999]{Papadias:99}
+Papadias, D., Mamoulis, N., and Theodoridis, Y. (1999).
+\newblock Processing and optimization of multiway spatial joins using
+  {R}-trees.
+\newblock In {\em ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database
+  Systems (PODS)}, pages 44--55.
+
+\bibitem[Parekh et~al., 1996]{Parekh:96}
+Parekh, R., Yang, J., and Honavar, V. (1996).
+\newblock {MTiling} - a constructive neural network learning algorithm for
+  multi-category pattern classification.
+\newblock In {\em World Congress on Neural Networks'96}, pages 182--187, San
+  Diego.
+
+\bibitem[Parekh et~al., 1997]{Parekh:97a}
+Parekh, R., Yang, J., and Honavar, V. (1997).
+\newblock Pruning strategies for the {M-Tiling} constructive learning
+  algorithm.
+\newblock In {\em International Conference on Neural Networks}, pages
+  1960--1965.
+
+\bibitem[Parekh et~al., 1998]{Parekh:98}
+Parekh, R., Yang, J., and Honavar, V. (1998).
+\newblock Constructive neural networks learning algorithms for pattern
+  classification.
+
+\bibitem[Parekh et~al., 1995]{Parekh:95}
+Parekh, R.~G., Yang, J., and Honavar, V. (1995).
+\newblock Constructive neural network learning algorithms for multi-category
+  pattern classification.
+\newblock Technical report, Iowa State University, Department of Computer
+  Science, Ames, Iowa.
+
+\bibitem[Patella, 1999]{Patella:99:PhDThesis-MTree}
+Patella, M. (1999).
+\newblock {\em Similarity Search in Multimedia Databases}.
+\newblock PhD thesis, Dipartimento di Elettronica Informatica e Sistemistica,
+  Università degli Studi di Bologna, Bologna, Italy.
+
+\bibitem[Pearson, 1901]{Pearson:01}
+Pearson, K. (1901).
+\newblock On lines and planes of closest fit systems of points in space.
+\newblock {\em Philosophical Magazine}, 2:559--572.
+
+\bibitem[Pelleg and Moore, 1999]{Pelleg:99:Accelerating}
+Pelleg, D. and Moore, A. (1999).
+\newblock Accelerating {E}xact k-means {A}lgorithms with {G}eometric
+  {R}easoning.
+\newblock In {\em Knowledge Discovery and Data Mining}, pages 277--281.
+
+\bibitem[Prechelt, 1994]{Prechelt:94}
+Prechelt, L. (1994).
+\newblock Proben1 - a set of neural network benchmark problems and benchmarking
+  rules.
+\newblock Technical Report.
+
+\bibitem[Press et~al., 1988]{Press:88}
+Press, W.~H., Flannery, B.~P., Teukolsky, S.~A., and Vetterling, W.~T. (1988).
+\newblock {\em Numerical Recipes in C}.
+\newblock Cambridge University Press.
+
+\bibitem[Racz and Dubrawski, 1995]{Racz:95}
+Racz, J. and Dubrawski, A. (1995).
+\newblock Artificial neural network for mobile robot topological localization.
+
+\bibitem[Ramos et~al., 1997]{Ramos:97}
+Ramos, P.~G., do~Amaral, F.~T., and Vasconcelos, G.~C. (1997).
+\newblock {NeuroSAN}-um animador de superfícies de decisão para redes neurais.
+\newblock In {\em {XXIV} Semin\'ario Integrado de Software e Hardware}, pages
+  541--548.
+
+\bibitem[Rauber and Merkl, 1999]{Rauber:99}
+Rauber, A. and Merkl, D. (1999).
+\newblock Using self-organizing maps to organize documents collections and to
+  characterize subject matters: {H}ow to make a map tell the news of the world.
+\newblock In T.~Bench-Capon, G.~S. and Tjoa, A., editors, {\em Proceedings of
+  the 10th International Conference on Database and Expert Systems Applications
+  (DEXA99)}, pages 302--311, Florence, Italy. Springer.
+\newblock LNCS 1677 in Lecture Notes in Computer Science.
+
+\bibitem[Rauber et~al., 2002]{rauber03tnn}
+Rauber, A., Merkl, D., and Dittenbach, M. (2002).
+\newblock {T}he {G}rowing {H}ierarchical {S}elf-{O}rganizing {M}ap:
+  {E}xploratory {A}nalysis of {H}igh-{D}imensional {D}ata.
+\newblock {\em IEEE Transactions on Neural Networks}, 13(6):1331--1341.
+
+\bibitem[Rawtani et~al., 2001]{Rawtani:01}
+Rawtani, L., Rana, J., and Tiwari, A. (2001).
+\newblock Number of hidden nodes for shape preserving ann representation of a
+  curve.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~1,
+  pages 138--143, Washington DC. {IEEE Press}.
+
+\bibitem[Reed, 1993]{Reed93PruningAlgorithms}
+Reed, R. (1993).
+\newblock Pruning algorithms—a survey.
+\newblock {\em IEEE Transactions on Neural Networks}, 4(5):740--–747.
+
+\bibitem[Ribeiro and Vasconcelos, 1998]{Ribeiro:98}
+Ribeiro, J. and Vasconcelos, G.~C. (1998).
+\newblock Verifica\c{c}\~ao off-line de assinaturas baseada em uma arquitetura
+  cascade-correlation autoassociativa.
+\newblock In {\em Anais do V Simp\'osio Brasileiro de Redes Neurais}, pages
+  305--310. Sociedade Brasileira de Computa\c{c}\~ao.
+
+\bibitem[Riedmiller, 1994]{Riedmiller:94}
+Riedmiller, M. (1994).
+\newblock {RPROP} - description and implementation details.
+\newblock Technical Report W-76128 Karlsruhe, Institut f\"ur Logik, University
+  of Karlsruhe.
+
+\bibitem[Ritter, 1995]{Ritter95}
+Ritter, H. (1995).
+\newblock Self-organizing feature maps: Kohonen maps.
+\newblock In Arbib, M., editor, {\em The Handbook of Brain Theory and Neural
+  Networks}, pages 846--851. MIT Press, Cambridge, MA.
+
+\bibitem[Ritter and Kohonen, 1990]{Ritter:90}
+Ritter, H. and Kohonen, T. (1990).
+\newblock Learning `semantotopic maps' from context.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~I,
+  pages 23--26, Hillsdale, NJ. Lawrence Erlbaum.
+
+\bibitem[Ritter et~al., 1992]{Ritter-et-al92Book}
+Ritter, H., Martinetz, T.~M., and Schulten, K. (1992).
+\newblock {\em Neural Computation and Self-Organizing Maps: An Introduction}.
+\newblock Reading, MA. Addison-Wesley.
+
+\bibitem[Ritter and Schulten, 1988]{Ritter88Convergence}
+Ritter, H. and Schulten, K. (1988).
+\newblock Convergence properties of {K}ohonen's topology conserving maps:
+  {F}luctuations, stability, and dimension selection.
+\newblock In {\em Biological Cybernetics}, volume~60, pages 59--71.
+
+\bibitem[Robinson, 1981]{Robinson:81}
+Robinson, J. (1981).
+\newblock The {K}-{D}-{B} {T}ree: a search structure for large multidimensional
+  dynamic indexes.
+\newblock In {\em ACM SIGMOD International Conference on the Management of
+  Data}, volume~I, pages 10--18, Ann Arbor. Lawrence Erlbaum.
+
+\bibitem[Roussopoulus et~al., 1995]{Roussopoulos95kNN-RTree}
+Roussopoulus, N., Kelley, S., and Vincent, F. (1995).
+\newblock Nearest neighbor queries.
+\newblock {\em Proceedings of the ACM-SIGMOD International Conference On
+  Management of Data}, pages 71--79.
+\newblock San Jose.
+
+\bibitem[Rumelhart et~al., 1986]{Rumelhart:86}
+Rumelhart, D.~E., Hinton, G.~E., and Williams, R.~J. (1986).
+\newblock Learning internal representations by error propagation.
+\newblock In Rumelhart, D.~E. and McClelland, J.~L., editors, {\em Parallel
+  Distributed Processing: Explorations in the Microstructure of Cognition. Vol.
+  I: Foundations}, pages 318--362. Bradford Books/MIT Press, Cambridge, MA.
+
+\bibitem[Russel and Norvig, 1995]{Russell:95}
+Russel, S. and Norvig, P. (1995).
+\newblock {\em Artificial Intelligence: A Modern Approach}.
+\newblock Prentice-Hall.
+
+\bibitem[Samet, 1995]{Samet:95}
+Samet, H. (1995).
+\newblock {\em Spatial Data Structures}.
+\newblock Modern Database Systems. Reading, Addison-Wesley/ACM, {K}im {W}
+  edition.
+
+\bibitem[Samuel, 1959]{Samuel59}
+Samuel, A.~L. (1959).
+\newblock Some studies in machine learning using the game of checkers.
+\newblock {\em IBM J. Res. Devel}, 3:210--229.
+
+\bibitem[Samuel, 1967]{Samuel67}
+Samuel, A.~L. (1967).
+\newblock Some studies in machine learning using the game of checkers: recent
+  progress.
+\newblock {\em IBM J. Res. Devel}, 11:601--617.
+
+\bibitem[Sandrine~Dudoit, 2000]{Sandrine:00}
+Sandrine~Dudoit, Jane~Fridlyand, T. P.~S. (2000).
+\newblock Comparison of discrimination methods for the classification of tumors
+  using gene expression data.
+\newblock Technical Report 576, Department of Statistics, University of
+  California, Berkeley, C.A.
+
+\bibitem[Sankoff and Kruskal, 1983]{Sankoff83}
+Sankoff, D. and Kruskal, J. (1983).
+\newblock {\em Time warps, string edits,and macromolecules: the theory and
+  practice of sequence comparison}.
+\newblock Addison-Wesley.
+
+\bibitem[Santos, 1997]{Santos:97}
+Santos, R.~R. (1997).
+\newblock {\em Incorporação do Tipo de Dado Imagem em um Banco de Dados}.
+\newblock PhD thesis, USP - Universidade de São Paulo (IFSC - Instituto de
+  Física de São Carlos).
+\newblock Tese de Doutorado apresentada ao IFSC-USP.
+
+\bibitem[Santos-Filho, 1999]{SantosFilho:99}
+Santos-Filho, R. (1999).
+\newblock Algoritmos para indexação de dados espaciais pontuais em
+  gerenciadores de objetos.
+\newblock Master's thesis, USP - Universidade de São Paulo (IFSC - Instituto de
+  Física de São Carlos), São Carlos.
+\newblock Tese de Mestrado - Instituto de Ciências Matemáticas e de Computação,
+  Universidade de São Paulo.
+
+\bibitem[Santos-Filho, 2003]{SantosFilho:03:OMNI}
+Santos-Filho, R.~F. (2003).
+\newblock {\em {M}etrics {A}ccess {M}ethods for similarity queries:
+  {I}ntroducing the {OMNI} technique}.
+\newblock PhD thesis, ICMC- University of Sao Paulo, São Carlos-SP, Brazil.
+
+\bibitem[Santos-Filho et~al., 2001]{SantosFilho:01:OMNI}
+Santos-Filho, R.~F., Traina, A., {Traina Jr.}, C., and Faloutsos, C. (2001).
+\newblock Similarity search without tears: The omni family of all-purpose
+  access methods.
+\newblock {\em Proceedings of the 17th International Conference on Data
+  Engineering}, pages 623--630.
+\newblock Heidelberg, Germany.
+
+\bibitem[{Schaeffer~et~al}, 1992]{Schaeffer:1992:Chinook}
+{Schaeffer~et~al}, J. (1992).
+\newblock A {W}orld {C}hampionship caliber checkers program.
+\newblock {\em Artificial Intelligence}, 53(2-3):273--290.
+
+\bibitem[Schieber and Hibbard, 1993]{Schieber:93}
+Schieber, M.~H. and Hibbard, L.~S. (1993).
+\newblock How somatotopic is the motor cortex hand area ?.
+\newblock {\em Science}, 261:489.
+
+\bibitem[Schomaker and Teulings, 1990]{Schomaker:90}
+Schomaker, L. and Teulings, H. (1990).
+\newblock A handwriting recognition system based on the properties and
+  architectures of the human motor system.
+\newblock In {\em International Workshop on Frontiers in Handwriting
+  Recognition}, volume 168, pages 195--211, Montreal.
+
+\bibitem[Schroeder, 1991]{Schroeder:91:Fractal}
+Schroeder, M. (1991).
+\newblock {\em Fractals, Chaos, Power Laws: Minutes from an Infinite Paradise}.
+\newblock New York: W. H. Freeman.
+
+\bibitem[Seibert and Waxman, 1993]{Seibert:93}
+Seibert, M. and Waxman, A. (1993).
+\newblock An approach to face recognition using saliency maps and caricatures.
+\newblock In {\em World Congress on Neural Networks (WCNN-93)}, volume III,
+  pages 661--664, Hillsdale. NJ:Earlbaum.
+
+\bibitem[Seibert and Waxman, 1992]{Seibert:92}
+Seibert, M. and Waxman, A.~M. (1992).
+\newblock Adaptive 3-d object recognition from multiple views.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  14(2):107--124.
+
+\bibitem[Sejnowski and Rosenberg, 1987]{Sejnowski87NETtalk}
+Sejnowski, T. and Rosenberg, C. (1987).
+\newblock Parallel networks that learns to pronounce {E}nglish text.
+\newblock {\em Complex Systems}, 1:145--168.
+
+\bibitem[Sellis et~al., 1987]{Sellis87RPlusTree}
+Sellis, T.~K., Roussopoulos, N., and Faloutsos, C. (1987).
+\newblock The {R}$^+$-{T}ree: {A} {D}ynamic {I}ndex for {M}ulti-{D}imensional
+  {O}bjects.
+\newblock In {\em International Conference on Very Large Databases}, pages
+  507--518, Brighton, England.
+
+\bibitem[Shakelford et~al., 2005]{ComputingCurricula2005}
+Shakelford, R., Cross, J.~H., Davies, G., Impagliazzo, J., Kamali, R., LeBlanc,
+  R., Lunt, B., McGettrick, A., Sloan, R., and Topi, H. (2005).
+\newblock Computing curricula 2005.
+\newblock Technical report, ACM/IEEE, http://www.acm.org/education.
+
+\bibitem[Shapiro, 1977]{Shapiro:77}
+Shapiro, M. (1977).
+\newblock The choice of reference points in best match file searching.
+\newblock {\em Communications of {ACM}}, 20(5):339--343.
+
+\bibitem[Shasha and Wang, 1990]{Shasha:90}
+Shasha, D. and Wang, T. (1990).
+\newblock New techniques for best-match retrieval.
+\newblock {\em ACM Transactions on Information Systems}, 8(2):140--158.
+
+\bibitem[Shiffmann et~al., 1994]{Schiffmann:94}
+Shiffmann, W., Joost, M., and Werner, R. (1994).
+\newblock {O}ptimization of the {B}ackpropagation {A}lgorithm for {T}raining
+  {M}ultilayer {P}erceptrons.
+\newblock Technical report, Institute of Physics, University of Koblenz.
+
+\bibitem[Shim, 2001]{Shim:01}
+Shim, J.-Y. (2001).
+\newblock Selective information retrieval from hierarchical associative
+  knowledge learning memory.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~3,
+  pages 1897--1901, Washington DC. {IEEE Press}.
+
+\bibitem[Sleator and Tarjan, 1985]{Sleator:85:SplayTrees}
+Sleator, D. and Tarjan, R. (1985).
+\newblock Self-adjusting binary search trees.
+\newblock {\em Journal of the ACM}, 32(3):652--686.
+
+\bibitem[Smith, 1994]{Smith94}
+Smith, H. (1994).
+\newblock Personal cummunication citing letter sent to smith by a. l. samuel.
+
+\bibitem[Soldan et~al., 2004]{ComputerEngineering2004}
+Soldan, D., Aylor, J., Clements, A., Engel, G., Hoelzeman, R., Hughes, E.~A.,
+  Hughes, J.~L., Impagliazzo, J., Jaeger, R.~C., Klenke, R., Lyon, D.~A.,
+  McGettrick, A., Nelson, V.~P., Neebel, D.~J., Page, I., Peterson, G.~D.,
+  Ranganathan, N., Sloan, R., Srimani, P.~K., Theys, M.~D., Wolf, W., and
+  Varanasi, M. (2004).
+\newblock Computer {E}ngineering: {C}urriculum {G}uidelines for {U}ndergraduate
+  {D}egree {P}rograms in {C}omputer {E}ngineering.
+\newblock Technical report, ACM, IEEE-CS.
+\newblock Last visited June 2004.
+
+\bibitem[Soliz and Donohoe, 1996]{Soliz:96}
+Soliz, P. and Donohoe, G.~W. (1996).
+\newblock Adaptive resonance theory neural network for fundus image
+  segmentation.
+\newblock In NJ:Earlbaum, editor, {\em World Congress on Neural Networks
+  {WCNN'96}}, pages 1180--1183, Hillsdale.
+
+\bibitem[Sousa and Carvalho, 1999a]{Sousa:99a}
+Sousa, H. and Carvalho, A. (1999a).
+\newblock Credit assessment using constructive neural networks.
+\newblock In {\em International Conference on Computational Intelligence and
+  Multimedia Applications.}, pages 40--44. {IEEE Computer Press}.
+
+\bibitem[Sousa and Carvalho, 1999b]{Sousa:99}
+Sousa, H. and Carvalho, A. (1999b).
+\newblock Pattern recongnition using constructive algorithms.
+\newblock In {INNS}, editor, {\em International Joint COnference on Neural
+  Networks}.
+\newblock Printed in CDROM.
+
+\bibitem[Squires and Shavlik, 1991]{Squires:91}
+Squires, C. and Shavlik, J. (1991).
+\newblock Experimental analysis of aspects of the cascade correlation learning
+  archtecture.
+\newblock Technical Report, number 91-1.
+
+\bibitem[Stent, 1973]{Stent:73}
+Stent, G.~S. (1973).
+\newblock A physiological mechanism for {H}ebb's postulate of learning.
+\newblock {\em Proceedings of the National Academy of Sciences}, 70:997--1001.
+
+\bibitem[Stepanov and Lee, 1994]{Stepanov:94:STL}
+Stepanov, A. and Lee, M. (1994).
+\newblock The standard template library.
+\newblock HPL 94-34, HP Labs.
+
+\bibitem[Strang, 1980]{Strang:80}
+Strang, G. (1980).
+\newblock {\em Linear Algebra and its Applications}.
+\newblock Academic Press.
+\newblock 2nd edition.
+
+\bibitem[Stroustrup, 2000]{Stroustrup:2000}
+Stroustrup, B. (2000).
+\newblock {\em The C++ Programming Language (Special Edition)}.
+\newblock Addison-Wesley.
+
+\bibitem[Su and Basu, 2001]{Su:01}
+Su, M. and Basu, M. (2001).
+\newblock Input data clustering to improve neural network performance.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~1,
+  pages 160--165, Washington DC. {IEEE Press}.
+
+\bibitem[Suga, 1985]{Suga85Acustic}
+Suga, N. (1985).
+\newblock The extent to which bisonar information is represented in the bat
+  auditory cortex.
+\newblock In Edelman, G., Gall, W., and Cowan, W., editors, {\em Dynamic
+  Aspects of Neocortical Function}, pages 653--695. New York: Wiley
+  Interscience.
+
+\bibitem[Suganthan, 1999]{Suganthan:99:HONG}
+Suganthan, P. (1999).
+\newblock Hierarchical overlapped {SOM}'s for pattern classification.
+\newblock {\em IEEE Transactions on Neural Networks}, 10(1):193--196.
+
+\bibitem[Sun et~al., 2001]{Sun:01}
+Sun, H., Wang, S., and Jiang, Q. (2001).
+\newblock A new validation index for determining the number of clusters in a
+  data set.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~3,
+  pages 1852--1857, Washington DC. {IEEE Press}.
+
+\bibitem[Suzuki, 1995]{Suzuki:95}
+Suzuki, Y. (1995).
+\newblock Self-organizing {QRS}-wave recognition in {ECG} using neural
+  networks.
+\newblock {\em IEEE Transactions on Neural Networks}, 6(6):1469--1477.
+
+\bibitem[Tenorio and Lee, 1989]{Tenorio:89}
+Tenorio, M.~F. and Lee, W.~T. (1989).
+\newblock Self-organizing neural nets for the identification problem.
+\newblock In {\em Advances in Neural Information Processing Systems}, volume~1.
+
+\bibitem[Tibshirani et~al., 1999]{Tibshirani:99}
+Tibshirani, R., Hastie, T., Eisen, M., Ross, D., Botstein, D., and Brown, P.
+  (1999).
+\newblock Clustering methods for the analysis of dna microarray data.
+\newblock Technical report, Department of Statistics, Stanford University.
+\newblock Technical report.
+
+\bibitem[Tino and Nabney, 2002]{Hierarchical-GTM}
+Tino, P. and Nabney, I. (2002).
+\newblock Hierarchical {GTM}: constructing localized nonlinear projection
+  manifolds in a principled way.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 24(5):639--656.
+
+\bibitem[Topi et~al., 2010]{InformationSystemsCurricula2010}
+Topi, H., Valacich, J.~S., Wright, R.~T., Kaiser, K.~M., {Nunamaker Jr.}, J.,
+  Sipior, J.~C., and de~Vreede, G. (2010).
+\newblock Curriculum guidelines for undergraduate degree programs in
+  information systems.
+\newblock Technical report, ACM Press and AIS Press.
+
+\bibitem[{Traina Jr} and Faloutsos, 2000]{Traina:00:IMiMD}
+{Traina Jr}, C. and Faloutsos, C. (2000).
+\newblock Indexação e mineração de dados multimídia.
+
+\bibitem[{Traina Jr} et~al., 2000a]{Traina00DistanceExponent}
+{Traina Jr}, C., Traina, A., and Faloutsos, C. (2000a).
+\newblock Distance {E}xponent: {A} {N}ew {C}oncept for {S}electivity
+  {E}stimation in {M}etric {T}rees.
+\newblock In {\em International COnference on Data Engineering (ICDE)}, page
+  195, San Diego, CA.
+
+\bibitem[{Traina Jr} et~al., 2002]{Traina:2002:Pruning}
+{Traina Jr}, C., Traina, A. J.~M., Filho, R. F.~S., and Faloutsos, C. (2002).
+\newblock {H}ow to {I}mprove the {P}runing {A}bility of {D}ynamic {M}etric
+  {A}ccess {M}ethods.
+\newblock In {\em ACM International Conference on Information and Knowledge
+  Management, 11th}, pages 219--226.
+
+\bibitem[{Traina Jr} et~al., 2000b]{Traina00SlimTree}
+{Traina Jr}, C., Traina, A. J.~M., Seeger, B., and Faloutsos, C. (2000b).
+\newblock {S}lim-{T}rees: {H}igh {P}erformance {M}etric {T}rees {M}inimizing
+  {O}verlap between {N}odes.
+\newblock In {\em Advances in Database Technology - EDBT 2000, 6th
+  International Conference on Extending Database Technology}, volume 1777 of
+  {\em Lecture Notes in Computer Science}, pages 51--65, Konstanz, Germany.
+  Springer.
+
+\bibitem[Troelsen, 2000]{ATL:00}
+Troelsen, A. (2000).
+\newblock {\em Developer\'s Workshop to COM and ATL 3.0}.
+\newblock Wordware Publishing.
+
+\bibitem[Uhlmann, 1991a]{Uhlmann:91:MetricTree}
+Uhlmann, J. (1991a).
+\newblock Implementing metric trees to satisfy general/proximity queries.
+\newblock Manuscript.
+
+\bibitem[Uhlmann, 1991b]{Uhlmann:91:GHT}
+Uhlmann, J. (1991b).
+\newblock {S}atisfying {G}eneral {P}roximity/{S}imilarity {Q}ueries with
+  {M}etric {T}rees.
+\newblock {\em Information Processing Letter}, 40:175--179.
+
+\bibitem[Ultsch, 1993a]{Ultsch:93a:UMatrix}
+Ultsch, A. (1993a).
+\newblock {K}nowledge {E}xtraction from {S}elf-{O}rganizing {N}eural
+  {N}etworks.
+\newblock In et~al., O.~O., editor, {\em Information and Classification}, pages
+  301--306. Springer, Berlin.
+
+\bibitem[Ultsch, 1993b]{Ultsch:93b:UMatrix}
+Ultsch, A. (1993b).
+\newblock {S}elf-{O}rganizing {N}eural {N}etworks for {V}isualization and
+  {C}lassification.
+\newblock In et~al., O.~O., editor, {\em Information and Classification}, pages
+  307--313. Springer, Berlin.
+
+\bibitem[Valdez et~al., 2006]{CIPInforme2006}
+Valdez, J., López, A.~S., Pacheco, G., Medic, L., Junes, N.~H., Dávila, A., and
+  Cuadros-Vargas, E. (2006).
+\newblock Denominaciones y perfiles de las carreras de ingeniería de sistemas,
+  computación e informática.
+\newblock Technical report, Colegio de Ingenieros del Perú.
+
+\bibitem[van~der Merwe et~al., 2001]{Merwe:01}
+van~der Merwe, N., Hoffman, A., Stander, C., and Heyns, S. (2001).
+\newblock A nearest neighbour rule with class membership (nnrc) for modelling
+  problems.
+\newblock In {\em International Joint COnference on Neural Networks}, volume~3,
+  pages 2104--2109, Washington DC. {IEEE Press}.
+
+\bibitem[Vargas et~al., 1998]{Vargas:98c}
+Vargas, E., Álvarez, M., and de~Carvalho, A. (1998).
+\newblock {M}ulti-{T}hreads {O}bject {O}riented {S}imulator for {O}ntogenic
+  {N}eural {N}etworks.
+\newblock In Scientific, W., editor, {\em International Conference on
+  Computational Intelligence and Multimedia Applications}, pages 276--281.
+
+\bibitem[Verbarg, 1995]{Verbarg95CTree}
+Verbarg, K. (1995).
+\newblock {T}he {C}-{T}ree a dinamically balanced index.
+\newblock {\em Computing Suppl.}, 10:323--340.
+
+\bibitem[Vesanto, 2000]{Vesanto:00}
+Vesanto, J. (2000).
+\newblock Using som in data mining.
+\newblock Master's thesis, Department of Computer Science and Engineering,
+  Helsinki University, Helsinki, Finland.
+
+\bibitem[Vicentini, 2002]{Vicentini:02:MSc}
+Vicentini, J.~F. (2002).
+\newblock {I}ndexação e {R}ecuperação de {I}nformação utilizando {R}edes
+  {N}eurais da {F}amília {ART}.
+\newblock Master's thesis, ICMC- University of Sao Paulo, São Carlos-SP,
+  Brasil.
+
+\bibitem[Vicentini and Romero, 2003]{Vicentini:03:LAPTEC}
+Vicentini, J.~F. and Romero, R. A.~F. (2003).
+\newblock {U}tilização de {R}edes {N}eurais da {F}amília {ART} para {I}ndexação
+  e {R}ecuperação de {I}nformações.
+\newblock In Torre, G.~L., Abe, J.~M., Mucheroni, M.~L., and Cruvinel, P.~E.,
+  editors, {\em Congress of Logic Applied to Technology (LAPTEC'2003), 4th},
+  volume~II, pages 195--202, Marilia-SP. Plêiade.
+
+\bibitem[Vidal, 1986]{Vidal:86:kNN}
+Vidal, E. (1986).
+\newblock An algorithm for finding nearest neighbors in (approximately)
+  constant average time.
+\newblock {\em Pattern Recognition Letters}, 4:145--157.
+
+\bibitem[Villmann et~al., 1997]{Villmann:97}
+Villmann, T., Der, R., Hermann, M., and Martinetz, M. (1997).
+\newblock Topology preservation in self-organizing feature maps: Exact
+  definition and measurement.
+\newblock {\em IEEE Transactions on Neural Networks}, 8(1):256–--266.
+
+\bibitem[Voronoi, 1907]{Voronoi:07}
+Voronoi, G.~F. (1907).
+\newblock Nouvelles applications des paramètres continus à la théorie des
+  formes quadratiques.
+\newblock {\em J. Reine Angew, Math}, 1(133):97--178.
+
+\bibitem[Wactlar et~al., 1999]{Wactlar:99:Informedia}
+Wactlar, H.~D., Christel, M.~G., Gong, Y., and Hauptmann, A.~G. (1999).
+\newblock Lessons learned from building a terabyte digital video library.
+\newblock {\em IEEE Computer}, 32(2):66--73.
+
+\bibitem[Wactlar et~al., 1996]{Wactlar:96:Informedia}
+Wactlar, H.~D., Kanade, T., Smith, M.~A., and Stevens, S.~M. (1996).
+\newblock Intelligent access to digital video: Informedia project.
+\newblock {\em IEEE Computer}, 29(5):46--52.
+
+\bibitem[Waibel et~al., 1989]{Waibel89TDNN}
+Waibel, A., Hanazawa, T., Hinton, G., Shikano, K., and Lang, K. (1989).
+\newblock Phoneme recognition using time-delay neural networks.
+\newblock {\em IEEE Transactions on Acoustics, Speech and Signal Processing},
+  ASSP-37:328--339.
+
+\bibitem[Waldherr et~al., 1998]{Waldherr:98}
+Waldherr, S., Thrun, S., and Romero, R. (1998).
+\newblock A neural-network based approach for recognition of pose and motion
+  gestures on a mobile robot.
+\newblock In {IEEE Computer Press}, editor, {\em Brazilian Symposium on Neural
+  Networks, Vth}, pages 79--84.
+
+\bibitem[Wang et~al., 2000]{Wang:2000:MetricMap}
+Wang, J. T.-L., Wang, X., Lin, K.-I., Shasha, D., Shapiro, B., and Zhang, K.
+  (2000).
+\newblock {A}n {I}ndex {S}tructure for {D}ata {M}ining and {C}lustering.
+\newblock {\em Knowledge and Information Systems}, 2:161--184.
+
+\bibitem[Waxman et~al., 1993]{Waxman:93}
+Waxman, A., Seibert, M., Bernardon, A., and Fay, D. (1993).
+\newblock Neural systems for automatic target learning and recognition.
+\newblock {\em The Licoln Laboratory Journal}, 6(1):77--116.
+
+\bibitem[Waxman et~al., 1995]{Waxman:95}
+Waxman, A.~M., Seibert, M.~C., Gove, A., Fay, D.~A., Bernardon, A.~M., Lazott,
+  C., Steele, W.~R., and Cunningham, R.~K. (1995).
+\newblock Neural processing of targets in visible, multispectral {IR} and {SAR}
+  imagery.
+\newblock {\em Neural Networks}, 8(7-8):1029--1051.
+
+\bibitem[Webster, 1980]{Webster:90:LRU}
+Webster, R. (1980).
+\newblock B+ trees.
+\newblock Master's thesis, {O}klahoma {S}tate {U}niversity.
+
+\bibitem[Willshaw and von~der Malsburg, 1976]{Willshaw:76}
+Willshaw, D. and von~der Malsburg, C. (1976).
+\newblock How pattern neural connections can be set up by self-organization.
+\newblock In {\em Royal Society of London}, volume 194 of {\em B}, pages
+  431--445.
+
+\bibitem[Wilson and Martinez, 1997]{Wilson:97}
+Wilson, D.~R. and Martinez, T.~R. (1997).
+\newblock Improved heterogeneous distance functions.
+\newblock {\em Journal of Artificial Intelligence Research}, 6:1--34.
+
+\bibitem[Wilson and Martinez, 2001]{Wilson:01}
+Wilson, D.~R. and Martinez, T.~R. (2001).
+\newblock The need for small learning rates on large problems.
+\newblock {\em Proceedings. IJCNN '01. International Joint Conference on Neural
+  Networks}, 1:115 --119.
+
+\bibitem[Woolsey, 1958]{Woolsey:58}
+Woolsey, C.~N. (1958).
+\newblock Organization of somatic sensory and motor areas of the cerebral
+  cortex.
+\newblock In Harlow and Woolsey, editors, {\em Biological and biochemical bases
+  of behaviour}, pages 63--81, Madison. University Wisconsin Press.
+
+\bibitem[Woolsey and Walzl, 1942]{Woolsey:42}
+Woolsey, C.~N. and Walzl, E.~M. (1942).
+\newblock Topical projection of nerve fibers from local regions of the cochlea
+  to the cerebral cortex of the cat.
+\newblock {\em Bulletin of Johns Hopkins Hospital}, 71:315--344.
+
+\bibitem[xxauthor, YEAR]{mybook}
+xxauthor (xxYEAR).
+\newblock {\em xxTITLE}, volume xxvolume of {\em xxseries}.
+\newblock xxPUBLISHER, xxaddress, xxedition edition.
+\newblock xxnote.
+
+\bibitem[xxAUTHOR, year]{myunpublished}
+xxAUTHOR (xxyear).
+\newblock xxtitle.
+\newblock xxNOTE.
+
+\bibitem[xxAuthor, year]{mymisc}
+xxAuthor (xxyear).
+\newblock xxtitle.
+\newblock xxHowpublished.
+\newblock xxnote.
+
+\bibitem[xxeditor, Year]{myproceedings}
+xxeditor, editor (xxYear).
+\newblock {\em xxTitle}, volume xxvolume of {\em xxseries}, xxaddress.
+  xxorganization, xxpublisher.
+\newblock xxnote.
+
+\bibitem[Yamakawa, 2003]{Yamakawa:DB-Of-SOM-Based-Articles}
+Yamakawa, T. (2003).
+\newblock Database of {S}elf-{O}rganizing {M}aps {P}apers.
+
+\bibitem[Yang and Honavar, 1998]{Yang:98}
+Yang, J. and Honavar, V. (1998).
+\newblock {E}xperiments with the {C}ascade {C}orrelation {A}lgorithm.
+\newblock Technical report, Department of Computer Science, Iowa State
+  University.
+
+\bibitem[Yianilos, 1993]{Yianilos:93}
+Yianilos, P.~N. (1993).
+\newblock {D}ata {S}tructures and {A}lgorithms for {N}earest {N}eighbor
+  {S}earch in {G}eneral {M}etric {S}paces.
+\newblock {\em 4th ACM SIAM Symposium on Discrete Algorithms (SODA'93)}, pages
+  311--321.
+\newblock Austin.
+
+\bibitem[Yianilos, 1998]{Yianilos98VPF}
+Yianilos, P.~N. (1998).
+\newblock {E}xcluded {M}iddle {V}antage {P}oint {F}orests for {N}earest
+  {N}eighbor {S}earch.
+\newblock Technical report, NEC Research Institute, Princeton.
+
+\bibitem[Yianilos, 1999]{Yianilos:99}
+Yianilos, P.~N. (1999).
+\newblock Excluded middle vantage point forest for nearest neighbor search.
+\newblock In {\em {DIMACS} Implementation Challenge (ALENEX'99)}, Baltimore,
+  MD.
+
+\bibitem[Yianilos, 2000]{yianilos00locally}
+Yianilos, P.~N. (2000).
+\newblock Locally lifting the curse of dimensionality for nearest neighbor
+  search.
+\newblock In {\em ACM-SIAM Symposium on Discrete Algorithms (SODA'00), 11th},
+  pages 361--370.
+
+\bibitem[Young and Downs, 1998]{Young:98}
+Young, S. and Downs, T. (1998).
+\newblock Carve - a constructive algorithm for real-valued examples.
+\newblock {\em {IEEE} Transactions on Neural Networks}, 9(6):1180--1190.
+
+\bibitem[Zell, 1995]{Zell:95}
+Zell, A. (1995).
+\newblock {SNNS} - {S}tuttgart {N}eural {N}etwork {S}imulator {U}ser {M}anual
+  {V}ersion 4.1.
+\newblock Technical Report~6, University of Stuttgart.
+
+\bibitem[Zezula et~al., 1996]{ZCR96}
+Zezula, P., Ciaccia, P., and Rabitti, F. (1996).
+\newblock {M}-{T}ree: {A} {D}ynamic {I}ndex for {S}imilarity {Q}ueries in
+  {M}ultimedia {D}atabases.
+\newblock Technical Report~7, {HERMES} {ESPRIT} {LTR} Project.
+
+\bibitem[Zezula et~al., 1998a]{ZSA+98}
+Zezula, P., Savino, P., Amato, G., , and Rabitti, F. (1998a).
+\newblock {A}pproximate {S}imilarity {R}etrieval with {M}-{T}rees.
+\newblock {\em The {VLDB} Journal}, 7(4):275--293.
+
+\bibitem[Zezula et~al., 1998b]{ZSR+98}
+Zezula, P., Savino, P., Rabitti, F., Amato, G., and Ciaccia, P. (1998b).
+\newblock {P}rocessing {M}-{T}rees with {P}arallel {R}esources.
+\newblock In {\em International Workshop on Research Issues in Data Engineering
+  ({RIDE'98}), 8th}, pages 147--154, Orlando, FL.
+
+\end{thebibliography}

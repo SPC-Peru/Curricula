@@ -1,0 +1,22 @@
+#!/bin/csh
+# ./scripts/gen-malla.pl UCSP,SPC final CS
+# ./scripts/gen-eps-files CS UCSP
+./scripts/update-page-numbers CS UCSP
+./scripts/gen-graph CS UCSP big
+
+set inf  = computing-poster    # file1 (tex)
+set outf = CS-UCSP-poster      # file2 (pdf)
+
+rm $inf.tex $inf.ps $inf.dvi $inf.aux  $inf.log
+cp generate/$inf.tex .
+latex $inf
+latex $inf
+latex $inf
+
+#dvips -Ppdf -j0 -u ps2pk.map -G0 -p 2 $inf.dvi -o
+dvips -Pa0 -j0 -G0 -p 2 $inf.dvi -o
+ps2pdf -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -dSubsetFonts=false $inf.ps pdfs/$outf.pdf
+
+cp $inf.ps pdfs/$outf.ps
+rm $inf.tex $inf.dvi $inf.aux  $inf.log
+rm $inf.ps

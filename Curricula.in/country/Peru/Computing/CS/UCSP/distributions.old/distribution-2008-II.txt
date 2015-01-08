@@ -1,0 +1,76 @@
+% Primer Semestre.
+% CS105. Estructuras Discretas I (Obligatorio)
+CS105->luzmarina.vasquez@gmail.com,yamis940@gmail.com
+% CB101. Álgebra y Geometría (Obligatorio)
+CB101->haydect@gmail.com,anitagmamani@gmail.com,xortix@gmail.com
+% HU103. Introducción a la Vida universitaria (Obligatorio)
+HU103->zneyra@ucsp.edu.pe
+CS101F->apaz@ucsp.edu.pe,evidal@hotmail.com
+
+% Segundo Semestre.
+% CS100. Introducción a la Ciencia de la Computación (Obligatorio)
+CS100->ecuadros@spc.org.pe
+% CS101O. Introducción a la Programación Orientada a Objetos (Obligatorio)
+CS101O->criloal23@gmail.com,yamis940@gmail.com,grasmelo@gmail.com,patomc3@gmail.com
+% CS106. Estructuras Discretas II (Obligatorio)
+CS106->mercapto_one@hotmail.com,abigail@spc.org.pe
+% CB102. Análisis Matemático I (Obligatorio)
+CB102->luzmarina.vasquez@gmail.com
+
+% Tercer Semestre.
+% CS102O. Objetos y Abstracción de Datos (Obligatorio)
+CS102O->criloal23@gmail.com,cjdelgado@ucsp.edu.pe
+% CB103. Análisis Matemático II (Obligatorio)
+CB103->anitagmamani@gmail.com
+% CB111. Física I (Obligatorio)
+CB111->jtejada@ucsp.edu.pe
+% HU201. Artes Plásticas (Electivo)
+HU201->maria_alejandra@cuzzi.net
+
+% Cuarto Semestre.
+% CS103O. Algoritmos y Estructuras de Datos (Obligatorio)
+CS103O->criloal23@gmail.com,grasmelo@gmail.com
+% CS211T. Teoría de la Computación (Obligatorio)
+CS211T->wilber20@gmail.com
+% CB203. Estadística y Probabilidades (Obligatorio)
+CB203->jfloresenator@gmail.com
+% CB201. Análisis Matemático III (Obligatorio)
+CB201->osorioaqp@gmail.com,luzmarina.vasquez@gmail.com
+
+% Quinto Semestre.
+% CS210T. Análisis y Diseño de Algoritmos (Obligatorio)
+CS210T->criloal23@gmail.com,cjdelgado@ucsp.edu.pe
+% CS220T. Arquitectura de Computadores (Obligatorio)
+CS220T->l.lenin@ucsp.edu.pe
+% CS270T. Bases de Datos I (Obligatorio)
+CS270T->rtherrera@ucsp.edu.pe
+
+% Sexto Semestre.
+% CS315. Estructuras de Datos Avanzadas (Obligatorio)
+CS315->ecuadros@spc.org.pe
+% CS271T. Bases de Datos II (Obligatorio)
+CS271T->anamariacuadros@gmail.com
+% CS260. Lógica Computacional (Obligatorio)
+CS260->wilber20@gmail.com
+CS391->ezarate@egasa.com.pe
+
+% Séptimo Semestre.
+% CS255. Computación Gráfica (Obligatorio)
+CS255->ej.tejada@googlemail.com
+% CS401. Proyecto I (Obligatorio)
+CS401->grasmelo@gmail.com,apaz@ucsp.edu.pe
+
+% Octavo Semestre.
+% CS402. Proyecto II (Obligatorio)
+CS402->jcgutierrezc@gmail.com
+
+% Noveno Semestre.
+% CS230W. Computación Centrada en Redes I (Obligatorio)
+CS230W->l.lenin@ucsp.edu.pe
+% CS403. Proyecto de Tesis (Obligatorio)
+CS403->cjdelgado@ucsp.edu.pe,jcgutierrezc@gmail.com
+
+% Décimo Semestre.
+% CS404. Seminario de Tesis (Obligatorio)
+CS404->ecuadros@spc.org.pe,ej.tejada@googlemail.com,jcgutierrezc@gmail.com
+

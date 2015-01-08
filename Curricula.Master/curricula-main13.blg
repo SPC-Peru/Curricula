@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: curricula-main13.aux
+The style file: apalike.bst
+Database file #1: /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG112.bib
+Warning--empty year in Concilio
+Warning--empty publisher in Concilio
+Warning--empty publisher in Pontificio
+Warning--empty publisher in SantaSede
+Warning--empty year in JuanPabloII
+Warning--empty publisher in JuanPabloII
+You've used 8 entries,
+            1935 wiz_defined-function locations,
+            512 strings with 4551 characters,
+and the built_in function-call counts, 2197 in all, are:
+= -- 192
+> -- 56
+< -- 8
++ -- 16
+- -- 16
+* -- 144
+:= -- 405
+add.period$ -- 20
+call.type$ -- 8
+change.case$ -- 40
+chr.to.int$ -- 8
+cite$ -- 14
+duplicate$ -- 112
+empty$ -- 185
+format.name$ -- 24
+if$ -- 425
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 16
+newline$ -- 39
+num.names$ -- 24
+pop$ -- 72
+preamble$ -- 1
+purify$ -- 48
+quote$ -- 0
+skip$ -- 77
+stack$ -- 0
+substring$ -- 96
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 6
+while$ -- 16
+width$ -- 0
+write$ -- 88
+(There were 6 warnings)

@@ -1,0 +1,628 @@
+# latex2html init file for the REALSIMPLE project
+##############################################################################/
+# 
+# VERSION CONTROL INFORMATION:
+#
+# $Author: jos $
+# 
+# $Date: 2006-12-16 12:43:49 -0800 (Sat, 16 Dec 2006) $
+#
+# $Rev: 84 $
+#
+# Created 8/30/06 by jos for REALSIMPLE project (copy/edit of personal version)
+#
+##############################################################################/
+
+$SCALABLE_FONTS = 1;    # => PK_GENERATION=1; DVIPS_MODE="";
+$BOTTOM_NAVIGATION = 1; # override default
+$AUTO_NAVIGATION = 0;   # override default
+$ANTI_ALIAS = 1;
+$STYLESHEET = "../realsimple.css";
+$ICONSERVER = '../icons';
+$MATH_SCALE_FACTOR = 1.6; # default = 1.6, I think
+$DISP_SCALE_FACTOR = 1; # extra scaling for displayed eqns (default = 1)
+$FIGURE_SCALE_FACTOR = 1.4; # default = 1.6 -- SEEMS TO HAVE NO EFFECT
+$TRANSPARENT_FIGURES = 0; # default = 1
+$WHITE_BACKGROUND = 1; # default = 0
+$BELOW_DISPLAY_SPACE = ""; # Inhibit <P></P> after displayed equations
+$DVIPS = "dvips";
+$TMP = '/tmp'; # root dir for temp images
+$PAPERSIZE = "letter"; # ($width=612)
+$NO_SIMPLE_MATH = 1; # pro mode or exper mode
+$NO_MATH_PARSING = 1; # pro mode - apparently unused by l2h these days
+$WORDS_IN_NAVIGATION_PANEL_TITLES = 12; # default = 4
+#FIXME: This one seems to be undocumented:
+$WORDS_IN_INDEX = 25; # default = 4
+$SHORT_INDEX = 1; # make one-line index entries
+$LONG_TITLES = 4; # Up to four non-generic words of section name
+
+# STDADDRESS USAGE:
+# 
+# $ADDRESS = "<A HREF=\"<Title-linked-to-online-doc\"></A><BR>\n
+#	    <Authors-linked-to-home-pages><BR>\n
+#	    <Journal, pages, Publisher, Address, year.><BR>\n"
+#	    . $STDADDRESS
+#
+# STDADDRESS USAGE EXAMPLE:
+# 
+# $ADDRESS = "<A href=\"http://ccrma.stanford.edu/~jos/src/src.htm\">
+# Bandlimited Interpolation --- Introduction and Algorithm</A><BR>\n
+# Proc., IEEE International Conference on Acoustics, Speech, 
+# and Signal Processing, (ICASSP), San Diego, 1984.<BR>\n" . $STDADDRESS;
+
+$STANFORDHOME = "http://www.stanford.edu";
+$WGLNHOME = "http://www.wgln.org/";
+$REALSIMPLEHOME = "http://ccrma.stanford.edu/realsimple";
+$CCRMAHOME = "http://ccrma.stanford.edu";
+$CCRMAPUBSHOME = "http://ccrma.stanford.edu/overview/publications.html";
+$JOSHOME = "http://ccrma.stanford.edu/&#126;jos";
+
+$STANFORD = "<A href=$STANFORDHOME\"> Stanford University</A>";
+$REALSIMPLE =    "<A href=\"$REALSIMPLEHOME\"> REALSIMPLE</A>";
+$CCRMA =   "<A href=\"$CCRMAHOME\"> CCRMA</A>";
+$JOS =    "<A href=\"" . $JOSHOME .    "/\"> Julius O. Smith III</A>";
+$JOSS = "<A href=\"" . $JOSHOME .      "/\"> Julius Smith</A>";
+$JOSSHORT = "<A href=\"" . $JOSHOME . "/\"> JOS</A>";
+$JOSEMAIL = "<A href=\"http://www.w3k.org/cgi-bin/register.cgi?email_jos\">jos_email.html</A>";
+
+$CCLHOME = "http://creativecommons.org/licenses/by/2.5/";
+$CCL = "<A href=\"" . $CCLHOME . "/\"> Creative Commons License</A>";
+
+$STDUPDATENOTICE = ($RELEASE ? 
+		    "Released <I>$address_data[1]</I> under the $CCL" 
+		    : "Copyright &#169; <I>$address_data[1]</I>");
+
+sub make_updatenotice {
+    return($STDUPDATENOTICE . ", by " 
+	   . ($DOCAUTHORS ? $DOCAUTHORS :  $JOS . "<" . $JOSEMAIL . ">" ));
+}
+
+$STDADDRESSNONAME = "<A href=\"http://ccrma.stanford.edu/\">
+	Center for Computer Research in Music and Acoustics (CCRMA),</A>
+&nbsp;
+<A href=\"http://www.stanford.edu/\"> Stanford University</A><BR>
+<A HREF=\"http://ccrma.stanford.edu/\">
+	<IMG ALIGN=\"MIDDLE\" SRC=../icons/CCRMALogoSmall.gif alt=\"CCRMA\"></A>\n";
+
+$STDADDRESS = "<HR>" . $STDUPDATENOTICE . "<BR>\n" . $STDADDRESSNONAME;
+
+$DOCPUBINFO = "$REALSIMPLE Project &mdash; work supported by the $WGLN\n";
+
+sub make_doc_address {
+    $ADDRESS = "<HR>" . 
+	($NOHARDCOPIES? "" : 
+	 "Download " . &make_doc_pdf_href . "<BR>\n" .
+# Moving to PDF-only:
+#	 "Download " . &make_doc_ps_href . "<BR>\n" .
+	 ($OFFER2UP?
+	  "Download " . &make_doc_pdf_2up_href . "<BR>\n"  
+#	  ."Download " . &make_doc_ps_2up_href . "<BR>\n" 
+	  : "") .
+	 ($OFFER4UP?
+	  "Download " . &make_doc_pdf_4up_href . "<BR>\n"
+#	  ."Download " . &make_doc_ps_4up_href . "<BR>\n"
+	  : "")
+	 ) .
+	 "<HR>" . 
+	"<H5>" .
+	&make_docdir_href . ",\n " . # DOC TITLE
+	"by " . $DOCAUTHORS .
+	($DOCPUBINFO? ",<BR>\n " . $DOCPUBINFO : "") . ".<BR>\n" . 
+	      &make_updatenotice . "<BR>\n" . $STDADDRESSNONAME . 
+	      "</H5>\n" .
+#
+# Javascript inclusion for tooltip support
+#
+	"\n<script language=\"JavaScript\" type=\"text/javascript\" src=\"../wz_tooltip.js\"></script>";
+
+# PROBLEM: $BASE BREAKS FIGURE LINKS (file name becomes index.html).
+#          However, it's needed when redirecting a URL via symlinks.
+#    $BASE = &make_docdir_url . "index.html";
+    return $ADDRESS;
+}
+
+sub make_docdir_url {
+    $DOCURL = ($JOSHOME . "/" . $DOCDIR . "/");
+}
+
+sub make_docdir_href {
+    # Assumes $DOCDIR, $DOCTITLE and $JOSHOME are defined
+    $DOCHREF = "``<A HREF=\"" . &make_docdir_url . "\">" .
+	$DOCTITLE . "</A>''";
+}
+
+sub make_doc_ps_href {
+    $DOCPSHREF = 
+	"<A HREF=\"./" . $DOCDIR . ".ps.gz\"> " .
+	"compressed PostScript (" . $DOCDIR . ".ps.gz)</A>";
+}
+
+sub make_doc_ps_2up_href {
+    $DOCPS2UPHREF = 
+	"<A HREF=\"./" . $DOCDIR . "_2up.ps.gz\"> " .
+	"compressed PostScript `2-up' (" . $DOCDIR . "_2up.ps.gz)</A>";
+}
+
+sub make_doc_ps_4up_href {
+    $DOCPS4UPHREF = 
+	"<A HREF=\"./" . $DOCDIR . "_4up.ps.gz\"> " .
+	"compressed PostScript `4-up' (" . $DOCDIR . "_4up.ps.gz)</A>";
+}
+
+sub make_doc_pdf_href {
+    $DOCPSHREF = 
+	"<A HREF=\"./" . $DOCDIR . ".pdf\"> " . 
+	$DOCDIR . ".pdf</A>";
+}
+
+sub make_doc_pdf_2up_href {
+    $DOCPSHREF = 
+	"<A HREF=\"./" . $DOCDIR . "_2up.pdf\"> " .
+	$DOCDIR . "_2up.pdf</A>";
+}
+
+sub make_doc_pdf_4up_href {
+    $DOCPSHREF = 
+	"<A HREF=\"./" . $DOCDIR . "_4up.pdf\"> " . 
+	$DOCDIR . "_4up.pdf</A>";
+}
+
+sub make_doc_stdaddress {
+    $STDADDRESS = "<HR>" . 
+	"Download " . 
+	&make_doc_pdf_href . 
+	&make_updatenotice . "<BR>\n" . $STDADDRESSNONAME;
+}
+
+#Prv: <IMG SRC=" . $ICONSERVER . "/CCRMA-Logo.gif alt=\"CCRMA\"></A>\n";
+
+# -address
+# Supply your own string if you don't like the default <Name> <Date>
+# $ADDRESS = "<I>$address_data[0]</I>\n<BR><I>$address_data[1]</I>" 
+#            . $STDADDRESS;
+$ADDRESS = $STDADDRESS;
+
+$gtocfile = "../index.html";
+
+sub common_navigation_panel {
+
+    $docname = $DOCDIR . ".html";
+    $doctop = &make_docdir_url . $docname;
+
+    $NEED_UP = $UP_TITLE; # Set when there is an 'up' (all but top level)
+    $UP_TITLE =~ m/HREF=\"([^\"]+)\"/; #"
+    $UP_FILE = $1;
+    $PREVIOUS_TITLE =~ m/HREF=\"([^\"]+)\"/; #"
+    $PRV_FILE = $1;
+
+    # $PREVIOUS_TITLE is set after 1st page (when there is a 'previous')
+    $NEED_PREVIOUS = $PREVIOUS_TITLE && ($PRV_FILE ne $docname);
+
+    $NEED_DOCTOP = ($doctop !~ m!$UP_FILE$!);
+    $NEED_DOCTOP = $NEED_DOCTOP && ($file ne "Welcome.html"); # Already here!
+    $NEED_DOCTOP = $NEED_DOCTOP && ($file ne "index.html"); # NOT Index.html
+    $NEED_DOCTOP = $NEED_DOCTOP && ($file ne "$DOCDIR.html");
+
+# FIXME: Need also to disable DOCTOP when it equals current page!
+
+    my $DOCTITLE_NAV = $DOCTITLE;
+    $DOCTITLE_NAV =~ s/\s+/ /g;
+	
+    if ($doctop =~ m!$UP_FILE$!) {
+	$UP_TITLE = "<A HREF=\"$UP_FILE\" onMouseover=\"return escape(\'$DOCTITLE_NAV\')\"><STRONG>Doc Top</STRONG></A>";
+	$NEED_UP = 0;
+	$NEED_DOCTOP = 1; # Don't need both
+    }
+
+    # If ``next'' section exists, add its title to the navigation panel
+
+#----------- Install mouseOver popup in navigation buttons:
+
+if ($NEXT_TITLE) { $NEXT_TITLE_NAV = &navLink($NEXT_TITLE,'Next'); }
+if ($NEED_PREVIOUS) { $PREVIOUS_TITLE_NAV = &navLink($PREVIOUS_TITLE,'Prev'); }
+if ($NEED_UP) { $UP_TITLE_NAV = &navLink($UP_TITLE,'Up'); }
+if ($INDEX_LINK) { # Must be idempotent (called twice for upper and lower nav)
+    $INDEX_LINK =~ s!HREF="Index.html">Index</A>! 
+ HREF="Index.html"\n
+ onMouseover=\"return escape(\'Index: $DOCTITLE_NAV\')\">Index</A>!;
+}
+
+#----------- DOIT ------------
+
+	"<STRONG>\n"
+        . ($NEXT_TITLE ? "$NEXT_TITLE_NAV &nbsp;|&nbsp;\n" : undef)
+	. ($NEED_PREVIOUS ? "$PREVIOUS_TITLE_NAV &nbsp;|&nbsp;\n" : undef)
+	. ($NEED_UP ? "$UP_TITLE_NAV &nbsp;|&nbsp;\n" : undef)
+	. ($CONTENTS_LINK ? 
+	   "<A HREF=\"$tocfile\">Contents</A>&nbsp;|&nbsp;\n":undef)
+	. ($NEED_DOCTOP ? 
+	   "<A HREF=\"$doctop\" 
+ onMouseover=\"return escape(\'$DOCTITLE_NAV\')\">Top</A> 
+		&nbsp;|&nbsp;\n" :undef)
+	. ($INDEX_LINK ? "$INDEX_LINK &nbsp;|&nbsp;\n":undef)
+        ."<A HREF=\"$REALSIMPLEHOME\"
+ onMouseover=\"return escape(\'CCRMA Wiki\')\">REALSIMPLE Top</A> 
+		&nbsp;|&nbsp;\n"
+        ."<A HREF=\"http://cm-wiki.stanford.edu/\"
+ onMouseover=\"return escape(\'CCRMA Wiki\')\">CCRMA Wiki</A> &nbsp;|&nbsp;\n"
+	. " <A HREF=\"$CCRMAPUBSHOME\"
+ onMouseover=\"return escape(\'CCRMA Online Publications\')\">CCRMA Pubs</A> &nbsp;|&nbsp;\n"
+	. "<A HREF=\"$CCRMAHOME\"
+ onMouseover=\"return escape(\'CCRMA Home Page\')\">CCRMA Home</A> &nbsp;|&nbsp;\n"
+        . "<A HREF=\"$JOSHOME/index.html#searchform\"
+ onMouseover=\"return escape(\'Search JOS Website, CCRMA Website, or the Web\')\">Search</A>\n"
+	. "</STRONG>"
+  }
+
+sub top_navigation_panel {
+    "<!--Navigation Panel-->\n"
+	. &common_navigation_panel
+	. "\n<HR>\n";
+}
+
+sub bot_navigation_panel {
+    "<HR>\n" . "<!--Navigation Panel-->"
+	. &common_navigation_panel;
+}
+
+# &normalizePopupText($text);
+sub normalizePopupText {
+    my $text = shift;
+
+    return $text;
+}
+
+# $newlink = &navLink($oldlink,$name);
+sub navLink {
+    my $oldlink = shift;
+    my $name = shift;
+#   print "\n=== \nOriginal \$oldlink = '$oldlink'\n";
+    $oldlink =~ m!>\s*(.+)\s*</A>!;
+    $text = &normalizePopupText($1);
+#   print "Normalized oldlink \$text = $text\n";
+    my $newlink = $oldlink;
+    $newlink =~ s!>\s*(.+)\s*</A>! 
+ onMouseover=\"return escape(\'$text\')\">$name</A>!;
+#    print "newlink = $newlink\n";
+    return $newlink;
+}
+
+# Override next,previous,up,down icon sizes
+# (Images are overridden by providing a local icon directory containing them.)
+# See /l/l2h/l2hconf.pin
+$iconsizes{'up'} = 'WIDTH="20" HEIGHT="20"';
+$iconsizes{'next'} = 'WIDTH="20" HEIGHT="20"';
+$iconsizes{'previous'} = 'WIDTH="20" HEIGHT="20"';
+
+$LINKNAME = '"index$EXTN"';
+
+# Append my own info to the default info (slightly edited):
+# NOTE: Absolute webpubaddress needed by example documents in webpub itself
+$WEBPUBADDRESS = "http://ccrma.stanford.edu/%7Ejos/webpub";
+$WEBPUBFULL = "http://ccrma.stanford.edu/&#126;jos/webpub";
+# Need to build page rank since we have competition now:
+$ODADDRESS = "http://www.opendictionary.org";
+
+$INFO = join(''
+	     , "<STRONG>$t_title</STRONG><P>\nThis document was generated using the\n"
+	     , "<A HREF=\"$TEX2HTMLADDRESS\"><font color=\"blue\"><STRONG>LaTeX</STRONG>2<tt>HTML</tt></font></A>"
+	     , " translator Version <A HREF=\"$WEBPUBFULL/latex2html-2Kp1-beta.tar.gz\">$TEX2HTMLVERSION(patched)</A>\n"
+	     , "<P>Copyright &#169; 1993, 1994, 1995, 1996,\n"
+#	     , "<A HREF=\"$AUTHORADDRESS\"><font color=\"blue\">Nikos Drakos</font></A>, \n"
+	     , "Nikos Drakos, \n"
+	     , "Computer Based Learning Unit, University of Leeds.\n"
+	     , "<BR>Copyright &#169; 1997, 1998, 1999, 2000\n"
+	     , "<A HREF=\"$AUTHORADDRESS2\"><font color=\"blue\">Ross Moore</font></A>, \n"
+	     , "Mathematics, Sydney.\n"
+	     , "<UL>"
+	     , "<LI>The <STRONG>Makefiles</STRONG> and 
+		<STRONG>.latex2html-init</STRONG>
+		 file similar to the ones 
+		 used to generate this website are available at
+		<A HREF=\"$WEBPUBADDRESS\"><font color=\"blue\"><b>$WEBPUBFULL/</b></font></A>.\n"
+# automatic links can't work from CCRMA yet (need proxy server): 
+#          , "<LI>Hypertext links installed from a
+#	   <A HREF=\"http://www.w3k.org/cgi-bin/search.cgi?query=computer+music+physics+mathematics&type=keyword&bool=or\"><font color=\"blue\">master glossary</font></A> prepared using the 
+#<A HREF=\"$ODADDRESS\"><i><font color=\"blue\"><b>Open Dictionary</b></i></font></A>.\n"
+	     , "</UL>"
+	     );
+
+#====================== END OF NAVIGATION PANEL SETUP ===================
+
+# Below are various overrides to perl functions in the standard latex2html 
+# distribution.
+
+# This whole subroutine has to be overridden just to change $GENERIC_WORDS!
+# (See last line below. See also /l/l2h/l2hconf.pin#$GENERIC_WORDS)
+sub english_titles {
+    $toc_title = "Contents";
+    $lof_title = "List of Figures";
+    $lot_title = "List of Tables";
+    $idx_title = "Index";
+    $ref_title = "References";
+    $bib_title = "Bibliography";
+    $abs_title = "Abstract";
+    $app_title = "Appendix";
+    $pre_title = "Preface";
+    $foot_title = "Footnotes";
+    $thm_title = "Theorem";
+    $fig_name = "Figure";
+    $tab_name = "Table";
+    $prf_name = "Proof";
+    $date_name = "Date";
+    $page_name = "Page";
+    #  Sectioning-level titles
+    $part_name = "Part";
+    $chapter_name = "Chapter";
+    $section_name = "Section";
+    $subsection_name = "Subsection";
+    $subsubsection_name = "Subsubsection";
+    $paragraph_name = "Paragraph";
+    #  Misc. strings
+    $child_name = "Subsections";
+    $info_title = "About this document ...";
+    $also_name = "see also";
+    $see_name = "see";
+    #  names in navigation panels
+    $next_name = "Next";
+    $up_name = "Up";
+    $prev_name = "Previous";
+    $group_name = "Group";
+    #  mail fields
+    $encl_name = "encl";
+    $headto_name = "To";
+    $cc_name = "cc";
+
+    @Month = ('', 'January', 'February', 'March', 'April', 'May',
+	      'June', 'July', 'August', 'September', 'October',
+	      'November', 'December');
+# These words will be omitted from filenames derived
+# from section-titles, when using  -long_titles
+# NOTE 1: Case does not matter (see /l/l2h/latex2html:L9144
+# NOTE 2: Words following '---' without a space will NOT MATCH
+#         For example, "Foo Bar---A Baz" --> Foo_Bar_A.html
+#   $GENERIC_WORDS = "and|the|of|for|by|a|an|to";
+    $GENERIC_WORDS = "and|the|of|for|by|a|an|to|as|at|from|in|on|due|into|its|via|with|is";
+}
+
+# Override standard routine to allow more than 32 characters per filename.
+my %title_seen = ();
+sub make_name
+{
+    local($sec_name, $packed_curr_sec_id) = @_;
+    local($title,$making_name,$saved) = ('',1,'');
+    if ($LONG_TITLES)
+    {
+	$saved = $_;
+# JOS: Remove alternate title so name will be based on full title.
+#      This is required by problem sets that use 'Exercises' as alt title.
+#      Without this change, links to problem pages are broken.
+#	print "\n=== make_name: Working with '$_'\n"; #$
+	s/\[.+\]//; # No [] allowed within alt title
+#	print "\n=== make_name: After alt title removed, have '$_'\n"; #$
+	&process_command($sections_rx, $_) if /^$sections_rx/;
+#	print "=== make_name: After commands processed, have '$_'\n"; #$
+	$title = &make_long_title($TITLE)
+	    unless ((! $TITLE) || ($TITLE eq $default_title));
+	$_ = $saved;
+    }
+    elsif ($CUSTOM_TITLES)
+    {
+	$saved = $_;
+	&process_command($sections_rx, $_) if /^$sections_rx/;
+	$title = &custom_title_hook($TITLE)
+	    unless ((! $TITLE) || ($TITLE eq $default_title));
+	$_ = $saved;
+    }
+    if ($title)
+    {
+	#ensure no more than 32 characters, including .html extension
+	$title =~ s/^(.{1,59}).*$/$1/;
+	while ($title_seen{$title})
+	{
+	    $title .= '_I';
+	}
+	$title_seen{$title}++;
+    	++$OUT_NODE;
+	join("", ${PREFIX}, $title, $EXTN);
+    }
+    else
+    {
+	# Remove 0's from the end of $packed_curr_sec_id
+	$packed_curr_sec_id =~ s/(_0)*$//;
+	$packed_curr_sec_id =~ s/^\d+$//o; # Top level file
+	join("",($packed_curr_sec_id ? 
+		 "${PREFIX}$NODE_NAME". ++$OUT_NODE : $sec_name), $EXTN);
+    }
+}
+
+# The following is overridden in order to provide symbolic section names
+# FIXME: CHANGE "$LONG_SECTION_TITLES" below to "$LONG_TITLES" when symbolic section
+# names are supported in the cross-linking databases (TOC, etc.)
+
+sub make_section_heading {
+    local($text, $level, $anchors) = @_;
+    local($elevel) = $level; $elevel =~ s/^(\w+)\s.*$/$1/;
+    local($section_tag) = join('', @curr_sec_id);
+    local($align,$pre_anchors);
+    local($sectiontag) = "SECTION$section_tag";
+
+    # separate any invisible anchors or alignment, if this has not already been done
+    if (!($anchors)){ ($anchors,$text) = &extract_anchors($text) }
+    else { 
+	$anchors =~ s/(ALIGN=\"\w*\")/$align = " $1";''/e;
+	$align = '' if ($HTML_VERSION < 2.2);
+	$anchors = &translate_commands($anchors) if ($anchors =~ /\\/);
+    }
+
+    # strip off remains of bracketings
+    $text =~ s/$OP\d+$CP//g;
+
+    if (!($text)) {
+	# anchor to a single `.' only
+	$text = "<A NAME=\"$sectiontag\">.</A>$anchors\n";
+    } else {
+	# FIXME(JOS): DELETE 'SECTION_' BELOW WHEN READY:
+	if ($LONG_SECTION_TITLES) {
+	    print STDERR "GOING FOR IT\n";
+	    $sectiontag = &make_long_title($text);
+	    print STDERR "sectiontag = '$sectiontag'\n";
+	}
+	if ($anchors) {
+#	# put anchors immediately after, except if title is too long
+#	if ((length($text)<60 )&&(!($align)||($align =~/left/))) {
+#	    $text = "<A NAME=\"$sectiontag\">$text</A>\n" . $anchors;
+	    # ...put anchors preceding the title, on a separate when left-aligned
+#	} else {
+	    $text = "<A NAME=\"$sectiontag\">$anchor_invisible_mark</A>$anchors"
+		. (!($align)||($align =~ /left/i ) ? "<BR>" : "") . "\n". $text;
+#	}
+	} elsif (!($text =~ /<A[^\w]/io)) {
+	    # no embedded anchors, so anchor it all
+	    $text = "<A NAME=\"$sectiontag\">\n" . $text . "</A>";
+	} else {
+	    # there are embedded anchors; these cannot be nested
+	    local ($tmp) = $text;
+	    $tmp =~ s/<//o ;	# find 1st <
+	    if ($`) {		# anchor text before the first < 
+#	    $text = "<A NAME=\"$sectiontag\">\n" . $` . "</A>\n<" . $';
+		$text = "<A NAME=\"$sectiontag\">\n" . $` . "</A>";
+		$pre_anchors = "<" . $';
+	    if ($pre_anchors =~ /^(<A NAME=\"[^\"]+>${anchor_invisible_mark}<\/A>\s*)+$/) {
+		$pre_anchors .= "\n"
+	    } else { $text .= $pre_anchors; $pre_anchors = '' }
+	} else {
+	    # $text starts with a tag
+	    local($after,$tmp) = ($','');
+	    if ( $after =~ /^A[^\w]/i ) {	
+		# it is an anchor already, so need a separate line
+		$text = "<A NAME=\"$sectiontag\">$anchor_invisible_mark</A><BR>\n$text";
+	    } else {
+		# Is it a tag enclosing the anchor ?
+		$after =~ s/^(\w)*[\s|>]/$tmp = $1;''/eo;
+		if ($after =~ /<A.*<\/$tmp>/) {
+		    # it encloses an anchor, so use anchor_mark + break
+		    $text = "<A NAME=\"$sectiontag\">$anchor_invisible_mark</A><BR>\n$text";
+		} else {
+		    # take up to the anchor
+		    $text =~ s/^(.*)<A([^\w])/"<A NAME=\"$sectiontag\">$1<A$2"/oe;
+		}
+	    }
+	}
+    }
+}
+"$pre_anchors\n<$level$align>$text\n<\/$elevel>";
+}
+
+# Modify web section heading font sizes (section is H1 -> H2):
+%standard_section_headings =
+  ('part' , 'H1' , 'chapter' , 'H1', 'section', 'H2', 'subsection', 'H3'
+    , 'subsubsection', 'H4', 'paragraph', 'H5', 'subparagraph', 'H6' );
+
+# This subroutine in /usr/bin/latex2html (version 2002-2-1) is being
+# overridden to fix a bug:
+
+sub do_cmd_author {
+    local($_) = @_;
+    &get_next_optional_argument;
+    my $next;
+    $next = &missing_braces unless (
+	(s/$next_pair_pr_rx/$next = $2;''/seo)
+	||(s/$next_pair_rx/$next = $2;''/seo));
+    local($after) = $_;
+    if ($next =~ /\\and/) {
+	my @author_list = split(/\s*\\and\s*/, $next);
+	my $t_author, $t_affil, $t_address;
+	foreach (@author_list) {
+	    $t_author = &translate_environments($_);
+	    $t_author =~ s/\s+/ /g;
+	    $t_author = &simplify(&translate_commands($t_author));
+	    ($t_author,$t_affil,$t_address) = split (/\s*<BR>s*/, $t_author, 3);
+	    push @authors, $t_author;
+	    push @affils, $t_affil;
+	    push @addresses, $t_address;
+	}
+    } else {
+	$_ = &translate_environments($next);
+	$next = &translate_commands($_);
+	($t_author) = &simplify($next);
+	($t_author,$t_affil,$t_address) = split (/\s*<BR>s*/, $t_author, 3);
+	push @authors, $t_author;
+	push @affils, $t_affil if $t_affil;
+	push @addresses, $t_address if $t_address;
+    }
+    $after;
+}
+
+# This subroutine in /usr/bin/latex2html (version 2002-2-1) is being
+# overridden to fix a bug:
+
+sub make_singleauthor_title {
+    local($alignc, $alignl , $t_author
+	, $t_affil,$t_institute,$t_date,$t_address,$t_email,$t_authorURL) = (@_);
+    my $t_title = '';
+    my ($s_author_info, $e_author_info) = ('<DIV','</DIV>');
+    $s_author_info .= ($USING_STYLES ? ' CLASS="author_info"' : '').'>';
+
+    if ($t_author) {
+	if ($t_authorURL) {
+	    local($href) = &translate_commands($t_authorURL);
+	    $href = &make_named_href('author'
+			, $href, "<STRONG>${t_author}</STRONG>");
+	    $t_title .= "\n<P$alignc>$href</P>";
+	} else {
+	    $t_title .= "\n<P$alignc><STRONG>$t_author</STRONG></P>";
+	}
+    } else { &write_warnings("\nThere is no author for this document."); }
+
+    if ($t_institute&&!($t_institute=~/^\s*(($O|$OP)\d+($C|$CP))\s*\1\s*$/)) {
+	$t_title .= "\n<P$alignc><SMALL>$t_institute</SMALL></P>";}
+    if ($t_affil&&!($t_affil=~/^\s*(($O|$OP)\d+($C|$CP))\s*\1\s*$/)) {
+	$t_title .= "\n<P$alignc><I>$t_affil</I></P>";}
+    if ($t_date&&!($t_date=~/^\s*(($O|$OP)\d+($C|$CP))\s*\1\s*$/)) {
+	$t_title .= "\n<P$alignc><STRONG>$t_date</STRONG></P>";}
+    if ($t_address&&!($t_address=~/^\s*(($O|$OP)\d+($C|$CP))\s*\1\s*$/)) {
+	$t_title .= "\n<P$alignc><SMALL>$t_address</SMALL></P>";
+    }  # else { $t_title .= "\n<P$alignl>"}
+    if ($t_email&&!($t_email=~/^\s*(($O|$OP)\d+($C|$CP))\s*\1\s*$/)) {
+	$t_title .= "\n<P$alignc><SMALL>$t_email</SMALL></P>";
+    }  # else { $t_title .= "</P>" }
+    join("\n", $s_author_info, $t_title, $e_author_info);
+}
+
+# This fixes a bug in small caps processing (in latex2html-2002-1-2 (1.70)):
+sub process_smallcaps {
+    local($text) = @_;
+    local($next, $scstr, $scbef, $special, $char);
+    # is this enough for \sc and \scshape ?
+    $text = &translate_environments($text);
+
+    # MRO: replaced $* with /m
+    while ($text =~ /(\\[a-zA-Z]+|[&;]SPM\w+;|<[^>]+>)+/m ) {
+% 	$scbef = $`; $special = $&; $text = $';
+        # JOS: replaced \W with \s (to fix unequal parens bug):
+	while ( $scbef =~ /(&#\d+;|[a-z$sclower])+[a-z\s\d$sclower]*/m) {
+	    $scstr .= $`; $scbef = $';
+	    $next = $&; 
+	    $next =~ s/&#(\d+);/&lowercase_entity($1)/egm;
+	    eval "\$next =~ $scextra" if ($scextra);
+	    eval "\$next =~ tr/a-z$sclower/A-Z$scupper/";
+	    $scstr .= "<SMALL>" . $next ."<\/SMALL>";
+	}
+	$scstr .= $scbef . $special;
+    }
+    if ($text) {
+	while ( $text =~ /(&#\d+;|[a-z$sclower])+[a-z\s\d$sclower]*/m) {
+	    $scstr .= $`; $text = $';
+	    $next = $&;
+	    $next =~ s/&#(\d+);/&lowercase_entity($1)/egm;
+	    eval "\$next =~ $scextra" if ($scextra);
+	    eval "\$next =~ tr/a-z$sclower/A-Z$scupper/";
+	    $scstr .= "<SMALL>" . $next ."<\/SMALL>";
+	}
+	$scstr .= $text;
+    }
+    $scstr;
+}
+
+1;

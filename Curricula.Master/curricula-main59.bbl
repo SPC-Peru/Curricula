@@ -1,0 +1,30 @@
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+\begin{thebibliography}{}
+
+\bibitem[Hearn and Baker, 1990]{Hearn90}
+Hearn, D. and Baker, P. (1990).
+\newblock {\em Computer Graphics in C}.
+\newblock Prentice Hall.
+
+\bibitem[Hughes et~al., 2013]{Foley13}
+Hughes, J.~F., Dam, A.~V., Mcguire, M., Sklar, D.~F., Foley, J.~D., Feiner,
+  S.~K., and Akeley, K. (2013).
+\newblock {\em Computer Graphics - Principles and Practice 3rd Edition}.
+\newblock Addison-Wesley.
+
+\bibitem[Shreiner et~al., 2013]{Shreiner13}
+Shreiner, D., Sellers, G., Kessenich, J., and Licea-Kane, B. (2013).
+\newblock {\em OpenGL, Programming Guide, Eighth Edition}.
+\newblock Addison-Wesley.
+
+\bibitem[Wolff, 2011]{Wolff11}
+Wolff, D. (2011).
+\newblock {\em OpenGL 4.0 Shading Language Cookbook}.
+\newblock Packt Publishing.
+
+\end{thebibliography}
+\csname bt@warn@outdated\endcsname{curricula-main59}
+\csname bt@warn@outdated\endcsname{curricula-main59}

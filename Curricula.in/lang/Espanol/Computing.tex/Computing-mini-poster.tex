@@ -1,0 +1,74 @@
+% Danger ... original file is iin base-tex/ this is ONLY a TEMP COPY !!!!!!!!!
+\documentclass[a4]{a0poster}
+\usepackage{array}
+\usepackage[spanish]{babel}
+\usepackage{a0poster}
+\usepackage{pst-blur}
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{watermark}
+\usepackage{ae}
+\usepackage{xspace}
+\usepackage{paralist}
+\usepackage{parallel}
+\usepackage{base-tex/poster-macros}
+\usepackage[top=4.5cm,bottom=0.5cm,left=3.5cm,right=0.5cm]{geometry}
+% \newcommand{\PSbox}[3]{\mbox{\rule{0in}{#3}\special{psfile=#1}\hspace{#2}}}
+\usepackage{lmodern}
+%\usepackage{bookman}
+%\usepackage{times}
+%\usepackage{helvet}
+\usepackage[T1]{fontenc}
+
+\newcommand{\logosize}{0.15\textwidth}
+\newcommand{\titlesize}{0.70\textwidth}
+\newrgbcolor{royalblue}{0.25 0.41 0.88}
+\newcommand{\captionsize}{\footnotesize}
+
+\begin{document}
+\newcommand{\OnlyMainDoc}[1]{}
+\newcommand{\OnlyPoster}[1]{#1\xspace}  
+
+\input{base-tex/custom-colors}
+\input{current-institution}
+\input{institutions-info/info-\currentarea-\siglas}
+\input{base-tex/\currentarea/\currentarea-macros-defs}
+\input{\currentarea-outcomes-macros}
+\input{expand-outcomes}
+\input{\currentarea-outcomes}
+\newpage
+
+\vspace{-10cm}
+\begin{tabular}{m{\logosize}m{29cm}m{0.4\textwidth}m{2cm}m{0.25\textwidth}}
+	\includegraphics[width=\logosize]{fig/\siglas.eps} & &				
+	\psblurbox[framesep=5pt,shadow=false,blur=true,shadowsize=6pt,
+			   blurradius=3pt,blursteps=60,framearc=0.05,linecolor=black]%
+		{	
+			\begin{minipage}{0.4\textwidth}
+					{\bf \large \SchoolFullName\hfill}\\
+					{\footnotesize \textbf{Definición:} \profile}
+			\end{minipage}
+		} & &
+		\begin{tabular}{c}
+			\\
+			\psblurbox[framesep=25pt,shadow=true,blur=true,shadowsize=6pt,blurradius=3pt,blursteps=60]
+				{\includegraphics[height=4.8cm]{fig/codificacion.eps}} 
+ 		\end{tabular}
+\end{tabular}\\
+
+	
+\psblurbox[framesep=25pt,shadow=false,blur=true,shadowsize=6pt,
+			blurradius=3pt,blursteps=60,framearc=0.05,linecolor=black]
+	{\includegraphics[width=0.95\textwidth,height=0.8\textheight]
+		{fig/\currentarea-\siglas-small-grafo-curricula.ps}
+	} \\
+% 	{\includegraphics[width=0.95\textwidth]{fig/\currentarea-\siglas-big-grafo-curricula.eps}} \\
+
+\begin{picture}(100,100)(-2700,-550)
+	\psblurbox[framesep=10pt,shadow=true,blur=true,shadowsize=6pt,blurradius=3pt,blursteps=60]
+	{\includegraphics[width=0.25\textwidth,angle=90]{fig/CS-course-number.eps}}
+\end{picture}
+
+\end{document}

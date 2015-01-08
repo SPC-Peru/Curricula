@@ -1,0 +1,31 @@
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\input{\OutputTexDir/macros-only}
+\usepackage{\InStyDir/bok-macros}
+
+\input{\InTexDir/other-packages}
+
+\usepackage{\InStyAllDir/syllabus}
+
+\usepackage{\InStyAllDir/macros-only-extra}
+\usepackage{\InStyAllDir/config-hdr-foot}
+
+\input{\InDir/colors/custom-colors}
+\input{\InDir/colors/custom-define-colors}
+
+\bibliographystyle{apalike}
+\input{\InInstDir/institution-info}
+ \input{\InAllTexDir/pdfsetup}
+ 
+\usepackage{\InCountryDir/country-extra-environments}
+\input{\InCountryDir/country-extra-macros}
+
+\htmladdtonavigation{\htmladdnormallink{\htmladdimg{http://server/mybutton.gif}}{http://server/link}}
+
+% \htmlref{\ALBasicAnalysis}{sec:BOK:ALBasicAnalysis}
+\newcommand{\xref}[1]{\ref{sec:BOK:#1} \htmlref{\csname #1\endcsname}{sec:BOK:#1}, Pág.~\pageref{sec:BOK:#1}}
+\newcommand{\xrefKA}[1]{\ref{sec:BOK:#1} \htmlref{\csname #1BOKArea\endcsname}{sec:BOK:#1}, Pág.~\pageref{sec:BOK:#1}}
+\newcommand{\xrefTextAndPage}[1]{      \htmlref{\csname #1\endcsname}{sec:BOK:#1}\xspace (Pág.~\pageref{sec:BOK:#1})}
+
+

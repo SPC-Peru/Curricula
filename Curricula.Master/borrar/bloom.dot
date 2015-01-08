@@ -1,0 +1,18 @@
+digraph curricula
+{
+	"C" [shape=point,color=white,style=filled,peripheries=2,fillcolor=cornflowerblue,label=""];
+	"1" [shape=box,color=white,style=filled,peripheries=2,fillcolor=cornflowerblue,label="1\nConocimiento"];
+	"2" [shape=box,color=white,style=filled,peripheries=2,fillcolor=cornflowerblue,label="2\nCompremsion"];
+	"3" [shape=box,color=white,style=filled,peripheries=2,fillcolor=cornflowerblue,label="3\nAplicacion"];
+	"4" [shape=box,color=white,style=filled,peripheries=2,fillcolor=cornflowerblue,label="4\nAnalisis"];
+	"5" [shape=box,color=white,style=filled,peripheries=2,fillcolor=cornflowerblue,label="5\nSintesis"];
+	"6" [shape=box,color=white,style=filled,peripheries=2,fillcolor=cornflowerblue,label="6\nEvaluacion"];
+
+	"C"->"1";
+	"C"->"2";
+	"C"->"3";
+	"C"->"4";
+	"C"->"5";
+	"C"->"6";
+	"1"->"2"->"3"->"4"->"5"->"6"->"1";
+}

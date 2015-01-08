@@ -1,0 +1,120 @@
+\begin{thebibliography}{}
+
+\bibitem[Aluru, 2006]{Aluru2006}
+Aluru, S., editor (2006).
+\newblock {\em Handbook of Computational Molecular Biology}.
+\newblock Computer and Information Science Series. Chapman \& Hall, CRC, Boca
+  Raton, FL.
+
+\bibitem[Bellman, 1957]{Bellman57}
+Bellman, R.~E. (1957).
+\newblock {\em Dynamic Programming}.
+\newblock Princeton University Press, Princeton NJ.
+
+\bibitem[Bult et~al., 1996]{Bult1996}
+Bult, C.~J., White, O., Olsen, G.~J., Zhou, L., Fleischmann, R.~D., Sutton,
+  G.~G., Blake, J.~A., FitzGerald, L.~M., Clayton, R.~A., Gocayne, J.~D.,
+  Kerlavage, A.~R., Dougherty, B.~A., Tomb, J.-F., Adams, M.~D., Reich, C.~I.,
+  Overbeek, R., Kirkness, E.~F., Weinstock, K.~G., Merrick, J.~M., Glodek, A.,
+  Scott, J.~L., Geoghagen, N. S.~M., Weidman, J.~F., Fuhrmann, J.~L., Nguyen,
+  D., Utterback, T.~R., Kelley, J.~M., Peterson, J.~D., Sadow, P.~W., Hanna,
+  M.~C., Cotton, M.~D., Roberts, K.~M., Hurst, M.~A., Kaine, B.~P., Borodovsky,
+  M., Klenk, H.-P., Fraser, C.~M., Smith, H.~O., Woese, C.~R., and Venter,
+  J.~C. (1996).
+\newblock Complete genome sequence of the methanogenic archaeon, methanococcus
+  jannaschii.
+\newblock {\em Science}, 273(5278):1058--1073.
+
+\bibitem[Clote and Backofen, 2000]{Clote2000}
+Clote, P. and Backofen, R. (2000).
+\newblock {\em Computational Molecular Biology: An Introduction}.
+\newblock John Wiley \& Sons Ltd.
+\newblock 279 pages.
+
+\bibitem[Durbin et~al., 1998]{Durbin1998}
+Durbin, R., Eddy, S., Krogh, A., and Mitchison, G. (1998).
+\newblock {\em Biological Sequence Analysis: Probabilistic Models of Proteins
+  and Nucleic Acids}.
+\newblock Cambridge University Press.
+
+\bibitem[Feng and Doolittle, 1987]{Feng1987}
+Feng, D.-F. and Doolittle, R. (1987).
+\newblock Progressive sequence alignment as a prerequisitetto correct
+  phylogenetic trees.
+\newblock {\em Journal of Molecular Evolution}, 25:351--360.
+\newblock 10.1007/BF02603120.
+
+\bibitem[Gershon, 2002]{Gershon2002}
+Gershon, D. (2002).
+\newblock Microarray technology: an array of opportunities.
+\newblock {\em Psychological Review}, 416:885--891.
+
+\bibitem[Gusfield, 1997]{Gusfield1997}
+Gusfield, D. (1997).
+\newblock {\em Algorithms on Strings, Trees, and Sequences: Computer Science
+  and Computational Biology}.
+\newblock Cambridge University Press.
+
+\bibitem[Holm and Sander, 1993]{Holm1993}
+Holm, L. and Sander, C. (1993).
+\newblock Protein structure comparison by alignment of distance matrices.
+\newblock {\em Journal of Molecular Biology}, 233(1):123 -- 138.
+
+\bibitem[Krogh et~al., 1994]{Krogh1994}
+Krogh, A., Brown, M., Mian, I.~S., Sj\"{o}lander, K., and Haussler, D. (1994).
+\newblock Hidden markov models in computational biology, applications to
+  protein modeling.
+\newblock {\em J Mol. Biol}, 235:1501--1531.
+
+\bibitem[Needleman and Wunsch, 1970]{Needleman1970}
+Needleman, S.~B. and Wunsch, C.~D. (1970).
+\newblock A general method applicable to the search for similarities in the
+  amino acid sequence of two proteins.
+\newblock {\em Journal of Molecular Biology}, 48(3):443--453.
+
+\bibitem[Pevsner, 2009]{Pevsner2009}
+Pevsner, J. (2009).
+\newblock {\em Bioinformatics and Functional Genomics}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Pevzner, 2000]{Pevzner2000}
+Pevzner, P.~A. (2000).
+\newblock {\em Computational Molecular Biology: an Algorithmic Approach}.
+\newblock The MIT Press, Cambridge, Massachusetts.
+
+\bibitem[Saitou and Nei, 1987]{Saitou1987}
+Saitou, N. and Nei, M. (1987).
+\newblock The neighbor-joining method: a new method for reconstructing
+  phylogenetic trees.
+\newblock {\em Molecular Biology and Evolution}, 4(4):406--425.
+
+\bibitem[Setubal and Meidanis, 1997]{Setubal1997}
+Setubal, J.~C. and Meidanis, J. (1997).
+\newblock {\em Introduction to computational molecular biology}.
+\newblock Boston: PWS Publishing Company.
+
+\bibitem[Smith and Waterman, 1981]{Smith1981}
+Smith, T. and Waterman, M. (1981).
+\newblock Identification of common molecular subsequences.
+\newblock {\em Journal of Molecular Biology}, 147(1):195 -- 197.
+
+\bibitem[Sokal and Michener, 1958]{Sokal1958}
+Sokal, R.~R. and Michener, C.~D. (1958).
+\newblock {A statistical method for evaluating systematic relationships}.
+\newblock {\em University of Kansas Scientific Bulletin}, 38:1409--1438.
+
+\bibitem[Watson and Crick, 1953]{Watson1953}
+Watson, J.~D. and Crick, F. H.~C. (1953).
+\newblock {Molecular Structure of Nucleic Acids: A Structure for Deoxyribose
+  Nucleic Acid}.
+\newblock {\em Nature}, 171(4356):737--738.
+
+\bibitem[Wilkins et~al., 1996]{Wilkins1994}
+Wilkins, M.~R., Pasquali, C., Appel, R.~D., Ou, K., Golaz, O., Sánchez, J.-C.,
+  Yan, J.~X., Gooley, A.~A., Hughes, G., Humphery-Smith, I., Williams, K.~L.,
+  and Hochstrasser, D.~F. (1996).
+\newblock From proteins to proteomes: Large scale protein identification by
+  two-dimensional electrophoresis and arnino acid analysis.
+\newblock {\em Nature Biotechnology}, 14:61--65.
+
+\end{thebibliography}

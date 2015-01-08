@@ -1,0 +1,16 @@
+- Crear in/country.Peru/CS-SPC/ los archivos:
+     * team.tex,
+     * syllabus-template.tex,
+     * syllabus-delivery-control.tex
+     * institution-info.tex,
+     * ack.tex
+- Configurar datos de la institución (in/country.Peru/CS-SPC/institution-info.tex)
+- Copiar el ./in/country.Peru/logos/SPC.eps
+- Crear el ./in/country.Peru/logos/SPC.jpg
+- Crear el ./in/country.Peru/logos/SPC-small.eps
+- Crear el ./in/country.Peru/logos/SPC-small.jpg
+
+- Configurar equipo de trabajo (in/country.Peru/CS-SPC/team.tex) 
+- Editar el ./in/institutions-list.txt
+
+- Completar cursos

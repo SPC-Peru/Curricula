@@ -1,0 +1,182 @@
+\documentclass[final]{article}
+\input{current-institution}
+\usepackage{\InStyAllDir/syllabus-final}
+
+\newcommand{\INST}{}
+\newcommand{\AREA}{}
+
+\begin{document}
+
+\begin{tabularx}{\textwidth}{p{3cm}cX}
+    \includegraphics[width=1.5cm]{\InLogosDir/\INST} &
+    \begin{minipage}{0.75\textwidth}
+        \begin{center}
+            {\Large \vspace{-1.5cm}\University\\   VICE RECTORADO ACADÉMICO \\ \medskip SILABO}
+        \end{center}
+    \end{minipage}
+\end{tabularx}
+
+% \begin{tabularx}{\textwidth}{p{3cm}cX}
+% \includegraphics[width=3cm]{\InLogosDir/\INST}
+% &
+% \begin{minipage}{0.75\textwidth}
+% \begin{center}
+% {\noindent\Large\bf\University\\ \SchoolFullNameBreak \\SILABO}
+% \section*{--COURSE_CODE--. --COURSE_NAME-- (--COURSE_TYPE--)}\label{sec:--COURSE_CODE--}%
+% \addcontentsline{toc}{subsection}{--COURSE_CODE--. --COURSE_NAME-- (--COURSE_TYPE--)}%
+% \end{center}
+% \end{minipage}
+% \end{tabularx}
+
+%\medskip
+
+\begin{flushright}
+CODIGO DEL CURSO: --COURSE_CODE--
+\end{flushright}
+
+\addtocounter{SyllabiSectionCount}{1}
+{\bf \arabic{SyllabiSectionCount} Datos Generales}
+\begin{tabularx}{\textwidth}{|l|l|l|l|l|l|l|l|} \hline
+\multicolumn{8}{|l|}{\textbf{FACULTAD :}  \FacultadName}\\ \hline
+\multicolumn{4}{|X|}{\textbf{DEPARTAMENTO :}{\DepartmentShortName} }&
+\multicolumn{4}{|X|}{\textbf{ESCUELA :}  \SchoolShortName}\\ \hline
+\multicolumn{8}{|l|}{\textbf{PROFESOR :} --PROFESSOR_NAMES--}\\
+\multicolumn{8}{|l|}{\textbf{TÍTULO :} --PROFESSOR_TITLES--}\\ \hline
+\multicolumn{8}{|l|}{\textbf{ASIGNATURA :} --COURSE_NAME--}\\ \hline
+
+\multicolumn{2}{|l|}{\textbf{PREREQUISITO:}}&
+\multicolumn{2}{|l|}{\textbf{CREDITOS:}}&
+\multicolumn{2}{|l|}{\textbf{Año}: \Semester}&
+\multicolumn{2}{|l|}{\textbf{Total Horas:} --HOURS--}\\ \cline{5-8}
+
+\multicolumn{2}{|l|}{--PREREQUISITES_JUST_CODES--}&
+\multicolumn{2}{|l|}{--CREDITS--}&
+\multicolumn{2}{|l|}{\textbf{Sem:} --SEMESTER--}& --THEORY_HOURS-- & --PRACTICE_HOURS-- --LAB_HOURS-- \\ \hline
+\multicolumn{2}{|c|}{\textbf{Horario}}&Lun&Mar&Mie&Jue&Vie&Sáb\\ \cline{3-8}
+\multicolumn{2}{|l|}{\textbf{Total Semanal}} & --DIA1--  & --DIA2--  & --DIA3--  & --DIA4--  & --DIA5--  & --DIA6-- \\ \hline
+\multicolumn{2}{|r|}{\textbf{Aula}}          & --AULA1-- & --AULA2-- & --AULA3-- & --AULA4-- & --AULA5-- & --AULA6--\\ \hline
+\end{tabularx}
+
+\bigskip
+
+\addtocounter{SyllabiSectionCount}{1}
+{\bf \arabic{SyllabiSectionCount} Exposición de Motivos}
+\begin{tabularx}{\textwidth}{|X|}\hline
+--JUSTIFICATION--
+\\ \hline
+\end{tabularx}
+
+{\bf \arabic{SyllabiSectionCount} Objetivo}
+\begin{tabularx}{\textwidth}{|X|} \hline
+--GOAL-- 
+\\ \hline
+\end{tabularx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addtocounter{SyllabiSectionCount}{1}
+{\bf \arabic{SyllabiSectionCount} Contenido Temático}
+\setcounter{SyllabiUnitCount}{0}
+--BEGINUNIT--
+% Inicio unidad
+\addtocounter{SyllabiUnitCount}{1}
+{\bf \arabic{SyllabiSectionCount} --UNIT_TITLE-- (--HOURS--)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+--UNIT_GOAL--      & 
+--UNIT_CONTENT--
+--CITATIONS--      &
+&
+&
+--PERCENTAGE--\% \\ \hline
+\end{tabularx}
+
+--ENDUNIT--
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{description}
+%\item[Examen Parcial] Capítulos 1,2,3
+%\item[Examen Final] Todos los capítulos
+%\end{description} 
+
+\addtocounter{SyllabiSectionCount}{1}
+{\bf \arabic{SyllabiSectionCount} Actividades}
+\begin{itemize}
+\item Asignaciones
+\item Controles de Lectura
+\item Exposiciones
+\end{itemize} 
+
+\addtocounter{SyllabiSectionCount}{1}
+{\bf \arabic{SyllabiSectionCount} Recursos Materiales}
+\begin{itemize}
+\item Apuntes del curso
+\item Libro(s) de la bibliografía
+\end{itemize} 
+
+\addtocounter{SyllabiSectionCount}{1}
+{\bf \arabic{SyllabiSectionCount} Metodología}
+\begin{itemize}
+\item Clase Magistral.
+\item Taller didáctico.
+\item Social Constructivismo.
+\item Prácticas personales y en grupo.
+\end{itemize} 
+
+\addtocounter{SyllabiSectionCount}{1}
+{\bf \arabic{SyllabiSectionCount} Evaluación}
+
+\begin{evaluation}
+\item La nota final ($NF$) se obtiene de la siguiente manera:
+\begin{description}
+	\item[NE] Nota de Exámenes 60\%, esta nota se divide en 
+	\begin{itemize}
+	    \item Exámen Parcial 40\%
+	    \item Examen Final 60\% 
+	\end{itemize} 
+	\item[NT] Nota de Trabajos e Intervención en clase 40\%
+    \end{description} 
+    \begin{displaymath}
+    NF = 0.6*NE + 0.4*NT
+    \end{displaymath}
+\end{evaluation}
+
+%\bibliographystyle{--BIBSTYLE--}
+\bibliographystyle{plain}
+\bibliography{--BIBFILE--}
+
+%\addtocounter{SyllabiSectionCount}{1}
+% {\bf \arabic{SyllabiSectionCount} Recursos Bibliográficos}
+%\renewcommand{\refnameobl}{}
+%\renewcommand{\refnamesug}{}
+
+%\subsection*{Obligatoria}
+%\vspace{-0.8cm}
+%\bibliographyobl{silaboADA}
+
+%\bibliographystylesug{plain}
+%\subsection*{Sugerida}
+%\vspace{-0.8cm}
+%\bibliographysug{silaboADA}
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\begin{tabularx}{\textwidth}{XX} 
+\cline{2-2}
+&
+\begin{center}
+--PROFESSOR_NAMES--~\\
+Docente del curso
+
+\end{center}\\
+\end{tabularx}
+
+\end{document}
+
+
+
+

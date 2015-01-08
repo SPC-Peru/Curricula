@@ -1,0 +1,256 @@
+digraph curricula
+{
+	bgcolor=white;
+	"1er Sem (22 cr)"->"2er Sem (22 cr)"->"3er Sem (22 cr)"->"4er Sem (21 cr)"->"5er Sem (21 cr)"->"6er Sem (22 cr)"->"7er Sem (22 cr)"->"8er Sem (22 cr)"->"9er Sem (22 cr)"->"10er Sem (22 cr)";
+
+"FG150" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG150. Introducción\na la Vida\nUniversitaria|{{HT:3|HP:|TH: 3}|{Obligatorio|3 Créditos|  }}}"];
+"FG151" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG151. Metodología\ndel Estudio|{{HT:3|HP:|TH: 3}|{Obligatorio|3 Créditos|  }}}"];
+"FG152" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG152. Comunicación|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];
+"MA140" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=grey72, label="{MA140. Matemáticas|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"CO120" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=aquamarine, label="{CO120. Panorámica\nde las\nTelecomunicaciones|{{HT:1|HP:2|TH: 5}|{Obligatorio|2 Créditos|  }}}"];
+"MA141" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=grey72, label="{MA141. Algebra y\nGeometría|{{HT:2|HP:4|TH: 4}|{Obligatorio|4 Créditos|  }}}"];
+"IC160" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=white, label="{IC160. Programación I|{{HT:1|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];
+
+
+
+
+
+"FI140" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=khaki1, label="{FI140. Física I|{{HT:2|HP:2|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"MA142" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=grey72, label="{MA142. Cálculo en\nuna Variable|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"MA143" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=grey72, label="{MA143. Algebra\nLineal|{{HT:1|HP:4|TH: 6}|{Obligatorio|3 Créditos|  }}}"];
+"IC161" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=white, label="{IC161. Programación II|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"EL110" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=red, label="{EL110. Circuitos\nEléctricos|{{HT:2|HP:2|TH: 4}|{Obligatorio|4 Créditos|  }}}"];
+"FG153" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG153. Artes Plásticas|{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];
+"FG154" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG154. Apreciación\nLiteraria|{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];
+"FG155" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG155. Apreciación\nMusical|{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];
+"FG156" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG156. Teatro|{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];
+"FG157" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG157. Persona,\nMatrominio\ny Familia|{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];
+"FG158" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG158. Liderazgo\n Centro de\nLiderazgo|{{HT:1|HP:2|TH: }|{Electivo|2 Créditos|  }}}"];
+
+
+
+
+
+"FG159" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG159. Introducción\na la Filosofía|{{HT:3|HP:|TH: 3}|{Obligatorio|3 Créditos|  }}}"];
+"MA144" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=grey72, label="{MA144. Ecuaciones\nDiferenciales |{{HT:2|HP:4|TH: }|{Obligatorio|4 Créditos|  }}}"];
+"FI141" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=khaki1, label="{FI141. Física II|{{HT:2|HP:2|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"MA145" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=grey72, label="{MA145. Cálculo en\nVarias Variables|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"EL111" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=red, label="{EL111. Diseño Lógico\nDigital|{{HT:1|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];
+"EL112" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=red, label="{EL112. Circuitos\nElectrónicos|{{HT:2|HP:2|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+
+
+
+
+
+"MA146" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=grey72, label="{MA146. Estadística\nAplicada|{{HT:2|HP:4|TH: 3}|{Obligatorio|4 Créditos|  }}}"];
+"IC162" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=white, label="{IC162. Arquitectura de\nComputadoras|{{HT:1|HP:2|TH: 6}|{Obligatorio|3 Créditos|  }}}"];
+"FI142" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=khaki1, label="{FI142. Campos\nElectromagnéticos|{{HT:2|HP:2|TH: 4}|{Obligatorio|4 Créditos|  }}}"];
+"SN130" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkolivegreen, label="{SN130. Señales y\nSistemas|{{HT:2|HP:2|TH: 3}|{Obligatorio|4 Créditos|  }}}"];
+"TE120" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=gold, label="{TE120. Redes de\nAcceso y\nMedio Compartido|{{HT:1|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];
+"FG15A" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG15A. Antropología\nFilosófica y\nTeológica|{{HT:2|HP:3|TH: 4}|{Obligatorio|3 Créditos|  }}}"];
+
+
+
+
+
+"FG250" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG250. Historia\nde la Cultura\nOccidental I|{{HT:3|HP:|TH: 3}|{Obligatorio|3 Créditos|  }}}"];
+"EL210" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=red, label="{EL210. Electrónica de\nComunicaciones|{{HT:2|HP:2|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"SN230" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkolivegreen, label="{SN230. Sistemas\nLineales|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"TD230" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=dodgerblue4, label="{TD230. Tratamiento de\nla Información|{{HT:2|HP:2|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"FG251" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG251. Lógica y\nGnoseología|{{HT:3|HP:|TH: 3}|{Obligatorio|3 Créditos|  }}}"];
+"EL211" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=red, label="{EL211. Microprocesadores|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+
+
+
+
+
+"TE230" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=gold, label="{TE230. Redes de\nOrdenadores|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"SN231" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkolivegreen, label="{SN231. Tratamiento\nDigital de\nSeñales|{{HT:3|HP:2|TH: 5}|{Obligatorio|4 Créditos|  }}}"];
+"RF210" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=gray72, label="{RF210. Alta\nFrecuencia|{{HT:2|HP:2|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"CO220" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=aquamarine, label="{CO220. Sistemas de\nTelecomunicaciones|{{HT:2|HP:2|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"SN232" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkolivegreen, label="{SN232. Teoría\nde la\nComunicación|{{HT:2|HP:2|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"FG252" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG252. Teología I|{{HT:2|HP:4|TH: 6}|{Obligatorio|3 Créditos|  }}}"];
+
+
+
+
+
+"FG253" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG253. Moral|{{HT:3|HP:|TH: 3}|{Obligatorio|3 Créditos|  }}}"];
+"IS230" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=coral, label="{IS230. Tratamiento \nde Señales \nMultimedia I|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"SN233" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkolivegreen, label="{SN233. Comunicaciones\nDigtales|{{HT:1|HP:2|TH: 5}|{Obligatorio|4 Créditos|  }}}"];
+"EL212" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=red, label="{EL212. Comunciaciones\nÓpticas|{{HT:1|HP:4|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"RF210" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=gray72, label="{RF210. Propagación y\nRadioenlaces|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"IC260" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=white, label="{IC260. Sistemas\nOperativos|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"FG254" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG254. Historia de\nla Cultura\nOccidental II|{{HT:3|HP:|TH: 3}|{Obligatorio|3 Créditos|  }}}"];
+
+
+
+
+
+"TE320" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=gold, label="{TE320. Aplicaciones y\nServicios\nde Redes|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"RF310" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=gray72, label="{RF310. Antenas|{{HT:2|HP:2|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"IS330" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=coral, label="{IS330. Tratamiento \nde Señales \nMultimedia II|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"CO320" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=aquamarine, label="{CO320. Ingeniería de\n Tráfico y\nConmutación|{{HT:2|HP:4|TH: 6}|{Obligatorio|3 Créditos|  }}}"];
+"CO320" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=aquamarine, label="{CO320. Comunicaciones\nInalámbricas|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"IV370" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=magenta4, label="{IV370. Metodología\nde la\nInvestigación|{{HT:1|HP:4|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"FG350" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG350. Análisis de\nla Realidad\nPeruana|{{HT:1|HP:4|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+
+
+
+
+
+"FG351" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG351. Enseñanza\nSocial de\nla Iglesia|{{HT:3|HP:|TH: 3}|{Obligatorio|3 Créditos|  }}}"];
+"TE321" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=gold, label="{TE321. Sistemas\nDistribuidos y\nServidores|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"TD331" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=dodgerblue4, label="{TD331. Tratamiento de\nDatos|{{HT:1|HP:2|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"CO321" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=aquamarine, label="{CO321. Comunicaciones\nMóviles y\nSatelitales|{{HT:2|HP:2|TH: 6}|{Obligatorio|4 Créditos|  }}}"];
+"SE370" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green3, label="{SE370. Regulación y\nPolítica de\nTelecomunicaciones|{{HT:1|HP:2|TH: 3}|{Obligatorio|2 Créditos|  }}}"];
+"SE371" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green3, label="{SE371. El Negocio\nde las\nTelecomunicaciones|{{HT:1|HP:2|TH: 3}|{Obligatorio|2 Créditos|  }}}"];
+"IV470" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=magenta4, label="{IV470. Proyecto de\nTesis I|{{HT:1|HP:8|TH: 9}|{Obligatorio|5 Créditos|  }}}"];
+
+
+
+
+
+"FG352" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=lightpink, label="{FG352. Etica\nProfesional|{{HT:3|HP:|TH: 3}|{Obligatorio|3 Créditos|  }}}"];
+"TE322" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=gold, label="{TE322. Aplicaciones\nWeb|{{HT:1|HP:2|TH: 5}|{Electivo|3 Créditos|  }}}"];
+"TE323" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=gold, label="{TE323. Seguridad en\nSistemas y\nRedes de\nDatos |{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];
+"SN330" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkolivegreen, label="{SN330. Aplicaciones del Trat.\nde Señal en\nComunicación|{{HT:1|HP:2|TH: 5}|{Electivo|3 Créditos|  }}}"];
+"CO370" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=aquamarine, label="{CO370. Planificación y\nGestión de Redes |{{HT:1|HP:2|TH: 5}|{Electivo|3 Créditos|  }}}"];
+"CO322" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=aquamarine, label="{CO322. Comunicaciones\nIndustriales|{{HT:1|HP:2|TH: 5}|{Electivo|3 Créditos|  }}}"];
+"SE372" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green3, label="{SE372. Economía y\nProyectos|{{HT:1|HP:4|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"SE373" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green3, label="{SE373. Formación de\nEmpresas de\nBase Tecnológica|{{HT:1|HP:4|TH: 5}|{Obligatorio|3 Créditos|  }}}"];
+"IV471" [shape=record,width=2.3,fontsize=14,height=1.8,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=magenta4, label="{IV471. Proyecto de\nTesis II|{{HT:1|HP:2|TH: 3}|{Obligatorio|7 Créditos|  }}}"];
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+MA140->FI140;				
+MA140->MA142;				
+MA141->MA143;				
+IC160->IC161;				
+MA140->EL110;				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+FG104->FG159;				
+MA142->MA144;	MA143->MA144;			
+FI140->FI141;				
+MA142->MA145;				
+IC160->EL111;	EL110->EL111;			"Inglés(200)"[shape=polygon,sides=4,peripheries=2,color=lightblue,style=filled]; "Inglés(200)"->EL111;
+EL110->EL112;				
+				
+				
+				
+				
+				
+MA145->MA146;				
+EL111->IC162;	IC161->IC162;			
+FI141->FI142;				
+MA142->SN130;				
+CO120->TE120;				
+FG159->FG15A;				
+				
+				
+				
+				
+				
+				
+EL112->EL210;	MA144->EL210;			
+SN130->SN230;	MA144->SN230;			
+MA146->TD230;				"Inglés(300)"[shape=polygon,sides=4,peripheries=2,color=lightblue,style=filled]; "Inglés(300)"->TD230;
+FG159->FG251;				
+IC162->EL211;	FG15A->EL211;			
+				
+				
+				
+				
+				
+TE120->TE230;				
+TD230->SN231;				
+FI142->RF210;	EL210->RF210;			
+TE120->CO220;				
+MA146->SN232;	SN230->SN232;			
+FG15A->FG252;				
+				
+				
+				
+				
+				
+FG252->FG253;				
+SN231->IS230;				
+SN232->SN233;				
+CO220->EL212;				"Inglés(400)"[shape=polygon,sides=4,peripheries=2,color=lightblue,style=filled]; "Inglés(400)"->EL212;
+RF210->RF210;				
+EL211->IC260;				
+FG250->FG254;				
+				
+				
+				
+				
+				
+TE230->TE320;				
+RF210->RF310;				
+IS230->IS330;				
+EL212->CO320;				
+RF210->CO321;	SN233->CO321;			
+SN233->IV370;				
+FG254->FG350;				
+				
+				
+				
+				
+				
+FG253->FG351;	FG350->FG351;			
+				
+IS330->TD331;				
+CO321->CO322;	RF310->CO322;			
+				
+				
+IV370->IV470;				
+				
+				
+				
+				
+				
+FG351->FG352;				
+TE320->TE322;				
+TE320->TE323;				
+CO321->SN330;				
+CO320->CO370;				
+EL210->CO323;				
+SE370->SE372;				
+SE371->SE373;				
+IV470->IV471;						
+
+ { rank = same; "1er Sem (22 cr)"; "FG150"; "FG151"; "FG152"; "MA140"; "CO120"; "MA141"; "IC160"; }
+ { rank = same; "1er Sem (22 cr)"; "FG150"; "FG151"; "FG152"; "MA140"; "CO120"; "MA141"; "IC160"; }
+ { rank = same; "2er Sem (22 cr)"; "FI140"; "MA142"; "MA143"; "IC161"; "EL110"; "FG153"; "FG154"; "FG155"; "FG156"; "FG157"; "FG158"; }
+ { rank = same; "3er Sem (22 cr)"; "FG159"; "MA144"; "FI141"; "MA145"; "EL111"; "EL112"; }
+ { rank = same; "4er Sem (21 cr)"; "MA146"; "IC162"; "FI142"; "SN130"; "TE120"; "FG15A"; }
+ { rank = same; "5er Sem (21 cr)"; "FG250"; "EL210"; "SN230"; "TD230"; "FG251"; "EL211"; }
+ { rank = same; "6er Sem (22 cr)"; "TE230"; "SN231"; "RF210"; "CO220"; "SN232"; "FG252"; }
+ { rank = same; "7er Sem (22 cr)"; "FG253"; "IS230"; "SN233"; "EL212"; "RF210"; "IC260"; "FG254"; }
+ { rank = same; "8er Sem (22 cr)"; "TE320"; "RF310"; "IS330"; "CO320"; "CO320"; "IV370"; "FG350"; }
+ { rank = same; "9er Sem (22 cr)"; "FG351"; "TE321"; "TD331"; "CO321"; "SE370"; "SE371"; "IV470"; }
+ { rank = same; "10er Sem (22 cr)"; "FG352"; "TE322"; "TE323"; "SN330"; "CO370"; "CO322"; "SE372"; "SE373"; "IV471"; }
+																																	
+}												

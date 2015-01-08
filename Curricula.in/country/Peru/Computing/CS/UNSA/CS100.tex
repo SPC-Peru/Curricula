@@ -1,0 +1,587 @@
+\documentclass[a4paper]{article}
+\usepackage{graphics}
+\usepackage{ae}
+\usepackage[spanish]{babel}
+\usepackage[dvips]{graphicx}
+\usepackage{tabularx}
+\usepackage{html}
+\usepackage{multibib}
+\usepackage{xspace}
+\usepackage{paralist}
+\usepackage[top=15mm,bottom=2cm,left=15mm,right=15mm]{geometry}
+\input{current-institution}
+\usepackage{\InStyDir/bok-macros}
+\input{\OutputTexDir/macros-only}
+\input{\InTexDir/outcomes-macros}
+\input{\InTexDir/expand-outcomes}
+\input{\InInstDir/institution-info}
+
+\newcommand{\INST}{UNSA}
+\newcommand{\AREA}{CS}
+\newenvironment{unitgoals}
+{ \begin{itemize} }
+{ \end{itemize}   }
+
+\newenvironment{topics}
+{ \begin{itemize} }
+{ \end{itemize}   }
+%%%%% BEGIN OBSERVACION
+\newcites{obl}{Obligatoria}
+\newcites{sug}{Sugerida}
+
+\newenvironment{lecturas}
+{
+	\begin{description}
+}
+{
+	\end{description}
+}
+\newcommand{\obligatoria}[1]{\item[Lectura Obligatoria] \citeobl{#1}}
+\newcommand{\sugerida}[1]{\item[Lectura Sugerida] \citesug{#1}}
+
+\hyphenation{GE-NE-RAL}
+%\setlength{\textwidth}{15.5cm}
+%\setlength{\textheight}{25cm}
+%\addtolength{\voffset}{-2.54cm}
+%\addtolength{\hoffset}{-1.9cm}
+%%%%% END OBSERVACION
+
+\begin{document}
+\begin{tabularx}{\textwidth}{p{3cm}cX}
+    \includegraphics[width=1.5cm]{\InLogosDir/\INST} &
+    \begin{minipage}{0.75\textwidth}
+        \begin{center}
+            {\Large \vspace{-1.5cm}\University\\   VICE RECTORADO ACADÉMICO \\ \medskip SILABO}
+        \end{center}
+    \end{minipage}
+\end{tabularx}
+
+% \begin{tabularx}{\textwidth}{p{3cm}cX}
+% \includegraphics[width=3cm]{\InLogosDir/\INST}
+% &
+% \begin{minipage}{0.75\textwidth}
+% \begin{center}
+% {\noindent\Large\bf\University\\ \SchoolFullNameBreak \\SILABO}
+% \section*{CS100. Introducción a la Ciencia de la Computación (Obligatorio)}\label{sec:CS100}%
+% \addcontentsline{toc}{subsection}{CS100. Introducción a la Ciencia de la Computación (Obligatorio)}%
+% \end{center}
+% \end{minipage}
+% \end{tabularx}
+
+%\medskip
+
+\begin{flushright}
+CODIGO DEL CURSO: ~~~~~~~~~~
+\end{flushright}
+
+\section{Datos Generales}
+\begin{tabularx}{\textwidth}{|l|l|l|l|l|l|l|l|} \hline
+\multicolumn{8}{|l|}{\textbf{FACULTAD:} \FacultadName}\\ \hline
+\multicolumn{4}{|X|}{\textbf{DEPARTAMENTO:}{ \DepartmentShortName} }&
+\multicolumn{4}{|X|}{\textbf{ESCUELA:} Ciencia de la Computación}\\ \hline
+\multicolumn{8}{|l|}{\textbf{PROFESOR:} Ernesto Cuadros-Vargas}\\
+\multicolumn{8}{|l|}{\textbf{TÍTULO:} Dr. en Ciencia de la Computación}\\ \hline
+\multicolumn{8}{|l|}{\textbf{ASIGNATURA:} Introducción a la Ciencia de la Computación}\\ \hline
+
+\multicolumn{2}{|l|}{\textbf{PREREQUISITO:}}&
+\multicolumn{2}{|l|}{\textbf{CREDITOS:} 4}&
+\multicolumn{2}{|l|}{\textbf{Año}: 2010-2}&
+\multicolumn{2}{|l|}{\textbf{Total Horas:} 4 HT; }\\ \cline{5-8}
+
+\multicolumn{2}{|l|}{Ninguno}&
+\multicolumn{2}{|l|}{}&
+\multicolumn{2}{|l|}{\textbf{Sem:} 1$^{er}$ Semestre.}& 4 HT &  \\ \hline
+\multicolumn{2}{|c|}{\textbf{Horario}}&Lun&Mar&Mie&Jue&Vie&Sáb\\ \cline{3-8}
+\multicolumn{2}{|l|}{\textbf{Total Semanal}} & 07:00-09:00 &   & 7:00-9:00 &  &  & \\ \hline
+\multicolumn{2}{|r|}{\textbf{Aula}} & 101 &  & 101 &  &  & \\ \hline
+\end{tabularx}
+
+\bigskip
+
+\section{Exposición de Motivos}
+\begin{tabularx}{\textwidth}{|X|}\hline
+La Ciencia de la Computación es un campo de estudio enorme con muchas especialidades y aplicaciones. 
+Este curso brindará a sus participantes, una visión panorámica de la informática y mostrará sus 
+campos más representativos, como son: Algoritmos, Estructuras de de Datos, Sistemas Operativos, 
+Bases de Datos, etc.
+
+\\ \hline
+\end{tabularx}
+
+\section{Objetivo}
+\begin{tabularx}{\textwidth}{|X|} \hline
+\begin{itemize}
+\item Brindar un panorama del área del conocimiento que es cubierta en la ciencia de la computación.
+
+\end{itemize} 
+\\ \hline
+\end{tabularx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Contenido Temático}
+% Inicio unidad
+\subsection{\DSBasicLogicDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\DSBasicLogicAllObjectives      & 
+\DSBasicLogicAllTopics
+\cite{brookshear} &
+&
+&
+4\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\PFFundamentalConstructsDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \PFFundamentalConstructsObjONE
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \PFFundamentalConstructsTopicSyntax
+      \item \PFFundamentalConstructsTopicVariables
+      \item \PFFundamentalConstructsTopicStructured
+   \end{topics}
+\cite{brookshear} &
+&
+&
+7\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\PFAlgorithmsAndProblemSolvingDef (3 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\PFAlgorithmsAndProblemSolvingAllObjectives      & 
+\PFAlgorithmsAndProblemSolvingAllTopics
+\cite{brookshear} &
+&
+&
+13\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\PFFundamentalDataStructuresDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\PFFundamentalDataStructuresAllObjectives      & 
+\PFFundamentalDataStructuresAllTopics
+\cite{brookshear} &
+&
+&
+16\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\ALBasicAnalysisDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \ALBasicAnalysisObjTHREE
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \ALBasicAnalysisTopicIdentifying
+   \end{topics}
+\cite{brookshear} &
+&
+&
+20\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\ALAlgoritmicStrategiesDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \ALAlgoritmicStrategiesObjONE
+      \item \ALAlgoritmicStrategiesObjFOUR
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \ALAlgoritmicStrategiesTopicBrute
+      \item \ALAlgoritmicStrategiesTopicDivide
+   \end{topics}
+\cite{brookshear} &
+&
+&
+24\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\ARDigitalLogicAndDataRepresentationDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\ARDigitalLogicAndDataRepresentationAllObjectives      & 
+\ARDigitalLogicAndDataRepresentationAllTopics
+\cite{brookshear} &
+&
+&
+27\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\ARComputerArchitectureOrganizationDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\ARComputerArchitectureOrganizationAllObjectives      & 
+\ARComputerArchitectureOrganizationAllTopics
+\cite{brookshear} &
+&
+&
+31\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\ARMemoryArchitectureDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\ARMemoryArchitectureAllObjectives      & 
+\ARMemoryArchitectureAllTopics
+\cite{brookshear} &
+&
+&
+35\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\ARInterfacingAndIOStrategiesDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\ARInterfacingAndIOStrategiesAllObjectives      & 
+\ARInterfacingAndIOStrategiesAllTopics
+\cite{brookshear} &
+&
+&
+38\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\OSOverviewofOperatingSystemsDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\OSOverviewofOperatingSystemsAllObjectives      & 
+\OSOverviewofOperatingSystemsAllTopics
+\cite{brookshear} &
+&
+&
+42\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\NCIntroductionDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\NCIntroductionAllObjectives      & 
+\NCIntroductionAllTopics
+\cite{brookshear} &
+&
+&
+45\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\PLOverviewDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\PLOverviewAllObjectives      & 
+\PLOverviewAllTopics
+\cite{brookshear} &
+&
+&
+49\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\PLVirtualMachinesDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\PLVirtualMachinesAllObjectives      & 
+\PLVirtualMachinesAllTopics
+\cite{brookshear} &
+&
+&
+53\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\PLObjectOrientedProgrammingDef (1 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\PLObjectOrientedProgrammingAllObjectives      & 
+\PLObjectOrientedProgrammingAllTopics
+\cite{brookshear} &
+&
+&
+55\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\PLLanguageTranslatioSystemsDef (1 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\PLLanguageTranslatioSystemsAllObjectives      & 
+\PLLanguageTranslatioSystemsAllTopics
+\cite{brookshear} &
+&
+&
+56\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\HCFoundationsDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \HCFoundationsObjONE
+      \item \HCFoundationsObjTWO
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \HCFoundationsTopicMotivation
+      \item \HCFoundationsTopicContext
+   \end{topics}
+\cite{brookshear} &
+&
+&
+60\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\ISFundamentalIssuesDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \ISFundamentalIssuesObjONE
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \ISFundamentalIssuesTopicHistory%
+      \item \ISFundamentalIssuesTopicPhilosophical%
+      \item \ISFundamentalIssuesTopicTheTuring%
+   \end{topics}
+\cite{brookshear} &
+&
+&
+64\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\IMDatabaseSystemsDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \IMDatabaseSystemsObjONE
+      \item \IMDatabaseSystemsObjTWO
+      \item \IMDatabaseSystemsObjTHREE
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \IMDatabaseSystemsTopicHistory
+      \item \IMDatabaseSystemsTopicComponents
+   \end{topics}
+\cite{brookshear} &
+&
+&
+67\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\IMDataModelingDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \IMDataModelingObjTWO
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \IMDataModelingTopicData
+      \item \IMDataModelingTopicConceptual
+   \end{topics}
+\cite{brookshear} &
+&
+&
+71\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\IMRelationalDatabasesDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \IMRelationalDatabasesObjFOUR
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \IMRelationalDatabasesTopicRelational
+   \end{topics}
+\cite{brookshear} &
+&
+&
+75\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\SPSocialContextDef (4 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\SPSocialContextAllObjectives      & 
+\SPSocialContextAllTopics
+\cite{brookshear} &
+&
+&
+82\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\SPIntellectualPropertyDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\SPIntellectualPropertyAllObjectives      & 
+\SPIntellectualPropertyAllTopics
+\cite{brookshear} &
+&
+&
+85\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\SESoftwareDesignDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \SESoftwareDesignObjONE
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \SESoftwareDesignTopicFundamental
+   \end{topics}
+\cite{brookshear} &
+&
+&
+89\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\SEUsingAPIsDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \SEUsingAPIsObjONE
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \SEUsingAPIsTopicProgramming
+   \end{topics}
+\cite{brookshear} &
+&
+&
+93\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\SEToolsAndEnvironmentsDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \SEToolsAndEnvironmentsObjTWO
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \SEToolsAndEnvironmentsTopicProgramming
+   \end{topics}
+\cite{brookshear} &
+&
+&
+96\% \\ \hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{\SESoftwareProcessDef (2 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|} \hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+      \item \SESoftwareProcessObjONE
+   \end{unitgoals}      & 
+\begin{topics}
+      \item \SESoftwareProcessTopicSoftwareLife
+   \end{topics}
+\cite{brookshear} &
+&
+&
+100\% \\ \hline
+\end{tabularx}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{description}
+%\item[Examen Parcial] Capítulos 1,2,3
+%\item[Examen Final] Todos los capítulos
+%\end{description} 
+
+\section{Actividades}
+\begin{itemize}
+\item Asignaciones
+\item Controles de Lectura
+\item Exposiciones
+\end{itemize} 
+
+\section{Recursos Materiales}
+\begin{itemize}
+\item Apuntes del curso
+\item Libro(s) de la bibliografía
+\end{itemize} 
+
+\section{Metodología}
+\begin{itemize}
+\item Clase Magistral.
+\item Taller didáctico.
+\item Social Constructivismo.
+\item Prácticas personales y en grupo.
+\end{itemize} 
+
+\section{Evaluación}
+La nota final ($NF$) se obtiene de la siguiente manera
+\begin{description}
+\item[NE] Nota de Exámenes 60\%, esta nota se divide en 
+\begin{itemize}
+\item Exámen Parcial 40\%
+\item Examen Final 60\% 
+\end{itemize} 
+\item[NT] Nota de Trabajos e Intervención en clase 40\%
+\end{description} 
+\begin{displaymath}
+NF = 0.6*NE + 0.4*NT
+\end{displaymath}
+
+%\bibliographystyle{apalike}
+\bibliographystyle{plain}
+\bibliography{CS100}
+
+%\section{Recursos Bibliográficos}
+%\renewcommand{\refnameobl}{}
+%\renewcommand{\refnamesug}{}
+
+%\subsection*{Obligatoria}
+%\vspace{-0.8cm}
+%\bibliographyobl{silaboADA}
+
+%\bibliographystylesug{plain}
+%\subsection*{Sugerida}
+%\vspace{-0.8cm}
+%\bibliographysug{silaboADA}
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\begin{tabularx}{\textwidth}{XX} 
+\cline{2-2}
+&
+\begin{center}
+Dr. Ernesto Cuadros-Vargas\\
+Docente del curso
+
+\end{center}\\
+\end{tabularx}
+
+\end{document}
+
+
+
+

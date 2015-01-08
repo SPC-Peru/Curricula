@@ -1,0 +1,169 @@
+\newcommand{\ContribInitMsg}{Esta disciplina contribuye al logro de los siguientes resultados de la carrera\xspace}
+\newcommand{\CompetencesInitMsg}{Esta disciplina contribuye a la formación de las siguientes competencias del área de computación (IEEE)\xspace}
+
+\newcommand{\DefineOutcome}[2]{%
+\expandafter\def\csname Outcome#1\endcsname{#2}%
+}
+\newcommand{\ShowOutcome}[2]{%
+{\bf #1)} \csname Outcome#1\endcsname ({\bf \ShowCompetenceLevel{#2}})%
+}
+
+\newcommand{\DefineCompetence}[2]{%
+\expandafter\def\csname #1\endcsname{#2}%
+}
+
+\newcommand{\Competence}[1]{%
+\csname #1\endcsname\label{Competence:#1}%
+}
+\newcommand{\ShowCompetence}[2]{%
+{\bf #1.} \csname #1\endcsname {\bf $\Rightarrow$ Outcome #2}%
+}
+
+\newcommand{\DefineCompetenceLevel}[2]{%
+\expandafter\def\csname CompetenceLevel#1\endcsname{#2}%
+}
+\newcommand{\ShowCompetenceLevel}[1]{%
+\csname CompetenceLevel#1\endcsname%
+}
+
+\DefineOutcome{a}{Aplicar conocimientos de computación y de matemáticas apropiadas para la disciplina.\xspace}
+\DefineOutcome{aShort}{Aplicar conocimientos de computación y de matemáticas.\xspace}
+
+\DefineOutcome{b}{Analizar problemas e identificar y definir los requerimientos computacionales apropiados para su solución.\xspace}
+\DefineOutcome{bShort}{Analizar problemas e identificar y definir los requerimientos computacionales.\xspace}
+
+\DefineOutcome{c}{Diseñar, implementar y evaluar un sistema, proceso, componente o programa computacional para alcanzar las necesidades deseadas.\xspace}
+\DefineOutcome{cShort}{Diseñar, implementar y evaluar un sistema, proceso, componente o programa computacional.\xspace}
+
+\DefineOutcome{d}{Trabajar efectivamente en equipos para cumplir con un objetivo común.\xspace}
+\DefineOutcome{dShort}{Trabajar efectivamente en equipos.\xspace}
+
+\DefineOutcome{e}{Entender correctamente las implicancias profesionales, éticas, legales, de seguridad y sociales de la profesión.\xspace}
+\DefineOutcome{eShort}{Entender las implicancias profesionales, éticas, legales, de seguridad y sociales.\xspace}
+
+\DefineOutcome{f}{Comunicarse efectivamente con audiencias diversas.\xspace}
+\DefineOutcome{fShort}{Comunicarse efectivamente.\xspace}
+
+\DefineOutcome{g}{Analizar el impacto local y global de la computación sobre los individuos, organizaciones y sociedad.\xspace}
+\DefineOutcome{gShort}{Analizar el impacto local y global de la computación.\xspace}
+
+\DefineOutcome{h}{Incorporarse a un proceso de aprendizaje profesional continuo.\xspace}
+\DefineOutcome{hShort}{Aprender de forma continua.\xspace}
+
+\DefineOutcome{i}{Utilizar técnicas y herramientas actuales necesarias para la práctica de la computación.\xspace}
+\DefineOutcome{iShort}{Utilizar técnicas y herramientas actuales.\xspace}
+
+\DefineOutcome{j}{Aplicar la base matemática, principios de algoritmos y la teoría de la Ciencia de la Computación en el modelamiento y diseño de sistemas computacionales de tal manera que demuestre comprensión de los puntos de equilibrio involucrados en la opción escogida.\xspace}
+\DefineOutcome{jShort}{Aplicar matemática, algoritmos y la teoría de la CS en el modelamiento y diseño de sistemas.\xspace}
+
+\DefineOutcome{k}{Aplicar los principios de desarrollo y diseño en la construcción de sistemas de software de complejidad variable.\xspace}
+\DefineOutcome{kShort}{Aplicar los principios de desarrollo y diseño en software de complejidad variable.\xspace}
+
+% Our outcomes are here !
+\DefineOutcome{l}{Desarrollar principios investigación en el área de computación con niveles de competividad internacional.\xspace}
+\DefineOutcome{lShort}{Desarrollar principios de investigación con nivel internacional.\xspace}
+
+\DefineOutcome{m}{Transformar sus conocimientos del área de Ciencia de la Computación en emprendimientos tecnológicos.\xspace}
+\DefineOutcome{mShort}{Transformar sus conocimientos en emprendimientos tecnológicos.\xspace}
+
+\DefineOutcome{HU}{Aplicar conocimientos de humanidades en su labor profesional.\xspace}
+\DefineOutcome{n}{Aplicar conocimientos de humanidades en su labor profesional.\xspace}
+\DefineOutcome{HUShort}{Aplicar conocimientos de humanidades en su labor profesional.\xspace}
+\DefineOutcome{nShort}{Aplicar conocimientos de humanidades en su labor profesional.\xspace}
+
+%OnlyUCSP
+\DefineOutcome{FH}{Comprender que la formación de un buen profesional no se desliga ni se opone sino mas bien contribuye al auténtico crecimiento personal. Esto requiere de la asimilación de valores sólidos, horizontes espirituales amplios y una visión profunda del entorno cultural.\xspace}
+\DefineOutcome{ñ}{Comprender que la formación de un buen profesional no se desliga ni se opone sino mas bien contribuye al auténtico crecimiento personal. Esto requiere de la asimilación de valores sólidos, horizontes espirituales amplios y una visión profunda del entorno cultural.\xspace}
+\DefineOutcome{FHShort}{Comprender que la formación humana contribuye al auténtico crecimiento personal.\xspace}
+\DefineOutcome{ñShort}{Comprender que la formación humana contribuye al auténtico crecimiento personal.\xspace}
+
+\DefineOutcome{TASDSH}{Mejorar las condiciones de la sociedad poniendo la tecnología al servicio del ser humano.\xspace}
+\DefineOutcome{o}{Mejorar las condiciones de la sociedad poniendo la tecnología al servicio del ser humano.\xspace}
+\DefineOutcome{TASDSHShort}{Poner la tecnología al servicio del ser humano.\xspace}
+\DefineOutcome{oShort}{Poner la tecnología al servicio del ser humano.\xspace}
+
+\DefineCompetence{C1}{La comprensión intelectual y la capacidad de aplicar las bases matemáticas y la teoría de la informática (computer science).}
+\DefineCompetence{C2}{Capacidad para tener una perspectiva crítica y creativa para identificar y resolver problemas utilizando el pensamiento computacional.}
+\DefineCompetence{C3}{Una comprensión intelectual de, y el aprecio por el papel central de los algoritmos y estructuras de datos.}
+\DefineCompetence{C4}{Una comprensión del hardware de la computadora desde la perspectiva del software, por ejemplo, el uso del procesador, memoria, unidades de disco, pantalla, etc}
+\DefineCompetence{C5}{Capacidad para implementar algoritmos y estructuras de datos en el software..}
+\DefineCompetence{C6}{Capacidad para diseñar y poner en práctica las unidades estructurales mayores que utilizan algoritmos y estructuras de datos y las interfaces a través del cual estas unidades se comunican.}
+\DefineCompetence{C7}{Ser capaz de aplicar los principios y tecnologías de ingeniería de software para asegurar que las implementaciones de software son robustos, fiables y apropiados para su público objetivo.}
+\DefineCompetence{C8}{Entendimiento de lo que las tecnologías actuales pueden y no pueden lograr.}
+\DefineCompetence{C9}{Comprensión de las limitaciones de la computación, incluyendo la diferencia entre lo que la computación es inherentemente incapaz de hacer frente a lo que puede lograrse a través de un futuro de ciencia y tecnología.}
+\DefineCompetence{C10}{Comprensión del impacto en las personas, las organizaciones y la sociedad de la implementación de soluciones tecnológicas e intervenciones.}
+\DefineCompetence{C11}{Entendimiento del concepto del ciclo de vida, incluyendo la importancia de sus fases (planificación, desarrollo, implementación y evolución).}
+\DefineCompetence{C12}{Entender las implicaciones de ciclo de vida para el desarrollo de todos los aspectos de los sistemas informáticos (incluyendo software, hardware, y la interfaz de la computadora humana).}
+\DefineCompetence{C13}{Comprender la relación entre la calidad y la gestión del ciclo de vida.}
+\DefineCompetence{C14}{Entendimiento del concepto esencial del proceso en lo relacionado con la informática, especialmente la ejecución del programa y el funcionamiento del sistema.}
+\DefineCompetence{C15}{Entendimiento del concepto esencial del proceso, ya que se relaciona con la actividad profesional sobre todo la relación entre la calidad del producto y el despliegue de los procesos humanos apropiados durante el desarrollo de productos.}
+\DefineCompetence{C16}{Capacidad para identificar temas avanzados de computación y de la comprensión de las fronteras de la disciplina.}
+\DefineCompetence{C17}{Capacidad para expresarse en los medios de comunicación orales y escritos como se espera de un graduado..}
+\DefineCompetence{C18}{Capacidad para participar de forma activa y coordinada en un equipo.}
+\DefineCompetence{C19}{Capacidad para identificar eficazmente los objetivos y las prioridades de su trabajo / área / proyecto con indicación de la acción, el tiempo y los recursos necesarios.}
+\DefineCompetence{C20}{Posibilidad de conectar la teoría y las habilidades aprendidas en la academia a los acontecimientos del mundo real que explican su pertinencia y utilidad.}
+\DefineCompetence{C21}{Comprender el aspecto profesional, legal, seguridad, asuntos políticos, humanistas, ambientales, culturales y éticos.}
+\DefineCompetence{C22}{Capacidad para demostrar las actitudes y prioridades que honrar, proteger y mejorar la estatura y la reputación ética de la profesión.}
+\DefineCompetence{C23}{Capacidad para emprender, completar, y presentar un proyecto final.}
+\DefineCompetence{C24}{Comprender la necesidad de la formación permanente y la mejora de habilidades y capacidades.}
+\DefineCompetence{C25}{Capacidad para comunicarse en un segundo idioma.}
+ 
+\DefineCompetence{CS1}{Modelar y diseñar sistemas de computadora de una manera que se demuestre comprensión del balance entre las opciones de diseño.}
+\DefineCompetence{CS2}{Identificar y analizar los criterios y especificaciones apropiadas a los problemas específicos, y planificar estrategias para su solución.}
+\DefineCompetence{CS3}{Analizar el grado en que un sistema basado en el ordenador cumple con los criterios definidos para su uso actual y futuro desarrollo.}
+\DefineCompetence{CS4}{Implementar la teoría apropiada, prácticas y herramientas para la especificación, diseño, implementación y mantenimiento, así como la evaluación de los sistemas basados en computadoras.}
+\DefineCompetence{CS5}{Especificar, diseñar e implementar sistemas basados en computadoras.}
+\DefineCompetence{CS6}{Evaluar los sistemas en términos de atributos de calidad en general y las posibles ventajas y desventajas que se presentan en el problema dado.}
+\DefineCompetence{CS7}{Aplicar los principios de una gestión eficaz de la información, organización de la información, y las habilidades de recuperación de información a la información de diversos tipos, incluyendo texto, imágenes, sonido y vídeo. Esto debe incluir la gestión de los problemas de seguridad.}
+\DefineCompetence{CS8}{Aplicar los principios de la interacción persona-ordenador para la evaluación y la construcción de una amplia gama de materiales, incluyendo interfaces de usuario, páginas web, sistemas multimedia y sistemas móviles.}
+\DefineCompetence{CS9}{Identificar los riesgos (y esto incluye cualquier seguridad o los aspectos de seguridad) que pueden estar involucrados en la operación de equipo de cómputo dentro de un contexto dado.}
+\DefineCompetence{CS10}{Implementar efectivamente las herramientas que se utilizan para la construcción y la documentación de software, con especial énfasis en la comprensión de todo el proceso involucrado en el uso de computadoras para resolver problemas prácticos. Esto debe incluir herramientas para el control de software, incluyendo el control de versiones y gestión de la configuración.}
+\DefineCompetence{CS11}{Ser consciente de la existencia de software a disposición del público y la comprensión del potencial de los proyectos de código abierto.}
+\DefineCompetence{CS12}{Operar equipos de computación y software eficaz de dichos sistemas.}
+
+\DefineCompetence{CE1}{Especificar, diseñar, construir, probar, verificar y validar los sistemas digitales, incluyendo computadores, sistemas basados en microprocesadores y sistemas de comunicación.}
+\DefineCompetence{CE2}{Desarrollar procesadores específicos y sistemas empotrados y de desarrollo de software y optimización de estos sistemas.}
+\DefineCompetence{CE3}{Analizar y evaluar arquitecturas de computadores, incluyendo paralelo y plataformas distribuidas, así como desarrollar y optimizar software para ellos.}
+\DefineCompetence{CE4}{Diseñar e implementar el software para el sistema de comunicaciones.}
+\DefineCompetence{CE5}{Analizar, evaluar y seleccionar plataformas hardware y software adecuados para los sistemas de soporte de aplicaciones en tiempo real y embebidos.}
+\DefineCompetence{CE6}{Comprender, aplicar y gestionar los sistemas de protección y seguridad.}
+\DefineCompetence{CE7}{Analizar, evaluar, seleccionar y configurar plataformas hardware para el desarrollo e implementación de aplicaciones y servicios de software.}
+\DefineCompetence{CE8}{Diseñar, implementar, administrar y gestionar redes de computadoras.}
+
+\DefineCompetence{IS1}{Identificar, entender y documentar los requisitos de los sistemas de información.}
+\DefineCompetence{IS2}{Cuenta para interfaces hombre-máquina y las diferencias interculturales, con el fin de ofrecer una experiencia de usuario de calidad.}
+\DefineCompetence{IS3}{Diseñar, implementar, integrar y gestionar los sistemas de TI, la empresa, los datos y las arquitecturas de aplicaciones.}
+\DefineCompetence{IS4}{Gestionar los proyectos de sistemas de información, incluyendo el análisis de riesgos, estudios financieros, elaboración de presupuestos, la contratación y el desarrollo, y para apreciar los problemas de mantenimiento de los sistemas de información.}
+\DefineCompetence{IS5}{Identificar, analizar y comunicar los problemas, opciones y alternativas de solución, incluidos los estudios de viabilidad.}
+\DefineCompetence{IS6}{Identificar y comprender las oportunidades creadas por las innovaciones tecnológicas.}
+\DefineCompetence{IS7}{Apreciar las relaciones entre la estrategia empresarial y los sistemas de información, la arquitectura y la infraestructura.}
+\DefineCompetence{IS8}{Entender los procesos de negocio y la aplicación de las TI para ellos, incluyendo la gestión de cambios, el control y las cuestiones de riesgo.}
+\DefineCompetence{IS9}{Comprender e implementar sistemas seguros, infraestructuras y arquitecturas.}
+\DefineCompetence{IS10}{Comprender los problemas de rendimiento y escalabilidad.}
+\DefineCompetence{IS11}{Gestionar los sistemas de información, incluyendo recursos, el mantenimiento, la contratación y las cuestiones de continuidad de negocio existente.}
+
+
+\DefineCompetence{SE1}{Desarrollar, mantener y evaluar los sistemas de software y servicios para satisfacer todas las necesidades del usuario y se comporten de forma fiable y eficiente, sean asequibles de desarrollar y mantener y cumplir con los estándares de calidad, aplicando las teorías, principios, métodos y mejores prácticas de la Ingeniería del Software}
+\DefineCompetence{SE2}{Evaluar las necesidades del cliente y especificar los requisitos software para satisfacer estas necesidades, reconciliando objetivos en conflicto mediante la búsqueda de compromisos aceptables dentro de las limitaciones derivadas de los costes, el tiempo, la existencia de sistemas ya desarrollados y de las propias organizaciones}
+\DefineCompetence{SE3}{Resolver problemas de integración en términos de estrategias, estándares y tecnologías disponibles.}
+\DefineCompetence{SE4}{Trabajar como individuo y como parte de un equipo para desarrollar y entregar artefactos de software de calidad. Comprender diversos procesos (actividades, normas y configuraciones de ciclo de vida, la formalidad a diferencia de agilidad) y roles. Realizar mediciones y análisis (básica) en proyectos , los procesos y las dimensiones del producto.}
+\DefineCompetence{SE5}{Conciliar conflictivos objetivos del proyecto, la búsqueda de compromisos aceptables dentro de las limitaciones de costo, tiempo, conocimiento, sistemas existentes, las organizaciones, la ingeniería económica, las finanzas y los fundamentos del análisis de riesgos y la gestión en un contexto de software.}
+\DefineCompetence{SE6}{Diseño soluciones apropiadas en uno o más dominios de aplicación utilizando métodos de ingeniería del software que integren aspectos éticos, sociales, legales y económicos.}
+\DefineCompetence{SE7}{Demostrar una comprensión y aplicación de las teorías actuales, modelos y técnicas que proporcionan una base para la identificación y análisis de problemas, diseño de software, desarrollo, construcción e implementación, verificación y validación, documentación y análisis cuantitativo de los elementos de diseño y arquitecturas de software.}
+\DefineCompetence{SE8}{Demostrar una comprensión de la reutilización del software y la adaptación, realizar el mantenimiento, la integración, la migración de productos de software y componentes, preparar elementos de software para su reutilización potencial y crear interfaces técnicas a los componentes y servicios.}
+\DefineCompetence{SE9}{Demostrar una comprensión de los sistemas de software y su entorno (los modelos de negocio, regulaciones).}
+
+\DefineCompetence{IT13}{Diseñar, implementar y evaluar un sistema basado en computadora, proceso, componente o programa para satisfacer las necesidades deseadas dentro de un contexto organizacional y social.}
+\DefineCompetence{IT14}{Identificar y analizar las necesidades de los usuarios y tenerlas en cuenta en la selección, creación, evaluación y administración de los sistemas basados en computadoras.}
+\DefineCompetence{IT15}{Integrarla de forma efectiva soluciones basadas, incluyendo el entorno del usuario.}
+\DefineCompetence{IT16}{Función como defensor del usuario, explicar, aplicar tecnologías de información adecuadas y emplear estándares de mejores prácticas y metodologías apropiadas para ayudar a un individuo u organización a alcanzar sus metas y objetivos.}
+\DefineCompetence{IT17}{Ayudar en la creación de un plan de proyecto eficaz y funcionar como un defensor del usuario.}
+\DefineCompetence{IT18}{Administrar los recursos de tecnología de la información de un individuo u organización.}
+\DefineCompetence{IT19}{Anticipar la dirección cambiante de la tecnología de la información y evaluar y comunicar la utilidad probable de las nuevas tecnologías a un individuo u organización.}
+
+\newcommand{\Familiarity}{Familiarizarse}
+\DefineCompetenceLevel{1}{\Familiarity}
+\newcommand{\Usage}{Usar}
+\DefineCompetenceLevel{2}{\Usage}
+\newcommand{\Assessment}{Evaluar}
+\DefineCompetenceLevel{3}{\Assessment}

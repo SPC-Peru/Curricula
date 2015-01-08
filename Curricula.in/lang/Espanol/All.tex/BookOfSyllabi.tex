@@ -1,0 +1,27 @@
+\documentclass[twosides,openright,a4paper,final]{book}
+\usepackage{ae}
+\usepackage[spanish]{babel}
+\usepackage[final]{pdfpages}
+\usepackage{xspace}
+\usepackage{ae}
+\usepackage{fancyhdr}
+\usepackage[]{hyperref}
+
+\input{current-institution}
+\input{\InInstDir/institution-info}
+\usepackage{html}
+\input{\InAllTexDir/pdfsetup}
+
+\usepackage{\InStyAllDir/config-hdr-foot}
+
+\newcommand{\BookTitle}{Compendio de Silabos\xspace}
+
+\begin{document}
+\input{Book-Face}
+\pagebreak
+
+\input{\InInstDir/team}	
+\pagebreak
+\tableofcontents
+\include{pdf-syllabi-includelist}
+\end{document}

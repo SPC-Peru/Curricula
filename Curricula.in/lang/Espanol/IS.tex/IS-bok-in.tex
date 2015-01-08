@@ -1,0 +1,3411 @@
+\begin{BKL2}{IT1}{IT1. Arquitectura de Computadores}
+Horas:
+
+(begin_topics)
+-Representación de datos fundamentales: no numéricos, numéricos (enteros, reales, errores, precisión)
+(begin_subtopics)
+-Representación básica en máquina de datos numéricos
+-Representación básica en máquina de datos no numéricos
+-Precisión de la representación de números enteros y de punto flotante
+-Errores en aritmética de computador y asuntos relacionados de portabilidad
+-Conceptos básicos de arquitectura de computadores
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Representación física de información digital: p.e. datos, texto, imágenes, voz, video.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Architecturas de CPU: CPU, memoria, registros, modos de direccionamiento, conjuntos de instrucciones.
+(begin_subtopics)
+-Organización básica; von Neumann, diagrama de bloques, bus de datos, bus de control.
+-Instrucciones y modos de direccionamiento: conjuntos de instrucciones y tipos.
+-Instrucciones y modos de direccionamiento: lenguaje de máquina.
+-Modos de direccionamiento.
+-Unidad de control; {\it fetch} y ejecución de instrucciones, {\it fetch} de operadores.
+-CISC, RISC.
+-Organización del computador.
+-Sistemas de memoria.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Componentes de sistemas de computadores: bus, controladores, sistemas de almacenamiento, dispositivos periféricos.
+(begin_subtopics)
+-Periféricos: E/S e interrupciones.
+-Periféricos: métodos de control de E/S, interrupciones.
+-Periféricos: almacenamiento externo, organización física y {\it drives}.
+-Almacenamiento auxiliar, cinta, óptico.
+-Sistemas de almacenamiento, jerarquía.
+-Organización principal de la memoria, operaciones de bus, tiempos de ciclo.
+-Memoria caché, lectura/escritura.
+-Memoria virtual.
+-Interfaces entre computadores y otros dispositivos (sensores, efectuadores, etc.)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Arquitectura de multiprocesadores
+(begin_subtopics)
+-Arquitecturas de sistemas (multi-procesamiento simple y procesamiento distribuido, pilas)
+-Tecnologías cliente-servidor.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Lógica y sistemas discretos.
+(begin_subtopics)
+-Elementos lógicos y teoría de {\it switching}; conceptos e implementación de minimización.
+-Demoras y peligros de propagación.
+-Demultiplexers, multiplexers, decodificadores, codificadores, aditores, substractores.
+-ROM, PROM, EPROM, EAPROM, RAM.
+-Análisis y síntesis de circuitos síncronos, asíncronos vs. síncronos.
+-Notación de transferencia de registros, condicional e incondicional.
+-Máquinas de estado, redes de conducción, señales de transferencia de carga.
+-Tri-estados y estructuras de bus.
+-Diagramas de bloque, diagramas de tiempo, lenguaje de transferencia.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+\end{BKL2}
+
+\begin{BKL2}{IT2}{IT2. Algoritmos y Estructuras de Datos}
+Horas:
+
+(begin_topics)
+-Problemas formales y resolución de problemas.
+(begin_subtopics)
+-Estrategias de resolución de problemas usando algoritmos voraces.
+-Estrategias de resolución de problemas usando algoritmos divide y vencerás.
+-Estrategias de resolución de problemas usando algoritmos de {\it back- tracking}.
+-Proceso de diseño de software; desde la especificación a la implementación.
+-Establecimiento del problema y determinación algorítmica.
+-Estrategias de implementación ({\it top-down}, {\it bottom-up}; equipo vs. individual).
+-Conceptos de verificación formal.
+-Models de computación formales.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Estructuras de datos básicas: listas, arreglos, cadenas, registros, conjuntos, listas enlazadas, pilas, colas, árboles.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Estructuras de datos complejas: p.e., de datos, texto, voz, imagen, video, hipermedia.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Tipos abstractos de datos.
+(begin_subtopics)
+-Propósito e implementación de tipos abstractos de datos.
+-Especificaciones informales.
+-Especificaciones formales, pre-condiciones y post-condiciones, algebraicas.
+-Módulos, cohesión, acoplamiento; diagramas de flujo de datos y conversión a jerarquías.
+-Correctitud, verificación y validación: pre- y post-condiciones, invariantes.
+-Estructuras de control; selección, iteración, recursión; tipos de datos y sus usos.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Estructuras de archivos: secuencial, de acceso directo, hashing, indexados.
+(begin_subtopics)
+-Archivos (estructura, métodos de acceso): distribución de archivos, conceptos de archivos fundamentales.
+-Archivos (estructura, métodos de acceso): contenidos y estructuras de directorios, nombramiento.
+-Archivos (estructura, métodos de acceso): vista general de seguridad del sistema, métodos de seguridad.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Estructuras y algoritmos de ordenamiento y búsqueda.
+(begin_subtopics)
+-Algoritmos de ordenamiento ({\it shell sort}, {\it bucket sort}, {\it radix sort}, {\it quick sort}), edición.
+-Algoritmos de búsqueda (búsqueda serial, búsqueda binaria y árboles de búsqueda binaria).
+-Búsqueda, hashing, resolución de colisiones.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Eficiencia de algoritmos, complejidad y métricas.
+(begin_subtopics)
+-Análisis asintótico.
+-Balance entre tiempo y espacio en algoritmos.
+-Clases de complejidad P, NP, P-space; problemas tratables e intratables.
+-Análisis de límite inferior.
+-NP-completitud.
+-Algoritmos de ordenamiento $O(n^2)$.
+-Algoritmos de ordenamiento $O(n\log n)$.
+-{\it Backtracking}, {\it parsing}, simulaciones discretas, etc.
+-Fundamentos de análisis de algoritmos.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Algoritmos recursivos.
+(begin_subtopics)
+-Conexión de algoritmos recursivos con inducción matemática.
+-Comparación de algoritmos iterativos y recursivos.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Redes neuronales y algoritmos genéticos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Consideraciones avanzadas.
+(begin_subtopics)
+-Funciones computables: modelos de funciones computables de máquinas de Turing.
+-Problemas de decisión: problemas enumerables recursivos; indecibilidad.
+-Modelo de arquitecturas paralelas.
+-Algoritmos de arquitecturas paralelas.
+-Problemas matemáticos: problemas bien acondicionados y mal acondicionados.
+-Problemas matemáticos: aproximaciones iterativas a problemas matemáticos.
+-Problemas matemáticos: clasificación de error, computacional, representacional.
+-Problemas matemáticos: aplicaciones de métodos de aproximación interativa.
+-Límites de computación: computabilidad e intratabilidad algorítmica.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+\end{BKL2}
+
+\begin{BKL2}{IT3}{IT3. Lenguajes de Programación}
+Horas:
+ 
+(begin_topics)
+-Estructuras de lenguajes de programación fundamentales; comparación de lenguajes y aplicaciones.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Lenguajes de nivel de máquina y ensamblador.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Lenguajes procedurales.
+(begin_subtopics)
+-Ventajas y desventajas de la programación procedural.
+-Declaraciones básicas de tipos; operaciones aritméticas y asignación; condicionales.
+-Procedimientos, funciones y parámetros; arreglos y registros.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Lenguajes no procedurales: lógicos, funcional y basados en eventos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Lenguajes de cuarta generación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Extensiones orientadas a objetos para lenguajes.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Lenguajes de programación, diseño, implementación y comparación.
+(begin_subtopics)
+
+-Historia de los primeros lenguajes.
+
+-Evolución de los lenguajes procedurales.
+
+-Evolución de los lenguajes no procedurales.
+
+-Computadores virtuales.
+
+-Tipos de datos elementales y estructurados.
+
+-Creación y aplicación de tipos de datos definidos por el usuario.
+
+-Expresiones, orden de evaluación y efectos secundarios.
+
+-Subproigramas y corutinas como abstracciones de expresiones y declaraciones.
+
+-Manejo de excepciones.
+
+-Mecanismos para compartir y restringir el acceso a datos.
+
+-Ámbito estático vs. dinámico, timepo de vida, visibilidad.
+
+-Mecanismos de paso de parámetros; referencia, valor, nombre, resultado, etc.
+
+-Variedades de disciplinas de prueba de tipos y sus mecanismos.
+
+-Aplicación de almacenamiento basado en pilas.
+
+-Aplicación de almacenamiento basado en {\it heaps}.
+
+-Autómatas de estado finito para modelos restringidos de computación.
+
+-Aplicación de expresiones regulares al análisis de lenguajes de programación.
+
+-Uso de gramáticas libres de contexto y de autómatas de pila.
+
+-Equivalencia entre gramáticas libres de contexto y autómatas de pila.
+
+-Uso de autómatas de pila en el {\it parsing} de lenguajes de programación.
+
+-Proceso de traducción de lenguajes, compiladores a interpretadores.
+
+-Semántica de los lenguajes de programación.
+
+-Paradigmas y lenguajes de programación funcional.
+
+-Construcciones programación paralela.
+
+-Lenguajes procedurales: problemas de implementación; mejora del rendimiento.
+
+-Compiladores y traductores.
+
+-Lenguajes de muy alto nivel: SQL, lenguajes de cuarta generación.
+
+-Diseño orientado a objetos, lenguajes y programación.
+
+-Lenguajes de programación lógica: LISP, PROLOG; programación orientada a lógica.
+
+-Generadores de código.
+
+-Shells de sistemas expertos.
+
+-Lenguajes de diseño de software.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+ 
+
+\begin{BKL2}{IT4}{IT4. Sistemas Operativos}
+Horas:
+ 
+(begin_topics)
+
+-Arquitectura, objetivos y estructura de un sistema operativo; métodos de estructuración, modelos por capas.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Interacción del sistema operativo con la arquitectura de hardware.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Administración de procesos: procesos concurrentes, sincronización.
+
+(begin_subtopics)
+
+-Tareas, procesos, interrupciones.
+
+-Estructuras, listas de espera, bloques de control de procesos.
+
+-Ejecución concurrente de procesos.
+
+-Acceso compartido, condiciones de ejecución.
+
+-{\it Deadlock}; causas, condiciones, prevención.
+
+-Modelos y mecanismos (p.e., {\it busy waiting}, {\it spin locks}, algoritmo de Deker).
+
+-{\it Switching} preferente y no preferente.
+
+-{\it Schedulers} y políticas de {\it scheduling}.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Administración de memoria.
+(begin_subtopics)
+
+-Memoria física y registros.
+
+-{\it Overlays}, {\it swapping}, particiones.
+
+-Páginas y segmentos.
+
+-Política de posicionamiento y reposicionamiento.
+
+-{\it Thrashing}, {\it working sets}.
+
+-Listas libres, {\it layout}; servidores, interrupciones; recuperación de fallos.
+
+-Protección de memoria, administración de la recuperación.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Asignación y programación de recursos.
+
+(begin_subtopics)
+
+-{\it Suites} de protocolos (comuniación y redes); {\it streams} y datagramas.
+
+-Internet {\it working} y {\it routing}; servidores y servicios.
+
+-Tipos de sistemas operativos: de usuario simple, multi-usuario, de red.
+
+-Sincronización y temporización en sistemas distribuidos y de tiempo real.
+
+-Consideraciones especiales en sistemas de tiempo real; fallas, riesgos y recuperación.
+
+-Utilidades de sistemas operativos.
+
+-Evolución del hardware; fuerzas y restricciones económicas.
+
+-Arquitectura de los sistemas de tiempo real y sistemas empotrados.
+
+-Consideraciones especiales en sistemas de tiempo real empotrados: requerimientos {\it hard-timing}..
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Administración de almacenamiento secundario.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Sistemas de archivos y de directorios.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Protección y seguridad.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Sistemas operativos distribuidos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Soporte del sistema operativo para interacción humano-computador: p.e., GUI, video interactivo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Interoperatividad y compatibilidad de sistemas operativos: p.e., sistemas abiertos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Utilidades de los sistemas operativos, herramientas, comandos y programación {\it shell}.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Administración y gerenciamiento de sistemas.
+(begin_subtopics)
+
+-{\it Bootstrapping} del sistema/carga inicial de programa.
+
+-Generación del sistema.
+
+-Configuración del sistema.
+
+-Análisis, evaluación y monitoreo de rendimiento.
+
+-Optimización y {\it tuning} del sistema.
+
+-Funciones de administración del sistema: copias de seguridad, securidad y protección.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+ 
+
+
+\begin{BKL2}{IT5}{IT5. Telecomunicaciones}
+Horas:
+ 
+(begin_topics)
+
+-Estándares, modelos y tendencias internacionales en telecomunicaciones.
+(begin_subtopics)
+
+-Redes de computadoras y control: topologías, portadores comunes, equipos.
+
+-Diseño y administración de redes: arquitecturas de red (ISO, SNA, DNA).
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Transmisión de datos: media, técnicas de señalización, impedimento de transmisión, codificación, error.
+
+(begin_subtopics)
+
+-Tecnologías de sistemas de comunicaciones: medios de transmisión, analógico-digital.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Configuración de línea: control de rror, control de flujo, multiplexado.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Redes de área local.
+(begin_subtopics)
+
+-Topologías, control de acceso al medio, multiplexado.
+
+-Redes de área local y WANs: topología, {\it gateways}, usos (funciones y oficina).
+
+-Determinación de requerimientos, monitoreo y control del rendimiento, aspectos económicos.
+
+-Arquitectura de los sistemas distribuidos.
+
+-Aspectos de hardware de los sitemas distribuidos.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+
+(begin_topics)
+-Redes de área amplia: técnicas de {\it switching}, de {\it broadcast}, {\it routing}.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Arquitecturas y protocolos de redes.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-{\it Internetworking}
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Configuración de redes, análisis y monitoreo de rendimiento.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Seguridad de redes: encriptación, firmas digitales, autenticación.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Redes de alta velocidad: p.e. ISDN, SMDS, ATM, FDDI de banda ancha.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Tecnologías emergentes: ATM, ISDN, redes de satélites, redes ópticas, etc., voz, datos y videos integrados.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Aplicación: p.e., cliente-servidor, EDI, EFT, redes de teléfonos, e-mail, multimedia, video.
+(begin_subtopics)
+
+-Métodos y transmisión de información gráfica y de video.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Protocolos de sistemas abiertos.
+(begin_subtopics)
+
+-Protocolos de transporte.
+
+-Protocolos de soporte de aplicaciones: encriptación; compromiso, concurrencia.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Distribución de información.
+(begin_subtopics)
+
+-Structura de redes.
+
+-Tecnología cliente-servidor/cliente-servidor delgada.
+
+-Redes, {\it routing}, análisis de desempeño.
+
+-Sistemas de comunicaciones.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+ 
+
+\begin{BKL2}{IT6}{IT6. Bases de Datos}
+
+Horas:
+ 
+(begin_topics)
+-DBMS: características, funciones y arquitectura.
+(begin_subtopics)
+-DBMS (características, funciones, arquitectura); componentes de un sistema de bases de datos.
+
+-DBMS: vista general de álgebra relacional.
+
+-Diseño lógico (diseño independiente de DBMS): ER, orientado a objetos.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Modelos de datos: relacional, jerárquico, de red, de objetos, de objetos semánticos.
+(begin_subtopics)
+
+-Teminología de modelado de datos relacional.
+
+-Modelado conceptual (p.e., entidad-relación, orientado a objtos).
+
+-Interconversión entre tipos de modelos (p.e. jerárquico a relacional).
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Normalización
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Integridad (referencial, de item de datos, de intra-relaciones): representación de relaciones; de entidad y referencial.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Lenguajes de definición de datos (lenguajes de definición de esquemas, herramientas de desarrollo gráficas).
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Interfaz de aplicaciones.
+(begin_subtopics)
+
+-Función soportada por sistemas de bases de datos típicos; métodos de acceso, seguridad.
+
+-DML, consulta, QBE, SQL, etc.: lenguaje de consultas de bases de datos; definitción de datos, consulta.
+
+-Interfaces de aplicación y de usuario (DML, consulta, QBE, SQL).
+
+-Objetos de pantalla basados en eventos (botones, listas, etc.)
+
+-Procesamiento físico de transacciones; consideraciones cliente-servidor.
+
+-Distribución de consideraciones de procesamiento del cliente y del servidor.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Procesadores inteligentes de consultas y organización de consultas, herramientas OLAP.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Bases de datos distribuidas, repositorios y {\it warehouses}
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Productos DBMS: desarrollos recientes en sistemas de bases de datos (p.e., hipertexto, hipermedia, ópticos).
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Máquinas y servidores de bases de datos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Administración de datos y bases de datos.
+(begin_subtopics)
+
+-Administración de datos.
+
+-Administración de bases de datos: impacto social de las bases de datos; seguridad y privacidad.
+
+-Propiedad y controles de acceso para sistema de datos y de aplicaciones.
+
+-Modelos de acceso basados en roles y capacidades.
+
+-Replicación.
+
+-Planeamiento de la capacidad del sistema.
+
+-Planeamiento y administración de redundancia, seguridad y copias de seguridad.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Diccionarios, enciclopedias y repositorios de datos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Recuperación de información: p.e. herramientas de Internet, procesamiento de imágenes, hipermedia.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{IT7}{IT7. Inteligencia Artificial}
+Horas:
+ 
+(begin_topics)
+
+-Representación del conocimiento.
+(begin_subtopics)
+
+-Historia, contexto y límites de la inteligencia artificial; el test de Turing.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Ingeniería del conocimiento.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Proceso de inferencia.
+(begin_subtopics)
+
+-Estrategias de control básicas (p.e., por profundidad y por amplitud).
+
+-Razonamiento hacia adelante y hacia atrás.
+
+-Búsqueda heurística.
+
+-Sistemas expertos.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Otras técnicas: lógica difusa, razonamiento basado en casos, lenguaje natural y reconocimiento del habla.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Sistemas basados en conocimiento.
+(begin_subtopics)
+
+-Lenguaje natural, habla y visión.
+
+-Reconocimiento de patrones.
+
+-Aprendizaje de máquina.
+
+-Robótica.
+
+-Redes neuronales.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{OMC1}{OMC1. Teoría General de Organizaciones}
+Horas:
+ 
+(begin_topics)
+
+-Modelos organizacionales jerárquicos y de flujo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Grupos de trabajo organizacionales.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Envergadura organizacional: usuario simple, grupo de trabajo, equipo, empresa, global.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Rol de Sistemas de Información dentro de la empresa: estratégico, táctico y operativo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Efecto de Sistemas de Información en la estructura organizacional; Sistemas de Información y mejora continua.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Estructura organizacional: centralizada, descentralizada, matriz.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Aspectos organizacionales para el uso de sistemas de software en organizaciones.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Procesos en la organización.
+(begin_subtopics)
+-Vista estratégica de los procesos organizacionales; conceptos de eficiencia y efectividad organizacional.
+-Integración de las áreas funcionales de la organización.
+-Procesos relacionados a los objetivos financieros, usuario final y orientados al producto.
+-Innovación de procesos: análisis, modelado y simulación. 
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Modelado y simulación de procesos de negocio.
+(begin_subtopics)
+-Automatización del proceso de negocios.
+-Utilización de diagramas de actividad y de la Notación de Modelado de Procesos de Negocio (\emph{Business Process Modeling Notation} - BPMN - ) para el modelado del proceso de negocio.
+-Herramientas para el modelado del proceso de negocio.
+-Rediseño de tareas; impacto de la automatización en las prácticas de trabajo.
+-Alcanzando seguridad y conformidad del proceso.
+-Monitoreo y control de procesos.
+-Administración de la cadena de abastecimiento (\emph{Supply Chain Management} - SCM). 
+-Administración de la relación con los clientes (\emph{Customer Relationship Management} - CRM).
+-Sistemas de gerenciamiento empresarial (\emph{Enterprise Management Systems} - ERP).
+-El proceso continuo: de procesos estructurados a no estructurados.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Una vista integral de la firma y su relación con proveedores y clientes.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{OMC2}{OMC2. Gerenciamiento de Sistemas de Información}
+Horas:
+ 
+(begin_topics)
+
+-Planeamiento de Sistemas de Información.
+(begin_subtopics)
+
+-Alineamiento del planeamiento de Sistemas de Información con el planeamiento empresarial.
+
+-Planeamiento estratégico de Sistemas de Información.
+
+-Paneamiento de corto alcance de Sistemas de Información.
+
+-Reingeniería.
+
+-Mejora continua.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Control de la función de Sistemas de Información: p.e., auditoría, {\it outsourcing}.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Administración y contratación de recursos humanos.
+(begin_subtopics)
+
+-Planeamiento de habilidades.
+
+-Administración del rendimiento del personal.
+
+-Educación y entrenamiento.
+
+-Estructuras de competencia, cooperación y premios.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Estructuras funcionales de Sistemas de Información -- internas vs. {\it outsourcing}.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Determinación de las metas y objetivos de la organización de Sistemas de Información.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Administración de Sistema de Información como un negocio: p.e., definición del cliente, definición de la misión de Sistemas de Información, aspectos críticos del éxito de Sitemas de Información.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Oficial de Información en Jefe (\emph{Chief Information Officer} - CIO) y funciones del personal.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Sistemas de Información como una función de servicio: evaluación del desempeño -- externo e interno, {\it marketing} de servicios.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Administración financiera de Sistemas de Información.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Uso estratégico de Sistemas de Información: p.e., ventajas competitivas y Sistemas de Información, proceso de reingeniería, Sistemas de Información y calidad.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Trabajo del conocimiento, computación de usuario final: soporte, roles, productividad y actividades.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Política de Sistemas de Información y formulación y comunicación de procesos operativos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Copias de seguridad, planeamiento y recuperación de desastres.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Administración de tecnologías emergentes.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Administración de sub-funciones.
+(begin_subtopics)
+-Administración de telecomunicaciones.
+-Administración de arquitecturas de computadores.
+-Administración de sistemas de soporte a decisión de grupos.
+-Administración de datos.
+-Sistemas de aplicación y propiedad de datos.
+-Optmización del ambiente para la creatividad-
+-Administración de la calidad: p.e., ingeniería de calidad; equipos de control de calidad.
+-Administración de las relaciones de consultoría, {\it outsourcing}.
+-Administración para la contención de recursos.
+-Asustos operativos asociados con la instalación, operación, transición y mantenimiento de sistemas.
+-Actividades y disciplinas de controlque soportan la evolución del software.
+-Actividades de ingeniería de software: desarrollo, control, administración, operaciones.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Seguridad y control, virus e integridad de sistemas.
+(begin_subtopics)
+-Cómo la información es comprometida incluyendo el acceso sin autorización, modificación de la información, bloqueo de servicios, virus.
+-Crimen computacional, terrorismo y guerras cibernéticas.
+-Virus computacionales, gusanos, caballos de troya.
+-Fraude en Internet, leyendas urbanas.
+-Correo no deseado (\emph{spam}), avisos publicitarios (\emph{adware}) y mensajes instantáneos no deseados (\emph{spIM}).
+-Suplantación y \emph{phishing}.
+-Medidas de seguridad computacionales incluyendo tecnológicas (acceso físico restringido, firewalls, encriptación y controles de auditoría) y métodos humanos (legal, ético y gerencia efectiva.)
+-Planeamiento de seguridad computacional, incluyendo evaluación de riesgo, evaluación de políticas, implementación, entrenamiento y auditoría.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Administración de operaciones del computador: p.e. administración de cinta/DASD, {\it scheduling}.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{OMC3}{OMC3. Teoría de Decisiones}
+Horas:
+ 
+(begin_topics)
+
+-Medición y modelado.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Decisiones bajo certeza, incerteza, riesgo.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Información costo/valor, valor competitivo de Sistemas de Información.
+(begin_subtopics)
+-Motivación/propiedad del trabajo.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Modelos de decisión y Sistemas de Información: optimización, satisfacción.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Proceso de decisión de grupo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{OMC4}{OMC4. Comportamiento Organizacional}
+Horas:
+ 
+(begin_topics)
+
+-Teoría de diseño del trabajo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Diversidad cultural.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Dinámicas de grupo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Trabajo en equipo, liderazgo y motivación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Uso de influencias, poder y política.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Estilos cognitivos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Negociación y estilos de negociación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Construcción de consenso.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-La organización virtual.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Implicaciones de la globalización.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{OMC7}{OMC7. Manejo del Proceso de Cambio}
+Horas:
+
+ 
+
+(begin_topics)
+
+-Razones para la resistencia al cambio.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Estrategias para motivar el cambio.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Planeamiento para el cambio.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Administración del cambio.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Modelado de procesos y sistemas.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Experimentación como un medio para capturar dinámicas.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Liderazgo en la reingeniería de procesos/software relacionado.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Estrategia de sobrellevado: {\it shock}, negación, ira, depresión, aceptación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Aprendizaje en grupo/equipo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+
+(begin_topics)
+-Atributos de un agente de cambio.
+(begin_subtopics)
+-Escucha y comprensión.
+-Mediación y negociación.
+-Facilitación.
+-Apreciación de la diferencia de tipos: Meyers Briggs, Rohm.
+-Miedo y administración del miedo.
+-Pensamiento de sistemas.
+-Dominio personal.
+-Modelos mentales.
+-Visión de construcción compartida.
+-Expresión de la necesidad e importancia del cambio.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-El rol de los especialistas de Sistemas de Información como agentes de cambio.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Visualización del cambio y el proceso de cambio.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Diagnóstico y conceptualización del cambio.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Lidear con los retos de la implementación y entender y superar la resistencia.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Administrar políticas organizacionales.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Las limitaciones de los proyectos como iniciativas de cambios organizacionales.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Influencias organizacionales en el éxito del proyecto.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{OMC8}{OMC8. Aspectos Legales y Éticos de los Sistemas de Información}
+Horas:
+ 
+(begin_topics)
+
+-Ventas, licencias y agencias de software.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Fundamentos contractuales.
+(begin_subtopics)
+
+-Ley contractual.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Ley de privacidad.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Agencias y organismos regulatorios.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Ética y protección de los derechos de propiedad intelectual.
+(begin_subtopics)
+
+-Protección de la propiedad intelectual.
+
+-Formas de propiedad intelectual, medios para protegerla y penas por violación de derechos.
+
+-Ética (plagiarismo, honestidad, privacidad, hackers): uso, maluso y límites de derechos.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Ética: responsabilidad y códigos personales y profesionales; modelos éticos.
+(begin_subtopics)
+
+-Responsabilidad personal: principios de honestidad, justicia, autonomía.
+
+-Responsabilidad profesional: expectativas y confianza debido al conocimiento y habilidades.
+
+-Códigos profesionales de conducta ética para profesionales de la computación responsables.
+
+-Motivación hacia e importancia del comportamiento ético.
+
+-Modelos éticos: utilitarismo de Bentham, imperativa moral de Kant.
+
+-Elementos del análisis ético: argumentación por ejemplo, analogía y contra ejemplo.
+
+-Análisis social: influencia contextual social en el desarrollo y la tecnología.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Riesgos, pérdidas y responsabilidad en las aplicaciones de computación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Garantías.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+
+(begin_topics)
+-Crímenes de computador.
+(begin_subtopics)
+-Virus y otros daños al software.
+-Fraude de software, abusos, hackers.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Ética en los sitemas de información.
+(begin_subtopics)
+-Aspectos éticos relacionados a la privacidad, accesibilidad, propiedad y precisión de la información.
+-Monitoreo de empleados y políticas de uso aceptables.
+-Vicios generados por Internet y lo bueno de la sociedad.
+-Leyes y regulaciones actuales.
+-Lineamientos éticos para profesionales de computación.
+-Asuntos éticos relacionados a la recuperación y minería de datos.
+-Globalización y desarrollo dentro y fuera de la organización.
+-Faltas relacionadas a los derechos de autor y propiedad intelectual, el rol de las redes punto-a-punto (\emph{peer-to-peer}).
+-Movilidad, virtualización y privacidad.
+-Blogs y los medios.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{OMC9}{OMC9. Profesionalismo}
+Horas:
+ 
+(begin_topics)
+
+-Literatura periódica actual, revistas profesionales y académicas.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Temas de certificación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Organizaciones profesionales: p.e. SPC, ACM, IEEE-CS, TIMS, ASM, DSI, ACE,  ASQC, AIS.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Conferencias profesionales.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Pendiente.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+
+-Industria de Sistemas de Información: fabricantes, OEMs, integradores de sistemas, desarrolladores de software.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Contexto social e histórico de la Computación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{OMC10}{OMC10. Habilidades Interpersonales}
+Horas:
+ 
+(begin_topics)
+-Habilidades de comunicación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Entrevistas, cuestionarios y escucha.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Habilidades de presentación.
+(begin_subtopics)
+
+-Comunicación oral y escrita.
+
+-Gráficos y el uso de multimedia.
+
+-Entrenamiento: objetivos, metas, basado en computador.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Habilidades de consultoría.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Habilidades de escritura.
+(begin_subtopics)
+
+-Fundamentos de escritura técnica.
+
+-Principios y estándares para documentación.
+
+-Desarrollo de documentación de software.
+
+-Herramientas de documentación.
+
+-Escritura como un medio para al aprendizaje de por vida.
+
+-Escritura de diarios como un método para capturar observaciones.
+
+-Escritura de soluciones a problemas y respuestas a asuntos para explorar el conocimiento.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Actitud y método proactivo.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Determinación de objetivos personales, toma de decisiones y administración del tiempo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Liderazgo centrado en principios.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Principios de negociación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Promoviendo la creatividad y la búsqueda de oportunidades.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Pensamiento crítico.
+
+(begin_subtopics)
+
+-Abstraer/depurar información.
+
+-Priorizar tareas.
+
+-Pensamiento {\it outside the box}.
+
+-Juicio suspendido.
+
+-Lluvia de ideas para la creación de nuevas ideas.
+
+-Estrategias de prensamiento divergente, lateral, lineal.
+
+-Formulación de preguntas.
+
+-Asumpción de responsabilidades, toma de decisiones, delegación de responsabilidades.
+
+-Trabajo con múltiples y diferentes puntos de vista.
+
+-El trato a otras personas  con respeto y tolerancia.
+
+-Dar y recibir críticas constructivas.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Medición e interpretación de datos.
+(begin_subtopics)
+-Evaluación de datos en contexto.
+-Medición/determinación de los datos.
+-Conversión y presentación de datos.
+-Transformaciones algebráicas y funcionales de los datos.
+-Almacenamiento y organización de datos.
+-Usos de los datos en el modelado y simulación de un proceso.
+-Conceptos de muestreo en la determinación de los datos.
+-Validación de procesos a través del uso de los datos.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Pendiente.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Resolución de problemas.
+(begin_subtopics)
+-Ámbito y restricciones del problema.
+-Expectativas, precisión y limitaciones de tiempo de la solución.
+-Balance entre perfección y realismo, recursos y expectativas.
+-Criterios de completación del problema.
+-Ser creativo, realizar inferencias, deterctar y evitar falacias lógias.
+-Determinación de las relaciones entre los componentes.
+-Consideración de alternativas y soluciones relacionadas.
+-Planeamiento, estimativa y documentación de las fases, resultados y actividades del proceso.
+-Tiempo comprometido, presupuestos, multi-tarea, esfuerzo de contabiildad, balanceo de carga de trabajo.
+-Verificación de la solución y validación del resultado.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+\end{BKL2}
+
+\begin{BKL2}{OMC11}{OMC11. Funciones Organizacionales Fundamentales}
+Horas:
+ 
+(begin_topics)
+-Pagos.
+(begin_subtopics)
+-Conceptos de administración del dinero.
+-Dinero digital.
+-Flujos de dinero transnacionales.
+-Flujos de crédito, transacciones, aprobaciones.
+-Conjuntos de transacción EDI.
+-Lenguajes de marcado financieros, p.e., IFX.
+-Interfaces de sistemas de contabilidad: GL, AR, AP.
+-Balance y controles de auditoría.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Relaciones de negocio: C-B, C-C, C-G, B-B, B-G, G-G.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Modelos de negocio; convencional/e-commerce.
+(begin_subtopics)
+-Mercados e infraestructura de compras.
+-Subastas.
+-Bolsa de valores.
+-Comunidad y colaboración.
+-Proveedor de información.
+-Proveedor de servicios.
+-Portal.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Conceptos de cadena de valor.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Conceptos de administración de cadena de recursos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Atención.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-{\it Marketing} y propaganda.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Comercio.
+(begin_subtopics)
+-Distribución.
+-Ventas directas.
+-Personalización por cliente.
+-Portales y canales.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Manufactura y producción.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Administración de recursos humanos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Administración de inventario.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Despacho.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Adquisición.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Procesamiento de órdenes y servicio al cliente.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Auditorías y controles.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{OMC12}{OMC12. Sistemas y Tecnologías de Información en el Negocio}
+Horas:
+(begin_topics)
+-La función de Sistemas de Información.
+(begin_subtopics)
+-Procesos de negocio clave basados en Tecnología de Información.
+-Estructura organizacional de la Tecnología de Información y alternativas de gobierno.
+-Necesidades de talento humano y métodos de gerencia.
+-Métodos para medir y demostrar el valor dela Tecnología de Información.
+-Métodos de organización para asegurar el cumplimiento de las regulaciones.
+-Administración de fuentes de tecnología.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Las Tecnologías de Información.
+(begin_subtopics)
+-Evaluación y selección de la plataforma y arquitectura, prioridades y políticas.
+-Evaluación del impacto de tecnologías emergentes.
+-Evaluación del rol de los estándares.
+-Evaluación del efecto de las estrategias de venta.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+\begin{BKL2}{TDS1}{TDS1. Conceptos de Información y de Sistemas}
+Horas:
+ 
+(begin_topics)
+-Teoría general de sistemas.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Conceptos de sistemas: p.e. estructura, límites, estados, objetivos.
+(begin_subtopics)
+-Conceptos fundamentales de teoría de información.
+-Razonamiento acerca de sistemas organizacionales, productos y procesos de software.
+-Relaciones de usuarios y proveedores al sistema.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Propiedades de sistemas abiertos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Componentes y relaciones del sistema.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Controles del sistema: estándares, teoría de control, retroalimentación, bucles, mediciones, calidad.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Propiedades de los sistemas de información.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS2}{TDS2. Metodologías para el Desarrollo de Sistemas}
+Horas:
+ 
+(begin_topics)
+-Modelos de desarrollo de sistemas: p.e. SDLC, prototipado.
+(begin_subtopics)
+-Cilco de vida del desarrollo de sistemas: modelos de ciclos de vida del software.
+-Desarrollo con prototipado.
+-Desarrollo con paquetes.
+-Técnicas de desarrollo orientadas a los datos.
+-Técnicas de desarrollo orientadas a los procesos.
+-Técnicas de desarrollo orientadas a objetos: diseño {\it bottom-up}; soporte para el reuso.
+-Consideraciones de ingeniería de sistemas.
+-Software como un componente de un sistema.
+-Proceso de software y modelos del ciclo de vida de un producto.
+-Métodos y herramientas de generación de software: diseño y codificación desde cero.
+-Métodos y herramientas de diseño de sistemas.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Adquisición e implementación de paquetes.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Integración de los componentes de software.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Sistemas desarrollados por el usuario final.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Selección de una metodología de desarrollo de sistemas.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS3}{TDS3. Conceptos y Metodologías para el Desarrollo de Sistemas}
+Horas:
+ 
+(begin_topics)
+-Modelado de procesos organizacionales y de software.
+(begin_subtopics)
+-Conceptos de modelado.
+-Conceptos avanzados de modelado, incluyendo modelos asíncronos y paralelos.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Modelado de datos: p.e. diagramas entidad-relación, normalización.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Metodologías orientadas a datos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Metodologías orientadas a los procesos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Metodologías orientadas al comportamiento (modelado de eventos).
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Metodologías orientadas a objetos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Procesos y productos de la ingeniería de software.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS4}{TDS4. Herramientas y Técnicas para el Desarrollo de Sistemas}
+Horas:
+ 
+(begin_topics)
+-CASE
+(begin_subtopics)
+-Metodologías (ingeniería de información, técnicas de Jackson, Yourdon).
+-Herramientas: herramientas CASE, generadores de código, GDSS.
+-Herramientas: IDEF y otras herramientas de especificación y diseño; diseño e implementación de bases de datos.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Métodos basados en grupos: p.e. JAD, revisiones de diseño y código.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Conceptos y herramientas de implementación de software: p.e., diccionarios de datos, repositorios, aplicación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS5}{TDS5. Planeamiento de Aplicaciones}
+Horas:
+ 
+(begin_topics)
+-Planeamiento de infraestructuras: hardware, comunicaciones, bases de datos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Planeamiento de la arquitectura de Sistemas de Información.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Planeamiento para operaciones.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Métricas para tamaño, puntos de función, control de complejidad.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Planeamiento para securidad, privacidad y control de Sistemas de Información.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS6}{TDS6. Manejo de Riesgos}
+Horas:
+ 
+(begin_topics)
+-Estimativa de la viabilidad.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Principios de administración de riesgos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+(begin_topics)
+-Planeamiento de contigencias.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS7}{TDS7. Gerenciamiento de Proyectos}
+Horas:
+ 
+(begin_topics)
+
+-Planeamiento de proyectos y selección de un modelo de procesos apropiado; cronograma del proyecto y {\it milestones}.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Organización, administración, principios y conceptos de proyectos.
+
+(begin_subtopics)
+
+-Asuntos organizacionales de la administración de proyectos.
+
+-Principios y conceptos de la administración de proyectos.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Estructuras de división y cronograma de trabajo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Consideraciones de personal para proyectos: p.e., administración de matriz, factores humanos, organización de los equipos.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Control de proyectos: planeamiento, estimativa de costos, asignación de recursos, revisiones técnicas de software.
+(begin_subtopics)
+
+-Documentación de la administración del proyecto.
+
+-Representaciones del cronograma del proyecto.
+
+-Aspectos económicos del proyecto: técnias y herramientas de estimación de costos; análisis costo/beneficio.
+
+-Herramientas de cronogramas de proyectos.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Administración de múltiples proyectos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Consideraciones de administración; estrés y administración del tiempo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Documentación de sistemas.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Documentación de usuario (p.e., manuales de referencia, procedimientos de operación, documentación {\it on-line}).
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Métricas de sistemas.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Contextualización y control de alcance.
+
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Administración de la configuración.
+(begin_subtopics)
+
+-Principios y conceptos de la administración de la configuración.
+
+-Rol en el control de la evolución del sistema.
+
+-Rol en la manuntención de la integridad del producto.
+
+-Documentación: controles de cambio, controles de versión, etc.
+
+-Estructuras organizacionales para la administración de la configuración.
+
+-Planes de administración de la configuración.
+
+-Herramientas de administración de la configuración.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Aseguramiento de la calidad del desarrollo de sistemas.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Seguimiento del proyecto: p.e., PERT, Gantt.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Finalización y cierre del proyecto.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Recursos de administración de proyectos de software y desarrollo personal tales como SMI y PMI.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Actividades adicionales requeridas para asegurar el éxito de los proyectos de tecnologías de información (entrenamiento, rediseño del trabajo, comunicación, etc.)
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Administración de sociedades y definición del contrato y relaciones.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Experiencia en campo del uso de software de administración de proyectos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS8}{TDS8. Análisis de Información y de Negocio}
+Horas:
+ 
+(begin_topics)
+
+-Identificación de oportunidades: p.e., solicitudes de servicio, a partir de proceso de planeamiento.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Relación de la aplicación con el modelo empresarial.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Determinación y especificación de requerimientos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS9}{TDS9. Diseño de Sistemas de Información}
+Horas:
+ 
+(begin_topics)
+
+-Diseño: lógico, físico.
+(begin_subtopics)
+
+-Métodos y herramientas de diseño de sistemas.
+
+-Rol del diseño de software vs. diseño del sistema.
+
+-Balance de hardware-software para el desempeño y flexibilidad del sistema.
+
+-Diseño de interfaces de alto nivel, hardware a hardware y software a software.
+
+-Predicción del desempeño del sistema.
+
+-Técnicas y representaciones del modelado del sistema.
+
+-Técnicas de diseño de sistemas orientadas a objetos.
+
+-Técnicas de diseño de sistemas: diseño iterativo, modelado, etc.
+
+-Flexibilidad del diseño de sistemas.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Metodologías de sistemas: p.e., en tiempo real, orientadas a objetos, estructuradas, basadas en eventos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Objetivos de diseño: p.e., usabilidad, desempeño.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Técnicas para mejorar el proceso de diseño creativo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Alternativas de presentación de información; estilos cognitivos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Interacción humano-computador (p.e., ergonomía, interfaces gráficas de usuario, voz, tacto).
+(begin_subtopics)
+
+-Interfaces de usuario (voz, tacto...).
+
+-Ergonomía.
+
+-Acceso de usuario común.
+
+-Interfaces de usario; menús del sistema, lenguajes de comandos, manipulación directa.
+
+-Dispositivos de salida gráficos y sus propiedades.
+
+-Primitivas gráficas y sus propiedades.
+
+-Sistemas de software gráficos; estándares gráficos generales.
+
+-Arquitectura de administradores de ventada e interfaces de usuario.
+
+-Arquitectura de cajas de herramientas y ambientes de soporte a la programación.
+
+-Representación de datos gráficos y sonido.
+
+-Técnicas de diseño para problemas de interfaz humano-computador: independencia del dispositivo.
+
+-Factores humanos asociados con interfaces humano-computador.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Desarrollo de software.
+(begin_subtopics)
+
+-Requerimientos de software: principios; tipos (funcional, desempeño y otros).
+
+-Especificaciones de software: objetivos; estándares; tipos (funcional, desempeño).
+
+-Diseño de software: principios de diseño (abstracción, ocultamiento de información).
+
+-Aseguramiento de la calidad del software: problemas, definiciones, estándares, aseguramiento de calidad como un proceso continuo).
+
+-Correctitud y confiabilidad del software: principios, conceptos, modelado, métodos.
+
+-Verificación y validación del aseguramiento de la calidad del software: roles y métodos.
+
+-Implementación del software: relación del diseño con la implementación del software.
+
+-Integración de sistemas de software y hardware: métodos, planes, pruebas.
+
+-Pruebas de software: roles, principios y estándares.
+
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS10}{TDS10. Estrategias de Implementación y Pruebas de Sistemas}
+Horas:
+ 
+(begin_topics)
+
+-Construcción de sistemas.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Construcción de sistemas de software: p.e. programación, pruebas de unidad, empaquetamiento de módulos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Integración de software: p.e., paquetes.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Conversión de sistemas: métodos, planeamiento, implementación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Integración y pruebas de sistemas: verificación y validación, generación del plan de pruebas, ejecución de pruebas.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Entrenamiento de usuarios, gerenciamiento, operación, materiales de entrenamiento.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Gerenciamiento de proyectos de software: ámbito, planificación, manejo de la configuración, calidad.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Sistemas de instalación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Revisión post-implementación.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS11}{TDS11. Operación y Mantenimiento de Sistemas}
+Horas:
+ 
+(begin_topics)
+
+-Petición de servicios y control de cambios.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Ingeniería inversa y reingeniería.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Balanceo y afinamiento
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Conceptos de mantenimiento de software.
+(begin_subtopics)
+
+-Tipos de mantenimiento de software: perceptivo, adaptativo, correctivo.
+
+-Diseño de software para mantenimiento.
+
+-Técnicas de mantenimiento de Software: lectura de programas, ingeniería reversa.
+
+-Modelos de mantenimiento de Software.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+
+\begin{BKL2}{TDS12}{TDS12. Desarrollo de Sistemas para Tipos Específicos de Sistemas de Información}
+Horas:
+ 
+(begin_topics)
+
+-Sistemas para el procesamiento de transacciones.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Sistemas de Información Gerencial
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Sistemas para el soporte de grupos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Sistemas para soporte a la toma de decisiones/Sistemas expertos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Sistemas de soporte ejecutivo.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Sistemas de oficina.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Sistemas Colaborativos.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Imagen y Sistemas de Flujos de Información ({\it Work-flow systems}).
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+
+-Sistemas de soporte funcional: e.g. control de procesos, marketing.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+ 
+
+(begin_topics)
+-Sistemas Interorganizacionales.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Sistemas de administración del conocimiento.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Procesos que cubren el mundo; mercados virtuales globales.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Comercio electrónico.
+(begin_subtopics)
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+\end{BKL2}
+
+
+\begin{BKL2}{TDS13}{TDS13. Tecnologías Emergentes}
+Horas:
+ 
+(begin_topics)
+-Conceptos de tecnologías emergentes.
+(begin_subtopics)
+-Definición de tecnologías emergentes.
+-Impacto económico actual y potencial.
+-Proyecciones de impactos económicos futuros.
+-Creación y transformación de bienes y servicios a través de tecnologías emergentes.
+-Impacto en organizaciones, mercados, industria y sociedad.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Reacciones de la organización frente a las tecnologías emergentes.
+(begin_subtopics)
+-El remodelado de las organizaciones por parte de las tecnologías emergentes.
+-Reacción de los negocios frente a las tecnologías emergentes.
+-Efecto del incremento de la transparencia en el balance entre el poder de los consumidores y los productores.
+-Efecto de los mercados ``libres de fricción'' en el precio y posicionamiento de productos y servicios.
+-Teorías de innovación tecnológica.
+-Examen de las causas y efectos de revoluciones tecnológicas pasadas (p.e. electricidad, ferrovías).
+-Relaciones de causa y efecto entre las nuevas tecnologías electrónicas y la globalización económica en aumento.
+-Información: costo, valor y precio; efecto de derechos de autor en la industria de tecnologías de información; contraste de la información como bien público y como recurso propietario.
+-Modelos de negocio: el esfuerzo de las empresas por generar ganacias usando Internet y tecnologías emergentes 
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+(begin_topics)
+-Tecnologías emergentes desde el punto de vista tecnológico.
+(begin_subtopics)
+-Nanotecnologías, RFID y otros.
+-Open Source.
+-Convergencia de tecnologías.
+-Posible evolución de la tecnología en el futuro cercano.
+(end_subtopics)
+(begin_goals)
+(end_goals)
+(end_topics)
+
+
+\end{BKL2}
+
+

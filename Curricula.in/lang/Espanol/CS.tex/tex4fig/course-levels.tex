@@ -1,0 +1,114 @@
+\documentclass{article}
+
+\usepackage[left=0cm,top=0cm,right=0cm,bottom=0cm,head=0cm]{geometry}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{pstricks,pst-plot,pst-grad}
+
+\pagestyle{empty}
+\begin{document}
+    \newgray{background}{1}
+    \newgray{lightgray}{0.85}
+    \newgray{myblack}{0}
+
+    \begin{pspicture}(-3.1,-0.3)(11,4.2)
+      %\psgrid[gridcolor=lightgray,gridlabelcolor=lightgray]
+      \psframe[fillstyle=solid,fillcolor=background](-2.5,-0.3)(11,4.2)
+\begin{footnotesize}
+	\begin{bf}
+	%\textbf
+	\rput(-1.15,3.5){%
+		\begin{tabular}{c}
+		Cursos \\Introductorios
+		\end{tabular}}
+	\rput(-1.15,2){%
+		\begin{tabular}{c}
+		Cursos \\Intermedios
+		\end{tabular}}
+	\rput(-1.15,0.5){%
+		\begin{tabular}{c}
+		Cursos \\Avanzados
+		\end{tabular}}
+	\end{bf}
+       \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](0,0)(10.7,1)}
+       \rput(5.3,0.5){%
+              \begin{tabular}{c}
+              Cursos Adicionales usados para completar el programa de pregrado
+              \end{tabular}}
+       \endpsclip
+
+      \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](0,1.5)(2.6,2.5)}
+      \rput(1.3,2){%
+             \begin{tabular}{c}
+             Topic-based\\approach
+             \end{tabular}}
+       \endpsclip
+      
+      \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](2.7,1.5)(5.3,2.5)}
+      \rput(4,2){%
+             \begin{tabular}{c}
+             Compressed\\approach
+             \end{tabular}}
+       \endpsclip
+      
+      \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](5.4,1.5)(8,2.5)}
+      \rput(6.7,2){%
+             \begin{tabular}{c}
+             Systems-based\\approach
+             \end{tabular}}
+       \endpsclip
+      
+      \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](8.1,1.5)(10.7,2.5)}
+      \rput(9.4,2){%
+             \begin{tabular}{c}
+             Web-based\\approach
+             \end{tabular}}
+       \endpsclip
+      
+      \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](0,3)(1.7,4)}
+      \rput(0.85,3.5){%
+             \begin{tabular}{c}
+             Imperative \\first
+             \end{tabular}}
+       \endpsclip
+      
+      \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](1.8,3)(3.5,4)}
+      \rput(2.65,3.5){%
+             \begin{tabular}{c}
+             Objects \\first
+             \end{tabular}}
+       \endpsclip
+      
+      \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](3.6,3)(5.3,4)}
+      \rput(4.45,3.5){%
+             \begin{tabular}{c}
+             Functional \\first
+             \end{tabular}}
+       \endpsclip
+      
+      \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](5.4,3)(7.1,4)}
+      \rput(6.25,3.5){%
+             \begin{tabular}{c}
+             Breadth \\first
+             \end{tabular}}
+       \endpsclip
+      
+      \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](7.2,3)(8.9,4)}
+      \rput(8.05,3.5){%
+             \begin{tabular}{c}
+             Algorithms \\first
+             \end{tabular}}
+       \endpsclip
+      
+      \psclip{\psframe[fillstyle=solid,fillcolor=lightgray](9,3)(10.7,4)}
+      \rput(9.85,3.5){%
+             \begin{tabular}{c}
+             Hardware \\first
+             \end{tabular}}
+       \endpsclip
+\end{footnotesize}
+\end{pspicture}
+
+\end{document}
+
+

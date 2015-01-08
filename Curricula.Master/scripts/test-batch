@@ -1,0 +1,18 @@
+#!/bin/csh
+
+setenv CC pulga
+echo "ok"
+set institution=UCSP
+setenv CC_Institution UCSP
+set filter=UCSP,SPC
+setenv CC_Filter UCSP,SPC
+set version=final
+setenv CC_Version final
+setenv CC_Area cs
+echo "ok2"
+
+#./scripts/testenv.pl
+#./replacecodes.pl
+echo "xxx"
+#./scripts/gen-malla.pl
+

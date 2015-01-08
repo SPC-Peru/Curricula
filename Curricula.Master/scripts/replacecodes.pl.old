@@ -1,0 +1,559 @@
+#!/usr/bin/perl -w
+use strict;
+use scripts::Lib::Common;
+
+if( defined($ENV{'CurriculaParam'}))	{ $Lib::Common::command = $ENV{'CurriculaParam'};	}
+if(defined($ARGV[0])) { $Lib::Common::command = shift or Util::halt("There is no command to process (i.e. AREA-INST)");	}
+
+# pending
+my $input_file  = "base-tex/$Lib::Common::area-dependencies.tex";
+#print "inst = $Lib::Common::institution, filter = $Lib::Common::filter, area = $Lib::Common::area, version = $Lib::Common::version\n";
+#exit;
+
+# pending
+# my $prereq_label	   	   = "Prerrequisitos";
+# my $Silabos_dir            = "Silabos";
+
+# pending
+# sub get_output_silabo_name($)
+# {
+# 	Lib::Common::precondition("set_global_variables");
+# 	my ($codcour) = (@_);
+# 	my $output_dir = "$Lib::Common::config{output_tex_dir}/$Lib::Common::area-$Lib::Common::institution/";
+# 	system("mkdir $output_dir") if(not -d "$output_dir");
+# 	my $out_fullname = "$output_dir$codcour-silabo.tex";
+# 	return $out_fullname;
+# }
+# 
+# sub generate_silabo($)
+# {
+# 	my ($codcour) = (@_);
+# 	my $count = 0;
+# 	#print "Reemplazando \"$codcour\" ...........................\n";
+# 	#print "Generando silabo: $codcour (check 1)\n";
+# 	my @inst_array;
+# 	if(defined($Lib::Common::course_info{$codcour}{inst_list}))
+# 	{
+# 		@inst_array = split ",", $Lib::Common::course_info{$codcour}{inst_list};
+# 		#$Lib::Common::valid_institutions{$inst} = "";
+# 		#print "Valid: $codcour\n";
+# 	}
+# 	foreach my $inst (@inst_array)
+# 	{
+# 		if(defined($Lib::Common::valid_institutions{$inst}))
+# 		{	$count++;	}
+# 	}
+# 	if( $count == 0 )
+# 	{
+# 		print "$codcour descartado ...\n"; 
+# 		return 0;
+# 	}
+# 	#else
+# 	#{	print "$codcour dentro ... \n";	}
+# 	#print "Generando silabo: $codcour (check 2)\n";
+# 	my $fullname = "$Silabos_dir/$codcour-sumilla.tex";
+# 	open(IN, "<$fullname") or die "generate_silabo: $fullname no abre \n";
+# 	my $filetxt = join("", <IN>);
+# 	close IN;
+# 	
+# 	#print "Generando silabo: $codcour (check 3)\n";
+# 	$Lib::Common::config{syllabus_info}{$codcour}{unitcount} = 0;
+# 	if($filetxt =~ m/\\begin{fundamentacion}\s*\n((?:.|\n)*)\\end{fundamentacion}/g)
+# 	{	$Lib::Common::course_info{$codcour}{fundamentacion} = $1;	}
+# 	else
+# 	{	$Lib::Common::course_info{$codcour}{fundamentacion} = "";
+# 		print "Error ! $codcour: FALTA FUNDAMENTACION\n";
+# 	}
+# 
+# 	if($filetxt =~ m/\\begin{objetivosdelcurso}\s*\n((?:.|\n)*)\\end{objetivosdelcurso}/g)
+# 	{	$Lib::Common::course_info{$codcour}{objetivosdelcurso} = $1;	}
+# 	else
+# 	{	$Lib::Common::course_info{$codcour}{objetivosdelcurso} = "";
+# 		print "Error ! $codcour: FALTAN OBJETIVOS DEL CURSO\n";
+# 	}
+# 	if($filetxt =~ m/\\begin{outcomes}\s*\n((?:.|\n)*)\\end{outcomes}/g)
+# 	{	$Lib::Common::course_info{$codcour}{outcomes} = $1;	}
+# 	else
+# 	{	$Lib::Common::course_info{$codcour}{outcomes} = "";
+# 		print "Error ! $codcour: FALTA LA CONTRIBUCION A LOS OUTCOMES\n";
+# 	}
+# 
+# 	my $template_file = Lib::Common::get_template{"syllabus-base-file"};
+# 	if(not -e $template_file)
+#  	{	#print "No existe silabo base para $template_file ...\n";	
+# 		return 0; 
+# 	}
+# 	open(TPL, "<$template_file") or return 0;
+# 	my $templatetxt = join("", <TPL>);
+# 	close TPL;
+# 
+# 	#print "Generando silabo: $codcour (check 5)\n";
+# 	# Reemplazar los campos
+# 	$templatetxt =~ s/\\newcommand{\\INST}{}/\\newcommand{\\INST}{$Lib::Common::institution}/g;
+# 	$templatetxt =~ s/\\newcommand{\\AREA}{}/\\newcommand{\\AREA}{$Lib::Common::area}/g;
+# 	$templatetxt =~ s/--CODCUR--/$codcour/g;
+# 	$templatetxt =~ s/--CURSO--/$Lib::Common::course_info{$codcour}{nombre}/g;
+# 	$templatetxt =~ s/--SEMESTRE--/$Lib::Common::course_info{$codcour}{semestre}\$^{$Lib::Common::rom_postfix{$Lib::Common::course_info{$codcour}{semestre}}}\$ Sem./g;
+	
+# 	my $prereq_file = Lib::Common::get_template{"prereq_dir"};
+# 	$prereq_file .= "/$codcour-short.tex";
+# 	open(PREREQ, "<$prereq_file")  or die "$prereq_file no abre \n";
+# 	my $prereq_list = join("", <PREREQ>);
+# 	$templatetxt =~ s/--PREREQUISITOS--/$prereq_list/g;
+# 	close PREREQ;
+# 	$templatetxt =~ s/--PREREQUISITOS_SOLO_CODIGOS--/$Lib::Common::course_info{$codcour}{fullrequisitos}/g;
+# 
+# 	$templatetxt =~ s/--TIPO--/$Lib::Common::course_info{$codcour}{tipo}/g;
+# 	$templatetxt =~ s/--FUNDAMENTACION--/$Lib::Common::course_info{$codcour}{fundamentacion}/g;
+# 	$templatetxt =~ s/--OBJETIVOGENERAL--/\\begin{itemize}\n$Lib::Common::course_info{$codcour}{objetivosdelcurso}\n\\end{itemize}/g;
+# 	$templatetxt =~ s/--OUTCOMES--/\\begin{itemize}\n$Lib::Common::course_info{$codcour}{outcomes}\\end{itemize}/g;
+# 
+# 	my $horastxt = "";
+# 	$horastxt .= "$Lib::Common::course_info{$codcour}{ht} HT; " if($Lib::Common::course_info{$codcour}{ht} > 0);
+# 	$horastxt .= "$Lib::Common::course_info{$codcour}{hp} HP; " if($Lib::Common::course_info{$codcour}{hp} > 0);
+# 	$horastxt .= "$Lib::Common::course_info{$codcour}{hl} HL; " if($Lib::Common::course_info{$codcour}{hl} > 0);
+# 	$templatetxt =~ s/--HORASTXT--/$horastxt/g;
+# 
+# 	my $nhoras = $Lib::Common::course_info{$codcour}{ht}+ $Lib::Common::course_info{$codcour}{hp} + $Lib::Common::course_info{$codcour}{hl};
+# 	$templatetxt =~ s/--NHORAS--/$nhoras/g;
+# 
+# 	if($Lib::Common::course_info{$codcour}{ht} > 0){   $templatetxt =~ s/--HT--/$Lib::Common::course_info{$codcour}{ht}HT/g;	}
+# 	else { $templatetxt =~ s/--HT--//g;	}
+# 
+# 	if($Lib::Common::course_info{$codcour}{hp} > 0){   $templatetxt =~ s/--HP--/$Lib::Common::course_info{$codcour}{hp}HP/g;	}
+# 	else { $templatetxt =~ s/--HP--//g;	}
+# 
+# 	if($Lib::Common::course_info{$codcour}{hl} > 0){   $templatetxt =~ s/--HL--/$Lib::Common::course_info{$codcour}{hl}HL/g;	}
+# 	else { $templatetxt =~ s/--HL--//g;	}
+# 
+# 	$templatetxt =~ s/--CREDITOS--/$Lib::Common::course_info{$codcour}{cr}/g;
+# 	my $prof_short_cvs = "";
+# 	my $prof_names  = "";
+# 	my $prof_titles = "";
+# 	my $sepnames    = "";
+# 	if(defined($Lib::Common::asignacion{$codcour}))
+# 	{
+# 		#$prof_short_cvs = "\\begin{enumerate}\n";
+# 		foreach my $email (@{$Lib::Common::asignacion{$codcour}})
+# 		{
+# 			if(defined($Lib::Common::config{faculty}{$email}{name}))
+# 			{	$prof_names     .= "$sepnames$Lib::Common::config{faculty}{$email}{name} ";	}
+# 			else
+# 			{	$prof_names     .= "\\ref{error} name\n";			}
+# 
+# 			if(defined($Lib::Common::config{faculty}{$email}{title}))
+# 			{	$prof_titles     .= "$sepnames$Lib::Common::config{faculty}{$email}{title} ";}
+# 			else
+# 			{	$prof_titles     .= "\\ref{error} title\n";			}
+# 
+# 			if(defined($Lib::Common::config{faculty}{$email}{shortcv}))
+# 			{	$prof_short_cvs .= "$Lib::Common::config{faculty}{$email}{shortcv}\n";	}
+# 			else
+# 			{	$prof_short_cvs .= "\\ref{error} cvs\n";			}
+# 
+# 			
+# 			$sepnames = ", ";
+# 		}
+# 		#$prof_short_cvs .= "\\end{enumerate}\n";
+# 		$templatetxt =~ s/--PROFESOR-SHORT-CV--/$prof_short_cvs/g;
+# 		$templatetxt =~ s/--PROFESOR_NAMES--/$prof_names/g;
+# 		$templatetxt =~ s/--PROFESOR_TITLES--/$prof_titles/g;
+# 	}
+# 	$Lib::Common::course_info{$codcour}{docentesshortcv} = $prof_short_cvs;
+# 	$Lib::Common::course_info{$codcour}{docentes_names}  = $prof_names;
+# 
+# 	my $unit_struct = "";
+# 	if($templatetxt =~ m/--BEGINUNIT--\s*\n((?:.|\n)*)--ENDUNIT--/)
+# 	{	$unit_struct = $1;	}
+# 	#print "struct = \"$unit_struct\"\n";
+# 
+# 	$templatetxt =~ s/--BEGINUNIT--\s*\n((?:.|\n)*)--ENDUNIT--/--UNITS--/g;
+# 	my $unit_count    = 0;
+# 	my $total_horas   = 0;
+# 	my %acu_horas     = ();
+# 	my $tmp_txt = $filetxt;
+# 	while($tmp_txt =~ m/\\begin{unit}{.*?}{.*?}{(.*?)}\s*((?:.|\n)*?)\\end{unit}/g)
+# 	{
+# 		$unit_count++;
+# 		$total_horas            += $1;
+# 		$acu_horas{$unit_count}  = $total_horas;
+# 	}
+# 	my $units_txt     = "";
+# 	my $sumilla_items = "";
+# 	$unit_count       = 0;
+# 	$Lib::Common::course_info{$codcour}{allbibitems} = "";
+# 	my $sep = "";
+# 	while($filetxt =~ m/\\begin{unit}{(.*?)}{(.*?)}{(.*?)}\s*((?:.|\n)*?)\\end{unit}/g)
+# 	{	
+# 		$unit_count++;
+# 		my ($unit_title, $bibitems, $hours) 				= ($1,$2,$3);
+# 		$Lib::Common::course_info{$codcour}{allbibitems} .= "$sep$bibitems";
+# 		$sep = ",";
+# 		
+# 		$sumilla_items .= "\\item $unit_title\n";
+# 		my $body = $4;
+# 		#print "*********\nBEGIN BODY = \"$body\"\n END BODY*********\n";
+# 		my ($topics, $goals) = ("", "");
+# 
+# 		if($body =~ m/(\\begin{topicos}\s*\n(?:.|\n)*?\\end{topicos})/g)
+# 		{	$topics = $1; }
+# 		elsif($body =~ m/(\\.*?AllTopics)/)
+# 		{	$topics = $1; }
+# 
+# 		if($body =~ m/(\\begin{objetivos}\s*\n(?:.|\n)*?\\end{objetivos})/g)
+# 		{	$goals = $1; }
+# 		elsif($body =~ m/(\\.*?AllObjectives)/)
+# 		{	$goals = $1; }
+# 
+# 		my $thisunit = $unit_struct;
+# 		$thisunit =~ s/--UNIT-TITLE--/$unit_title/g;
+# 		$thisunit =~ s/--HOURS--/$hours horas/g;
+# 		
+# 		$thisunit =~ s/--OBJETIVO-DE-LA-UNIDAD--/$goals/g;
+# 		$thisunit =~ s/--CONTENIDO--/$topics/g;
+# 		my $porc = 100;
+# 		if($total_horas  > 0 )
+# 		{	$porc = 100*$acu_horas{$unit_count}/$total_horas+0.5;
+# 		}
+# 		my $porc_txt = "";
+# 		if( $porc =~ m/(\d*)/ )
+# 		{	$porc_txt = $1; 	}
+# 		$thisunit =~ s/--PORCENTAJE--/$porc_txt/g;
+# 
+# 		$sep = "";
+# 		my @items_list = split ",", $bibitems;
+# 		my $bib_citations = "";
+# 		foreach my $bibitem (@items_list)
+# 		{
+# 			$bib_citations .= "$sep\\cite{$bibitem}";
+# 			$sep = ", ";
+# 		}
+# 		$thisunit =~ s/--CITATIONS--/$bib_citations/g;
+# 		$units_txt .= $thisunit;
+# 	}
+# 	$templatetxt =~ s/--UNITS--/$units_txt/g;
+# 	$templatetxt =~ s/--SUMILLA--/\\begin{inparaenum}\n$sumilla_items\\end{inparaenum}\n/g;
+# 
+# 	my $bibfile = "";
+# 	if($filetxt =~ m/\\bibfile{(.*?)}/g)
+# 	{	$bibfile = $1;		}
+# 
+# 	$templatetxt =~ s/--BIBSTYLE--/$Lib::Common::config{bibstyle}/g;
+# 	$templatetxt =~ s/--BIBFILE--/$bibfile/g;
+# 	$bibfile     =~ s/ //g;
+# 	$Lib::Common::course_info{$codcour}{bibfile} = $bibfile;
+# 
+# 	#replace all additional info
+# 	if( defined($Lib::Common::course_info{$codcour}{extra}) )
+# 	{
+# 		foreach my $extra_key (keys %{$Lib::Common::course_info{$codcour}{extra}})
+# 		{
+# 			#print "............... $extra_key ....................";
+# 			$templatetxt =~ s/--$extra_key--/$Lib::Common::course_info{$codcour}{extra}{$extra_key}/g;
+# 		}
+# 	}
+# 	$templatetxt =~ s/--.*?--//g;
+# 
+# 	my $out_fullname = get_output_silabo_name($codcour);
+# 	#system("rm $out_fullname");
+# 	#print "Generando silabo: $out_fullname\n";
+# 	open(OUT, ">$out_fullname") or die "$out_fullname no abre \n";
+# 	print OUT $templatetxt;
+# 	close(OUT);
+# 	#print "Generando silabo: $codcour (check out)\n";
+# 	#print " salio ok \"$codcour\"\n";
+# 	return 1;
+# }
+# 
+# sub generate_prerequisitos($)
+# {
+# 	my ($filename) = (@_);
+# 	my $codcour   = "";
+# 	if($filename =~ m/(.*)-sumilla.tex/ )
+# 	{      $codcour = $1; 		}
+# 	else
+# 	{   print "Error 3.1415 \"$filename\"\n";}
+# 	
+# 	if(not defined($Lib::Common::course_info{$codcour}{fullrequisitos}))
+# 	{
+# 		#print "\"$filename\"(X) \n";
+# 		#print "El archivo \"$filename\" existe pero no hay informacion informacion al respecto\n";
+# 		return;
+# 	}
+# 	
+# 	my $fullname = Lib::Common::get_template("prereq_dir");
+# 	$fullname .= "/$codcour.tex";
+# 	system("rm $fullname") if( -e "$fullname" );
+# 	open(OUT, ">$fullname") or die "$fullname no abre \n";
+# 
+# 	my $shortname = Lib::Common::get_template("prereq_dir");
+# 	$shortname .= "/$codcour-short.tex";
+# 	system("rm $shortname") if( -e "$fullname" );
+# 	open(SHORT, ">$shortname") or die "$fullname no abre \n";
+# 	#############################
+# 	my $sep = "";
+# 	my $sem = $Lib::Common::course_info{$codcour}{semestre};
+# 	   $sem .= "\$^{$Lib::Common::rom_postfix{$Lib::Common::course_info{$codcour}{semestre}}}\$ Sem.";
+# 	
+# 	print OUT "\% Archivo generado por replacecodes.pl\n";
+# 	print OUT "\\noindent \\textbf{Semestre}: $sem~~~~~";
+# 	print OUT "\\noindent \\textbf{Créditos}: $Lib::Common::course_info{$codcour}{cr} \n\n"; 
+# 	print OUT "\\noindent \\textbf{Horas del curso}: ";
+# 	if( $Lib::Common::course_info{$codcour}{ht} > 0 )
+# 	{
+# 		print OUT "\\textbf{Teoría:} $Lib::Common::course_info{$codcour}{ht} hora";
+# 		print OUT "s" if($Lib::Common::course_info{$codcour}{ht} > 1);
+# 		print OUT "; ";
+# 	}
+# 	if( $Lib::Common::course_info{$codcour}{hp} > 0 )
+# 	{
+# 		print OUT "\\textbf{Práctica:} $Lib::Common::course_info{$codcour}{hp} hora";
+# 		print OUT "s" if($Lib::Common::course_info{$codcour}{hp} > 1);
+# 		print OUT "; ";
+# 	}
+# 	if( $Lib::Common::course_info{$codcour}{hl} > 0 )
+# 	{
+# 		print OUT "\\textbf{Laboratorio:} $Lib::Common::course_info{$codcour}{hl} hora";
+# 		print OUT "s" if($Lib::Common::course_info{$codcour}{hl} > 1);
+# 		print OUT "; ";
+# 	}
+# 
+# 	print OUT "\n\n";
+# 	
+# 	if(-e "institutions-info/silabo-$Lib::Common::institution.tex")
+# 	{
+# 		print OUT "\\begin{htmlonly}\n";
+# 		print OUT "\\begin{rawhtml}\n";
+# 		print OUT "<a href=\"Silabos/$codcour.pdf\">Sílabo en PDF</a>\n";
+# 		print OUT "<a href=\"Silabos/$codcour.pdf\"><img alt=\"Silabo de $codcour\" src=\"../figs/pdf.jpeg\" ";
+# 		print OUT "style=\"border: 0px solid ; width: 32px; height: 32px;\" align=\"middle\"></a><br>\n";
+# 		print OUT "\\end{rawhtml}\n";
+# 		print OUT "\\end{htmlonly}\n\n";
+# 	}
+# 	else
+# 	{
+# 		#print "No hay el Silabos/$Lib::Common::institution/$codcour.pdf\n\n";
+# 	}
+# 
+# 	print OUT "\\noindent \\textbf{$prereq_label}: ";
+# 	my @reqarray = split ",",$Lib::Common::course_info{$codcour}{fullrequisitos};
+# 	my $count = 0;
+# 	my $items = "";
+# 	$sep   = "";
+# 	
+# 	foreach my $codprereq (@reqarray)
+# 	{
+# 		$codprereq =~ s/ //g;
+# # 		print "codcour =($codcour), codprereq = $codprereq\n";
+# 		if($codprereq =~ m/Ingles(.*)=(.*)/ )
+# 		{
+# 			my $inst_tmp    = $1;
+# 			my $puntaje = $2;
+# 			$items .= "\\Only$inst_tmp\{\\item $puntaje puntos en examen de Inglés\}\n";
+# 		}
+# 		elsif(not defined($Lib::Common::course_info{$codprereq}) and not defined($Lib::Common::antialias_info{$codprereq}))
+# 		{
+# 				print "No existe prerequisito \"$codprereq\" de $codcour\n";
+# 				exit;
+# 		}
+# 		else
+# 		{
+# 			my $label = $codprereq;
+# 			if(defined($Lib::Common::antialias_info{$codprereq}))
+# 			{	$label 		= $codprereq;
+# 				$codprereq 	= $Lib::Common::antialias_info{$codprereq};
+# 			}
+# 			$items .= "\\item \\htmlref{$label. $Lib::Common::course_info{$codprereq}{nombre} - "; 
+# 			$items .= "$Lib::Common::course_info{$codprereq}{semestre}";
+# 			$items .= "\$^{$Lib::Common::rom_postfix{$Lib::Common::course_info{$codprereq}{semestre}}}\$ Sem}{sec:$codprereq}";
+# 			#$items .= "{tab:$Lib::Common::course_info{$codprereq}{semestre}Sem}";
+# 			$items .= " (Pág. \\pageref{sec:$codprereq})\n";
+# 		
+# 			print SHORT "$sep$codprereq. $Lib::Common::course_info{$codprereq}{nombre} - "; 
+# 			print SHORT "$Lib::Common::course_info{$codprereq}{semestre}";
+# 			print SHORT "\$^{$Lib::Common::rom_postfix{$Lib::Common::course_info{$codprereq}{semestre}}}\$ Sem.";
+# 		}
+# 		$sep   = "\\\\ \n                         &  & ";
+# 		$count++;
+# 	}
+# 	if($count == 0)
+# 	{  	print OUT   " Ninguno\n\\vspace{0.2cm}\n";
+# 		print SHORT " Ninguno\n";
+# 	}
+# 	else
+# 	{
+# 		print OUT "\n\n\\begin{itemize}\n";
+# 		print OUT $items;
+# 		print OUT "\\end{itemize}\n";
+# 	}
+# 	
+# 	#print OUT "Docentes $Lib::Common::course_info{$codcour}{docentes}";
+# 	close OUT;
+# 	close SHORT;
+# }
+
+# ok 
+sub gen_batch_gensilabos()
+{
+	Lib::Common::precondition("set_global_variables");
+	Util::print_message("gen_batch_gensilabos starting ...");
+	my $out_gen_silabos = Lib::Common::get_template("batch-gen-silabos");
+	
+	my $output = "";
+	#$output .= "rm *.ps *.pdf *.log *.dvi *.aux *.bbl *.blg *.toc\n\n";
+	my $html_out_dir 		 = Lib::Common::get_template("html-out-dir");
+	my $html_syllabi_out_dir = Lib::Common::get_template("html-syllabi-out-dir");
+	$output .= "rm -rf $html_out_dir\n";
+	$output .= "mkdir -p $html_syllabi_out_dir\n";
+
+	my $pdf_syllabi_our_dir	= Lib::Common::get_template("pdf-syllabi-out-dir");
+	$output .= "rm -rf $pdf_syllabi_our_dir\n";
+	$output .= "mkdir -p $pdf_syllabi_our_dir\n";
+
+	$output .= "\n";
+	my $output_tex_dir 	= Lib::Common::get_template("output_tex_dir");
+	my $count_courses 	= 0;
+	for(my $semester = 1; $semester <= $Lib::Common::config{n_semesters}; $semester++)
+	{
+		foreach my $codcour (@{$Lib::Common::courses_by_semester{$semester}})
+		{
+			#Util::print_message("codcour = $codcour");
+			if( defined($Lib::Common::course_info{$codcour} ))
+			{
+				#system("rm $silabo_fullname");
+				my @bibfiles_array = split",", $Lib::Common::course_info{$codcour}{bibfile};
+				foreach my $bibfile (@bibfiles_array)
+				{
+					my $bibfile_fullpath = Lib::Common::get_syllabus_dir($bibfile);
+					$output .= "cp $bibfile_fullpath/$bibfile.bib ";
+					$output .= $output_tex_dir;
+				}
+				$output .= "./scripts/gen-silabo1institution $output_tex_dir $codcour\n\n";
+				$count_courses++;
+			}
+		}
+	}
+	Util::print_message("Generating batch file: $out_gen_silabos");
+	Lib::Common::write_file($out_gen_silabos, $output);
+	system("chmod 744 $out_gen_silabos");
+	Util::print_message("gen_batch_gensilabos $Lib::Common::institution ($count_courses courses generated ...)");
+}
+
+# sub gen_pdfsilabos_include()
+# {
+# 	Lib::Common::precondition("set_global_variables");
+# 	my $file_name = "$Lib::Common::config{output_tex_dir}/$Lib::Common::area-$Lib::Common::institution/pdfsilabos-includelist.tex";
+# 	if(not open(PDFLIST, ">$file_name"))
+# 	{
+# 		#print "Error?? Enable to open \"$file_name\" (gen_pdfsilabos_include)\n";
+# 		return;
+# 	}
+# 	#print PDFLIST "rm *.ps *.pdf *.log *.dvi *.aux *.bbl *.blg *.toc\n\n";
+# 	my $count = 0;
+# 	#for(my $semestre=1; $semestre <= $Lib::Common::nsemestres ; $semestre++)
+# 	#{
+# 		#print PDFLIST "\% $semestre$Lib::Common::rom_postfix{$semestre} Semestre\n";
+# 		foreach my $codcour (sort keys %Lib::Common::course_info)
+# 		{
+# 			#print "codcour = $codcour    ";
+# 			if( generate_silabo($codcour) > 0 )
+# 			{
+# 				print PDFLIST "\\includepdf[pages=-,";
+# 				print PDFLIST "addtotoc={1,section,1,$codcour. $Lib::Common::course_info{$codcour}{nombre},$codcour}]";
+# 				print PDFLIST "{PDFSilabos/$codcour-silabo}\n";
+# 				$count++;
+# 			}
+# 		}
+# 		print PDFLIST "\n";
+# 	#}
+# 	close(PDFLIST);
+# 	print "gen_pdfsilabos_include ($count) OK!\n";
+# }
+# 
+# sub gen_short_sumillas()
+# {
+# 	Lib::Common::precondition("set_global_variables");
+# 	my $file = "$Lib::Common::config{output_tex_dir}/$Lib::Common::area-$Lib::Common::institution-short-sumillas.tex";
+# 	open(SHORT_SUMILLA, ">$file") or die "Enable to open: $Lib::Common::area-$Lib::Common::institution-short-sumillas.tex";
+# 	my $count = 0;
+# 	for(my $semestre=1; $semestre <= $Lib::Common::nsemestres ; $semestre++)
+# 	{
+# 		foreach my $codcour (@{$Lib::Common::courses_by_semester{$semestre}})
+# 		{
+# 			#print "codcour = $codcour    ";
+# 			if( generate_silabo($codcour) > 0 )
+# 			{
+# 				my $sec_title = "$codcour. $Lib::Common::course_info{$codcour}{nombre} ";
+# 				$sec_title .= "($semestre$Lib::Common::rom_postfix{$semestre} sem)";
+# 				print SHORT_SUMILLA "\\section{$sec_title}\\label{sec:$codcour}\n";
+# 				print SHORT_SUMILLA "$Lib::Common::course_info{$codcour}{fundamentacion}\n\n";
+# 				$count++;
+# 				
+# 			}
+# 		}
+# 		print SHORT_SUMILLA "\n";
+# 	}
+# 	close(SHORT_SUMILLA);
+# 	print "gen $file ($count) OK!\n";
+# }
+# 
+# sub gen_bib_list()
+# {
+# 	Lib::Common::precondition("set_global_variables");
+# 	my $file = "$Lib::Common::config{output_tex_dir}/$Lib::Common::area-$Lib::Common::institution/bib-list.tex";
+# 	if(not open(BIB_LIST, ">$file"))
+# 	{
+# 		#print "Error?? Enable to open: $file (gen_bib_list)\n";
+# 		return;
+# 	}
+# 	my $count = 0;
+# 	print BIB_LIST "\\documentclass{book}\n";
+# 	print BIB_LIST "\\usepackage{bibtopic}\n";
+# 	print BIB_LIST "\\usepackage{ae}\n";
+# 	print BIB_LIST "\\begin{document}\n\n";
+# 	for(my $semestre=1; $semestre <= $Lib::Common::nsemestres ; $semestre++)
+# 	{
+# 		foreach my $codcour (@{$Lib::Common::courses_by_semester{$semestre}})
+# 		{
+# 			#print "codcour = $codcour    ";
+# 			if( generate_silabo($codcour) > 0 )
+# 			{
+# 				my $sec_title = "$codcour. $Lib::Common::course_info{$codcour}{nombre} ";
+# 				$sec_title .= "($semestre$Lib::Common::rom_postfix{$semestre} sem)";
+# 				print BIB_LIST "\\section*{$sec_title}\\label{sec:$codcour}\n";
+# 				print BIB_LIST "\\begin{btUnit}%\n";
+# 				print BIB_LIST "\\nocite{$Lib::Common::course_info{$codcour}{allbibitems}}\n";
+# 				print BIB_LIST "\\begin{btSect}[apalike]{../../Silabos/$Lib::Common::course_info{$codcour}{bibfile}}%\n";
+# 				print BIB_LIST "\\btPrintCited\n";
+# 				print BIB_LIST "\\end{btSect}%\n";	
+# 				print BIB_LIST "\\end{btUnit}%\n\n";
+# 				#print BIB_LIST "$Lib::Common::course_info{$codcour}{fundamentacion}\n\n";
+# 				$count++;
+# 				
+# 			}
+# 		}
+# 		print BIB_LIST "\n";
+# 	}
+# 	print BIB_LIST "\\end{document}\n";
+# 	close(BIB_LIST);
+# 	print "gen $file ($count) OK!\n";
+# }
+
+sub main()
+{
+	Lib::Common::set_initial_configuration($Lib::Common::command);
+ 	Lib::Common::parse_courses(); 	
+	Lib::Common::replace_special_characters_in_syllabi();
+
+	Lib::Common::read_faculty();
+  	Lib::Common::read_distribution();
+ 	Lib::Common::read_aditional_info_for_silabos(); # Days, time for each class, etc
+ 	gen_batch_gensilabos();
+# 	gen_pdfsilabos_include();
+# 	gen_short_sumillas();
+# 	gen_bib_list();
+	Util::print_message("Replaces codes finished ok ...");
+}
+
+main();
+

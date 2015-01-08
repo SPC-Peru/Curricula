@@ -1,0 +1,4 @@
+#!/bin/csh
+
+pstchart.sh vbar dim=8 3d coef-3d-x=2.5 nb-values=6 \
+            max=3200 cut-min=500 cut-max=2500 <users.dat

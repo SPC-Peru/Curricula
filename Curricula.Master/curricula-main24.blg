@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: curricula-main24.aux
+The style file: apalike.bst
+Database file #1: /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/Computing/CS/CS271.bib
+You've used 24 entries,
+            1935 wiz_defined-function locations,
+            563 strings with 6318 characters,
+and the built_in function-call counts, 7424 in all, are:
+= -- 670
+> -- 289
+< -- 20
++ -- 94
+- -- 90
+* -- 523
+:= -- 1360
+add.period$ -- 73
+call.type$ -- 24
+change.case$ -- 141
+chr.to.int$ -- 24
+cite$ -- 24
+duplicate$ -- 338
+empty$ -- 557
+format.name$ -- 136
+if$ -- 1445
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 47
+newline$ -- 124
+num.names$ -- 73
+pop$ -- 216
+preamble$ -- 1
+purify$ -- 165
+quote$ -- 0
+skip$ -- 237
+stack$ -- 0
+substring$ -- 292
+swap$ -- 24
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 96
+warning$ -- 0
+while$ -- 48
+width$ -- 0
+write$ -- 292

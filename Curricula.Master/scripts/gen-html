@@ -1,0 +1,6 @@
+#!/bin/csh
+
+set acro=$1 # = CS-SPC
+./scripts/gen-scripts.pl $acro
+
+./gen-html-1institution

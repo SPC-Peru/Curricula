@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: curricula-main31.aux
+The style file: apalike.bst
+Database file #1: /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/BasicSciences/MA111.bib
+I was expecting a `,' or a `}'---line 499 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/BasicSciences/MA111.bib
+ :  @book{Geometric 
+ :                  Algebra for Computer Science2007,
+I'm skipping whatever remains of this entry
+Name 1 in "Harvey Gould, Jan Tobochnik, and Wolfgang Christian" has a comma at the end for entry AnIntroductiontoComputerSimulationMethods2002
+while executing---line 1023 of file apalike.bst
+Name 1 in "Harvey Gould, Jan Tobochnik, and Wolfgang Christian" has a comma at the end for entry AnIntroductiontoComputerSimulationMethods2002
+while executing---line 1023 of file apalike.bst
+Warning--to sort, need author, editor, or key in Geometric
+Warning--empty author and editor in Geometric
+Warning--empty year in Geometric
+Warning--empty title in Geometric
+Warning--empty publisher in Geometric
+Name 1 in "Harvey Gould, Jan Tobochnik, and Wolfgang Christian" has a comma at the end for entry AnIntroductiontoComputerSimulationMethods2002
+while executing---line 1098 of file apalike.bst
+You've used 26 entries,
+            1935 wiz_defined-function locations,
+            621 strings with 7771 characters,
+and the built_in function-call counts, 7575 in all, are:
+= -- 721
+> -- 198
+< -- 24
++ -- 66
+- -- 58
+* -- 493
+:= -- 1387
+add.period$ -- 97
+call.type$ -- 26
+change.case$ -- 145
+chr.to.int$ -- 26
+cite$ -- 32
+duplicate$ -- 366
+empty$ -- 606
+format.name$ -- 87
+if$ -- 1492
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 51
+newline$ -- 152
+num.names$ -- 75
+pop$ -- 188
+preamble$ -- 1
+purify$ -- 159
+quote$ -- 0
+skip$ -- 257
+stack$ -- 0
+substring$ -- 321
+swap$ -- 25
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 104
+warning$ -- 5
+while$ -- 50
+width$ -- 0
+write$ -- 362
+(There were 4 error messages)

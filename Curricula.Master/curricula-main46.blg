@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: curricula-main46.aux
+The style file: apalike.bst
+Database file #1: /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/Computing/CS/CS231.bib
+Too many commas in name 1 of "Frank Adelstein, Sandeep KS Gupta, Golden Richard III, Loren Schwiebert" for entry AGGL05
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Frank Adelstein, Sandeep KS Gupta, Golden Richard III, Loren Schwiebert" for entry AGGL05
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Frank Adelstein, Sandeep KS Gupta, Golden Richard III, Loren Schwiebert" for entry AGGL05
+while executing---line 1098 of file apalike.bst
+Warning--empty publisher in AGGL05
+You've used 4 entries,
+            1935 wiz_defined-function locations,
+            494 strings with 4246 characters,
+and the built_in function-call counts, 1207 in all, are:
+= -- 110
+> -- 40
+< -- 4
++ -- 12
+- -- 12
+* -- 84
+:= -- 224
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 22
+chr.to.int$ -- 4
+cite$ -- 5
+duplicate$ -- 56
+empty$ -- 93
+format.name$ -- 20
+if$ -- 235
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 8
+newline$ -- 22
+num.names$ -- 12
+pop$ -- 33
+preamble$ -- 1
+purify$ -- 26
+quote$ -- 0
+skip$ -- 41
+stack$ -- 0
+substring$ -- 48
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 1
+while$ -- 8
+width$ -- 0
+write$ -- 49
+(There were 3 error messages)

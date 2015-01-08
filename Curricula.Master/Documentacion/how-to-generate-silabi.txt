@@ -1,0 +1,17 @@
+0.- Make a copy write-protected of in/country.Peru/CS-UCSP/distributions/distribution-2010-1.txt 
+
+For each time you need to generate blocks of syllabi you must do:
+1.- Modifiy \newcommand{\YYYY}{2010\xspace} %Plan
+2.- Modify \newcommand{\CurriculaVersion}{2\xspace} at in/country.Peru/CS-UCSP/
+3.- Verify script: ./out/Peru/CS-UCSP/scripts/gen-syllabi.sh       (just to see the apropriate range to generate)
+4.- Verify file ./out/Peru/CS-UCSP/tex/pdf-syllabi-includelist.tex (just to see the apropriate range to generate)
+5.- Rename out/pdfs/CS-UCSP-BookOfSyllabi-2010-1.pdf to CS-UCSP-BookOfSyllabi-2010-1 (Sem1-4).pdf where 1-4 is the range generated in the previous steps
+6.- Run the following commands
+
+./scripts/gen-scripts.pl CS-UCSP
+./compile1institucion.sh Y N
+./scripts/process-curricula.pl CS-UCSP 
+./out/Peru/CS-UCSP/scripts/gen-syllabi.sh
+./scripts/gen-book.sh CS UCSP Peru BookOfSyllabi pdflatex
+
+6.- Print the file, distribute syllabi and rest until next semester!

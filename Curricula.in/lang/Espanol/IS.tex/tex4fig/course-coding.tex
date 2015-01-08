@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[left=0cm,top=0cm,right=0cm,bottom=0cm,head=0cm]{geometry}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{pstricks,pst-plot,pst-grad}
+
+\pagestyle{empty}
+\begin{document}
+    \newgray{lightgray}{1}
+    \begin{pspicture}(-3,0.1)(10.5,-4)
+      %\psgrid[gridcolor=lightgray,gridlabelcolor=lightgray]
+%       \psframe[fillstyle=solid,fillcolor=lightgray](-3,0.1)(10.5,-4)
+
+\begin{footnotesize}
+
+\rput[tl](0,0){%
+        %\psframebox*[fillstyle=none,fillcolor=lightgray,linecolor=none]{%
+\begin{tabular}{l}
+\begin{normalsize}Nivel\end{normalsize}\\
+1xx = introductorio, 2xx = intermedio, 3xx = avanzado, 4xx = proyecto\\
+\end{tabular}
+}
+
+\rput[tl](0,-0.9){%
+        %\psframebox*[fillstyle=none,fillcolor=lightgray,linecolor=none]{%
+\begin{tabular}{l@{ }l}
+\multicolumn{2}{l}{\normalsize Estándar (se aplica sólo al nivel 3xx)}\\
+0 = IS2002,  & 1 = MSIS2006
+\end{tabular}
+}
+
+\rput[tl](0,-2.4){%
+        %\psframebox*[fillstyle=none,fillcolor=lightgray,linecolor=none]{%
+\begin{tabular}{l@{ }l}
+\multicolumn{2}{l}{\normalsize Correlativo de multi-curso  (opcional)}\\
+A = Primera parte & B = Segunda parte
+\end{tabular}
+}
+
+\rput[tl](0,-3.15){%
+        %\psframebox*[fillstyle=none,fillcolor=lightgray,linecolor=none]{%
+\begin{tabular}{l@{ }l}
+\multicolumn{2}{l}{\normalsize Identificador numérico en el área}
+\end{tabular}
+}
+\end{footnotesize}
+
+\rput[r](0,-2.0){\LARGE I S 3 1 2 A}
+\psline{->}(0,-0.2)(-1.7,-0.2)(-1.7,-1.7)
+\psline{->}(0,-1.1)(-1.2,-1.1)(-1.2,-1.7)
+\psline{->}(0,-2.6)(-0.15,-2.6)(-0.15,-2.25)
+\psline{->}(0,-3.30)(-0.8,-3.30)(-0.8,-2.25)
+
+\end{pspicture}
+\end{document}

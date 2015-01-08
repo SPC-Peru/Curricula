@@ -1,0 +1,36 @@
+#!/bin/csh
+
+set OutputTexDir=in/tex/lang/Espanol/CS
+set Files=BodyOfKnowledge-Body.tex
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/UNO/ONE/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/DOS/TWO/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/TRES/THREE/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/CUATRO/FOUR/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/CINCO/FIVE/g'
+
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/SEIS/SIX/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/SIETE/SEVEN/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/OCHO/EIGHT/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/NUEVE/NINE/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/DIEZ/ONEOH/g'
+
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/ONCE/ONEONE/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/DOCE/ONETWO/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/TRECE/ONETHREE/g'
+ls $OutputTexDir/$Files | xargs perl -pi -e 's/CATORCE/ONEFOUR/g'
+
+ls in/lang/Espanol/Syllabus/Computing/CS/CS270T.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+ls in/lang/Espanol/Syllabus/Computing/CS/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+ls in/lang/Espanol/Syllabus/Computing/IS/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+ls in/lang/Espanol/Syllabus/BasicSciences/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+ls in/lang/Espanol/Syllabus/Enterpreneurship/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+ls in/lang/Espanol/Syllabus/ForeignLanguages/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+ls in/lang/Espanol/Syllabus/GeneralEducation/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+
+Only Once take care !!!!!!!!!!!!!!!!!
+# ls in/lang/Espanol/Syllabus/Computing/CS/*.tex | xargs perl -pi -e 's/bibfile\{/bibfile\{Computing\/CS\//g'
+# ls in/lang/Espanol/Syllabus/Computing/IS/*.tex | xargs perl -pi -e 's/bibfile\{/bibfile\{Computing\/IS\//g'
+# ls in/lang/Espanol/Syllabus/BasicSciences/*.tex | xargs perl -pi -e 's/bibfile\{/bibfile\{BasicSciences\//g'
+# ls in/lang/Espanol/Syllabus/Enterpreneurship/*.tex | xargs perl -pi -e 's/bibfile\{/bibfile\{Enterpreneurship\//g'
+# ls in/lang/Espanol/Syllabus/ForeignLanguages/*.tex | xargs perl -pi -e 's/bibfile\{/bibfile\{ForeignLanguages\//g'
+# ls in/lang/Espanol/Syllabus/GeneralEducation/*.tex | xargs perl -pi -e 's/bibfile\{/bibfile\{GeneralEducation\//g'

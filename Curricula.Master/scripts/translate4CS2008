@@ -1,0 +1,14 @@
+#!/bin/csh
+
+set BOKFile=in/tex/lang/Espanol/CS/BodyOfKnowledge-Body.tex 
+set Syllabi=in/lang/Espanol/Syllabus/Computing/CS/*.tex
+ls $BOKFile $Syllabi | xargs perl -pi -e 's/\\DSONEDef/ONE/g'
+
+# ls in/lang/Espanol/Syllabus/Computing/CS/CS270T.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+# ls in/lang/Espanol/Syllabus/Computing/CS/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+# ls in/lang/Espanol/Syllabus/Computing/IS/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+# ls in/lang/Espanol/Syllabus/BasicSciences/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+# ls in/lang/Espanol/Syllabus/Enterpreneurship/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+# ls in/lang/Espanol/Syllabus/ForeignLanguages/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+# ls in/lang/Espanol/Syllabus/GeneralEducation/*.tex | xargs perl -pi -e 's/\{bibliography\}/\{coursebibliography\}/g'
+

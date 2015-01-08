@@ -1,0 +1,12 @@
+#!/bin/csh
+set file=$1
+
+latex $file
+bibtex $file
+latex $file
+latex $file
+
+dvips -o $file.ps $file.dvi
+ps2pdf $file.ps $file.pdf
+rm $file.ps $file.dvi
+

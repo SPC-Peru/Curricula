@@ -1,0 +1,24 @@
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+\begin{thebibliography}{}
+
+\bibitem[Brookshear, 2011]{Brookshear11}
+Brookshear, J.~G. (2011).
+\newblock {\em Computer Science: An Overview}.
+\newblock Addison-Wesley.
+
+\bibitem[Guttag, 2013]{Guttag13}
+Guttag, J.~V. (2013).
+\newblock {\em . Introduction To Computation And Programming Using Python}.
+\newblock MIT Press.
+
+\bibitem[Zelle, 2010]{Zelle10}
+Zelle, J. (2010).
+\newblock {\em Python Programming: An Introduction to Computer Science}.
+\newblock Franklin, Beedle \& Associates Inc.
+
+\end{thebibliography}
+\csname bt@warn@outdated\endcsname{curricula-main2}
+\csname bt@warn@outdated\endcsname{curricula-main2}

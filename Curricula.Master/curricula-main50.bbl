@@ -1,0 +1,66 @@
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+\begin{thebibliography}{}
+
+\bibitem[Baldi and Brunak, 2001]{Baldi01}
+Baldi, P. and Brunak, S. (2001).
+\newblock {\em Bioinformatics: the machine learning approach}.
+\newblock The MIT Press.
+
+\bibitem[{De Castro}, 2006]{Castro06}
+{De Castro}, L. (2006).
+\newblock {\em Fundamentals of natural computing: basic concepts, algorithms,
+  and applications}.
+\newblock CRC Press.
+
+\bibitem[Dorigo and St\"utzle, 2004]{Dorigo04}
+Dorigo, M. and St\"utzle, T. (2004).
+\newblock {\em {Ant colony optimization}}.
+\newblock the MIT Press.
+
+\bibitem[Goldberg, 1989]{Goldberg89}
+Goldberg, D. (1989).
+\newblock {\em Genetic Algorithms in Search, Optimization and Machine
+  Learning}.
+\newblock Addison Wesley.
+
+\bibitem[Haykin, 1999]{Haykin99}
+Haykin, S. (1999).
+\newblock {\em Neural networks: A Comprehensive Foundation}.
+\newblock Prentice Hall.
+
+\bibitem[Kennedy et~al., 2001]{James01}
+Kennedy, J., Eberhart, R., and Yuhui, S. (2001).
+\newblock {\em Swarm intelligence}.
+\newblock Morgan Kaufmann Publishers.
+
+\bibitem[Mitchell, 1998]{Mitchell98}
+Mitchell, M. (1998).
+\newblock {\em An introduction to genetic algorithms}.
+\newblock The MIT press.
+
+\bibitem[Nilsson, 2001]{Nilsson01}
+Nilsson, N. (2001).
+\newblock {\em Inteligencia Artificial: Una nueva visiÃ³n}.
+\newblock McGraw-Hill.
+
+\bibitem[Ponce-Gallegos et~al., 2014]{Ponce14}
+Ponce-Gallegos, J., Torres-Soto, A., tima Quezada~Aguilera, Silva-Sprock, A.,
+  Flor, E.~M., Casali, A., Scheihing, E., Tupac, Y., Soto, M.~T., Zapata,
+  F.~O., A., J.~H., D., C.~Z., Vakhnia, N., and Pedreño, O. (2014).
+\newblock {\em Inteligencia Artificial}.
+\newblock Iniciativa Latinoamericana de Libros de Texto Abiertos (LATIn).
+
+\bibitem[Russell and Norvig, 2003]{Russell03}
+Russell, S. and Norvig, P. (2003).
+\newblock {\em Inteligencia Artifical: Un enfoque moderno}.
+\newblock Prentice Hall.
+
+\end{thebibliography}
+\csname bt@warn@outdated\endcsname{curricula-main50}
+\csname bt@warn@outdated\endcsname{curricula-main50}
+\csname bt@warn@outdated\endcsname{curricula-main50}

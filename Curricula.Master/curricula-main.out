@@ -1,0 +1,295 @@
+\BOOKMARK [0][]{chapter*.6}{Agradecimientos}{}% 1
+\BOOKMARK [0][]{chapter*.7}{Abreviaturas}{}% 2
+\BOOKMARK [0][]{chapter.1}{Introducción}{}% 3
+\BOOKMARK [1][]{section.1.1}{Definiciones básicas}{chapter.1}% 4
+\BOOKMARK [1][]{section.1.2}{Perfil Profesional}{chapter.1}% 5
+\BOOKMARK [1][]{section.1.3}{Campo y mercado ocupacional}{chapter.1}% 6
+\BOOKMARK [1][]{section.1.4}{Importancia de la carrera en la sociedad}{chapter.1}% 7
+\BOOKMARK [1][]{section.1.5}{Misión}{chapter.1}% 8
+\BOOKMARK [1][]{section.1.6}{Visión}{chapter.1}% 9
+\BOOKMARK [1][]{section.1.7}{Resultados de la carrera Outcomes}{chapter.1}% 10
+\BOOKMARK [1][]{section.1.8}{Perfil de competencias profesionales \(Resultados de la carrera\)}{chapter.1}% 11
+\BOOKMARK [2][]{subsection.1.8.1}{Competencias Generales}{section.1.8}% 12
+\BOOKMARK [2][]{subsection.1.8.2}{Competencias Específicas para Ciencia de la Computación \(Computer Science\)}{section.1.8}% 13
+\BOOKMARK [2][]{subsection.1.8.3}{Competencias Específicas para Ingeniería de Computación \(Computer Engineering\)}{section.1.8}% 14
+\BOOKMARK [2][]{subsection.1.8.4}{Competencias Específicas para Sistemas de Información \(Information Systems\)}{section.1.8}% 15
+\BOOKMARK [2][]{subsection.1.8.5}{Competencias Específicas para Ingeniería de Software \(Software Engineering\)}{section.1.8}% 16
+\BOOKMARK [2][]{subsection.1.8.6}{Competencias Específicas para Tecnología de la Información \(Information Technology\)}{section.1.8}% 17
+\BOOKMARK [1][]{section.1.9}{Objetivos de aprendizaje}{chapter.1}% 18
+\BOOKMARK [1][]{section.1.10}{Grados y Títulos}{chapter.1}% 19
+\BOOKMARK [1][]{section.1.11}{Recursos para dictado de clases}{chapter.1}% 20
+\BOOKMARK [0][]{chapter.2}{Cuerpo del conocimiento de Ciencia de la Computación}{}% 21
+\BOOKMARK [1][]{section.2.1}{Algoritmos y Complejidad \(AL\)}{chapter.2}% 22
+\BOOKMARK [2][]{subsection.2.1.1}{AL/Análisis Básico \(2 horas Core-Tier1, 2 horas Core-Tier2\)}{section.2.1}% 23
+\BOOKMARK [2][]{subsection.2.1.2}{AL/Estrategias Algorítmicas \(5 horas Core-Tier1, 1 horas Core-Tier2\)}{section.2.1}% 24
+\BOOKMARK [2][]{subsection.2.1.3}{AL/Algoritmos y Estructuras de Datos fundamentales \(9 horas Core-Tier1, 3 horas Core-Tier2\)}{section.2.1}% 25
+\BOOKMARK [2][]{subsection.2.1.4}{AL/Computabilidad y complejidad básica de autómatas \(3 horas Core-Tier1, 3 horas Core-Tier2\)}{section.2.1}% 26
+\BOOKMARK [2][]{subsection.2.1.5}{AL/Complejidad Computacional Avanzada}{section.2.1}% 27
+\BOOKMARK [2][]{subsection.2.1.6}{AL/Teoría y Computabilidad Avanzada de Autómatas}{section.2.1}% 28
+\BOOKMARK [2][]{subsection.2.1.7}{AL/Estructuras de Datos Avanzadas y Análisis de Algoritmos}{section.2.1}% 29
+\BOOKMARK [1][]{section.2.2}{Arquitectura y Organización \(AR\)}{chapter.2}% 30
+\BOOKMARK [2][]{subsection.2.2.1}{AR/Lógica digital y sistemas digitales \(3 horas Core-Tier2\)}{section.2.2}% 31
+\BOOKMARK [2][]{subsection.2.2.2}{AR/Representación de datos a nivel máquina \(3 horas Core-Tier2\)}{section.2.2}% 32
+\BOOKMARK [2][]{subsection.2.2.3}{AR/Organización de la Máquina a Nivel Ensamblador \(6 horas Core-Tier2\)}{section.2.2}% 33
+\BOOKMARK [2][]{subsection.2.2.4}{AR/Organización y Arquitectura del Sistema de Memoria \(3 horas Core-Tier2\)}{section.2.2}% 34
+\BOOKMARK [2][]{subsection.2.2.5}{AR/Interfaz y comunicación \(1 horas Core-Tier2\)}{section.2.2}% 35
+\BOOKMARK [2][]{subsection.2.2.6}{AR/Organización funcional}{section.2.2}% 36
+\BOOKMARK [2][]{subsection.2.2.7}{AR/Multiprocesamiento y arquitecturas alternativas}{section.2.2}% 37
+\BOOKMARK [2][]{subsection.2.2.8}{AR/Mejoras de rendimiento}{section.2.2}% 38
+\BOOKMARK [1][]{section.2.3}{Ciencia Computacional \(CN\)}{chapter.2}% 39
+\BOOKMARK [2][]{subsection.2.3.1}{CN/Introducción al modelamiento y simulación \(1 horas Core-Tier1\)}{section.2.3}% 40
+\BOOKMARK [2][]{subsection.2.3.2}{CN/Modelamiento y simulación}{section.2.3}% 41
+\BOOKMARK [2][]{subsection.2.3.3}{CN/Procesamiento}{section.2.3}% 42
+\BOOKMARK [2][]{subsection.2.3.4}{CN/Visualización interactiva}{section.2.3}% 43
+\BOOKMARK [2][]{subsection.2.3.5}{CN/Datos, información y conocimiento}{section.2.3}% 44
+\BOOKMARK [2][]{subsection.2.3.6}{CN/Análisis numérico}{section.2.3}% 45
+\BOOKMARK [1][]{section.2.4}{Estructuras Discretas \(DS\)}{chapter.2}% 46
+\BOOKMARK [2][]{subsection.2.4.1}{DS/Funciones, relaciones y conjuntos \(4 horas Core-Tier1\)}{section.2.4}% 47
+\BOOKMARK [2][]{subsection.2.4.2}{DS/Lógica básica \(9 horas Core-Tier1\)}{section.2.4}% 48
+\BOOKMARK [2][]{subsection.2.4.3}{DS/Técnicas de demostración \(10 horas Core-Tier1, 1 horas Core-Tier2\)}{section.2.4}% 49
+\BOOKMARK [2][]{subsection.2.4.4}{DS/Fundamentos de conteo \(5 horas Core-Tier1\)}{section.2.4}% 50
+\BOOKMARK [2][]{subsection.2.4.5}{DS/Árboles y Grafos \(3 horas Core-Tier1, 1 horas Core-Tier2\)}{section.2.4}% 51
+\BOOKMARK [2][]{subsection.2.4.6}{DS/Probabilidad Discreta \(6 horas Core-Tier1, 2 horas Core-Tier2\)}{section.2.4}% 52
+\BOOKMARK [1][]{section.2.5}{Gráficos y Visualización \(GV\)}{chapter.2}% 53
+\BOOKMARK [2][]{subsection.2.5.1}{GV/Conceptos Fundamentales \(2 horas Core-Tier1, 1 horas Core-Tier2\)}{section.2.5}% 54
+\BOOKMARK [2][]{subsection.2.5.2}{GV/Rendering Básico}{section.2.5}% 55
+\BOOKMARK [2][]{subsection.2.5.3}{GV/Modelado Geométrico}{section.2.5}% 56
+\BOOKMARK [2][]{subsection.2.5.4}{GV/Renderizado Avanzado}{section.2.5}% 57
+\BOOKMARK [2][]{subsection.2.5.5}{GV/Animación por computadora}{section.2.5}% 58
+\BOOKMARK [2][]{subsection.2.5.6}{GV/Visualización}{section.2.5}% 59
+\BOOKMARK [1][]{section.2.6}{Interacción Humano-Computador \(HCI\)}{chapter.2}% 60
+\BOOKMARK [2][]{subsection.2.6.1}{HCI/Fundamentos \(4 horas Core-Tier1\)}{section.2.6}% 61
+\BOOKMARK [2][]{subsection.2.6.2}{HCI/Diseño de Interacción \(4 horas Core-Tier2\)}{section.2.6}% 62
+\BOOKMARK [2][]{subsection.2.6.3}{HCI/Programación de Sistemas Interactivos}{section.2.6}% 63
+\BOOKMARK [2][]{subsection.2.6.4}{HCI/Diseño y Testing centrados en el usuario}{section.2.6}% 64
+\BOOKMARK [2][]{subsection.2.6.5}{HCI/Nuevas Tecnologías Interactivas}{section.2.6}% 65
+\BOOKMARK [2][]{subsection.2.6.6}{HCI/Colaboración y Comunicación}{section.2.6}% 66
+\BOOKMARK [2][]{subsection.2.6.7}{HCI/Métodos estadísticos para HCI}{section.2.6}% 67
+\BOOKMARK [2][]{subsection.2.6.8}{HCI/Factores Humanos y seguridad}{section.2.6}% 68
+\BOOKMARK [2][]{subsection.2.6.9}{HCI/HCI orientada al diseño}{section.2.6}% 69
+\BOOKMARK [2][]{subsection.2.6.10}{HCI/Realidad virtual y aumentada mezcladas}{section.2.6}% 70
+\BOOKMARK [1][]{section.2.7}{Aseguramiento y Seguridad de la Información \(IAS\)}{chapter.2}% 71
+\BOOKMARK [2][]{subsection.2.7.1}{IAS/Fundamentos y Conceptos en Seguridad \(1 horas Core-Tier1, 2 horas Core-Tier2\)}{section.2.7}% 72
+\BOOKMARK [2][]{subsection.2.7.2}{IAS/Principios de Diseño Seguro \(1 horas Core-Tier1, 2 horas Core-Tier2\)}{section.2.7}% 73
+\BOOKMARK [2][]{subsection.2.7.3}{IAS/Programación Defensiva \(1 horas Core-Tier1, 2 horas Core-Tier2\)}{section.2.7}% 74
+\BOOKMARK [2][]{subsection.2.7.4}{IAS/Ataques y Amenazas \(1 horas Core-Tier2\)}{section.2.7}% 75
+\BOOKMARK [2][]{subsection.2.7.5}{IAS/Seguridad de Red \(2 horas Core-Tier2\)}{section.2.7}% 76
+\BOOKMARK [2][]{subsection.2.7.6}{IAS/Criptografía \(1 horas Core-Tier2\)}{section.2.7}% 77
+\BOOKMARK [2][]{subsection.2.7.7}{IAS/Seguridad en la Web}{section.2.7}% 78
+\BOOKMARK [2][]{subsection.2.7.8}{IAS/Seguridad de plataformas}{section.2.7}% 79
+\BOOKMARK [2][]{subsection.2.7.9}{IAS/Política de Seguridad y Gobernabilidad}{section.2.7}% 80
+\BOOKMARK [2][]{subsection.2.7.10}{IAS/Investigación digital \(Digital Forensics\)}{section.2.7}% 81
+\BOOKMARK [2][]{subsection.2.7.11}{IAS/Seguridad en Ingeniería de Software}{section.2.7}% 82
+\BOOKMARK [1][]{section.2.8}{Gestión de la información \(IM\)}{chapter.2}% 83
+\BOOKMARK [2][]{subsection.2.8.1}{IM/Conceptos de Gestión de la Información \(1 horas Core-Tier1, 2 horas Core-Tier2\)}{section.2.8}% 84
+\BOOKMARK [2][]{subsection.2.8.2}{IM/Sistemas de Bases de Datos \(3 horas Core-Tier2\)}{section.2.8}% 85
+\BOOKMARK [2][]{subsection.2.8.3}{IM/Modelado de datos \(4 horas Core-Tier2\)}{section.2.8}% 86
+\BOOKMARK [2][]{subsection.2.8.4}{IM/Indexación}{section.2.8}% 87
+\BOOKMARK [2][]{subsection.2.8.5}{IM/Bases de Datos Relacionales}{section.2.8}% 88
+\BOOKMARK [2][]{subsection.2.8.6}{IM/Lenguajes de Consulta}{section.2.8}% 89
+\BOOKMARK [2][]{subsection.2.8.7}{IM/Procesamiento de Transacciones}{section.2.8}% 90
+\BOOKMARK [2][]{subsection.2.8.8}{IM/Bases de Datos Distribuidas}{section.2.8}% 91
+\BOOKMARK [2][]{subsection.2.8.9}{IM/Diseño Físico de Bases de Datos}{section.2.8}% 92
+\BOOKMARK [2][]{subsection.2.8.10}{IM/Minería de Datos}{section.2.8}% 93
+\BOOKMARK [2][]{subsection.2.8.11}{IM/Almacenamiento y Recuperación de Información}{section.2.8}% 94
+\BOOKMARK [2][]{subsection.2.8.12}{IM/Sistemas Multimedia}{section.2.8}% 95
+\BOOKMARK [1][]{section.2.9}{Sistemas Inteligentes \(IS\)}{chapter.2}% 96
+\BOOKMARK [2][]{subsection.2.9.1}{IS/Cuestiones fundamentales \(1 horas Core-Tier2\)}{section.2.9}% 97
+\BOOKMARK [2][]{subsection.2.9.2}{IS/Estrategias de búsquedas básicas \(4 horas Core-Tier2\)}{section.2.9}% 98
+\BOOKMARK [2][]{subsection.2.9.3}{IS/Raciocinio y representación básica de conocimiento \(3 horas Core-Tier2\)}{section.2.9}% 99
+\BOOKMARK [2][]{subsection.2.9.4}{IS/Aprendizaje Automático Básico \(2 horas Core-Tier2\)}{section.2.9}% 100
+\BOOKMARK [2][]{subsection.2.9.5}{IS/Búsqueda Avanzada}{section.2.9}% 101
+\BOOKMARK [2][]{subsection.2.9.6}{IS/Representación Avanzada y Razonamiento}{section.2.9}% 102
+\BOOKMARK [2][]{subsection.2.9.7}{IS/Razonamiento Bajo Incertidumbre}{section.2.9}% 103
+\BOOKMARK [2][]{subsection.2.9.8}{IS/Agentes}{section.2.9}% 104
+\BOOKMARK [2][]{subsection.2.9.9}{IS/Procesamiento del Lenguaje Natural}{section.2.9}% 105
+\BOOKMARK [2][]{subsection.2.9.10}{IS/Aprendizaje de máquina avanzado}{section.2.9}% 106
+\BOOKMARK [2][]{subsection.2.9.11}{IS/Robótica}{section.2.9}% 107
+\BOOKMARK [2][]{subsection.2.9.12}{IS/Visión y percepción por computador}{section.2.9}% 108
+\BOOKMARK [1][]{section.2.10}{Redes y comunicaciones \(NC\)}{chapter.2}% 109
+\BOOKMARK [2][]{subsection.2.10.1}{NC/Introducción \(1.5 horas Core-Tier1\)}{section.2.10}% 110
+\BOOKMARK [2][]{subsection.2.10.2}{NC/Aplicaciones en red \(1.5 horas Core-Tier1\)}{section.2.10}% 111
+\BOOKMARK [2][]{subsection.2.10.3}{NC/Entrega confiable de datos \(2 horas Core-Tier2\)}{section.2.10}% 112
+\BOOKMARK [2][]{subsection.2.10.4}{NC/Ruteo y reenvío \(1.5 horas Core-Tier2\)}{section.2.10}% 113
+\BOOKMARK [2][]{subsection.2.10.5}{NC/Redes de área local \040\(1.5 horas Core-Tier2\)}{section.2.10}% 114
+\BOOKMARK [2][]{subsection.2.10.6}{NC/Asignación de recursos \(1 horas Core-Tier2\)}{section.2.10}% 115
+\BOOKMARK [2][]{subsection.2.10.7}{NC/Celulares \(1 horas Core-Tier2\)}{section.2.10}% 116
+\BOOKMARK [2][]{subsection.2.10.8}{NC/Redes sociales}{section.2.10}% 117
+\BOOKMARK [1][]{section.2.11}{Sistemas Operativos \(OS\)}{chapter.2}% 118
+\BOOKMARK [2][]{subsection.2.11.1}{OS/Visión general de Sistemas Operativos \(2 horas Core-Tier1\)}{section.2.11}% 119
+\BOOKMARK [2][]{subsection.2.11.2}{OS/Principios de Sistemas Operativos \(2 horas Core-Tier1\)}{section.2.11}% 120
+\BOOKMARK [2][]{subsection.2.11.3}{OS/Concurrencia \(3 horas Core-Tier2\)}{section.2.11}% 121
+\BOOKMARK [2][]{subsection.2.11.4}{OS/Planificación y despacho \(3 horas Core-Tier2\)}{section.2.11}% 122
+\BOOKMARK [2][]{subsection.2.11.5}{OS/Manejo de memoria \(3 horas Core-Tier2\)}{section.2.11}% 123
+\BOOKMARK [2][]{subsection.2.11.6}{OS/Seguridad y protección \(2 horas Core-Tier2\)}{section.2.11}% 124
+\BOOKMARK [2][]{subsection.2.11.7}{OS/Máquinas virtuales}{section.2.11}% 125
+\BOOKMARK [2][]{subsection.2.11.8}{OS/Manejo de dispositivos}{section.2.11}% 126
+\BOOKMARK [2][]{subsection.2.11.9}{OS/Sistema de archivos}{section.2.11}% 127
+\BOOKMARK [2][]{subsection.2.11.10}{OS/Sistemas empotrados y de tiempo real}{section.2.11}% 128
+\BOOKMARK [2][]{subsection.2.11.11}{OS/Tolerancia a fallas}{section.2.11}% 129
+\BOOKMARK [2][]{subsection.2.11.12}{OS/Evaluación del desempeño de sistemas}{section.2.11}% 130
+\BOOKMARK [1][]{section.2.12}{Desarrollo basados en plataforma \(PBD\)}{chapter.2}% 131
+\BOOKMARK [2][]{subsection.2.12.1}{PBD/Introducción}{section.2.12}% 132
+\BOOKMARK [2][]{subsection.2.12.2}{PBD/Plataformas web}{section.2.12}% 133
+\BOOKMARK [2][]{subsection.2.12.3}{PBD/Plataformas móviles}{section.2.12}% 134
+\BOOKMARK [2][]{subsection.2.12.4}{PBD/Plataformas industriales}{section.2.12}% 135
+\BOOKMARK [2][]{subsection.2.12.5}{PBD/Plataformas para video juegos}{section.2.12}% 136
+\BOOKMARK [1][]{section.2.13}{Computación paralela y distribuída \(PD\)}{chapter.2}% 137
+\BOOKMARK [2][]{subsection.2.13.1}{PD/Fundamentos de paralelismo \(2 horas Core-Tier1\)}{section.2.13}% 138
+\BOOKMARK [2][]{subsection.2.13.2}{PD/Descomposición en paralelo \(1 horas Core-Tier1, 2 horas Core-Tier2\)}{section.2.13}% 139
+\BOOKMARK [2][]{subsection.2.13.3}{PD/Comunicación y coordinación \(1 horas Core-Tier1, 3 horas Core-Tier2\)}{section.2.13}% 140
+\BOOKMARK [2][]{subsection.2.13.4}{PD/Análisis y programación de algoritmos paralelos \(3 horas Core-Tier2\)}{section.2.13}% 141
+\BOOKMARK [2][]{subsection.2.13.5}{PD/Arquitecturas paralelas \(1 horas Core-Tier1, 2 horas Core-Tier2\)}{section.2.13}% 142
+\BOOKMARK [2][]{subsection.2.13.6}{PD/Desempeño en paralelo}{section.2.13}% 143
+\BOOKMARK [2][]{subsection.2.13.7}{PD/Sistemas distribuídos}{section.2.13}% 144
+\BOOKMARK [2][]{subsection.2.13.8}{PD/Cloud Computing}{section.2.13}% 145
+\BOOKMARK [2][]{subsection.2.13.9}{PD/Modelos y semántica formal}{section.2.13}% 146
+\BOOKMARK [1][]{section.2.14}{Lenguajes de programación \(PL\)}{chapter.2}% 147
+\BOOKMARK [2][]{subsection.2.14.1}{PL/Programación orientada a objetos \(4 horas Core-Tier1, 6 horas Core-Tier2\)}{section.2.14}% 148
+\BOOKMARK [2][]{subsection.2.14.2}{PL/Programación funcional \(3 horas Core-Tier1, 4 horas Core-Tier2\)}{section.2.14}% 149
+\BOOKMARK [2][]{subsection.2.14.3}{PL/Programación reactiva y dirigida por eventos \(2 horas Core-Tier2\)}{section.2.14}% 150
+\BOOKMARK [2][]{subsection.2.14.4}{PL/Sistemas de tipos básicos \(1 horas Core-Tier1, 4 horas Core-Tier2\)}{section.2.14}% 151
+\BOOKMARK [2][]{subsection.2.14.5}{PL/Representación de programas \(1 horas Core-Tier2\)}{section.2.14}% 152
+\BOOKMARK [2][]{subsection.2.14.6}{PL/Traducción y ejecución de lenguajes \(3 horas Core-Tier2\)}{section.2.14}% 153
+\BOOKMARK [2][]{subsection.2.14.7}{PL/Análisis de sintaxis}{section.2.14}% 154
+\BOOKMARK [2][]{subsection.2.14.8}{PL/Análisis semántico de compiladores}{section.2.14}% 155
+\BOOKMARK [2][]{subsection.2.14.9}{PL/Generación de código}{section.2.14}% 156
+\BOOKMARK [2][]{subsection.2.14.10}{PL/Sistemas de tiempo de ejecución}{section.2.14}% 157
+\BOOKMARK [2][]{subsection.2.14.11}{PL/Análisis estático}{section.2.14}% 158
+\BOOKMARK [2][]{subsection.2.14.12}{PL/Construcciones de programación avanzados}{section.2.14}% 159
+\BOOKMARK [2][]{subsection.2.14.13}{PL/Concurrencia y Paralelismo}{section.2.14}% 160
+\BOOKMARK [2][]{subsection.2.14.14}{PL/Sistemas de tipos}{section.2.14}% 161
+\BOOKMARK [2][]{subsection.2.14.15}{PL/Semántica formal}{section.2.14}% 162
+\BOOKMARK [2][]{subsection.2.14.16}{PL/Pragmática de lenguajes}{section.2.14}% 163
+\BOOKMARK [2][]{subsection.2.14.17}{PL/Programación lógica}{section.2.14}% 164
+\BOOKMARK [1][]{section.2.15}{Fundamentos del desarrollo de software \(SDF\)}{chapter.2}% 165
+\BOOKMARK [2][]{subsection.2.15.1}{SDF/Algoritmos y Diseño \(11 horas Core-Tier1\)}{section.2.15}% 166
+\BOOKMARK [2][]{subsection.2.15.2}{SDF/Conceptos Fundamentales de Programación \(10 horas Core-Tier1\)}{section.2.15}% 167
+\BOOKMARK [2][]{subsection.2.15.3}{SDF/Estructuras de Datos Fundamentales \(12 horas Core-Tier1\)}{section.2.15}% 168
+\BOOKMARK [2][]{subsection.2.15.4}{SDF/Métodos de Desarrollo \(10 horas Core-Tier1\)}{section.2.15}% 169
+\BOOKMARK [1][]{section.2.16}{Ingeniería de Software \(SE\)}{chapter.2}% 170
+\BOOKMARK [2][]{subsection.2.16.1}{SE/Procesos de Software \(2 horas Core-Tier1, 1 horas Core-Tier2\)}{section.2.16}% 171
+\BOOKMARK [2][]{subsection.2.16.2}{SE/Gestión de Proyectos de Software \(2 horas Core-Tier2\)}{section.2.16}% 172
+\BOOKMARK [2][]{subsection.2.16.3}{SE/Herramientas y Entornos \(2 horas Core-Tier2\)}{section.2.16}% 173
+\BOOKMARK [2][]{subsection.2.16.4}{SE/Ingeniería de Requisitos \(1 horas Core-Tier1, 3 horas Core-Tier2\)}{section.2.16}% 174
+\BOOKMARK [2][]{subsection.2.16.5}{SE/Diseño de Software \(3 horas Core-Tier1, 5 horas Core-Tier2\)}{section.2.16}% 175
+\BOOKMARK [2][]{subsection.2.16.6}{SE/Construcción de Software \(2 horas Core-Tier2\)}{section.2.16}% 176
+\BOOKMARK [2][]{subsection.2.16.7}{SE/Verificación y Validación de Software \(3 horas Core-Tier2\)}{section.2.16}% 177
+\BOOKMARK [2][]{subsection.2.16.8}{SE/Evolución de Software \(2 horas Core-Tier2\)}{section.2.16}% 178
+\BOOKMARK [2][]{subsection.2.16.9}{SE/Fiabilidad de Software \(1 horas Core-Tier2\)}{section.2.16}% 179
+\BOOKMARK [2][]{subsection.2.16.10}{SE/Métodos Formales}{section.2.16}% 180
+\BOOKMARK [1][]{section.2.17}{Fundamentos de Sistemas \(SF\)}{chapter.2}% 181
+\BOOKMARK [2][]{subsection.2.17.1}{SF/Paradigmas computacionales \(3 horas Core-Tier1\)}{section.2.17}% 182
+\BOOKMARK [2][]{subsection.2.17.2}{SF/Comunicación a través de múltiples capas \(3 horas Core-Tier1\)}{section.2.17}% 183
+\BOOKMARK [2][]{subsection.2.17.3}{SF/Estados y máquinas de estados \(6 horas Core-Tier1\)}{section.2.17}% 184
+\BOOKMARK [2][]{subsection.2.17.4}{SF/Paralelismo \(1 horas Core-Tier1\)}{section.2.17}% 185
+\BOOKMARK [2][]{subsection.2.17.5}{SF/Evaluación \(3 horas Core-Tier1\)}{section.2.17}% 186
+\BOOKMARK [2][]{subsection.2.17.6}{SF/Asignación de recursos y planeamiento \(2 horas Core-Tier2\)}{section.2.17}% 187
+\BOOKMARK [2][]{subsection.2.17.7}{SF/Proximidad \(3 horas Core-Tier2\)}{section.2.17}% 188
+\BOOKMARK [2][]{subsection.2.17.8}{SF/Virtualización y aislamiento \(2 horas Core-Tier2\)}{section.2.17}% 189
+\BOOKMARK [2][]{subsection.2.17.9}{SF/Confiabilidad a través de redundancia \(2 horas Core-Tier2\)}{section.2.17}% 190
+\BOOKMARK [2][]{subsection.2.17.10}{SF/Evaluación cuantitativa}{section.2.17}% 191
+\BOOKMARK [1][]{section.2.18}{Asuntos sociales y práctica profesional \(SP\)}{chapter.2}% 192
+\BOOKMARK [2][]{subsection.2.18.1}{SP/Contexto Social \(1 horas Core-Tier1, 2 horas Core-Tier2\)}{section.2.18}% 193
+\BOOKMARK [2][]{subsection.2.18.2}{SP/Herramientas de Análisis \(2 horas Core-Tier1\)}{section.2.18}% 194
+\BOOKMARK [2][]{subsection.2.18.3}{SP/Ética Profesional \(2 horas Core-Tier1, 2 horas Core-Tier2\)}{section.2.18}% 195
+\BOOKMARK [2][]{subsection.2.18.4}{SP/Propiedad Intelectual \(2 horas Core-Tier1\)}{section.2.18}% 196
+\BOOKMARK [2][]{subsection.2.18.5}{SP/Privacidad y Libertades Civiles \(2 horas Core-Tier1\)}{section.2.18}% 197
+\BOOKMARK [2][]{subsection.2.18.6}{SP/Comunicación profesional \(1 horas Core-Tier1\)}{section.2.18}% 198
+\BOOKMARK [2][]{subsection.2.18.7}{SP/Sostenibilidad \(1 horas Core-Tier1, 1 horas Core-Tier2\)}{section.2.18}% 199
+\BOOKMARK [2][]{subsection.2.18.8}{SP/Historia}{section.2.18}% 200
+\BOOKMARK [2][]{subsection.2.18.9}{SP/Economía de la Computación}{section.2.18}% 201
+\BOOKMARK [2][]{subsection.2.18.10}{SP/Políticas de seguridad, Leyes y crímenes computacionales}{section.2.18}% 202
+\BOOKMARK [0][]{chapter.3}{Malla curricular 2015}{}% 203
+\BOOKMARK [1][]{section.3.1}{Clasificación de los cursos por niveles}{chapter.3}% 204
+\BOOKMARK [1][]{section.3.2}{Codificación de los cursos}{chapter.3}% 205
+\BOOKMARK [1][]{section.3.3}{Constitución del Plan de Estudios}{chapter.3}% 206
+\BOOKMARK [1][]{section.3.4}{Distribución de cursos en la carrera}{chapter.3}% 207
+\BOOKMARK [1][]{section.3.5}{Visión gráfica de la Malla curricular}{chapter.3}% 208
+\BOOKMARK [0][]{chapter.4}{Contenido detallado por curso}{}% 209
+\BOOKMARK [1][]{section*.15}{Primer Semestre}{chapter.4}% 210
+\BOOKMARK [2][]{section*.16}{CS111. Programación de Video Juegos \(Obligatorio\)}{chapter.4}% 211
+\BOOKMARK [2][]{section*.32}{CS1D1. Estructuras Discretas I \(Obligatorio\)}{chapter.4}% 212
+\BOOKMARK [2][]{section*.44}{MA101. Álgebra y Geometría \(Obligatorio\)}{chapter.4}% 213
+\BOOKMARK [2][]{section*.56}{FG101. Comunicación \(Obligatorio\)}{chapter.4}% 214
+\BOOKMARK [2][]{section*.69}{FG102. Metodología del Estudio \(Obligatorio\)}{chapter.4}% 215
+\BOOKMARK [2][]{section*.81}{FG103. Introducción a la Vida Universitaria \(Obligatorio\)}{chapter.4}% 216
+\BOOKMARK [1][]{section*.90}{Segundo Semestre}{chapter.4}% 217
+\BOOKMARK [2][]{section*.91}{CS112. Ciencia de la Computación I \(Obligatorio\)}{section*.90}% 218
+\BOOKMARK [2][]{section*.108}{CS100. Introducción de Ciencia de la Computación \(Obligatorio\)}{section*.90}% 219
+\BOOKMARK [2][]{section*.118}{CS1D2. Estructuras Discretas II \(Obligatorio\)}{section*.90}% 220
+\BOOKMARK [2][]{section*.129}{MA102. Análisis Matemático I \(Obligatorio\)}{section*.90}% 221
+\BOOKMARK [2][]{section*.142}{FG112. Matrimonio y Familia \(Electivos\)}{section*.90}% 222
+\BOOKMARK [2][]{section*.153}{FG105. Apreciación de la Música \(Electivos\)}{section*.90}% 223
+\BOOKMARK [2][]{section*.165}{FG104. Introducción a la Filosofía \(Obligatorio\)}{section*.90}% 224
+\BOOKMARK [1][]{section*.175}{Tercer Semestre}{chapter.4}% 225
+\BOOKMARK [2][]{section*.176}{CS1D3. Álgebra Abstracta \(Obligatorio\)}{section*.175}% 226
+\BOOKMARK [2][]{section*.188}{CS2B1. Desarrollo Basado en Plataformas \(Obligatorio\)}{section*.175}% 227
+\BOOKMARK [2][]{section*.201}{CS221. Arquitectura de Computadores \(Obligatorio\)}{section*.175}% 228
+\BOOKMARK [2][]{section*.217}{CS113. Ciencia de la Computación II \(Obligatorio\)}{section*.175}% 229
+\BOOKMARK [2][]{section*.235}{MA103. Análisis Matemático II \(Obligatorio\)}{section*.175}% 230
+\BOOKMARK [2][]{section*.248}{FG202. Apreciación Literaria \(Electivos\)}{section*.175}% 231
+\BOOKMARK [2][]{section*.263}{FG201. Artes Plásticas \(Electivos\)}{section*.175}% 232
+\BOOKMARK [2][]{section*.276}{FG107. Fundamentos Antropológicos de la Ciencia \(Obligatorio\)}{section*.175}% 233
+\BOOKMARK [1][]{section*.289}{Cuarto Semestre}{chapter.4}% 234
+\BOOKMARK [2][]{section*.290}{CS211. Teoría de la Computación \(Obligatorio\)}{section*.289}% 235
+\BOOKMARK [2][]{section*.301}{CS271. Bases de Datos I \(Obligatorio\)}{section*.289}% 236
+\BOOKMARK [2][]{section*.315}{CS210. Algoritmos y Estructuras de Datos \(Obligatorio\)}{section*.289}% 237
+\BOOKMARK [2][]{section*.326}{MA203. Estadística y Probabilidades \(Obligatorio\)}{section*.289}% 238
+\BOOKMARK [2][]{section*.340}{MA201. Análisis Matemático III \(Obligatorio\)}{section*.289}% 239
+\BOOKMARK [1][]{section*.353}{Quinto Semestre}{chapter.4}% 240
+\BOOKMARK [2][]{section*.354}{CS212. Análisis y Diseño de Algoritmos \(Obligatorio\)}{section*.353}% 241
+\BOOKMARK [2][]{section*.367}{CS272. Bases de Datos II \(Obligatorio\)}{section*.353}% 242
+\BOOKMARK [2][]{section*.379}{CS291. Ingeniería de Software I \(Obligatorio\)}{section*.353}% 243
+\BOOKMARK [2][]{section*.390}{MA306. Análisis Numérico \(Obligatorio\)}{section*.353}% 244
+\BOOKMARK [2][]{section*.403}{MA111. Física Computacional \(Obligatorio\)}{section*.353}% 245
+\BOOKMARK [2][]{section*.419}{FG350. Liderazgo y Desempeño \(Obligatorio\)}{section*.353}% 246
+\BOOKMARK [2][]{section*.430}{FG210. Ética \(Obligatorio\)}{section*.353}% 247
+\BOOKMARK [1][]{section*.441}{Sexto Semestre}{chapter.4}% 248
+\BOOKMARK [2][]{section*.442}{CS311. Programación Competitiva \(Obligatorio\)}{section*.441}% 249
+\BOOKMARK [2][]{section*.451}{CS2S1. Sistemas Operativos \(Obligatorio\)}{section*.441}% 250
+\BOOKMARK [2][]{section*.471}{CS312. Estructuras de Datos Avanzadas \(Obligatorio\)}{section*.441}% 251
+\BOOKMARK [2][]{section*.484}{CS292. Ingeniería de Software II \(Obligatorio\)}{section*.441}% 252
+\BOOKMARK [2][]{section*.496}{MA307. Matemática aplicada a la computación \(Obligatorio\)}{section*.441}% 253
+\BOOKMARK [2][]{section*.510}{FG203. Oratoria y Expresión Personal \(Obligatorio\)}{section*.441}% 254
+\BOOKMARK [2][]{section*.522}{FG204. Teología I \(Obligatorio\)}{section*.441}% 255
+\BOOKMARK [2][]{section*.535}{FG106. Teatro \(Obligatorio\)}{section*.441}% 256
+\BOOKMARK [1][]{section*.548}{Séptimo Semestre}{chapter.4}% 257
+\BOOKMARK [2][]{section*.549}{CS251. Computación Gráfica \(Obligatorio\)}{section*.548}% 258
+\BOOKMARK [2][]{section*.563}{CS231. Redes y Comunicación \(Obligatorio\)}{section*.548}% 259
+\BOOKMARK [2][]{section*.579}{CS401. Metodología de la Investigación en Computación \(Obligatorio\)}{section*.548}% 260
+\BOOKMARK [2][]{section*.588}{CS341. Lenguajes de Programación \(Obligatorio\)}{section*.548}% 261
+\BOOKMARK [2][]{section*.603}{CS3P1. Computación Paralela y Distribuída \(Obligatorio\)}{section*.548}% 262
+\BOOKMARK [2][]{section*.617}{CS391. Ingeniería de Software III \(Obligatorio\)}{section*.548}% 263
+\BOOKMARK [2][]{section*.629}{FG204A. Teología II \(Obligatorio\)}{section*.548}% 264
+\BOOKMARK [1][]{section*.640}{Octavo Semestre}{chapter.4}% 265
+\BOOKMARK [2][]{section*.641}{CS261. Inteligencia Artificial \(Obligatorio\)}{section*.640}% 266
+\BOOKMARK [2][]{section*.659}{CS342. Compiladores \(Obligatorio\)}{section*.640}% 267
+\BOOKMARK [2][]{section*.672}{CS3I1. Seguridad en Computación \(Obligatorio\)}{section*.640}% 268
+\BOOKMARK [2][]{section*.690}{CS2H1. Interacción Humano Computador \(Obligatorio\)}{section*.640}% 269
+\BOOKMARK [2][]{section*.704}{CS402. Proyecto de Final de Carrera I \(Obligatorio\)}{section*.640}% 270
+\BOOKMARK [2][]{section*.713}{CS281. Computación en la Sociedad \(Obligatorio\)}{section*.640}% 271
+\BOOKMARK [2][]{section*.729}{FG205. Historia de la Cultura \(Obligatorio\)}{section*.640}% 272
+\BOOKMARK [1][]{section*.740}{Noveno Semestre}{chapter.4}% 273
+\BOOKMARK [2][]{section*.741}{CS392. Tópicos Avanzados en Ingeniería de Software \(Electivos\)}{section*.740}% 274
+\BOOKMARK [2][]{section*.753}{CS403. Proyecto de Final de Carrera II \(Obligatorio\)}{section*.740}% 275
+\BOOKMARK [2][]{section*.763}{CS351. Tópicos en Computación Gráfica \(Electivos\)}{section*.740}% 276
+\BOOKMARK [2][]{section*.771}{CS361. Tópicos en Inteligencia Artificial \(Electivos\)}{section*.740}% 277
+\BOOKMARK [2][]{section*.780}{CS370. Big Data \(Obligatorio\)}{section*.740}% 278
+\BOOKMARK [2][]{section*.791}{CB309. Computación Molecular Biológica \(Electivos\)}{section*.740}% 279
+\BOOKMARK [2][]{section*.805}{FG221. Historia de la Ciencia y Tecnología \(Obligatorio\)}{section*.740}% 280
+\BOOKMARK [2][]{section*.819}{FG301. Enseñanza Social de la Iglesia \(Obligatorio\)}{section*.740}% 281
+\BOOKMARK [2][]{section*.832}{ET201. Formación de Empresas de Base Tecnológica I \(Obligatorio\)}{section*.740}% 282
+\BOOKMARK [1][]{section*.847}{Décimo Semestre}{chapter.4}% 283
+\BOOKMARK [2][]{section*.848}{CS362. Robótica \(Electivos\)}{section*.847}% 284
+\BOOKMARK [2][]{section*.861}{CS404. Proyecto de Final de Carrera III \(Obligatorio\)}{section*.847}% 285
+\BOOKMARK [2][]{section*.870}{CS393. Sistemas de Infomación \(Electivos\)}{section*.847}% 286
+\BOOKMARK [2][]{section*.881}{CS3P2. Cloud Computing \(Obligatorio\)}{section*.847}% 287
+\BOOKMARK [2][]{section*.895}{FG206. Sociología \(Electivos\)}{section*.847}% 288
+\BOOKMARK [2][]{section*.910}{FG209. Psicología \(Electivos\)}{section*.847}% 289
+\BOOKMARK [2][]{section*.921}{FG211. Ética Profesional \(Obligatorio\)}{section*.847}% 290
+\BOOKMARK [2][]{section*.933}{FG220. Análisis de la Realidad Peruana \(Obligatorio\)}{section*.847}% 291
+\BOOKMARK [2][]{section*.945}{ET302. Formación de Empresas de Base Tecnológica III \(Obligatorio\)}{section*.847}% 292
+\BOOKMARK [0][]{chapter.5}{Equivalencias con otros planes curriculares}{}% 293
+\BOOKMARK [1][]{section.5.1}{Equivalencia ordenadas por el Plan 2006}{chapter.5}% 294
+\BOOKMARK [1][]{section.5.2}{Equivalencia ordenadas por el Plan 2010}{chapter.5}% 295

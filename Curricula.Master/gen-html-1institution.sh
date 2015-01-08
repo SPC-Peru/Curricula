@@ -1,0 +1,1 @@
+../Curricula2015.out/Peru/CS-UCSP/cycle/2015-1/Plan2015/scripts/gen-html-1institution.sh

@@ -1,0 +1,5 @@
+#!/bin/csh
+
+rm *.ps *.pdf *.log *.dvi *.aux *.bbl *.blg *.toc *.out *.xref *.lof *.log *.lot *.brf *~ *.tmp
+rm -rf fig/Pregunta*.eps fig/*with*
+rm -rf html pre-requisitos temp

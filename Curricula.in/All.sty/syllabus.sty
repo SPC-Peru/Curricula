@@ -1,0 +1,160 @@
+%\setlength{\textwidth}{15.5cm}
+%\setlength{\textheight}{24cm}
+%\addtolength{\voffset}{-2.54cm}
+%\addtolength{\hoffset}{-1.9cm}
+
+\newcommand{\Bibliography}{Bibliografía}
+
+\newcounter{SyllabusSectionCount}
+\newcounter{SyllabusUnitCount}
+
+\newcommand{\spcbibstyle}{apalike}
+\newcommand{\secskip}{\medskip}
+
+\newcommand{\entrylabel}[1]{%
+                 \mbox{\textsf{#1}}\hfil:}
+
+\newenvironment{entry}%
+  {\begin{list}{}{%	
+    \renewcommand{\makelabel}{\entrylabel}%
+    \setlength{\labelwidth}{160pt}%
+    \setlength{\leftmargin}%
+                 {\labelwidth}
+    \addtolength{\leftmargin}{\labelsep}}}%
+  {\end{list}}
+
+%Environment general, para todo el documento
+\newenvironment{syllabus}{%
+	\setcounter{SyllabusSectionCount}{0}%
+	\setcounter{SyllabusUnitCount}{0}%
+	\begin{center}{\noindent\Large\bf\University\\ \SchoolFullName\\ }\end{center}%
+	\begin{btUnit}
+}%
+{%
+	\end{btUnit}%
+}
+
+\newenvironment{syllabus-section}[1]%
+{%
+\addtocounter{SyllabusSectionCount}{1}%
+\subsection*{\arabic{SyllabusSectionCount}. #1}%
+}{}
+
+%course title
+\newcommand{\course}[3]{%
+\label{sec:#3}%
+\begin{center}
+\vspace{-0.6cm}%
+\Large SUMILLA%
+\vspace{-0.6cm}%
+\section*{#1 (#2)}
+\addcontentsline{toc}{subsection}{#1 (#2)}%
+\end{center}%
+\vspace{-0.6cm}%
+\begin{syllabus-section}{Información General}\end{syllabus-section}%
+\input{\OutputPrereqDir/#3}
+}
+
+\newenvironment{syllabus-unit}[1]%
+{%
+\addtocounter{SyllabusUnitCount}{1}%
+\subsection*{\arabic{SyllabusSectionCount}.\arabic{SyllabusUnitCount} #1}
+}{}
+
+
+\newenvironment{justification}%
+{%
+    \begin{syllabus-section}{Fundamentación}%\addtocounter{SyllabusSectionCount}{1}
+    \end{syllabus-section}%
+}{\medskip}
+
+\newenvironment{goals}
+{\begin{syllabus-section}{Objetivos del curso}%
+ \end{syllabus-section}%
+ \begin{itemize}%
+}
+{\end{itemize}%
+\begin{syllabus-section}{Resultados ({\it Outcomes})}%
+ \end{syllabus-section}
+}
+
+\newcommand{\Revisado}[2]{}
+
+\newenvironment{outcomes}%
+{
+ \begin{description}}
+{\end{description}%
+\begin{syllabus-section}{Competencias específicas de Computación (IEEE)}%
+ \end{syllabus-section}%
+}%
+
+\newenvironment{competences}%
+{\begin{description}%
+}%
+{\end{description}%
+\begin{syllabus-section}{Contenido del curso}%
+ \end{syllabus-section}%
+}%
+
+% \begin{unit}{\ALBasicAnalysis}{}{Guttag13,Thompson11,Zelle10}{2}{C1,C5}
+
+\newenvironment{unit}[5]%
+{%
+	\newcommand{\thisunitbib}{#3}%
+	\begin{syllabus-unit}{\ifthenelse{\equal{#2}{}}{#1}{#2}, #4 hr(s)}%
+	\begin{description}%
+	\item [Competencias: ] #5
+}
+{%
+	\item [\Bibliography:] \cite{\thisunitbib}%
+	\end{description}%
+	\end{syllabus-unit}%
+}%
+
+%\newcommand{\biblio}[1]{}
+\newcommand{\biblio}[1]{%
+	\nocite{#1}%
+}
+
+\newenvironment{coursebibliography}
+{
+\begin{syllabus-section}{\Bibliography}
+\end{syllabus-section}%
+%\vspace{-1cm}
+}
+{
+%\end{syllabus-section}
+}
+
+\newcommand{\bibfile}[1]
+{
+	\begin{btSect}[\spcbibstyle]{\InSyllabiBaseDir/#1}
+	\btPrintCited
+	\end{btSect}
+}
+
+\newenvironment{evaluation}%
+{\comment}{\endcomment}
+
+% Environments for syllabi
+\newenvironment{topics}%
+{\item [Tópicos:]%
+\begin{inparaenum}[ \bf I:]}%
+{\end{inparaenum}}
+
+\newenvironment{learningoutcomes}%
+{\item [Objetivos de Aprendizaje]%
+\begin{inparaenum}[ \bf I:]}%
+{\end{inparaenum}}
+
+\newenvironment{subtopics}%
+{\begin{inparaenum}}%
+{\end{inparaenum}}
+
+\newenvironment{boktopic}%
+{\begin{itemize}}%
+{\end{itemize}}
+
+\newenvironment{boksubtopic}%
+{\begin{itemize}}%
+{\end{itemize}}

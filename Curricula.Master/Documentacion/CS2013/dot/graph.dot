@@ -1,0 +1,24 @@
+digraph curricula
+{
+	A1->AL;
+	A2->AL
+	A3->AL
+	A4->AL
+	A5->AL
+	A6->AL
+	A7->AL
+
+	A41->A4
+	A42->A4
+	A43->A4
+	A43->A4
+	A44->A4
+
+	A21->A2
+	A22->A2
+	A23->A2
+	A23->A2
+	A24->A2
+
+	A21->A41
+}

@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: curricula-main29.aux
+The style file: apalike.bst
+Database file #1: /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/Computing/CS/CS272.bib
+Too many commas in name 1 of "Ralph Kimball, Laura Reeves, Margy Ross, Warren Thornthwaite" for entry kimball05
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Ralph Kimball, Laura Reeves, Margy Ross, Warren Thornthwaite" for entry kimball05
+while executing---line 1023 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1023 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1023 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1023 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1023 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1023 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1023 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1023 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1023 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1023 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1098 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1098 of file apalike.bst
+Too many commas in name 2 of "National University of Singapore Dept. of Information Systems and comp (Corporate Author), Computer Graphics Society (Corporate Author), Hung Keng Pung (Editor), Chua Tat Seng (Editor), Pung Hung Keng (Editor), T. S. Chua (Editor)" for entry pung97
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Ralph Kimball, Laura Reeves, Margy Ross, Warren Thornthwaite" for entry kimball05
+while executing---line 1098 of file apalike.bst
+You've used 23 entries,
+            1935 wiz_defined-function locations,
+            558 strings with 6199 characters,
+and the built_in function-call counts, 6391 in all, are:
+= -- 579
+> -- 167
+< -- 23
++ -- 52
+- -- 48
+* -- 397
+:= -- 1186
+add.period$ -- 69
+call.type$ -- 23
+change.case$ -- 116
+chr.to.int$ -- 23
+cite$ -- 23
+duplicate$ -- 322
+empty$ -- 530
+format.name$ -- 73
+if$ -- 1251
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 46
+newline$ -- 118
+num.names$ -- 69
+pop$ -- 185
+preamble$ -- 1
+purify$ -- 139
+quote$ -- 0
+skip$ -- 231
+stack$ -- 0
+substring$ -- 280
+swap$ -- 23
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 92
+warning$ -- 0
+while$ -- 46
+width$ -- 0
+write$ -- 278
+(There were 15 error messages)

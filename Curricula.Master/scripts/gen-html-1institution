@@ -1,0 +1,38 @@
+#!/bin/csh
+
+#--BEGIN-FILTERS--
+set institution=USGP
+setenv CC_Institution USGP
+set filter=USGP,SPC
+setenv CC_Filter USGP,SPC
+set version=final
+setenv CC_Version final
+set area=CS
+setenv CC_Area CS
+#--END-FILTERS--
+set main=pcc-main
+setenv CC_Main $main
+
+rm *.ps *.pdf *.log *.dvi *.aux *.bbl *.blg *.toc *.out *.xref *.lof *.lot *.tmp
+./scripts/gen-eps-files $area $institution
+#./scripts/gen-malla.pl $filter version CS
+./scripts/gen-malla.pl
+./scripts/gen-html-main.pl $area $institution $filter
+./scripts/gen-dvi-ps-pdf $area-$institution-big-main
+
+rm -rf html/$area-$institution
+mkdir -p html/$area-$institution
+mkdir html/figs
+cp fig/pdf.jpeg html/figs/.
+
+latex2html \
+-t "Malla $area-$institution" \
+-dir "html/$area-$institution" -mkdir \
+-toc_stars -local_icons \
+-address "<A HREF='http://www.spc.org.pe/'>Sociedad Peruana de Computación</A>" \
+$area-$institution-big-main
+-split 3
+
+#redundante con el compile1institution
+./scripts/$area-$institution-gen-silabos
+

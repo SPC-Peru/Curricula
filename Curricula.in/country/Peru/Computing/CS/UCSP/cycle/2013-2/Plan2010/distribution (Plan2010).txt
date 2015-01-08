@@ -1,0 +1,56 @@
+CB101->bsierra@ucsp.edu.pe, cortiz@ucsp.edu.pe
+CB102->agmamanic@ucsp.edu.pe, lvasquez@ucsp.edu.pe, mquirozz@ucsp.edu.pe
+CB103->dnina@ucsp.edu.pe
+CB111->rlinares@ucsp.edu.pe
+CB201->dnina@ucsp.edu.pe
+CB203->dmayori@ucsp.edu.pe
+CB306->cortiz@ucsp.edu.pe
+CB307->ldiaz@ucsp.edu.pe
+CS100->ecuadros@ucsp.edu.pe
+CS101F->edward.cayllahua@ucsp.edu.pe, rmarroquin@ucsp.edu.pe
+CS101O->edward.cayllahua@ucsp.edu.pe, jpenarrieta@ucsp.edu.pe, rensso.mora@ucsp.edu.pe
+CS102O->rensso.mora@ucsp.edu.pe
+CS103O->acuadros@ucsp.edu.pe, jpenarrieta@ucsp.edu.pe
+CS105->gmezal@ucsp.edu.pe, jcruzt@ucsp.edu.pe
+CS106->lvasquez@ucsp.edu.pe
+CS107->ana.maria.cuadros@ucsp.edu.pe
+CS130->glovon@ucsp.edu.pe
+CS210T->rensso.mora@ucsp.edu.pe
+CS211T->dbarrios@ucsp.edu.pe
+CS220T->ytupac@ucsp.edu.pe
+CS225T->frizzi.sanroman@ucsp.edu.pe, hernan.alvarez@ucsp.edu.pe
+CS230W->jsantisteban@ucsp.edu.pe
+CS240S->rpatino@ucsp.edu.pe
+CS250W->ana.maria.cuadros@ucsp.edu.pe
+CS255->frizzi.sanroman@ucsp.edu.pe
+CS260->lvasquez@ucsp.edu.pe
+CS261T->jcgutierrezc@ucsp.edu.pe
+CS270T->mjordan@ucsp.edu.pe, rmarroquin@ucsp.edu.pe
+CS271T->jtejadac@ucsp.edu.pe, rmarroquin@ucsp.edu.pe
+CS280T->lpachecoa@ucsp.edu.pe
+CS290T->gcalderon@ucsp.edu.pe, hjneyra@ucsp.edu.pe
+CS314->ahmamani@ucsp.edu.pe
+CS315->ecuadros@ucsp.edu.pe, hernan.alvarez@ucsp.edu.pe
+CS336->jsantisteban@ucsp.edu.pe
+CS343->apaz@ucsp.edu.pe
+CS390->gcalderon@ucsp.edu.pe, hjneyra@ucsp.edu.pe
+CS391->hjneyra@ucsp.edu.pe, jcano@ucsp.edu.pe
+CS401->ana.maria.cuadros@ucsp.edu.pe, ccastelo@ucsp.edu.pe
+CS402->cjdelgado@ucsp.edu.pe, gcalderon@ucsp.edu.pe, gmezal@ucsp.edu.pe
+FG101->fpacheco@ucsp.edu.pe, lparedesv@ucsp.edu.pe
+FG102->achavezc@ucsp.edu.pe, frizzi.sanroman@ucsp.edu.pe, maria.elena.ortiz@ucsp.edu.pe
+FG103->gmaldonado@ucsp.edu.pe
+FG104->nsempe@ucsp.edu.pe
+FG105->gmaldonado@ucsp.edu.pe
+FG106->hramoss@ucsp.edu.pe
+FG107->mberrios@ucsp.edu.pe
+FG112->r.castro@ucsp.edu.pe
+FG201->rfmattosp@ucsp.edu.pe
+FG202->lparedesv@ucsp.edu.pe
+FG203->mlrodriguez@ucsp.edu.pe
+FG204A->mrodriguez@ucsp.edu.pe
+FG204->gabriela.apaza.hauyon@ucsp.edu.pe, mberrios@ucsp.edu.pe
+FG205->jrcabrera@ucsp.edu.pe, jvcondori@ucsp.edu.pe, pnunezp@ucsp.edu.pe
+FG206->s.matuk@ucsp.edu.pe
+FG209->agarciacalderon@ucsp.edu.pe
+FG210->egordillo@ucsp.edu.pe

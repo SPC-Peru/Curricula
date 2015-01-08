@@ -1,0 +1,208 @@
+\begin{syllabus}
+
+\course{CS221. Arquitectura de Computadores}{Obligatorio}{CS221}
+
+\begin{justification}
+Es necesario que el profesional en Ciencia de la COmputación tenga sólido  conocimiento de la organización y funcionamiento de los diversos sistema de cómputo actuales en los cuales gira se instala el entorno de programación. Con ello también sabrá establecer los alcances y límites de las aplicaciones que se desarrollen de acuerdo a la plataforma siendo usada.
+
+Se tratarán los siguientes temas: componentes de lógica digital básicos en un sistema de computación, diseño de conjuntos de instrucciones, microarquitectura del procesador y ejecución en \textit{pipelining}, organización de la memoria: caché y memoria virtual, protección y compartición, sistema I/O e interrupciones, arquitecturas super escalares y ejecución fuera de orden, computadoras vectoriales, arquitecturas para \textit{multithreading}, multiprocesadores simétricos, modelo de memoria y sincronización, sistemas integrados y computadores en paralelo.
+
+\end{justification}
+
+\begin{goals}
+\item Este curso tiene como propósito ofrecer al estudiante una base sólida de la evolución de las arquitecturas de computadores y los factores que influenciaron en el diseño de los elementos de \textit{hardware} y \textit{software} en sistemas de computación actuales. 
+\item Garantizar la comprensión de cómo es el \textit{hardware} en sí y cómo interactuan \textit{hardware} y \textit{software} en un sistema de cómputo actual.
+\item Tratar los siguientes temas: componentes de lógica digital básicos en un sistema de computación, diseño de conjuntos de instrucciones, microarquitectura del procesador y ejecución en \textit{pipelining}, organización de la memoria: caché y memoria virtual, protección y compartición, sistema I/O e interrupciones, arquitecturas super escalares y ejecución fuera de orden, computadoras vectoriales, arquitecturas para \textit{multithreading}, multiprocesadores simétricos, modelo de memoria y sincronización, sistemas integrados y computadores en paralelo.
+\end{goals}
+
+\begin{outcomes}
+    \item \ShowOutcome{b}{2}
+    \item \ShowOutcome{i}{3}
+\end{outcomes}
+
+\begin{competences}
+    \item \ShowCompetence{C4}{i} 
+    \item \ShowCompetence{C8}{b,i}
+    \item \ShowCompetence{C9}{b}
+    \item \ShowCompetence{CS3}{i}
+\end{competences}
+
+\begin{unit}{\ARDigitallogicanddigitalsystems}{}{Parhami2005,Patterson2004}{18}{C8}
+\begin{topics}%
+\item \ARDigitallogicanddigitalsystemsTopicOverview
+\item \ARDigitallogicanddigitalsystemsTopicCombinational
+\item \ARDigitallogicanddigitalsystemsTopicMultiple
+\item \ARDigitallogicanddigitalsystemsTopicComputer
+\item \ARDigitallogicanddigitalsystemsTopicRegister
+\item \ARDigitallogicanddigitalsystemsTopicPhysical
+\end{topics}
+\begin{learningoutcomes}
+\item \ARDigitallogicanddigitalsystemsLODescribeTheComputer [\Familiarity]
+\item \ARDigitallogicanddigitalsystemsLOComprehend [\Usage]
+\item \ARDigitallogicanddigitalsystemsLOExplainTheThe [\Usage]
+\item \ARDigitallogicanddigitalsystemsLOArticulate [\Familiarity]
+\item \ARDigitallogicanddigitalsystemsLODesignThe [\Usage]
+\item \ARDigitallogicanddigitalsystemsLOUseCad [\Familiarity]
+\item \ARDigitallogicanddigitalsystemsLOEvaluate [\Assessment]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\ARMachinelevelrepresentationofdata}{}{Parhami2005,Stallings2010}{8}{C9}
+\begin{topics}
+\item \ARMachinelevelrepresentationofdataTopicBits
+\item \ARMachinelevelrepresentationofdataTopicNumeric
+\item \ARMachinelevelrepresentationofdataTopicFixed
+\item \ARMachinelevelrepresentationofdataTopicSigned
+\item \ARMachinelevelrepresentationofdataTopicRepresentation
+\item \ARMachinelevelrepresentationofdataTopicRepresentationOf
+\end{topics}
+
+\begin{learningoutcomes}
+\item \ARMachinelevelrepresentationofdataLOExplainWhyData [\Assessment]
+\item \ARMachinelevelrepresentationofdataLOExplainTheUsing [\Familiarity]
+\item \ARMachinelevelrepresentationofdataLODescribeHowAre [\Usage]
+\item \ARMachinelevelrepresentationofdataLOExplainHowNumber [\Usage]
+\item \ARMachinelevelrepresentationofdataLODescribeTheOf [\Usage]
+\item \ARMachinelevelrepresentationofdataLOConvertNumerical [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\ARAssemblylevelmachineorganization}{}{Parhami2005,Patterson2004,Hennessy2006}{8}{C4,CS3}
+\begin{topics}
+  \item \ARAssemblylevelmachineorganizationTopicBasic
+  \item \ARAssemblylevelmachineorganizationTopicControl
+  \item \ARAssemblylevelmachineorganizationTopicInstruction
+  \item \ARAssemblylevelmachineorganizationTopicAssembly
+  \item \ARAssemblylevelmachineorganizationTopicInstructionFormats
+  \item \ARAssemblylevelmachineorganizationTopicAddressing
+  \item \ARAssemblylevelmachineorganizationTopicSubroutine
+  \item \ARAssemblylevelmachineorganizationTopicI
+  \item \ARAssemblylevelmachineorganizationTopicHeap
+\end{topics}
+
+\begin{learningoutcomes}
+  \item \ARAssemblylevelmachineorganizationLOExplainTheTheNeumann [\Familiarity]
+  \item \ARAssemblylevelmachineorganizationLODescribeHowIs [\Familiarity]
+  \item \ARAssemblylevelmachineorganizationLODescribeInstruction [\Familiarity]
+  \item \ARAssemblylevelmachineorganizationLOSummarize [\Familiarity]
+  \item \ARAssemblylevelmachineorganizationLODemonstrateHow [\Usage]
+  \item \ARAssemblylevelmachineorganizationLOExplainDifferent [\Usage]
+  \item \ARAssemblylevelmachineorganizationLOExplainHowAre [\Usage]
+  \item \ARAssemblylevelmachineorganizationLOExplainTheOf [\Familiarity]
+  \item \ARAssemblylevelmachineorganizationLOWriteSimple [\Usage]
+  \item \ARAssemblylevelmachineorganizationLOShow  [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+%% Unidad Organización Funcional para ejecución de instrucciones  
+\begin{unit}{\ARFunctionalorganization}{}{Parhami2005,Hennessy2006}{8}{C9}
+\begin{topics}
+      \item \ARFunctionalorganizationTopicImplementation
+      \item \ARFunctionalorganizationTopicControl
+      \item \ARFunctionalorganizationTopicInstruction
+      \item \ARFunctionalorganizationTopicIntroductionTo
+\end{topics}
+
+\begin{learningoutcomes}
+\item \ARFunctionalorganizationLOCompareAlternative [\Assessment]
+\item \ARFunctionalorganizationLODiscussTheControl [\Familiarity]
+\item \ARFunctionalorganizationLOExplainBasic [\Usage]
+\item \ARFunctionalorganizationLODesignAnd [\Usage]
+\item \ARFunctionalorganizationLODetermineFor [\Assessment]
+\end{learningoutcomes}
+\end{unit}
+
+%% Organización y Arquitectura de la Memoria
+\begin{unit}{\ARMemorysystemorganizationandarchitecture}{}{Parhami2005,Patterson2004,Denning2005}{8}{CS3}
+\begin{topics}
+  \item \ARMemorysystemorganizationandarchitectureTopicStorage
+  \item \ARMemorysystemorganizationandarchitectureTopicMemory
+  \item \ARMemorysystemorganizationandarchitectureTopicMain
+  \item \ARMemorysystemorganizationandarchitectureTopicLatency
+  \item \ARMemorysystemorganizationandarchitectureTopicCache
+  \item \ARMemorysystemorganizationandarchitectureTopicMultiprocessor
+  \item \ARMemorysystemorganizationandarchitectureTopicVirtual
+  \item \ARMemorysystemorganizationandarchitectureTopicFault
+  \item \ARMemorysystemorganizationandarchitectureTopicError
+\end{topics}
+
+\begin{learningoutcomes}
+  \item \ARMemorysystemorganizationandarchitectureLOIdentify [\Familiarity]
+  \item \ARMemorysystemorganizationandarchitectureLOExplainTheMemory [\Familiarity]
+  \item \ARMemorysystemorganizationandarchitectureLODescribeHowOf [\Usage]
+  \item \ARMemorysystemorganizationandarchitectureLODescribeTheMemory [\Usage] 
+  \item \ARMemorysystemorganizationandarchitectureLOExplainTheA [\Usage] 
+  \item \ARMemorysystemorganizationandarchitectureLOCompute [\Assessment]
+\end{learningoutcomes}
+\end{unit}
+
+%% Unidad I/O: Interfacing and Communications
+\begin{unit}{\ARInterfacingandcommunication}{}{Parhami2005,Stallings2010}{8}{C4,C9,CS3}
+\begin{topics}
+	\item \ARInterfacingandcommunicationTopicI
+	\item \ARInterfacingandcommunicationTopicInterrupt
+	\item \ARInterfacingandcommunicationTopicExternal
+	\item \ARInterfacingandcommunicationTopicBuses
+	\item \ARInterfacingandcommunicationTopicIntroduction
+	\item \ARInterfacingandcommunicationTopicMultimedia
+	\item \ARInterfacingandcommunicationTopicRaid
+ \end{topics}
+ 
+\begin{learningoutcomes}
+	\item \ARInterfacingandcommunicationLOExplainHowUsed [\Familiarity]
+	\item \ARInterfacingandcommunicationLOIdentifyVarious [\Familiarity]
+	\item \ARInterfacingandcommunicationLODescribeData [\Usage]
+	\item \ARInterfacingandcommunicationLOCompare [\Assessment]
+	\item \ARInterfacingandcommunicationLOIdentifyThe [\Familiarity]
+	\item \ARInterfacingandcommunicationLODescribeTheLimitations [\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+%% Unidad Arquitecturas Alternativas y en Paralelo
+\begin{unit}{\ARMultiprocessingandalternativearchitectures}{}{Parhami2005,Parhami2002,ElRewini2005}{8}{C9}
+\begin{topics}
+	\item \ARMultiprocessingandalternativearchitecturesTopicPower
+	\item \ARMultiprocessingandalternativearchitecturesTopicExample
+	\item \ARMultiprocessingandalternativearchitecturesTopicInterconnection
+	\item \ARMultiprocessingandalternativearchitecturesTopicShared
+	\item \ARMultiprocessingandalternativearchitecturesTopicMultiprocessor
+\end{topics}
+
+\begin{learningoutcomes}
+	\item \ARMultiprocessingandalternativearchitecturesLODiscussTheParallel [\Assessment]
+	\item \ARMultiprocessingandalternativearchitecturesLODescribeAlternative [\Familiarity]
+	\item \ARMultiprocessingandalternativearchitecturesLOExplainTheInterconnection [\Usage]
+	\item \ARMultiprocessingandalternativearchitecturesLODiscussTheThat [\Familiarity]
+	\item \ARMultiprocessingandalternativearchitecturesLODescribeTheMemoryMemory [\Assessment]
+\end{learningoutcomes}
+\end{unit}
+
+%% Unidad Mejoras en Desempeño
+\begin{unit}{\ARPerformanceenhancements}{}{Parhami2005,Parhami2002,Patterson2004,Dongarra2006,Johnson1991}{8}{C8,C9}
+\begin{topics}
+	\item \ARPerformanceenhancementsTopicSuperscalar
+	\item \ARPerformanceenhancementsTopicBranch
+	\item \ARPerformanceenhancementsTopicPrefetching
+	\item \ARPerformanceenhancementsTopicVector
+	\item \ARPerformanceenhancementsTopicHardware
+	\item \ARPerformanceenhancementsTopicScalability
+	\item \ARPerformanceenhancementsTopicAlternative
+\end{topics}
+
+\begin{learningoutcomes}
+  \item \ARPerformanceenhancementsLODescribeSuperscalar [\Familiarity]
+  \item \ARPerformanceenhancementsLOExplainTheBranch [\Usage]
+  \item \ARPerformanceenhancementsLOCharacterize [\Assessment]
+  \item \ARPerformanceenhancementsLOExplainSpeculative [\Assessment]
+  \item \ARPerformanceenhancementsLODiscussTheThatIn [\Assessment]
+  \item \ARPerformanceenhancementsLODescribeTheScalability [\Assessment]
+\end{learningoutcomes}
+\end{unit}
+
+
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS221}
+\end{coursebibliography}
+
+\end{syllabus}

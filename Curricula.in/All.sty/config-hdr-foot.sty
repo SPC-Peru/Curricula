@@ -1,0 +1,26 @@
+\newcommand{\foottext}{\University}
+
+\newcommand{\setmyfancyheader}
+{
+\fancyhead{}%
+\fancyhead[LO,RE]{\SchoolFullName\\ \slshape\hfill}%
+\fancyhead[RO,LE]{\thepage\\ \slshape\hfill}%
+}
+
+\newcommand{\setmyfancyfoot}{%
+\fancyfoot{}%
+\fancyfoot[RO,LE]{\slshape\hrulefill\\ \foottext}%    \InstitutionURL
+}
+
+\fancypagestyle{plain}{%
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}%
+\fancyhead[LO,RE]{\SchoolFullName, Malla \YYYY\\ \slshape\hrulefill}%
+\fancyhead[RO,LE]{\thepage\\ \slshape\hrulefill}%
+\fancyfoot{}%
+\fancyfoot[RO,LE]{\slshape\hrulefill\\ \thepage}%
+\fancyfoot[LO,RE]{\slshape\hrulefill\\ \foottext}%
+}
+
+\setmyfancyheader
+\setmyfancyfoot

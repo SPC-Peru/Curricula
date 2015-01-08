@@ -1,0 +1,23 @@
+CS230W->jsantisteban@ucsp.edu.pe
+CS231W->rmedina@ucsp.edu.pe
+CS240S->frizzi.sanroman@ucsp.edu.pe
+CS261T->jcgutierrezc@ucsp.edu.pe
+CS280T->rpatino@ucsp.edu.pe
+CS281T->frizzi.sanroman@ucsp.edu.pe
+CS356->jcgutierrezc@ucsp.edu.pe
+CS357->jcgutierrezc@ucsp.edu.pe
+CS360->dbarrios@ucsp.edu.pe
+CS361->ccastelo@ucsp.edu.pe
+CS369->ytupac@ucsp.edu.pe
+CS370->jtejadac@ucsp.edu.pe
+CS392->gcalderon@ucsp.edu.pe, hernan.alvarez@ucsp.edu.pe
+CS402->cjdelgado@ucsp.edu.pe, gcalderon@ucsp.edu.pe, igor.calizaya@ucsp.edu.pe
+CS403->gmezal@ucsp.edu.pe, jcgutierrezc@ucsp.edu.pe, jeochoa@ucsp.edu.pe, jtejadac@ucsp.edu.pe
+CS404->acuadros@ucsp.edu.pe, jcgutierrezc@ucsp.edu.pe, jeochoa@ucsp.edu.pe, ytupac@ucsp.edu.pe
+ET101->jeochoa@ucsp.edu.pe
+ET102->evargas@ucsp.edu.pe
+ET103->evargas@ucsp.edu.pe
+HU210->egordillo@ucsp.edu.pe
+HU302->jrsumaria@ucsp.edu.pe, rvilcab@ucsp.edu.pe
+HU303->gmedina@ucsp.edu.pe
+HU304->tmedina@ucsp.edu.pe

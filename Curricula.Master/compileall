@@ -1,0 +1,48 @@
+#!/bin/csh
+
+rm -rf html/CS-ANR CS-ANR-big-main.*
+rm -rf html/CS-CLEI CS-CLEI-big-main.*
+rm -rf html/CS-SPC CS-SPC-big-main.*
+rm -rf html/CS-UCR CS-UCR-big-main.*
+rm -rf html/CS-UCSP CS-UCSP-big-main.*
+rm -rf html/CS-UNAM CS-UNAM-big-main.*
+rm -rf html/CS-UNMSM CS-UNMSM-big-main.*
+rm -rf html/CS-UNSA CS-UNSA-big-main.*
+rm -rf html/CS-USGP CS-USGP-big-main.*
+
+./scripts/updatelog.pl "ANR: Starting compilation ..."
+./compile  CS-ANR 
+./gen-html CS-ANR
+
+./scripts/updatelog.pl "CLEI: Starting compilation ..."
+./compile  CS-CLEI 
+./gen-html CS-CLEI
+
+./scripts/updatelog.pl "SPC: Starting compilation ..."
+./compile  CS-SPC 
+./gen-html CS-SPC
+
+./scripts/updatelog.pl "UCR: Starting compilation ..."
+./compile  CS-UCR 
+./gen-html CS-UCR
+
+./scripts/updatelog.pl "UCSP: Starting compilation ..."
+./compile  CS-UCSP 
+./gen-html CS-UCSP
+
+./scripts/updatelog.pl "UNAM: Starting compilation ..."
+./compile  CS-UNAM 
+./gen-html CS-UNAM
+
+./scripts/updatelog.pl "UNMSM: Starting compilation ..."
+./compile  CS-UNMSM 
+./gen-html CS-UNMSM
+
+./scripts/updatelog.pl "UNSA: Starting compilation ..."
+./compile  CS-UNSA 
+./gen-html CS-UNSA
+
+./scripts/updatelog.pl "USGP: Starting compilation ..."
+./compile  CS-USGP 
+./gen-html CS-USGP
+

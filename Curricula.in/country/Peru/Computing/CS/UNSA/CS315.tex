@@ -1,0 +1,302 @@
+\documentclass[a4paper]{article}
+\usepackage{graphics}
+\usepackage{ae}
+\usepackage[spanish]{babel}
+\usepackage[dvips]{graphicx}
+\usepackage{tabularx}
+\usepackage{html}
+\usepackage{multibib}
+\usepackage{xspace}
+\usepackage{paralist}
+\usepackage[top=15mm,bottom=2cm,left=15mm,right=15mm]{geometry}
+
+\input{current-institution}
+\usepackage{\InStyDir/bok-macros}
+\input{\OutputTexDir/macros-only}
+\input{\InTexDir/outcomes-macros}
+\input{\InTexDir/expand-outcomes}
+\input{\InInstDir/institution-info}
+
+\newcommand{\INST}{UNSA}
+\newenvironment{unitgoals}
+{ \begin{itemize} }
+{ \end{itemize}   }
+
+\newenvironment{topics}
+{ \begin{itemize} }
+{ \end{itemize}   }
+%%%%% BEGIN OBSERVACION
+\newcites{obl}{Obligatoria}
+\newcites{sug}{Sugerida}
+
+\newenvironment{lecturas}
+{
+	\begin{description}
+}
+{
+	\end{description}
+}
+\newcommand{\obligatoria}[1]{\item[Lectura Obligatoria] \citeobl{#1}}
+\newcommand{\sugerida}[1]{\item[Lectura Sugerida] \citesug{#1}}
+
+\hyphenation{GE-NE-RAL}
+%\setlength{\textwidth}{15.5cm}
+%\setlength{\textheight}{25cm}
+%\addtolength{\voffset}{-2.54cm}
+%\addtolength{\hoffset}{-1.9cm}
+%%%%% END OBSERVACION
+
+\begin{document}
+% \input{../../../../in/country.Peru/CS-UNSA/institution-info}
+
+\begin{center}
+\begin{Large}
+\University\\
+VICE RECTORADO ACADÉMICO
+\end{Large}
+
+\medskip
+\begin{Large}
+SILABO
+\end{Large}
+\end{center}
+
+%\medskip
+
+\begin{flushright}
+CODIGO DEL CURSO: 02-014
+\end{flushright}
+
+\section{Datos Generales}
+\begin{tabularx}{\textwidth}{|l|l|l|l|l|l|l|l|}
+\hline
+
+\multicolumn{8}{|l|}{\textbf{FACULTAD :}  \FacultadName}\\
+\hline
+
+\multicolumn{4}{|X|}{\textbf{DEPARTAMENTO :}
+{\DepartmentShortName} }&
+\multicolumn{4}{|X|}{\textbf{ESCUELA :}  Ingeniería de Sistemas}\\
+\hline
+
+\multicolumn{8}{|l|}{\textbf{PROFESOR :} Ernesto Cuadros-Vargas}\\
+\multicolumn{8}{|l|}{\textbf{TÍTULO :} Dr. en Ciencia de la Computación}\\
+\hline
+
+\multicolumn{8}{|l|}{\textbf{ASIGNATURA :} Estructuras de Datos II}\\
+\hline
+
+\multicolumn{2}{|l|}{\textbf{PREREQUISITO:}}&
+\multicolumn{2}{|l|}{\textbf{CREDITOS:}}&
+\multicolumn{2}{|l|}{\textbf{Año}: 2011-1}& 	%\Semester
+\multicolumn{2}{|l|}{\textbf{Total Horas:} 6}\\
+\cline{5-8}
+
+\multicolumn{2}{|l|}{}&
+\multicolumn{2}{|l|}{4}&
+\multicolumn{2}{|l|}{\textbf{Sem:} 6$^{to}$ Sem.}&
+2HT & 2HP 2HL \\
+\hline
+
+\multicolumn{2}{|c|}{\textbf{Horario}}& Lun&Mar&Mie&Jue&Vie&Sab\\ \cline{3-8}
+
+\multicolumn{2}{|l|}{\textbf{Total Semanal}}& 18:00-20:00 (L) & 18:00-20:00 & 7:00-9:00 &  &  & \\ \hline
+\multicolumn{2}{|r|}{\textbf{Aula}}&
+Lab & 301 & 301 &  &  & \\ \hline
+\end{tabularx}
+
+\bigskip
+
+\section{Exposición de Motivos}
+\begin{tabularx}{\textwidth}{|X|}\hline
+Los algoritmos y estructuras de datos son una parte fundamental de la ciencia de la computación que nos permiten organizar la información de una manera más eficiente, por lo que es importante para todo profesional del área tener una sólida formación en este aspecto.
+
+En el curso de estructuras de datos avanzadas nuestro objetivo es que el alumno conozca y analize estructuras complejas, como los Métodos de Acceso Multidimensional, Métodos de Acceso Espacio-Temporal y Métodos de Acceso Métrico, etc.
+
+\\ \hline
+\end{tabularx}
+
+\section{Objetivo}
+\begin{tabularx}{\textwidth}{|X|} \hline
+\begin{itemize}
+\item Que el alumno entienda, diseñe, implemente, aplique y
+proponga estructuras de datos innovadoras para solucionar
+problemas relacionados al tratamiento de datos multidimensionales,
+recuperación de información por similitud, motores de búsqueda y
+otros problemas computacionales.
+
+\end{itemize} 
+\\ \hline
+\end{tabularx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Contenido Temático}
+% Inicio unidad
+\subsection{Técnicas Básicas de Implementación de Estructuras de Datos (16 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|}
+\hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+         \item Que el alumno entienda las diferencias básicas que involucran las distintas técnicas de implementación de estructuras de datos
+         \item Que el alumno analice las ventajas y desventajas de cada una de las técnicas existentes
+   \end{unitgoals}      &
+\begin{topics}
+         \item Programación estructurada
+         \item Programación Orientada a Objetos
+         \item Tipos Abstractos de Datos
+         \item Independencia del lenguaje de programación del usuario de la estructura
+         \item Independencia de Plataforma
+         \item Control de concurrencia
+         \item Protección de Datos
+         \item Niveles de encapsulamiento (struct, class, namespace, etc)
+   \end{topics}
+{\bf Lecturas:} \cite{Cuadros2004Implementing}, \cite{Knuth2007TAOCP-V-I}, \cite{Knuth2007TAOCP-V-II}, \cite{Gamma94} &
+&
+&
+27\%
+\\
+\hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{Métodos de Acceso Multidimensionales (16 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|}
+\hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+         \item Que el alumno entienda conozca e implemente algunos Métodos de Acceso para datos multidimensionales y espacio temporales
+         \item Que el alumno entienda el potencial de estos Métodos de Acceso en el futuro de las bases de datos comerciales
+   \end{unitgoals}      &
+\begin{topics}
+         \item Métodos de Acceso para datos puntuales
+         \item Métodos de Acceso para datos no puntuales
+         \item Problemas relacionados con el aumento de dimensión
+         \item Métodos de Acceso Espacio-Temporales
+   \end{topics}
+{\bf Lecturas:} \cite{Gaede98multidimensional} &
+&
+&
+53\%
+\\
+\hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{Métodos de Acceso Métrico (20 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|}
+\hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+         \item Que el alumno entienda conozca e implemente algunos métodos de acceso métrico
+         \item Que el alumno entienda la imnportancia de estos Métodos de Acceso para la Recuperación de Información por Similitud
+   \end{unitgoals}      &
+\begin{topics}
+         \item Métodos de Acceso Métrico para distancias discretas
+         \item Métodos de Acceso Métrico para distancias continuas
+   \end{topics}
+{\bf Lecturas:} \cite{Chavez:01}, \cite{Traina00SlimTree}, \cite{Zezula07} &
+&
+&
+87\%
+\\
+\hline
+\end{tabularx}
+
+% Inicio unidad
+\subsection{Seminarios (8 horas)}
+\begin{tabularx}{\textwidth}{|X|X|c|c|c|}
+\hline
+\textbf{Objetivos Específicos} &   \textbf{Contenidos} & \textbf{Horas} & \textbf{Fecha} & \textbf{Avance \%}  \\ \hline
+\begin{unitgoals}
+         \item Que el alumno pueda discutir sobre los últimos avances en métodos de acceso para distintos dominios de conocimiento
+   \end{unitgoals}      &
+\begin{topics}
+         \item Métodos de Acceso Espacio Temporal
+         \item Estructuras de Datos con programación genérica
+   \end{topics}
+{\bf Lecturas:} \cite{Chavez:01} &
+&
+&
+100\%
+\\
+\hline
+\end{tabularx}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{description}
+%\item[Examen Parcial] Capítulos 1,2,3
+%\item[Examen Final] Todos los capítulos
+%\end{description} 
+
+\section{Actividades}
+\begin{itemize}
+\item Asignaciones
+\item Controles de Lectura
+\end{itemize} 
+
+\section{Recursos Materiales}
+\begin{itemize}
+\item Apuntes del curso
+\item Libro(s) de la bibliografía
+\end{itemize} 
+
+\section{Metodología}
+\begin{itemize}
+\item Clase Magistral.
+\item Taller didáctico.
+\item Social Constructivismo.
+\item Prácticas personales y en grupo.
+\end{itemize} 
+
+\section{Evaluación}
+La nota final ($NF$) se obtiene de la siguiente manera
+\begin{description}
+\item[E1] Examen Parcial: 30\%
+\item[EF] Examen Final: 35\%
+\item[TF] Nota del trabajo final 35\%
+\end{description} 
+\begin{displaymath}
+NF = 0.3*E1 + 0.35*EF + 0.35*TF
+\end{displaymath}
+
+%\bibliographystyle{apalike}
+\bibliographystyle{plain}
+\bibliography{CS315}
+
+%\section{Recursos Bibliográficos}
+%\renewcommand{\refnameobl}{}
+%\renewcommand{\refnamesug}{}
+
+%\subsection*{Obligatoria}
+%\vspace{-0.8cm}
+%\bibliographyobl{silaboADA}
+
+%\bibliographystylesug{plain}
+%\subsection*{Sugerida}
+%\vspace{-0.8cm}
+%\bibliographysug{silaboADA}
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\begin{tabularx}{\textwidth}{XX} 
+\cline{2-2}
+&
+\begin{center}
+Ernesto Cuadros-Vargas\\
+Docente del curso
+
+\end{center}\\
+\end{tabularx}
+
+\end{document}
+
+
+
+

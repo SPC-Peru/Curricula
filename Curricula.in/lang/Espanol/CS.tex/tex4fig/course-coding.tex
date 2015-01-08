@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage[left=0cm,top=0cm,right=0cm,bottom=0cm,head=0cm]{geometry}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{pstricks,pst-plot,pst-grad}
+
+\pagestyle{empty}
+\begin{document}
+    \newgray{lightgray}{1}
+    \begin{pspicture}(-3,0.1)(15.5,-6)
+%       \psgrid[gridcolor=lightgray,gridlabelcolor=lightgray]
+      % Frame, Border
+      \psframe[fillstyle=solid,fillcolor=lightgray](-3,0.1)(15.5,-6)
+
+\begin{footnotesize}
+
+\rput[tl](0,0){%
+        %\psframebox*[fillstyle=none,fillcolor=lightgray,linecolor=none]{%
+\begin{tabular}{l}
+\begin{normalsize}Nivel\end{normalsize}\\
+1xx = introductorio, 2xx = intermedio, 3xx = avanzado, 4xx = proyecto final de carrera\\
+\end{tabular}
+}
+
+\rput[tl](0,-0.9){%
+        %\psframebox*[fillstyle=none,fillcolor=lightgray,linecolor=none]{%
+\begin{tabular}{l@{ }l}
+\multicolumn{2}{l}{\normalsize Tema (segundo dígito/letra)}\\
+1 = Algoritmos y Complejidad (AL)      		  & B = Desarrollo Basados en Plataforma (PBD)\\
+2 = Arquitectura y Organización (AR)   		  & C = Ciencia Computacional (CN) \\
+3 = Redes y Comunicaciones (NC)	       		  & D = Estructura Discretas (DS)\\
+4 = Lenguajes de Programación (PL)     		  & F = Fundamentos del Desarrollo de Software (SDF)\\
+5 = Gráficos y Visualización   	       		  & H = Interacción Humano Computador (HCI)\\
+6 = Sistemas Inteligentes (IS)         		  & I = Aseguramiento y Seguridad de la Información (IAS)\\
+7 = Gestión de Información (IM)        		  & P = Computación Paralela y Distribuída (PD)\\
+8 = Asuntos Sociales y Práctica Profesional (SP)  & S = Sistemas Operativos (OS)\\ 
+9 = Ingeniería de Software (SE)  		  & U = Fundamentos de Sistemas
+\end{tabular}
+}
+
+\rput[tl](0,-3){%
+        %\psframebox*[fillstyle=none,fillcolor=lightgray,linecolor=none]{%
+}
+
+\rput[tl](0,-5.6){%
+        %\psframebox*[fillstyle=none,fillcolor=lightgray,linecolor=none]{%
+\begin{tabular}{l@{ }l}
+\multicolumn{2}{l}{\normalsize Identificador numérico en el área}
+\end{tabular}
+}
+\end{footnotesize}
+
+\rput[r](0,-2.6){\LARGE C S 2 6 6}
+\psline{->}(0,-0.2)(-1,-0.2)(-1,-2.3)
+\psline{->}(0,-1.1)(-0.6,-1.1)(-0.6,-2.3)
+\psline{->}(0,-5.85)(-0.15,-5.85)(-0.15,-2.85)
+%\psline{->}(0,)(-0.6,-5.85)(-0.6,-2.85)
+
+    \end{pspicture}
+    
+\end{document}

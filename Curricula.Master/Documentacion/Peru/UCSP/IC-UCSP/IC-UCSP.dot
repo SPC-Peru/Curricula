@@ -1,0 +1,149 @@
+digraph curricula							
+{							
+	bgcolor=white;						
+	"1er Sem (22 cr)"->"2do Sem (22 cr)"->"3er Sem (22 cr)"->"4to Sem (21 cr)"->"5to Sem (22 cr)"->"6to Sem (22 cr)"->"7mo Sem (22 cr)"->"8vo Sem (22 cr)"->"9no Sem (22 cr)"->"10mo Sem (22 cr)";						
+							
+							
+	"CIV14-111" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-111. Matemática \nBásica|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];						
+	"CIV14-112" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-112. Álgebra y \nGeometría|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];						
+	"CIV14-113" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-113. Química|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];						
+	"CIV14-114" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-114. Informática y \nProgramación|{{HT:|HP:4|TH: 4}|{Obligatorio|2 Créditos|  }}}"];						
+	"CIV14-115" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-115. Introducción a la \nVida Universitaria|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];						
+	"CIV14-116" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-116. Metodología \ndel Estudio|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];						
+	"CIV14-117" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-117. Comunicación|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];						
+							
+							
+							
+							
+							
+	"CIV14-0209" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-0209. Cálculo en \nUna Variable|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-111"->"CIV14-0209";				
+	"CIV14-0208" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-0208. Álgebra \nLineal|{{HT:1|HP:4|TH: 5}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-112"->"CIV14-0208";				
+	"CIV14-0211" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-0211. Física I|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-111"->"CIV14-0211";				
+	"CIV14-0210" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-0210. Dibujo Técnico \ny CAD|{{HT:|HP:6|TH: 6}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-114"->"CIV14-0210";				
+	"CIV14-0213" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0213. Topografía I|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-112"->"CIV14-0213";				
+	"CIV14-0212" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0212. Introducción \na la Filosofía|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];						 
+	"CIV14-0216" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0216. Teatro |{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];						
+	"CIV14-0214" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0214. Liderazgo |{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];						
+	"CIV14-0215" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0215. Persona, \nMatrimonio y Familia |{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];													
+							
+							
+							
+							
+	"CIV14-0318" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-0318. Cálculo en \nVarias \nVariables|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0209"->"CIV14-0318";				
+	"CIV14-0320" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-0320. Física II|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0211"->"CIV14-0320";				
+	"CIV14-0319" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0319. Estática|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0211"->"CIV14-0319";	"CIV14-0209"->"CIV14-0319";			
+	"CIV14-0322" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0322. Topografía II|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0213"->"CIV14-0322";	"CIV14-0210"->"CIV14-0322";			
+	"CIV14-0321" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0321. Geología \nGeneral|{{HT:1|HP:2|TH: 3}|{Obligatorio|2 Créditos|  }}}"];		"CIV14-113"->"CIV14-0321";			"Inglés(200)"->"CIV14-0321";	
+	"CIV14-0317" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0317. Antropología \nFilosófica y \nTeológica|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0212"->"CIV14-0317";				
+	"CIV14-0325" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0325. Artes Plásticas |{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];						
+	"CIV14-0323" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0323. Apreciación \nLiteraria |{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];						
+	"CIV14-0324" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0324. Apreciación \nMusical |{{HT:1|HP:2|TH: 3}|{Electivo|2 Créditos|  }}}"];						
+							
+							
+							
+							
+							
+	"CIV14-0426" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-0426. Ecuaciones \nDiferenciales|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0318"->"CIV14-0426";	"CIV14-0208"->"CIV14-0426";			
+	"CIV14-0427" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=darkorange, label="{CIV14-0427. Estadística \ny Probabilidades|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0318"->"CIV14-0427";				
+	"CIV14-0425" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0425. Dinámica|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0319"->"CIV14-0425";	"CIV14-0318"->"CIV14-0425";			
+	"CIV14-0429" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0429. Tecnología \nde los Materiales|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0321"->"CIV14-0429";				
+	"CIV14-0430" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0430. Teología|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0317"->"CIV14-0430";				
+	"CIV14-0428" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0428. Lógica \ny Gnoseología|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0212"->"CIV14-0428";				
+							
+							
+							
+							
+							
+	"CIV14-0534" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0534. Mecánica de \nMateriales I|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0319"->"CIV14-0534";	"CIV14-0426"->"CIV14-0534";		"Inglés(300)"->"CIV14-0534";	
+	"CIV14-0535" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0535. Mecánica de \nSuelos I|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0321"->"CIV14-0535";	"CIV14-0426"->"CIV14-0535";			
+	"CIV14-0533" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0533. Mecánica de \nFluidos|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0320"->"CIV14-0533";	"CIV14-0426"->"CIV14-0533";			
+	"CIV14-0536" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0536. Tecnología \ndel Concreto|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0427"->"CIV14-0536";	"CIV14-0429"->"CIV14-0536";			
+	"CIV14-0531" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0531. Arquitectura \ny Urbanismo|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0322"->"CIV14-0531";	"CIV14-0321"->"CIV14-0531";			
+	"CIV14-0532" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0532. Historia de la \nCultura \nOccidental I|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];						
+							
+							
+							
+							
+							
+	"CIV14-0641" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0641. Mecánica de \nMateriales II|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0534"->"CIV14-0641";				
+	"CIV14-0642" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0642. Mecánica de \nSuelos II|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0535"->"CIV14-0642";				
+	"CIV14-0639" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0639. Hidráulica|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0533"->"CIV14-0639";	"CIV14-0427"->"CIV14-0639";			
+	"CIV14-0637" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0637. Construcción I|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0536"->"CIV14-0637";	"CIV14-0322"->"CIV14-0637";			
+	"CIV14-0638" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0638. Fundamentos de la \nIngeniería \nAmbiental|{{HT:1|HP:2|TH: 3}|{Obligatorio|2 Créditos|  }}}"];		"CIV14-0531"->"CIV14-0638";				
+	"CIV14-0643" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0643. Moral|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0430"->"CIV14-0643";	"CIV14-0428"->"CIV14-0643";			
+	"CIV14-0640" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0640. Historia de  la \nCultura \nOccidental II|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0532"->"CIV14-0640";				
+							
+							
+							
+							
+							
+	"CIV14-0745" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0745. Análisis \nEstructural I|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0641"->"CIV14-0745";				
+	"CIV14-0748" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0748. Construcción II|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0637"->"CIV14-0748";	"CIV14-0642"->"CIV14-0748";			
+	"CIV14-0747" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0747. Concreto \nArmado I|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0641"->"CIV14-0747";	"CIV14-0536"->"CIV14-0747";			
+	"CIV14-0746" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0746. Caminos I|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0642"->"CIV14-0746";	"CIV14-0322"->"CIV14-0746";			
+	"CIV14-0749" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0749. Hidrología|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0639"->"CIV14-0749";	"CIV14-0638"->"CIV14-0749";			
+	"CIV14-0750" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0750. Instalaciones \nen Edificaciones|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0639"->"CIV14-0750";			"Inglés(400)"->"CIV14-0750";	
+	"CIV14-0744" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0744. Análisis de la \nRealidad \nPeruana|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0640"->"CIV14-0744";				
+							
+							
+							
+							
+							
+	"CIV14-0852" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0852. Análisis \nEstructural II|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0745"->"CIV14-0852";	"CIV14-0425"->"CIV14-0852";			
+	"CIV14-0854" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0854. Concreto \nArmado II|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0747"->"CIV14-0854";				
+	"CIV14-0857" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0857. Estructuras \nMetálicas y \nCompuestas|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0745"->"CIV14-0857";				
+	"CIV14-0855" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0855. Costos y \nPresupuestos|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0748"->"CIV14-0855";				
+	"CIV14-0853" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0853. Caminos II|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0746"->"CIV14-0853";				
+	"CIV14-0851" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0851. Abastecimiento \nde Agua y \nAlcantarillado|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0750"->"CIV14-0851";	"CIV14-0749"->"CIV14-0851";			
+	"CIV14-0856" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0856. Enseñanza \nSocial \nde la Iglesia|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0643"->"CIV14-0856";	"CIV14-0744"->"CIV14-0856";			
+							
+							
+							
+							
+							
+	"CIV14-0961" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0961. Ingeniería \nSísmica|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0852"->"CIV14-0961";				
+	"CIV14-0958" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0958. Albañilería \nEstructural|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0854"->"CIV14-0958";	"CIV14-0748"->"CIV14-0958";			
+	"CIV14-0963" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0963. Planificación y \nControl en la \nConstrucción|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0855"->"CIV14-0963";	"CIV14-0750"->"CIV14-0963";			
+	"CIV14-0960" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0960. Ingeniería \nde Tránsito|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0853"->"CIV14-0960";	"CIV14-0427"->"CIV14-0960";			
+	"CIV14-0962" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0962. Metodología de la \nInvestigación \nCientífica|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];						
+	"CIV14-0959" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-0959. Ética \nProfesional|{{HT:3|HP:0|TH: 3}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0856"->"CIV14-0959";				
+	"CIV14-0967" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0967. Mecánica \nde Rocas|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0642"->"CIV14-0967";				
+	"CIV14-0968" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0968. Método de los \nElementos \nFinitos|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0852"->"CIV14-0968";				
+	"CIV14-0964" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0964. Estructuras de \nMadera y Materiales \nAlternativos|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0745"->"CIV14-0964";	"CIV14-0429"->"CIV14-0964";			
+	"CIV14-0966" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0966. Irrigaciones|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0749"->"CIV14-0966";				
+	"CIV14-0969" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0969. Seguridad y \nOperación Vial|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0853"->"CIV14-0969";	"CIV14-0427"->"CIV14-0969";			
+	"CIV14-0965" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-0965. Gestión de \nSeguridad y Salud|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0748"->"CIV14-0965";				
+							
+							
+							
+							
+							
+	"CIV14-1070" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1070. Gestión de la \nConstrucción|{{HT:2|HP:4|TH: 6}|{Obligatorio|4 Créditos|  }}}"];		"CIV14-0963"->"CIV14-1070";				
+	"CIV14-1071" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1071. Ingeniería de \nCimentaciones|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0961"->"CIV14-1071";	"CIV14-0642"->"CIV14-1071";			
+	"CIV14-1073" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1073. Productividad \nen la Construcción|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0963"->"CIV14-1073";				
+	"CIV14-1072" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1072. Modelamiento \nInformático en \nEdificaciones|{{HT:2|HP:2|TH: 4}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0963"->"CIV14-1072";				
+	"CIV14-1074" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=green, label="{CIV14-1074. Proyecto \nde Tesis|{{HT:0|HP:6|TH: 6}|{Obligatorio|3 Créditos|  }}}"];		"CIV14-0962"->"CIV14-1074";				
+	"CIV14-1082" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1082. Pavimentos|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0853"->"CIV14-1082";				
+	"CIV14-1083" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1083. Puentes y Grandes \nEstructuras|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0961"->"CIV14-1083";	"CIV14-0854"->"CIV14-1083";			
+	"CIV14-1075" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1075. Concreto \nPre-esforzado|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0854"->"CIV14-1075";	"CIV14-0852"->"CIV14-1075";			
+	"CIV10-1084" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV10-1084. Recursos \nHídricos|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0749"->"CIV10-1084";				
+	"CIV14-1077" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1077. Estructuras \nHidraulicas|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0749"->"CIV14-1077";	"CIV14-0852"->"CIV14-1077";			
+	"CIV14-1081" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1081. Ingenieria Vial \nTerrestre y Aerea|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0960"->"CIV14-1081";				
+	"CIV14-1080" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1080. Ingenieria Vial \nPluvial y \nMaritima|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0960"->"CIV14-1080";				
+	"CIV14-1078" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1078. Gestión de \nEmpresas \nInmobiliarias|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0963"->"CIV14-1078";				
+	"CIV14-1076" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1076. Edificaciones \nInteligentes \ny Green|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0963"->"CIV14-1076";				
+	"CIV14-1079" [shape=record,width=2.3,fontsize=14, height=1.5,fixedsize=true,fontcolor=black,color=white,style=filled,peripheries=2, fillcolor=cornflowerblue, label="{CIV14-1079. Gestión de \nInfraestructura ante \nRiesgos Naturales|{{HT:2|HP:2|TH: 4}|{Electivo|3 Créditos|  }}}"];		"CIV14-0963"->"CIV14-1079";				
+							
+							
+							
+	 { rank = same;  "1er Sem (22 cr)";  "CIV14-111"; "CIV14-112"; "CIV14-113"; "CIV14-114"; "CIV14-115"; "CIV14-116"; "CIV14-117"; }						
+	 { rank = same;  "2do Sem (22 cr)";"CIV14-0209"; "CIV14-0208"; "CIV14-0211"; "CIV14-0210"; "CIV14-0213"; "CIV14-0212"; "CIV14-0216"; "CIV14-0215"; "CIV14-0214"; }						
+	 { rank = same;  "3er Sem (22 cr)";"CIV14-0318"; "CIV14-0320"; "CIV14-0319"; "CIV14-0322"; "CIV14-0321"; "CIV14-0317"; "CIV14-0325"; "CIV14-0323"; "CIV14-0324"; }						
+	 { rank = same;  "4to Sem (22 cr)";"CIV14-0426"; "CIV14-0427"; "CIV14-0425"; "CIV14-0429"; "CIV14-0430"; "CIV14-0428"; }						
+	 { rank = same;  "5to Sem (22 cr)";"CIV14-0534"; "CIV14-0535"; "CIV14-0533"; "CIV14-0536"; "CIV14-0531"; "CIV14-0532"; }						
+	 { rank = same;  "6to Sem (22 cr)";"CIV14-0641"; "CIV14-0642"; "CIV14-0639"; "CIV14-0637"; "CIV14-0638"; "CIV14-0643"; "CIV14-0640"; }						
+	 { rank = same;  "7mo Sem (22 cr)";"CIV14-0745"; "CIV14-0748"; "CIV14-0747"; "CIV14-0746"; "CIV14-0749"; "CIV14-0750"; "CIV14-0744"; }						
+	 { rank = same;  "8vo Sem (22 cr)";"CIV14-0852"; "CIV14-0854"; "CIV14-0857"; "CIV14-0855"; "CIV14-0853"; "CIV14-0851"; "CIV14-0856"; }						
+	 { rank = same;  "9no Sem (22 cr)";"CIV14-0961"; "CIV14-0958"; "CIV14-0963"; "CIV14-0960"; "CIV14-0962"; "CIV14-0959"; "CIV14-0967"; "CIV14-0968"; "CIV14-0964"; "CIV14-0966"; "CIV14-0969"; "CIV14-0965"; }						
+	 { rank = same;  "10mo Sem (22 cr)";"CIV14-1070"; "CIV14-1071"; "CIV14-1073"; "CIV14-1072"; "CIV14-1074"; "CIV14-1082"; "CIV14-1083"; "CIV14-1075"; "CIV10-1084"; "CIV14-1077"; "CIV14-1081"; "CIV14-1080"; "CIV14-1078"; "CIV14-1076"; "CIV14-1079"; }						
+}							

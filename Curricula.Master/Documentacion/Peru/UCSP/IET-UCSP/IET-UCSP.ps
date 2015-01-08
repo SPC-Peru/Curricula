@@ -1,0 +1,7182 @@
+%!PS-Adobe-3.0
+%%Creator: graphviz version 2.36.0 (20140111.2315)
+%%Title: curricula
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 2764 1688
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 36 2728 1652 boxprim clip newpath
+1 1 set_scale 0 rotate 40 40 translate
+0 0 1 graphcolor
+newpath -4 -4 moveto
+-4 1648 lineto
+2724 1648 lineto
+2724 -4 lineto
+closepath fill
+% 1er Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 109.25 1596 moveto
+6.75 1596 lineto
+6.75 1560 lineto
+109.25 1560 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+14.5 1574.3 moveto 87 (1er Sem \(22 cr\)) alignedtext
+grestore
+% 2do Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 110.5 1428 moveto
+5.5 1428 lineto
+5.5 1392 lineto
+110.5 1392 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+13 1406.3 moveto 90 (2do Sem \(22 cr\)) alignedtext
+grestore
+% 1er Sem (22 cr)->2do Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 58 1559.86 moveto
+58 1531.16 58 1473.13 58 1438.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 61.5 1438.3 moveto
+58 1428.3 lineto
+54.5 1438.3 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 61.5 1438.3 moveto
+58 1428.3 lineto
+54.5 1438.3 lineto
+closepath stroke
+grestore
+% 3er Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 109.25 1260 moveto
+6.75 1260 lineto
+6.75 1224 lineto
+109.25 1224 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+14.5 1238.3 moveto 87 (3er Sem \(22 cr\)) alignedtext
+grestore
+% 2do Sem (22 cr)->3er Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 58 1391.86 moveto
+58 1363.16 58 1305.13 58 1270.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 61.5 1270.3 moveto
+58 1260.3 lineto
+54.5 1270.3 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 61.5 1270.3 moveto
+58 1260.3 lineto
+54.5 1270.3 lineto
+closepath stroke
+grestore
+% 4to Sem (21 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 109.25 1092 moveto
+6.75 1092 lineto
+6.75 1056 lineto
+109.25 1056 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+14.5 1070.3 moveto 87 (4to Sem \(21 cr\)) alignedtext
+grestore
+% 3er Sem (22 cr)->4to Sem (21 cr)
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 58 1223.86 moveto
+58 1195.16 58 1137.13 58 1102.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 61.5 1102.3 moveto
+58 1092.3 lineto
+54.5 1102.3 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 61.5 1102.3 moveto
+58 1092.3 lineto
+54.5 1102.3 lineto
+closepath stroke
+grestore
+% 5to Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 109.25 924 moveto
+6.75 924 lineto
+6.75 888 lineto
+109.25 888 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+14.5 902.3 moveto 87 (5to Sem \(22 cr\)) alignedtext
+grestore
+% 4to Sem (21 cr)->5to Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 58 1055.86 moveto
+58 1027.16 58 969.13 58 934.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 61.5 934.3 moveto
+58 924.3 lineto
+54.5 934.3 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 61.5 934.3 moveto
+58 924.3 lineto
+54.5 934.3 lineto
+closepath stroke
+grestore
+% 6to Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 109.25 756 moveto
+6.75 756 lineto
+6.75 720 lineto
+109.25 720 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+14.5 734.3 moveto 87 (6to Sem \(22 cr\)) alignedtext
+grestore
+% 5to Sem (22 cr)->6to Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 58 887.86 moveto
+58 859.16 58 801.13 58 766.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 61.5 766.3 moveto
+58 756.3 lineto
+54.5 766.3 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 61.5 766.3 moveto
+58 756.3 lineto
+54.5 766.3 lineto
+closepath stroke
+grestore
+% 7mo Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 113 588 moveto
+3 588 lineto
+3 552 lineto
+113 552 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+11 566.3 moveto 94 (7mo Sem \(22 cr\)) alignedtext
+grestore
+% 6to Sem (22 cr)->7mo Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 58 719.86 moveto
+58 691.16 58 633.13 58 598.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 61.5 598.3 moveto
+58 588.3 lineto
+54.5 598.3 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 61.5 598.3 moveto
+58 588.3 lineto
+54.5 598.3 lineto
+closepath stroke
+grestore
+% 8vo Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 110.5 420 moveto
+5.5 420 lineto
+5.5 384 lineto
+110.5 384 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+13 398.3 moveto 90 (8vo Sem \(22 cr\)) alignedtext
+grestore
+% 7mo Sem (22 cr)->8vo Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 58 551.86 moveto
+58 523.16 58 465.13 58 430.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 61.5 430.3 moveto
+58 420.3 lineto
+54.5 430.3 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 61.5 430.3 moveto
+58 420.3 lineto
+54.5 430.3 lineto
+closepath stroke
+grestore
+% 9no Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 110.5 252 moveto
+5.5 252 lineto
+5.5 216 lineto
+110.5 216 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+13 230.3 moveto 90 (9no Sem \(22 cr\)) alignedtext
+grestore
+% 8vo Sem (22 cr)->9no Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 58 383.86 moveto
+58 355.16 58 297.13 58 262.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 61.5 262.3 moveto
+58 252.3 lineto
+54.5 262.3 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 61.5 262.3 moveto
+58 252.3 lineto
+54.5 262.3 lineto
+closepath stroke
+grestore
+% 10mo Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 116.25 84 moveto
+-.25 84 lineto
+-.25 48 lineto
+116.25 48 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.5 62.3 moveto 101 (10mo Sem \(22 cr\)) alignedtext
+grestore
+% 9no Sem (22 cr)->10mo Sem (22 cr)
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 58 215.86 moveto
+58 187.16 58 129.13 58 94.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 61.5 94.3 moveto
+58 84.3 lineto
+54.5 94.3 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 61.5 94.3 moveto
+58 84.3 lineto
+54.5 94.3 lineto
+closepath stroke
+grestore
+% HU010
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 128 1513 moveto
+128 1643 lineto
+294 1643 lineto
+294 1513 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 128 1513 moveto
+128 1643 lineto
+294 1643 lineto
+294 1513 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+152.5 1625.8 moveto 117 (HU010. Introducción) alignedtext
+0 0 0 nodecolor
+14 /Times-Roman set_font
+186 1610.8 moveto 50 (a la Vida) alignedtext
+0 0 0 nodecolor
+14 /Times-Roman set_font
+175.5 1595.8 moveto 71 (Universitaria) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 128 1586 moveto
+294 1586 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+147.5 1570.3 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 128 1562 moveto
+196 1562 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+151 1546.3 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 128 1538 moveto
+196 1538 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+145.5 1521.8 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 196 1513 moveto
+196 1586 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+213.5 1570.3 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 196 1562 moveto
+294 1562 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+216.5 1546.3 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 196 1538 moveto
+294 1538 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+243 1521.8 moveto 4 ( ) alignedtext
+grestore
+% IS011
+gsave
+0.60392 0.57647 0.92941 nodecolor
+newpath 312 1513 moveto
+312 1643 lineto
+478 1643 lineto
+478 1513 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 312 1513 moveto
+312 1643 lineto
+478 1643 lineto
+478 1513 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+340 1622.3 moveto 110 (IS011. Metodología) alignedtext
+0 0 0 nodecolor
+14 /Times-Roman set_font
+364 1607.3 moveto 62 (del Estudio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 312 1594 moveto
+478 1594 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+331.5 1576.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 312 1567 moveto
+380 1567 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+335 1549.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 312 1540 moveto
+380 1540 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+329.5 1522.8 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 380 1513 moveto
+380 1594 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+397.5 1576.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 380 1567 moveto
+478 1567 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+400.5 1549.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 380 1540 moveto
+478 1540 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+427 1522.8 moveto 4 ( ) alignedtext
+grestore
+% IS010
+gsave
+0.60392 0.57647 0.92941 nodecolor
+newpath 496 1513 moveto
+496 1643 lineto
+662 1643 lineto
+662 1513 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 496 1513 moveto
+496 1643 lineto
+662 1643 lineto
+662 1513 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+519 1618.3 moveto 120 (IS010. Comunicación) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 496 1601 moveto
+662 1601 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+515.5 1582.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 496 1572 moveto
+564 1572 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+516 1553.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 496 1543 moveto
+564 1543 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+513.5 1524.3 moveto 33 (TH: 4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 564 1513 moveto
+564 1601 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+581.5 1582.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 564 1572 moveto
+662 1572 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+584.5 1553.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 564 1543 moveto
+662 1543 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+611 1524.3 moveto 4 ( ) alignedtext
+grestore
+% MA010
+gsave
+0 0 0.72157 nodecolor
+newpath 680 1513 moveto
+680 1643 lineto
+846 1643 lineto
+846 1513 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 680 1513 moveto
+680 1643 lineto
+846 1643 lineto
+846 1513 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+702.5 1618.3 moveto 121 (MA010. Matemáticas) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 680 1601 moveto
+846 1601 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+699.5 1582.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 680 1572 moveto
+748 1572 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+700 1553.8 moveto 28 (HP:4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 680 1543 moveto
+748 1543 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+697.5 1524.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 748 1513 moveto
+748 1601 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+765.5 1582.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 748 1572 moveto
+846 1572 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+768.5 1553.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 748 1543 moveto
+846 1543 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+795 1524.3 moveto 4 ( ) alignedtext
+grestore
+% FI020
+gsave
+0.15294 0.43922 1 nodecolor
+newpath 449 1345 moveto
+449 1475 lineto
+615 1475 lineto
+615 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 449 1345 moveto
+449 1475 lineto
+615 1475 lineto
+615 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+491.5 1450.3 moveto 81 (FI020. Física I) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 449 1433 moveto
+615 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+468.5 1414.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 449 1404 moveto
+517 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+469 1385.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 449 1375 moveto
+517 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+466.5 1356.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 517 1345 moveto
+517 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+534.5 1414.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 517 1404 moveto
+615 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+537.5 1385.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 517 1375 moveto
+615 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+564 1356.3 moveto 4 ( ) alignedtext
+grestore
+% MA010->FI020
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 679.93 1517.3 moveto
+661.56 1504.11 642.01 1490.05 623.33 1476.63 curveto
+stroke
+0 0 0 edgecolor
+newpath 625.27 1473.72 moveto
+615.11 1470.72 lineto
+621.19 1479.4 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 625.27 1473.72 moveto
+615.11 1470.72 lineto
+621.19 1479.4 lineto
+closepath stroke
+grestore
+% MA020
+gsave
+0 0 0.72157 nodecolor
+newpath 680 1345 moveto
+680 1475 lineto
+846 1475 lineto
+846 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 680 1345 moveto
+680 1475 lineto
+846 1475 lineto
+846 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+671.5 1450.3 moveto 183 (MA020. Cálculo en una Variable) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 680 1433 moveto
+846 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+699.5 1414.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 680 1404 moveto
+748 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+700 1385.8 moveto 28 (HP:4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 680 1375 moveto
+748 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+697.5 1356.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 748 1345 moveto
+748 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+765.5 1414.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 748 1404 moveto
+846 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+768.5 1385.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 748 1375 moveto
+846 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+795 1356.3 moveto 4 ( ) alignedtext
+grestore
+% MA010->MA020
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 763 1512.82 moveto
+763 1503.8 763 1494.48 763 1485.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 766.5 1485.01 moveto
+763 1475.01 lineto
+759.5 1485.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 766.5 1485.01 moveto
+763 1475.01 lineto
+759.5 1485.01 lineto
+closepath stroke
+grestore
+% EL020
+gsave
+0 1 1 nodecolor
+newpath 864 1345 moveto
+864 1475 lineto
+1030 1475 lineto
+1030 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 864 1345 moveto
+864 1475 lineto
+1030 1475 lineto
+1030 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+871 1450.3 moveto 152 (EL020. Circuitos Eléctricos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 864 1433 moveto
+1030 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+883.5 1414.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 864 1404 moveto
+932 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+884 1385.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 864 1375 moveto
+932 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+881.5 1356.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 932 1345 moveto
+932 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+949.5 1414.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 932 1404 moveto
+1030 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+952.5 1385.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 932 1375 moveto
+1030 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+979 1356.3 moveto 4 ( ) alignedtext
+grestore
+% MA010->EL020
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 834.14 1512.82 moveto
+845.42 1502.64 857.15 1492.06 868.58 1481.75 curveto
+stroke
+0 0 0 edgecolor
+newpath 870.97 1484.31 moveto
+876.05 1475.01 lineto
+866.28 1479.11 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 870.97 1484.31 moveto
+876.05 1475.01 lineto
+866.28 1479.11 lineto
+closepath stroke
+grestore
+% SC010
+gsave
+0.97255 0.28627 1 nodecolor
+newpath 1523 1513 moveto
+1523 1643 lineto
+1689 1643 lineto
+1689 1513 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1523 1513 moveto
+1523 1643 lineto
+1689 1643 lineto
+1689 1513 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1508 1618.3 moveto 196 (SC010. Introducción a la Ingeniería) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1523 1601 moveto
+1689 1601 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1542.5 1582.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1523 1572 moveto
+1591 1572 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1543 1553.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1523 1543 moveto
+1591 1543 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1540.5 1524.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1591 1513 moveto
+1591 1601 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1608.5 1582.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1591 1572 moveto
+1689 1572 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1611.5 1553.8 moveto 57 (2 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1591 1543 moveto
+1689 1543 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1638 1524.3 moveto 4 ( ) alignedtext
+grestore
+% TE040
+gsave
+0.22745 0.55686 0.41961 nodecolor
+newpath 1523 1009 moveto
+1523 1139 lineto
+1689 1139 lineto
+1689 1009 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1523 1009 moveto
+1523 1139 lineto
+1689 1139 lineto
+1689 1009 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1477.5 1114.3 moveto 257 (TE040. Redes de Acceso y Medio Compartido) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1523 1097 moveto
+1689 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1542.5 1078.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1523 1068 moveto
+1591 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1543 1049.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1523 1039 moveto
+1591 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1540.5 1020.3 moveto 33 (TH: 5) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1591 1009 moveto
+1591 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1608.5 1078.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1591 1068 moveto
+1689 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1611.5 1049.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1591 1039 moveto
+1689 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1638 1020.3 moveto 4 ( ) alignedtext
+grestore
+% SC010->TE040
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1606 1512.91 moveto
+1606 1419.86 1606 1247.74 1606 1149.27 curveto
+stroke
+0 0 0 edgecolor
+newpath 1609.5 1149.1 moveto
+1606 1139.1 lineto
+1602.5 1149.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1609.5 1149.1 moveto
+1606 1139.1 lineto
+1602.5 1149.1 lineto
+closepath stroke
+grestore
+% MA011
+gsave
+0 0 0.72157 nodecolor
+newpath 1048 1513 moveto
+1048 1643 lineto
+1214 1643 lineto
+1214 1513 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1048 1513 moveto
+1048 1643 lineto
+1214 1643 lineto
+1214 1513 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1048 1618.3 moveto 166 (MA011. Algebra y Geometría) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1048 1601 moveto
+1214 1601 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1067.5 1582.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1048 1572 moveto
+1116 1572 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1068 1553.8 moveto 28 (HP:4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1048 1543 moveto
+1116 1543 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1065.5 1524.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1116 1513 moveto
+1116 1601 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1133.5 1582.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1116 1572 moveto
+1214 1572 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1136.5 1553.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1116 1543 moveto
+1214 1543 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1163 1524.3 moveto 4 ( ) alignedtext
+grestore
+% MA021
+gsave
+0 0 0.72157 nodecolor
+newpath 1048 1345 moveto
+1048 1475 lineto
+1214 1475 lineto
+1214 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1048 1345 moveto
+1048 1475 lineto
+1214 1475 lineto
+1214 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1064.5 1450.3 moveto 133 (MA021. Algebra Lineal) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1048 1433 moveto
+1214 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1067.5 1414.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1048 1404 moveto
+1116 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1068 1385.8 moveto 28 (HP:4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1048 1375 moveto
+1116 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1065.5 1356.3 moveto 33 (TH: 5) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1116 1345 moveto
+1116 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1133.5 1414.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1116 1404 moveto
+1214 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1136.5 1385.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1116 1375 moveto
+1214 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1163 1356.3 moveto 4 ( ) alignedtext
+grestore
+% MA011->MA021
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1131 1512.82 moveto
+1131 1503.8 1131 1494.48 1131 1485.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1134.5 1485.01 moveto
+1131 1475.01 lineto
+1127.5 1485.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1134.5 1485.01 moveto
+1131 1475.01 lineto
+1127.5 1485.01 lineto
+closepath stroke
+grestore
+% IC010
+gsave
+0 0 0.72157 nodecolor
+newpath 1302 1513 moveto
+1302 1643 lineto
+1468 1643 lineto
+1468 1513 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1302 1513 moveto
+1302 1643 lineto
+1468 1643 lineto
+1468 1513 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1321.5 1618.3 moveto 127 (IC010. Programación I) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1302 1601 moveto
+1468 1601 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1321.5 1582.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1302 1572 moveto
+1370 1572 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1322 1553.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1302 1543 moveto
+1370 1543 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1319.5 1524.3 moveto 33 (TH: 5) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1370 1513 moveto
+1370 1601 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1387.5 1582.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1370 1572 moveto
+1468 1572 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1390.5 1553.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1370 1543 moveto
+1468 1543 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1417 1524.3 moveto 4 ( ) alignedtext
+grestore
+% IC020
+gsave
+0 0 0.72157 nodecolor
+newpath 1376 1345 moveto
+1376 1475 lineto
+1542 1475 lineto
+1542 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1376 1345 moveto
+1376 1475 lineto
+1542 1475 lineto
+1542 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1393.5 1450.3 moveto 131 (IC020. Programación II) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1376 1433 moveto
+1542 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1395.5 1414.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1376 1404 moveto
+1444 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1396 1385.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1376 1375 moveto
+1444 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1393.5 1356.3 moveto 33 (TH: 5) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1444 1345 moveto
+1444 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1461.5 1414.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1444 1404 moveto
+1542 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1464.5 1385.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1444 1375 moveto
+1542 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1491 1356.3 moveto 4 ( ) alignedtext
+grestore
+% IC010->IC020
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1413.61 1512.82 moveto
+1417.76 1503.51 1422.06 1493.87 1426.28 1484.4 curveto
+stroke
+0 0 0 edgecolor
+newpath 1429.59 1485.57 moveto
+1430.47 1475.01 lineto
+1423.2 1482.72 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1429.59 1485.57 moveto
+1430.47 1475.01 lineto
+1423.2 1482.72 lineto
+closepath stroke
+grestore
+% EL030
+gsave
+0 1 1 nodecolor
+newpath 1211 1177 moveto
+1211 1307 lineto
+1377 1307 lineto
+1377 1177 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1211 1177 moveto
+1211 1307 lineto
+1377 1307 lineto
+1377 1177 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1220 1282.3 moveto 148 (EL030. Electrónica Digital) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1211 1265 moveto
+1377 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1230.5 1246.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1211 1236 moveto
+1279 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1231 1217.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1211 1207 moveto
+1279 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1228.5 1188.3 moveto 33 (TH: 5) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1279 1177 moveto
+1279 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1296.5 1246.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1279 1236 moveto
+1377 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1299.5 1217.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1279 1207 moveto
+1377 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1326 1188.3 moveto 4 ( ) alignedtext
+grestore
+% IC010->EL030
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1370.84 1512.83 moveto
+1360.1 1465.81 1344.42 1400.59 1328 1344 curveto
+1325.45 1335.19 1322.6 1326.01 1319.69 1316.92 curveto
+stroke
+0 0 0 edgecolor
+newpath 1322.92 1315.55 moveto
+1316.5 1307.13 lineto
+1316.26 1317.72 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1322.92 1315.55 moveto
+1316.5 1307.13 lineto
+1316.26 1317.72 lineto
+closepath stroke
+grestore
+% FI030
+gsave
+0.15294 0.43922 1 nodecolor
+newpath 402 1177 moveto
+402 1307 lineto
+568 1307 lineto
+568 1177 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 1177 moveto
+402 1307 lineto
+568 1307 lineto
+568 1177 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+442.5 1282.3 moveto 85 (FI030. Física II) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 1265 moveto
+568 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+421.5 1246.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 1236 moveto
+470 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+422 1217.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 1207 moveto
+470 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+419.5 1188.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 1177 moveto
+470 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+487.5 1246.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 1236 moveto
+568 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+490.5 1217.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 1207 moveto
+568 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+517 1188.3 moveto 4 ( ) alignedtext
+grestore
+% FI020->FI030
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 513.83 1344.82 moveto
+511.22 1335.61 508.52 1326.08 505.87 1316.7 curveto
+stroke
+0 0 0 edgecolor
+newpath 509.22 1315.68 moveto
+503.12 1307.01 lineto
+502.48 1317.58 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 509.22 1315.68 moveto
+503.12 1307.01 lineto
+502.48 1317.58 lineto
+closepath stroke
+grestore
+% MA031
+gsave
+0 0 0.72157 nodecolor
+newpath 992 1177 moveto
+992 1307 lineto
+1158 1307 lineto
+1158 1177 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 992 1177 moveto
+992 1307 lineto
+1158 1307 lineto
+1158 1177 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+981 1282.3 moveto 188 (MA031. Ecuaciones Diferenciales) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 992 1265 moveto
+1158 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1011.5 1246.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 992 1236 moveto
+1060 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1012 1217.8 moveto 28 (HP:4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 992 1207 moveto
+1060 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1009.5 1188.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1060 1177 moveto
+1060 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1077.5 1246.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1060 1236 moveto
+1158 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1080.5 1217.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1060 1207 moveto
+1158 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1107 1188.3 moveto 4 ( ) alignedtext
+grestore
+% MA020->MA031
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 846.25 1348.42 moveto
+849.17 1346.87 852.09 1345.39 855 1344 curveto
+905.64 1319.87 927.4 1332.02 982.59 1307.79 curveto
+stroke
+0 0 0 edgecolor
+newpath 984.12 1310.94 moveto
+991.75 1303.58 lineto
+981.2 1304.58 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 984.12 1310.94 moveto
+991.75 1303.58 lineto
+981.2 1304.58 lineto
+closepath stroke
+grestore
+% MA030
+gsave
+0 0 0.72157 nodecolor
+newpath 808 1177 moveto
+808 1307 lineto
+974 1307 lineto
+974 1177 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 808 1177 moveto
+808 1307 lineto
+974 1307 lineto
+974 1177 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+789 1282.3 moveto 204 (MA030. Cálculo en Varias Variables) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 808 1265 moveto
+974 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+827.5 1246.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 808 1236 moveto
+876 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+828 1217.8 moveto 28 (HP:4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 808 1207 moveto
+876 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+825.5 1188.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 876 1177 moveto
+876 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+893.5 1246.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 876 1236 moveto
+974 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+896.5 1217.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 876 1207 moveto
+974 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+923 1188.3 moveto 4 ( ) alignedtext
+grestore
+% MA020->MA030
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 812.49 1344.82 moveto
+819.96 1335.13 827.72 1325.07 835.31 1315.22 curveto
+stroke
+0 0 0 edgecolor
+newpath 838.31 1317.07 moveto
+841.64 1307.01 lineto
+832.77 1312.79 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 838.31 1317.07 moveto
+841.64 1307.01 lineto
+832.77 1312.79 lineto
+closepath stroke
+grestore
+% SN040
+gsave
+0.96471 0.90588 0.86275 nodecolor
+newpath 697 1009 moveto
+697 1139 lineto
+863 1139 lineto
+863 1009 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 697 1009 moveto
+697 1139 lineto
+863 1139 lineto
+863 1009 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+705 1114.3 moveto 150 (SN040. Señales y Sistemas) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 697 1097 moveto
+863 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+716.5 1078.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 697 1068 moveto
+765 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+717 1049.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 697 1039 moveto
+765 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+714.5 1020.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 765 1009 moveto
+765 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+782.5 1078.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 765 1068 moveto
+863 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+785.5 1049.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 765 1039 moveto
+863 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+812 1020.3 moveto 4 ( ) alignedtext
+grestore
+% MA020->SN040
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 766.26 1345 moveto
+769.1 1289.16 773.22 1208.11 776.21 1149.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 779.73 1149.24 moveto
+776.74 1139.07 lineto
+772.74 1148.88 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 779.73 1149.24 moveto
+776.74 1139.07 lineto
+772.74 1148.88 lineto
+closepath stroke
+grestore
+% MA021->MA031
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1109.35 1344.82 moveto
+1106.24 1335.61 1103.03 1326.08 1099.86 1316.7 curveto
+stroke
+0 0 0 edgecolor
+newpath 1103.11 1315.37 moveto
+1096.59 1307.01 lineto
+1096.47 1317.6 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1103.11 1315.37 moveto
+1096.59 1307.01 lineto
+1096.47 1317.6 lineto
+closepath stroke
+grestore
+% IC040
+gsave
+0 0 0.72157 nodecolor
+newpath 1231 1009 moveto
+1231 1139 lineto
+1397 1139 lineto
+1397 1009 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1231 1009 moveto
+1231 1139 lineto
+1397 1139 lineto
+1397 1009 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1209 1114.3 moveto 210 (IC040. Arquitectura de Computadoras) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1231 1097 moveto
+1397 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1250.5 1078.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1231 1068 moveto
+1299 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1251 1049.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1231 1039 moveto
+1299 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1248.5 1020.3 moveto 33 (TH: 5) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1299 1009 moveto
+1299 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1316.5 1078.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1299 1068 moveto
+1397 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1319.5 1049.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1299 1039 moveto
+1397 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1346 1020.3 moveto 4 ( ) alignedtext
+grestore
+% IC020->IC040
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1444.73 1344.86 moveto
+1432.67 1296.85 1413.04 1230.37 1386 1176 curveto
+1381.27 1166.48 1375.68 1156.87 1369.74 1147.57 curveto
+stroke
+0 0 0 edgecolor
+newpath 1372.62 1145.57 moveto
+1364.21 1139.12 lineto
+1366.76 1149.4 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1372.62 1145.57 moveto
+1364.21 1139.12 lineto
+1366.76 1149.4 lineto
+closepath stroke
+grestore
+% EL020->EL030
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1030.25 1348.42 moveto
+1033.17 1346.87 1036.09 1345.39 1039 1344 curveto
+1092.35 1318.58 1111.98 1329.57 1167 1308 curveto
+1178.37 1303.54 1190.08 1298.39 1201.56 1292.97 curveto
+stroke
+0 0 0 edgecolor
+newpath 1203.21 1296.06 moveto
+1210.72 1288.58 lineto
+1200.19 1289.75 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1203.21 1296.06 moveto
+1210.72 1288.58 lineto
+1200.19 1289.75 lineto
+closepath stroke
+grestore
+% EL031
+gsave
+0 1 1 nodecolor
+newpath 586 1177 moveto
+586 1307 lineto
+752 1307 lineto
+752 1177 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 586 1177 moveto
+586 1307 lineto
+752 1307 lineto
+752 1177 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+586 1282.3 moveto 166 (EL031. Circuitos Electrónicos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 586 1265 moveto
+752 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+605.5 1246.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 586 1236 moveto
+654 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+606 1217.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 586 1207 moveto
+654 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+603.5 1188.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 654 1177 moveto
+654 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+671.5 1246.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 654 1236 moveto
+752 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+674.5 1217.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 654 1207 moveto
+752 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+701 1188.3 moveto 4 ( ) alignedtext
+grestore
+% EL020->EL031
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 863.8 1349.58 moveto
+860.85 1347.67 857.91 1345.81 855 1344 curveto
+825.04 1325.37 791.38 1306.51 761.02 1290.2 curveto
+stroke
+0 0 0 edgecolor
+newpath 762.6 1287.08 moveto
+752.13 1285.45 lineto
+759.3 1293.25 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 762.6 1287.08 moveto
+752.13 1285.45 lineto
+759.3 1293.25 lineto
+closepath stroke
+grestore
+% HU023
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 1634 1345 moveto
+1634 1475 lineto
+1800 1475 lineto
+1800 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1634 1345 moveto
+1634 1475 lineto
+1800 1475 lineto
+1800 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1635 1450.3 moveto 164 (HU023. Apreciación Artistica) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1634 1433 moveto
+1800 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1655 1414.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1634 1404 moveto
+1705 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1655.5 1385.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1634 1375 moveto
+1705 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1653 1356.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1705 1345 moveto
+1705 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1729.5 1414.8 moveto 46 (Electivo) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1705 1404 moveto
+1800 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1724 1385.8 moveto 57 (2 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1705 1375 moveto
+1800 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1750.5 1356.3 moveto 4 ( ) alignedtext
+grestore
+% HU024
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 1818 1345 moveto
+1818 1475 lineto
+1984 1475 lineto
+1984 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1818 1345 moveto
+1818 1475 lineto
+1984 1475 lineto
+1984 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1819 1450.3 moveto 164 (HU024. Apreciación Literaria) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1818 1433 moveto
+1984 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1839 1414.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1818 1404 moveto
+1889 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1839.5 1385.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1818 1375 moveto
+1889 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1837 1356.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1889 1345 moveto
+1889 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1913.5 1414.8 moveto 46 (Electivo) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1889 1404 moveto
+1984 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1908 1385.8 moveto 57 (2 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1889 1375 moveto
+1984 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1934.5 1356.3 moveto 4 ( ) alignedtext
+grestore
+% HU021
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 2002 1345 moveto
+2002 1475 lineto
+2168 1475 lineto
+2168 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2002 1345 moveto
+2002 1475 lineto
+2168 1475 lineto
+2168 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2004 1450.3 moveto 162 (HU021. Apreciación Musical) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2002 1433 moveto
+2168 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2023 1414.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2002 1404 moveto
+2073 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2023.5 1385.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2002 1375 moveto
+2073 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2021 1356.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2073 1345 moveto
+2073 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2097.5 1414.8 moveto 46 (Electivo) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2073 1404 moveto
+2168 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2092 1385.8 moveto 57 (2 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2073 1375 moveto
+2168 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2118.5 1356.3 moveto 4 ( ) alignedtext
+grestore
+% HU020
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 2186 1345 moveto
+2186 1475 lineto
+2352 1475 lineto
+2352 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2186 1345 moveto
+2186 1475 lineto
+2352 1475 lineto
+2352 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2227.5 1450.3 moveto 83 (HU020. Teatro) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2186 1433 moveto
+2352 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2207 1414.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2186 1404 moveto
+2257 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2207.5 1385.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2186 1375 moveto
+2257 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2205 1356.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2257 1345 moveto
+2257 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2281.5 1414.8 moveto 46 (Electivo) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2257 1404 moveto
+2352 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2276 1385.8 moveto 57 (2 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2257 1375 moveto
+2352 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2302.5 1356.3 moveto 4 ( ) alignedtext
+grestore
+% HU022
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 2370 1345 moveto
+2370 1475 lineto
+2536 1475 lineto
+2536 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2370 1345 moveto
+2370 1475 lineto
+2536 1475 lineto
+2536 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2343 1450.3 moveto 220 (HU022. Persona, Matrominio y Familia) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2370 1433 moveto
+2536 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2391 1414.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2370 1404 moveto
+2441 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2391.5 1385.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2370 1375 moveto
+2441 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2389 1356.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2441 1345 moveto
+2441 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2465.5 1414.8 moveto 46 (Electivo) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2441 1404 moveto
+2536 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2460 1385.8 moveto 57 (2 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2441 1375 moveto
+2536 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2486.5 1356.3 moveto 4 ( ) alignedtext
+grestore
+% HU025
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 2554 1345 moveto
+2554 1475 lineto
+2720 1475 lineto
+2720 1345 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2554 1345 moveto
+2554 1475 lineto
+2720 1475 lineto
+2720 1345 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2585.5 1450.3 moveto 103 (HU025. Liderazgo) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2554 1433 moveto
+2720 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2575 1414.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2554 1404 moveto
+2625 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2575.5 1385.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2554 1375 moveto
+2625 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2573 1356.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2625 1345 moveto
+2625 1433 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2649.5 1414.8 moveto 46 (Electivo) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2625 1404 moveto
+2720 1404 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2644 1385.8 moveto 57 (2 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2625 1375 moveto
+2720 1375 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2670.5 1356.3 moveto 4 ( ) alignedtext
+grestore
+% HU030
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 1803 1177 moveto
+1803 1307 lineto
+1969 1307 lineto
+1969 1177 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1803 1177 moveto
+1803 1307 lineto
+1969 1307 lineto
+1969 1177 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1790 1282.3 moveto 192 (HU030. Introducción a la Filosofía) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1803 1265 moveto
+1969 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1822.5 1246.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1803 1236 moveto
+1871 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1826 1217.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1803 1207 moveto
+1871 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1820.5 1188.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1871 1177 moveto
+1871 1265 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1888.5 1246.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1871 1236 moveto
+1969 1236 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1891.5 1217.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1871 1207 moveto
+1969 1207 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1918 1188.3 moveto 4 ( ) alignedtext
+grestore
+% HU040
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 1748 1009 moveto
+1748 1139 lineto
+1914 1139 lineto
+1914 1009 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1748 1009 moveto
+1748 1139 lineto
+1914 1139 lineto
+1914 1009 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1708 1114.3 moveto 246 (HU040. Antropología Filosófica y Teológica) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1748 1097 moveto
+1914 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1767.5 1078.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1748 1068 moveto
+1816 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1771 1049.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1748 1039 moveto
+1816 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1765.5 1020.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1816 1009 moveto
+1816 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1833.5 1078.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1816 1068 moveto
+1914 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1836.5 1049.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1816 1039 moveto
+1914 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1863 1020.3 moveto 4 ( ) alignedtext
+grestore
+% HU030->HU040
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1864.74 1176.82 moveto
+1861.68 1167.61 1858.53 1158.08 1855.42 1148.7 curveto
+stroke
+0 0 0 edgecolor
+newpath 1858.68 1147.4 moveto
+1852.21 1139.01 lineto
+1852.03 1149.6 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1858.68 1147.4 moveto
+1852.21 1139.01 lineto
+1852.03 1149.6 lineto
+closepath stroke
+grestore
+% HU050
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 1859 841 moveto
+1859 971 lineto
+2025 971 lineto
+2025 841 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1859 841 moveto
+1859 971 lineto
+2025 971 lineto
+2025 841 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1858 946.3 moveto 168 (HU050. Lógica y Gnoseología) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1859 929 moveto
+2025 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1878.5 910.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1859 900 moveto
+1927 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1882 881.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1859 871 moveto
+1927 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1876.5 852.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1927 841 moveto
+1927 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1944.5 910.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1927 900 moveto
+2025 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1947.5 881.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1927 871 moveto
+2025 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1974 852.3 moveto 4 ( ) alignedtext
+grestore
+% HU030->HU050
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1912.43 1176.84 moveto
+1916.56 1164.77 1920.34 1152.13 1923 1140 curveto
+1934.48 1087.76 1939.17 1027.56 1941.03 981.44 curveto
+stroke
+0 0 0 edgecolor
+newpath 1944.53 981.35 moveto
+1941.4 971.23 lineto
+1937.54 981.09 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1944.53 981.35 moveto
+1941.4 971.23 lineto
+1937.54 981.09 lineto
+closepath stroke
+grestore
+% SN050
+gsave
+0.96471 0.90588 0.86275 nodecolor
+newpath 808 841 moveto
+808 971 lineto
+974 971 lineto
+974 841 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 808 841 moveto
+808 971 lineto
+974 971 lineto
+974 841 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+819 946.3 moveto 144 (SN050. Sistemas Lineales) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 808 929 moveto
+974 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+827.5 910.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 808 900 moveto
+876 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+828 881.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 808 871 moveto
+876 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+825.5 852.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 876 841 moveto
+876 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+893.5 910.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 876 900 moveto
+974 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+896.5 881.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 876 871 moveto
+974 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+923 852.3 moveto 4 ( ) alignedtext
+grestore
+% MA031->SN050
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 991.89 1181.43 moveto
+988.91 1179.56 985.94 1177.75 983 1176 curveto
+951.91 1157.51 930.34 1169.92 910 1140 curveto
+878.74 1094.01 875.5 1030.51 879.24 981.42 curveto
+stroke
+0 0 0 edgecolor
+newpath 882.75 981.44 moveto
+880.13 971.17 lineto
+875.78 980.83 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 882.75 981.44 moveto
+880.13 971.17 lineto
+875.78 980.83 lineto
+closepath stroke
+grestore
+% FI040
+gsave
+0.15294 0.43922 1 nodecolor
+newpath 402 1009 moveto
+402 1139 lineto
+568 1139 lineto
+568 1009 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 1009 moveto
+402 1139 lineto
+568 1139 lineto
+568 1009 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+390 1114.3 moveto 190 (FI040. Campos Electromagnéticos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 1097 moveto
+568 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+421.5 1078.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 1068 moveto
+470 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+422 1049.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 1039 moveto
+470 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+419.5 1020.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 1009 moveto
+470 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+487.5 1078.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 1068 moveto
+568 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+490.5 1049.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 1039 moveto
+568 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+517 1020.3 moveto 4 ( ) alignedtext
+grestore
+% FI030->FI040
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 485 1176.82 moveto
+485 1167.8 485 1158.48 485 1149.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 488.5 1149.01 moveto
+485 1139.01 lineto
+481.5 1149.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 488.5 1149.01 moveto
+485 1139.01 lineto
+481.5 1149.01 lineto
+closepath stroke
+grestore
+% MA040
+gsave
+0 0 0.72157 nodecolor
+newpath 919 1009 moveto
+919 1139 lineto
+1085 1139 lineto
+1085 1009 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 919 1009 moveto
+919 1139 lineto
+1085 1139 lineto
+1085 1009 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+884.5 1114.3 moveto 235 (MA040. Probabilidad y Variable Aleatoria) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 919 1097 moveto
+1085 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+938.5 1078.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 919 1068 moveto
+987 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+939 1049.8 moveto 28 (HP:4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 919 1039 moveto
+987 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+936.5 1020.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 987 1009 moveto
+987 1097 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1004.5 1078.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 987 1068 moveto
+1085 1068 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1007.5 1049.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 987 1039 moveto
+1085 1039 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1034 1020.3 moveto 4 ( ) alignedtext
+grestore
+% MA030->MA040
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 933.92 1176.82 moveto
+940.33 1167.22 946.99 1157.27 953.51 1147.52 curveto
+stroke
+0 0 0 edgecolor
+newpath 956.55 1149.27 moveto
+959.2 1139.01 lineto
+950.73 1145.38 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 956.55 1149.27 moveto
+959.2 1139.01 lineto
+950.73 1145.38 lineto
+closepath stroke
+grestore
+% EL030->IC040
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1301.73 1176.82 moveto
+1302.83 1167.71 1303.97 1158.28 1305.08 1149 curveto
+stroke
+0 0 0 edgecolor
+newpath 1308.57 1149.36 moveto
+1306.29 1139.01 lineto
+1301.62 1148.52 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1308.57 1149.36 moveto
+1306.29 1139.01 lineto
+1301.62 1148.52 lineto
+closepath stroke
+grestore
+% CA050
+gsave
+0.58039 0.88235 0.5451 nodecolor
+newpath 624 841 moveto
+624 971 lineto
+790 971 lineto
+790 841 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 624 841 moveto
+624 971 lineto
+790 971 lineto
+790 841 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+625 946.3 moveto 164 (CA050. Electrónica Industrial) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 624 929 moveto
+790 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+643.5 910.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 624 900 moveto
+692 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+644 881.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 624 871 moveto
+692 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+641.5 852.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 692 841 moveto
+692 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+709.5 910.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 692 900 moveto
+790 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+712.5 881.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 692 871 moveto
+790 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+739 852.3 moveto 4 ( ) alignedtext
+grestore
+% EL031->CA050
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 672.44 1176.52 moveto
+675.38 1129.64 680.37 1064.72 688 1008 curveto
+689.17 999.33 690.58 990.27 692.11 981.3 curveto
+stroke
+0 0 0 edgecolor
+newpath 695.6 981.68 moveto
+693.88 971.22 lineto
+688.7 980.47 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 695.6 981.68 moveto
+693.88 971.22 lineto
+688.7 980.47 lineto
+closepath stroke
+grestore
+% RF060
+gsave
+0.83137 1 0.5451 nodecolor
+newpath 513 673 moveto
+513 803 lineto
+679 803 lineto
+679 673 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 513 673 moveto
+513 803 lineto
+679 803 lineto
+679 673 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+487.5 778.3 moveto 217 (RF060. Electrónica de Comunicaciones) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 513 761 moveto
+679 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+532.5 742.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 513 732 moveto
+581 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+533 713.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 513 703 moveto
+581 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+530.5 684.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 581 673 moveto
+581 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+598.5 742.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 581 732 moveto
+679 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+601.5 713.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 581 703 moveto
+679 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+628 684.3 moveto 4 ( ) alignedtext
+grestore
+% EL031->RF060
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 653.95 1176.95 moveto
+641.72 1122.68 624.94 1042.64 615 972 curveto
+607.56 919.13 602.75 859.07 599.83 813.17 curveto
+stroke
+0 0 0 edgecolor
+newpath 603.31 812.77 moveto
+599.2 803.01 lineto
+596.33 813.21 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 603.31 812.77 moveto
+599.2 803.01 lineto
+596.33 813.21 lineto
+closepath stroke
+grestore
+% TD050
+gsave
+0.13725 1 1 nodecolor
+newpath 1047 841 moveto
+1047 971 lineto
+1213 971 lineto
+1213 841 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1047 841 moveto
+1047 971 lineto
+1213 971 lineto
+1213 841 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1023 946.3 moveto 214 (TD050. Tratamiento de la Información) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1047 929 moveto
+1213 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1066.5 910.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1047 900 moveto
+1115 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1067 881.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1047 871 moveto
+1115 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1064.5 852.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1115 841 moveto
+1115 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1132.5 910.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1115 900 moveto
+1213 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1135.5 881.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1115 871 moveto
+1213 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1162 852.3 moveto 4 ( ) alignedtext
+grestore
+% MA040->TD050
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1051.49 1008.82 moveto
+1058.96 999.13 1066.72 989.07 1074.31 979.22 curveto
+stroke
+0 0 0 edgecolor
+newpath 1077.31 981.07 moveto
+1080.64 971.01 lineto
+1071.77 976.79 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1077.31 981.07 moveto
+1080.64 971.01 lineto
+1071.77 976.79 lineto
+closepath stroke
+grestore
+% SN060
+gsave
+0.96471 0.90588 0.86275 nodecolor
+newpath 900 673 moveto
+900 803 lineto
+1066 803 lineto
+1066 673 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 673 moveto
+900 803 lineto
+1066 803 lineto
+1066 673 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+894 778.3 moveto 178 (SN060. Comunicación Digitales) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 761 moveto
+1066 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+919.5 742.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 732 moveto
+968 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+920 713.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 703 moveto
+968 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+917.5 684.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 673 moveto
+968 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+985.5 742.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 732 moveto
+1066 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+988.5 713.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 703 moveto
+1066 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1015 684.3 moveto 4 ( ) alignedtext
+grestore
+% MA040->SN060
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 998.36 1009 moveto
+995.18 953.16 990.57 872.11 987.23 813.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 990.71 812.86 moveto
+986.64 803.07 lineto
+983.72 813.25 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 990.71 812.86 moveto
+986.64 803.07 lineto
+983.72 813.25 lineto
+closepath stroke
+grestore
+% IC050
+gsave
+0 0 0.72157 nodecolor
+newpath 1231 841 moveto
+1231 971 lineto
+1397 971 lineto
+1397 841 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1231 841 moveto
+1231 971 lineto
+1397 971 lineto
+1397 841 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1180 946.3 moveto 268 (IC050. Microprocesadores y Microcontroladores) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1231 929 moveto
+1397 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1250.5 910.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1231 900 moveto
+1299 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1251 881.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1231 871 moveto
+1299 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1248.5 852.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1299 841 moveto
+1299 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1316.5 910.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1299 900 moveto
+1397 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1319.5 881.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1299 871 moveto
+1397 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1346 852.3 moveto 4 ( ) alignedtext
+grestore
+% IC040->IC050
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1314 1008.82 moveto
+1314 999.8 1314 990.48 1314 981.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1317.5 981.01 moveto
+1314 971.01 lineto
+1310.5 981.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1317.5 981.01 moveto
+1314 971.01 lineto
+1310.5 981.01 lineto
+closepath stroke
+grestore
+% RF070
+gsave
+0.83137 1 0.5451 nodecolor
+newpath 402 505 moveto
+402 635 lineto
+568 635 lineto
+568 505 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 505 moveto
+402 635 lineto
+568 635 lineto
+568 505 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+419.5 610.3 moveto 131 (RF070. Alta Frecuencia) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 593 moveto
+568 593 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+421.5 574.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 564 moveto
+470 564 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+422 545.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 535 moveto
+470 535 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+419.5 516.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 505 moveto
+470 593 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+487.5 574.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 564 moveto
+568 564 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+490.5 545.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 535 moveto
+568 535 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+517 516.3 moveto 4 ( ) alignedtext
+grestore
+% FI040->RF070
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 485 1008.91 moveto
+485 915.86 485 743.74 485 645.27 curveto
+stroke
+0 0 0 edgecolor
+newpath 488.5 645.1 moveto
+485 635.1 lineto
+481.5 645.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 488.5 645.1 moveto
+485 635.1 lineto
+481.5 645.1 lineto
+closepath stroke
+grestore
+% SN040->SN050
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 822.92 1008.82 moveto
+829.33 999.22 835.99 989.27 842.51 979.52 curveto
+stroke
+0 0 0 edgecolor
+newpath 845.55 981.27 moveto
+848.2 971.01 lineto
+839.73 977.38 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 845.55 981.27 moveto
+848.2 971.01 lineto
+839.73 977.38 lineto
+closepath stroke
+grestore
+% TE060
+gsave
+0.22745 0.55686 0.41961 nodecolor
+newpath 1401 673 moveto
+1401 803 lineto
+1567 803 lineto
+1567 673 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1401 673 moveto
+1401 803 lineto
+1567 803 lineto
+1567 673 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1400.5 778.3 moveto 167 (TE060. Redes de Ordenadores) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1401 761 moveto
+1567 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1420.5 742.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1401 732 moveto
+1469 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1421 713.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1401 703 moveto
+1469 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1418.5 684.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1469 673 moveto
+1469 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1486.5 742.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1469 732 moveto
+1567 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1489.5 713.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1469 703 moveto
+1567 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1516 684.3 moveto 4 ( ) alignedtext
+grestore
+% TE040->TE060
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1582.62 1009 moveto
+1562.14 952.92 1532.38 871.44 1510.91 812.67 curveto
+stroke
+0 0 0 edgecolor
+newpath 1514.12 811.26 moveto
+1507.4 803.07 lineto
+1507.55 813.66 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1514.12 811.26 moveto
+1507.4 803.07 lineto
+1507.55 813.66 lineto
+closepath stroke
+grestore
+% SE070
+gsave
+0.043137 0.68627 1 nodecolor
+newpath 1620 337 moveto
+1620 467 lineto
+1786 467 lineto
+1786 337 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1620 337 moveto
+1620 467 lineto
+1786 467 lineto
+1786 337 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1556.5 442.3 moveto 293 (SE070. Regulación y Política de Telecomunicaciones) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1620 425 moveto
+1786 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1639.5 406.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1620 396 moveto
+1688 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1640 377.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1620 367 moveto
+1688 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1637.5 348.3 moveto 33 (TH: 4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1688 337 moveto
+1688 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1705.5 406.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1688 396 moveto
+1786 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1708.5 377.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1688 367 moveto
+1786 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1735 348.3 moveto 4 ( ) alignedtext
+grestore
+% TE040->SE070
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1628.11 1008.93 moveto
+1645.69 954.98 1669.23 875.4 1681 804 curveto
+1699.62 691.02 1703.41 557.97 1703.72 477.1 curveto
+stroke
+0 0 0 edgecolor
+newpath 1707.22 477.02 moveto
+1703.75 467.01 lineto
+1700.22 477 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1707.22 477.02 moveto
+1703.75 467.01 lineto
+1700.22 477 lineto
+closepath stroke
+grestore
+% HU060
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 1748 673 moveto
+1748 803 lineto
+1914 803 lineto
+1914 673 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1748 673 moveto
+1748 803 lineto
+1914 803 lineto
+1914 673 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1779 778.3 moveto 104 (HU060. Teología I) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1748 761 moveto
+1914 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1767.5 742.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1748 732 moveto
+1816 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1771 713.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1748 703 moveto
+1816 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1765.5 684.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1816 673 moveto
+1816 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1833.5 742.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1816 732 moveto
+1914 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1836.5 713.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1816 703 moveto
+1914 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1863 684.3 moveto 4 ( ) alignedtext
+grestore
+% HU040->HU060
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1831 1009 moveto
+1831 953.16 1831 872.11 1831 813.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 1834.5 813.07 moveto
+1831 803.07 lineto
+1827.5 813.07 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1834.5 813.07 moveto
+1831 803.07 lineto
+1827.5 813.07 lineto
+closepath stroke
+grestore
+% HU051
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 2043 841 moveto
+2043 971 lineto
+2209 971 lineto
+2209 841 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2043 841 moveto
+2043 971 lineto
+2209 971 lineto
+2209 841 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2008 946.3 moveto 236 (HU051. Historia de la Cultura Occidental I) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2043 929 moveto
+2209 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2062.5 910.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2043 900 moveto
+2111 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2066 881.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2043 871 moveto
+2111 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2060.5 852.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2111 841 moveto
+2111 929 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2128.5 910.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2111 900 moveto
+2209 900 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2131.5 881.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2111 871 moveto
+2209 871 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2158 852.3 moveto 4 ( ) alignedtext
+grestore
+% HU061
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 2043 673 moveto
+2043 803 lineto
+2209 803 lineto
+2209 673 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2043 673 moveto
+2043 803 lineto
+2209 803 lineto
+2209 673 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2005.5 778.3 moveto 241 (HU061. Historia de la Cultura Occidental II) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2043 761 moveto
+2209 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2062.5 742.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2043 732 moveto
+2111 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2066 713.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2043 703 moveto
+2111 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2060.5 684.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2111 673 moveto
+2111 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2128.5 742.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2111 732 moveto
+2209 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2131.5 713.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2111 703 moveto
+2209 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2158 684.3 moveto 4 ( ) alignedtext
+grestore
+% HU051->HU061
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 2126 840.82 moveto
+2126 831.8 2126 822.48 2126 813.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 2129.5 813.01 moveto
+2126 803.01 lineto
+2122.5 813.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 2129.5 813.01 moveto
+2126 803.01 lineto
+2122.5 813.01 lineto
+closepath stroke
+grestore
+% SN050->SN060
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 926.57 840.82 moveto
+931.83 831.32 937.29 821.47 942.65 811.81 curveto
+stroke
+0 0 0 edgecolor
+newpath 945.74 813.45 moveto
+947.52 803.01 lineto
+939.62 810.06 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 945.74 813.45 moveto
+947.52 803.01 lineto
+939.62 810.06 lineto
+closepath stroke
+grestore
+% CA070
+gsave
+0.58039 0.88235 0.5451 nodecolor
+newpath 716 673 moveto
+716 803 lineto
+882 803 lineto
+882 673 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 673 moveto
+716 803 lineto
+882 803 lineto
+882 673 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+720.5 778.3 moveto 157 (CA070. Sistemas de Control) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 761 moveto
+882 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+735.5 742.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 732 moveto
+784 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+736 713.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 703 moveto
+784 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+733.5 684.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 784 673 moveto
+784 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+801.5 742.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 784 732 moveto
+882 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+804.5 713.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 784 703 moveto
+882 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+831 684.3 moveto 4 ( ) alignedtext
+grestore
+% SN050->CA070
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 855.43 840.82 moveto
+850.17 831.32 844.71 821.47 839.35 811.81 curveto
+stroke
+0 0 0 edgecolor
+newpath 842.38 810.06 moveto
+834.48 803.01 lineto
+836.26 813.45 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 842.38 810.06 moveto
+834.48 803.01 lineto
+836.26 813.45 lineto
+closepath stroke
+grestore
+% SN061
+gsave
+0.96471 0.90588 0.86275 nodecolor
+newpath 1084 673 moveto
+1084 803 lineto
+1250 803 lineto
+1250 673 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 673 moveto
+1084 803 lineto
+1250 803 lineto
+1250 673 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1059.5 778.3 moveto 215 (SN061. Tratamiento Digital de Señales) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 761 moveto
+1250 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1103.5 742.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 732 moveto
+1152 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1104 713.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 703 moveto
+1152 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1101.5 684.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1152 673 moveto
+1152 761 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1169.5 742.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1152 732 moveto
+1250 732 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1172.5 713.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1152 703 moveto
+1250 703 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1199 684.3 moveto 4 ( ) alignedtext
+grestore
+% TD050->SN061
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1144.31 840.82 moveto
+1146.34 831.71 1148.44 822.28 1150.51 813 curveto
+stroke
+0 0 0 edgecolor
+newpath 1153.97 813.53 moveto
+1152.73 803.01 lineto
+1147.14 812.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1153.97 813.53 moveto
+1152.73 803.01 lineto
+1147.14 812.01 lineto
+closepath stroke
+grestore
+% HU070
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 1859 337 moveto
+1859 467 lineto
+2025 467 lineto
+2025 337 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1859 337 moveto
+1859 467 lineto
+2025 467 lineto
+2025 337 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1901 442.3 moveto 82 (HU070. Moral) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1859 425 moveto
+2025 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1878.5 406.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1859 396 moveto
+1927 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1882 377.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1859 367 moveto
+1927 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1876.5 348.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1927 337 moveto
+1927 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1944.5 406.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1927 396 moveto
+2025 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1947.5 377.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1927 367 moveto
+2025 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1974 348.3 moveto 4 ( ) alignedtext
+grestore
+% HU050->HU070
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1942 840.91 moveto
+1942 747.86 1942 575.74 1942 477.27 curveto
+stroke
+0 0 0 edgecolor
+newpath 1945.5 477.1 moveto
+1942 467.1 lineto
+1938.5 477.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1945.5 477.1 moveto
+1942 467.1 lineto
+1938.5 477.1 lineto
+closepath stroke
+grestore
+% IC050->SN061
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1257.17 840.82 moveto
+1248.41 830.93 1239.32 820.67 1230.43 810.63 curveto
+stroke
+0 0 0 edgecolor
+newpath 1232.93 808.18 moveto
+1223.68 803.01 lineto
+1227.69 812.82 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1232.93 808.18 moveto
+1223.68 803.01 lineto
+1227.69 812.82 lineto
+closepath stroke
+grestore
+% CA050->CA070
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 742.57 840.82 moveto
+747.83 831.32 753.29 821.47 758.65 811.81 curveto
+stroke
+0 0 0 edgecolor
+newpath 761.74 813.45 moveto
+763.52 803.01 lineto
+755.62 810.06 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 761.74 813.45 moveto
+763.52 803.01 lineto
+755.62 810.06 lineto
+closepath stroke
+grestore
+% SC070
+gsave
+0.97255 0.28627 1 nodecolor
+newpath 1509 505 moveto
+1509 635 lineto
+1675 635 lineto
+1675 505 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1509 505 moveto
+1509 635 lineto
+1675 635 lineto
+1675 505 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1479 610.3 moveto 226 (SC070. Sistemas de Telecomunicaciones) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1509 593 moveto
+1675 593 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1528.5 574.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1509 564 moveto
+1577 564 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1529 545.8 moveto 28 (HP:4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1509 535 moveto
+1577 535 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1526.5 516.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1577 505 moveto
+1577 593 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1594.5 574.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1577 564 moveto
+1675 564 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1597.5 545.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1577 535 moveto
+1675 535 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1624 516.3 moveto 4 ( ) alignedtext
+grestore
+% TE060->SC070
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1525.76 672.82 moveto
+1532 663.22 1538.47 653.27 1544.82 643.52 curveto
+stroke
+0 0 0 edgecolor
+newpath 1547.84 645.3 moveto
+1550.36 635.01 lineto
+1541.97 641.48 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1547.84 645.3 moveto
+1550.36 635.01 lineto
+1541.97 641.48 lineto
+closepath stroke
+grestore
+% TE080
+gsave
+0.22745 0.55686 0.41961 nodecolor
+newpath 1398 337 moveto
+1398 467 lineto
+1564 467 lineto
+1564 337 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1398 337 moveto
+1398 467 lineto
+1564 467 lineto
+1564 337 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1364.5 442.3 moveto 233 (TE080. Aplicaciones y Servicios de Redes) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1398 425 moveto
+1564 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1417.5 406.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1398 396 moveto
+1466 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1418 377.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1398 367 moveto
+1466 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1415.5 348.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1466 337 moveto
+1466 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1483.5 406.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1466 396 moveto
+1564 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1486.5 377.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1466 367 moveto
+1564 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1513 348.3 moveto 4 ( ) alignedtext
+grestore
+% TE060->TE080
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1483.43 673 moveto
+1482.92 617.16 1482.2 536.11 1481.67 477.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 1485.17 477.04 moveto
+1481.58 467.07 lineto
+1478.17 477.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1485.17 477.04 moveto
+1481.58 467.07 lineto
+1478.17 477.1 lineto
+closepath stroke
+grestore
+% SN071
+gsave
+0.96471 0.90588 0.86275 nodecolor
+newpath 1084 505 moveto
+1084 635 lineto
+1250 635 lineto
+1250 505 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 505 moveto
+1084 635 lineto
+1250 635 lineto
+1250 505 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1046 610.3 moveto 242 (SN071. Tratamiento de Señales Multimedia) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 593 moveto
+1250 593 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1103.5 574.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 564 moveto
+1152 564 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1104 545.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 535 moveto
+1152 535 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1101.5 516.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1152 505 moveto
+1152 593 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1169.5 574.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1152 564 moveto
+1250 564 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1172.5 545.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1152 535 moveto
+1250 535 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1199 516.3 moveto 4 ( ) alignedtext
+grestore
+% SN061->SN071
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1167 672.82 moveto
+1167 663.8 1167 654.48 1167 645.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1170.5 645.01 moveto
+1167 635.01 lineto
+1163.5 645.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1170.5 645.01 moveto
+1167 635.01 lineto
+1163.5 645.01 lineto
+closepath stroke
+grestore
+% RF060->RF070
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 553.08 672.82 moveto
+546.67 663.22 540.01 653.27 533.49 643.52 curveto
+stroke
+0 0 0 edgecolor
+newpath 536.27 641.38 moveto
+527.8 635.01 lineto
+530.45 645.27 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 536.27 641.38 moveto
+527.8 635.01 lineto
+530.45 645.27 lineto
+closepath stroke
+grestore
+% EL080
+gsave
+0 1 1 nodecolor
+newpath 586 337 moveto
+586 467 lineto
+752 467 lineto
+752 337 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 586 337 moveto
+586 467 lineto
+752 467 lineto
+752 337 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+574 442.3 moveto 190 (EL080. Sistemas Optoelectrónicos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 586 425 moveto
+752 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+605.5 406.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 586 396 moveto
+654 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+606 377.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 586 367 moveto
+654 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+603.5 348.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 654 337 moveto
+654 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+671.5 406.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 654 396 moveto
+752 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+674.5 377.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 654 367 moveto
+752 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+701 348.3 moveto 4 ( ) alignedtext
+grestore
+% RF060->EL080
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 646.02 672.9 moveto
+652.93 661.18 659.01 648.64 663 636 curveto
+679.2 584.68 680.19 523.8 677.39 477.14 curveto
+stroke
+0 0 0 edgecolor
+newpath 680.88 476.86 moveto
+676.72 467.11 lineto
+673.9 477.32 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 680.88 476.86 moveto
+676.72 467.11 lineto
+673.9 477.32 lineto
+closepath stroke
+grestore
+% IN080
+gsave
+0.33333 1 0.80392 nodecolor
+newpath 900 337 moveto
+900 467 lineto
+1066 467 lineto
+1066 337 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 337 moveto
+900 467 lineto
+1066 467 lineto
+1066 337 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+873.5 442.3 moveto 219 (IN080. Metodología de la Investigación) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 425 moveto
+1066 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+919.5 406.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 396 moveto
+968 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+920 377.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 367 moveto
+968 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+917.5 348.3 moveto 33 (TH: 4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 337 moveto
+968 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+985.5 406.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 396 moveto
+1066 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+988.5 377.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 367 moveto
+1066 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1015 348.3 moveto 4 ( ) alignedtext
+grestore
+% CA070->IN080
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 834.26 673 moveto
+865.28 616.69 910.41 534.76 942.82 475.94 curveto
+stroke
+0 0 0 edgecolor
+newpath 945.94 477.52 moveto
+947.7 467.07 lineto
+939.81 474.14 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 945.94 477.52 moveto
+947.7 467.07 lineto
+939.81 474.14 lineto
+closepath stroke
+grestore
+% CA090
+gsave
+0.58039 0.88235 0.5451 nodecolor
+newpath 716 169 moveto
+716 299 lineto
+882 299 lineto
+882 169 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 169 moveto
+716 299 lineto
+882 299 lineto
+882 169 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+704 274.3 moveto 190 (CA090. Control y Automatización) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 257 moveto
+882 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+735.5 238.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 228 moveto
+784 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+736 209.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 199 moveto
+784 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+733.5 180.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 784 169 moveto
+784 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+801.5 238.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 784 228 moveto
+882 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+804.5 209.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 784 199 moveto
+882 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+831 180.3 moveto 4 ( ) alignedtext
+grestore
+% CA070->CA090
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 799 672.91 moveto
+799 579.86 799 407.74 799 309.27 curveto
+stroke
+0 0 0 edgecolor
+newpath 802.5 309.1 moveto
+799 299.1 lineto
+795.5 309.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 802.5 309.1 moveto
+799 299.1 lineto
+795.5 309.1 lineto
+closepath stroke
+grestore
+% SN071->IN080
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1095.86 504.82 moveto
+1084.58 494.64 1072.85 484.06 1061.42 473.75 curveto
+stroke
+0 0 0 edgecolor
+newpath 1063.72 471.11 moveto
+1053.95 467.01 lineto
+1059.03 476.31 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1063.72 471.11 moveto
+1053.95 467.01 lineto
+1059.03 476.31 lineto
+closepath stroke
+grestore
+% TD090
+gsave
+0.13725 1 1 nodecolor
+newpath 1084 169 moveto
+1084 299 lineto
+1250 299 lineto
+1250 169 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 169 moveto
+1084 299 lineto
+1250 299 lineto
+1250 169 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1041.5 274.3 moveto 251 (TD090. Introducción al Aprendizaje Máquina) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 257 moveto
+1250 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1103.5 238.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 228 moveto
+1152 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1104 209.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 199 moveto
+1152 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1101.5 180.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1152 169 moveto
+1152 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1169.5 238.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1152 228 moveto
+1250 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1172.5 209.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1152 199 moveto
+1250 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1199 180.3 moveto 4 ( ) alignedtext
+grestore
+% SN071->TD090
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1167 505 moveto
+1167 449.16 1167 368.11 1167 309.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 1170.5 309.07 moveto
+1167 299.07 lineto
+1163.5 309.07 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1170.5 309.07 moveto
+1167 299.07 lineto
+1163.5 309.07 lineto
+closepath stroke
+grestore
+% RF080
+gsave
+0.83137 1 0.5451 nodecolor
+newpath 402 337 moveto
+402 467 lineto
+568 467 lineto
+568 337 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 337 moveto
+402 467 lineto
+568 467 lineto
+568 337 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+399.5 442.3 moveto 171 (RF080. Antenas y Propagación) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 425 moveto
+568 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+421.5 406.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 396 moveto
+470 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+422 377.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 402 367 moveto
+470 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+419.5 348.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 337 moveto
+470 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+487.5 406.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 396 moveto
+568 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+490.5 377.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 470 367 moveto
+568 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+517 348.3 moveto 4 ( ) alignedtext
+grestore
+% RF070->RF080
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 485 504.82 moveto
+485 495.8 485 486.48 485 477.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 488.5 477.01 moveto
+485 467.01 lineto
+481.5 477.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 488.5 477.01 moveto
+485 467.01 lineto
+481.5 477.01 lineto
+closepath stroke
+grestore
+% SE100
+gsave
+0.043137 0.68627 1 nodecolor
+newpath 1620 1 moveto
+1620 131 lineto
+1786 131 lineto
+1786 1 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1620 1 moveto
+1620 131 lineto
+1786 131 lineto
+1786 1 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1619.5 106.3 moveto 167 (SE100. Economía y Proyectos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1620 89 moveto
+1786 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1639.5 70.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1620 60 moveto
+1688 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1640 41.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1620 31 moveto
+1688 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1637.5 12.3 moveto 33 (TH: 4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1688 1 moveto
+1688 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1705.5 70.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1688 60 moveto
+1786 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1708.5 41.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1688 31 moveto
+1786 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1735 12.3 moveto 4 ( ) alignedtext
+grestore
+% SE070->SE100
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1703 337 moveto
+1703 281.16 1703 200.11 1703 141.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 1706.5 141.07 moveto
+1703 131.07 lineto
+1699.5 141.07 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1706.5 141.07 moveto
+1703 131.07 lineto
+1699.5 141.07 lineto
+closepath stroke
+grestore
+% HU070->HU070
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 2025.21 429.61 moveto
+2035.92 424.82 2043 415.62 2043 402 curveto
+2043 392.43 2039.5 385.03 2033.7 379.82 curveto
+stroke
+0 0 0 edgecolor
+newpath 2035.52 376.83 moveto
+2025.21 374.39 lineto
+2031.75 382.73 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 2035.52 376.83 moveto
+2025.21 374.39 lineto
+2031.75 382.73 lineto
+closepath stroke
+grestore
+% HU090
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 1960 169 moveto
+1960 299 lineto
+2126 299 lineto
+2126 169 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1960 169 moveto
+1960 299 lineto
+2126 299 lineto
+2126 169 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1936.5 274.3 moveto 213 (HU090. Enseñanza Social de la Iglesia) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1960 257 moveto
+2126 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1979.5 238.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1960 228 moveto
+2028 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1983 209.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1960 199 moveto
+2028 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1977.5 180.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2028 169 moveto
+2028 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2045.5 238.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2028 228 moveto
+2126 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2048.5 209.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2028 199 moveto
+2126 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2075 180.3 moveto 4 ( ) alignedtext
+grestore
+% HU070->HU090
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1981.05 336.82 moveto
+1986.83 327.32 1992.82 317.47 1998.7 307.81 curveto
+stroke
+0 0 0 edgecolor
+newpath 2001.85 309.37 moveto
+2004.05 299.01 lineto
+1995.87 305.73 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 2001.85 309.37 moveto
+2004.05 299.01 lineto
+1995.87 305.73 lineto
+closepath stroke
+grestore
+% TE100
+gsave
+0.22745 0.55686 0.41961 nodecolor
+newpath 1398 1 moveto
+1398 131 lineto
+1564 131 lineto
+1564 1 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1398 1 moveto
+1398 131 lineto
+1564 131 lineto
+1564 1 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1331.5 106.3 moveto 299 (TE100. Sistemas Operativos Distribuidos y Servidores) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1398 89 moveto
+1564 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1417.5 70.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1398 60 moveto
+1466 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1418 41.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1398 31 moveto
+1466 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1415.5 12.3 moveto 33 (TH: 5) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1466 1 moveto
+1466 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1483.5 70.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1466 60 moveto
+1564 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1486.5 41.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1466 31 moveto
+1564 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1513 12.3 moveto 4 ( ) alignedtext
+grestore
+% TE080->TE100
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1481 337 moveto
+1481 281.16 1481 200.11 1481 141.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 1484.5 141.07 moveto
+1481 131.07 lineto
+1477.5 141.07 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1484.5 141.07 moveto
+1481 131.07 lineto
+1477.5 141.07 lineto
+closepath stroke
+grestore
+% TE090
+gsave
+0.22745 0.55686 0.41961 nodecolor
+newpath 532 169 moveto
+532 299 lineto
+698 299 lineto
+698 169 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 532 169 moveto
+532 299 lineto
+698 299 lineto
+698 169 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+466 274.3 moveto 298 (TE090. Conmutación Planificación y Getión de Redes) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 532 257 moveto
+698 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+551.5 238.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 532 228 moveto
+600 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+552 209.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 532 199 moveto
+600 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+549.5 180.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 600 169 moveto
+600 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+617.5 238.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 600 228 moveto
+698 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+620.5 209.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 600 199 moveto
+698 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+647 180.3 moveto 4 ( ) alignedtext
+grestore
+% EL080->TE090
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 648.12 336.82 moveto
+645.13 327.61 642.02 318.08 638.97 308.7 curveto
+stroke
+0 0 0 edgecolor
+newpath 642.24 307.44 moveto
+635.82 299.01 lineto
+635.59 309.6 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 642.24 307.44 moveto
+635.82 299.01 lineto
+635.59 309.6 lineto
+closepath stroke
+grestore
+% SC080
+gsave
+0.97255 0.28627 1 nodecolor
+newpath 218 337 moveto
+218 467 lineto
+384 467 lineto
+384 337 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 218 337 moveto
+218 467 lineto
+384 467 lineto
+384 337 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+196 442.3 moveto 210 (SC080. Comunicaciones Inalámbricas) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 218 425 moveto
+384 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+237.5 406.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 218 396 moveto
+286 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+238 377.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 218 367 moveto
+286 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+235.5 348.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 286 337 moveto
+286 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+303.5 406.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 286 396 moveto
+384 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+306.5 377.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 286 367 moveto
+384 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+333 348.3 moveto 4 ( ) alignedtext
+grestore
+% SC090
+gsave
+0.97255 0.28627 1 nodecolor
+newpath 348 169 moveto
+348 299 lineto
+514 299 lineto
+514 169 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 348 169 moveto
+348 299 lineto
+514 299 lineto
+514 169 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+304 274.3 moveto 254 (SC090. Comunicaciones Móviles y Satelitales) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 348 257 moveto
+514 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+367.5 238.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 348 228 moveto
+416 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+368 209.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 348 199 moveto
+416 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+365.5 180.3 moveto 33 (TH: 4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 416 169 moveto
+416 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+433.5 238.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 416 228 moveto
+514 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+436.5 209.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 416 199 moveto
+514 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+463 180.3 moveto 4 ( ) alignedtext
+grestore
+% SC080->SC090
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 351.26 336.82 moveto
+358.93 327.03 366.88 316.87 374.67 306.93 curveto
+stroke
+0 0 0 edgecolor
+newpath 377.46 309.04 moveto
+380.87 299.01 lineto
+371.95 304.72 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 377.46 309.04 moveto
+380.87 299.01 lineto
+371.95 304.72 lineto
+closepath stroke
+grestore
+% CA100
+gsave
+0.58039 0.88235 0.5451 nodecolor
+newpath 532 1 moveto
+532 131 lineto
+698 131 lineto
+698 1 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 532 1 moveto
+532 131 lineto
+698 131 lineto
+698 1 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+512.5 106.3 moveto 205 (CA100. Comunicaciones Industriales) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 532 89 moveto
+698 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+551.5 70.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 532 60 moveto
+600 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+552 41.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 532 31 moveto
+600 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+549.5 12.3 moveto 33 (TH: 5) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 600 1 moveto
+600 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+617.5 70.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 600 60 moveto
+698 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+620.5 41.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 600 31 moveto
+698 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+647 12.3 moveto 4 ( ) alignedtext
+grestore
+% SC080->CA100
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 294.95 336.8 moveto
+293.67 285.56 300.28 214.83 339 168 curveto
+383.89 113.71 460.63 88.6 521.82 76.99 curveto
+stroke
+0 0 0 edgecolor
+newpath 522.67 80.39 moveto
+531.89 75.17 lineto
+521.42 73.5 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 522.67 80.39 moveto
+531.89 75.17 lineto
+521.42 73.5 lineto
+closepath stroke
+grestore
+% IN090
+gsave
+0.33333 1 0.80392 nodecolor
+newpath 900 169 moveto
+900 299 lineto
+1066 299 lineto
+1066 169 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 169 moveto
+900 299 lineto
+1066 299 lineto
+1066 169 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+909 274.3 moveto 148 (IN090. Proyecto de Tesis I) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 257 moveto
+1066 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+919.5 238.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 228 moveto
+968 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+920 209.8 moveto 28 (HP:4) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 199 moveto
+968 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+917.5 180.3 moveto 33 (TH: 6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 169 moveto
+968 257 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+985.5 238.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 228 moveto
+1066 228 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+988.5 209.8 moveto 57 (4 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 199 moveto
+1066 199 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1015 180.3 moveto 4 ( ) alignedtext
+grestore
+% IN080->IN090
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 983 336.82 moveto
+983 327.8 983 318.48 983 309.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 986.5 309.01 moveto
+983 299.01 lineto
+979.5 309.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 986.5 309.01 moveto
+983 299.01 lineto
+979.5 309.01 lineto
+closepath stroke
+grestore
+% HU080
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 2061 337 moveto
+2061 467 lineto
+2227 467 lineto
+2227 337 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2061 337 moveto
+2061 467 lineto
+2227 467 lineto
+2227 337 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2033.5 442.3 moveto 221 (HU080. Análisis de la Realidad Peruana) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2061 425 moveto
+2227 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2080.5 406.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2061 396 moveto
+2129 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2084 377.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2061 367 moveto
+2129 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2078.5 348.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2129 337 moveto
+2129 425 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2146.5 406.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2129 396 moveto
+2227 396 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2149.5 377.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2129 367 moveto
+2227 367 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2176 348.3 moveto 4 ( ) alignedtext
+grestore
+% HU080->HU090
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 2104.95 336.82 moveto
+2099.17 327.32 2093.18 317.47 2087.3 307.81 curveto
+stroke
+0 0 0 edgecolor
+newpath 2090.13 305.73 moveto
+2081.95 299.01 lineto
+2084.15 309.37 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 2090.13 305.73 moveto
+2081.95 299.01 lineto
+2084.15 309.37 lineto
+closepath stroke
+grestore
+% RF080->SC090
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 464.12 336.82 moveto
+461.13 327.61 458.02 318.08 454.97 308.7 curveto
+stroke
+0 0 0 edgecolor
+newpath 458.24 307.44 moveto
+451.82 299.01 lineto
+451.59 309.6 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 458.24 307.44 moveto
+451.82 299.01 lineto
+451.59 309.6 lineto
+closepath stroke
+grestore
+% HU100
+gsave
+0.44314 0.50196 1 nodecolor
+newpath 1960 1 moveto
+1960 131 lineto
+2126 131 lineto
+2126 1 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1960 1 moveto
+1960 131 lineto
+2126 131 lineto
+2126 1 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1972.5 106.3 moveto 141 (HU100. Etica Profesional) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1960 89 moveto
+2126 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1979.5 70.8 moveto 29 (HT:3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1960 60 moveto
+2028 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1983 41.8 moveto 22 (HP:) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1960 31 moveto
+2028 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1977.5 12.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2028 1 moveto
+2028 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2045.5 70.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2028 60 moveto
+2126 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2048.5 41.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2028 31 moveto
+2126 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2075 12.3 moveto 4 ( ) alignedtext
+grestore
+% HU090->HU100
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 2043 168.82 moveto
+2043 159.8 2043 150.48 2043 141.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 2046.5 141.01 moveto
+2043 131.01 lineto
+2039.5 141.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 2046.5 141.01 moveto
+2043 131.01 lineto
+2039.5 141.01 lineto
+closepath stroke
+grestore
+% EL100
+gsave
+0 1 1 nodecolor
+newpath 716 1 moveto
+716 131 lineto
+882 131 lineto
+882 1 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 1 moveto
+716 131 lineto
+882 131 lineto
+882 1 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+745 106.3 moveto 108 (EL100. Enertrónica) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 89 moveto
+882 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+737 70.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 60 moveto
+787 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+737.5 41.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 716 31 moveto
+787 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+735 12.3 moveto 33 (TH: 5) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 787 1 moveto
+787 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+811.5 70.8 moveto 46 (Electivo) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 787 60 moveto
+882 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+806 41.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 787 31 moveto
+882 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+832.5 12.3 moveto 4 ( ) alignedtext
+grestore
+% CA090->EL100
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 799 168.82 moveto
+799 159.8 799 150.48 799 141.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 802.5 141.01 moveto
+799 131.01 lineto
+795.5 141.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 802.5 141.01 moveto
+799 131.01 lineto
+795.5 141.01 lineto
+closepath stroke
+grestore
+% CA090->CA100
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 721.27 168.82 moveto
+709.92 158.74 698.28 148.27 687.06 138.04 curveto
+stroke
+0 0 0 edgecolor
+newpath 689.1 135.17 moveto
+679.36 131.01 lineto
+684.38 140.34 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 689.1 135.17 moveto
+679.36 131.01 lineto
+684.38 140.34 lineto
+closepath stroke
+grestore
+% CA090->CA100
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 734.45 168.82 moveto
+723.34 158.64 711.65 148.06 700.1 137.75 curveto
+stroke
+0 0 0 edgecolor
+newpath 702.34 135.05 moveto
+692.54 131.01 lineto
+697.68 140.27 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 702.34 135.05 moveto
+692.54 131.01 lineto
+697.68 140.27 lineto
+closepath stroke
+grestore
+% TD100
+gsave
+0.13725 1 1 nodecolor
+newpath 1084 1 moveto
+1084 131 lineto
+1250 131 lineto
+1250 1 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 1 moveto
+1084 131 lineto
+1250 131 lineto
+1250 1 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1084.5 106.3 moveto 165 (TD100. Tratamiento de Datos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 89 moveto
+1250 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1105 70.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 60 moveto
+1155 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1105.5 41.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1084 31 moveto
+1155 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1103 12.3 moveto 33 (TH: 5) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1155 1 moveto
+1155 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1179.5 70.8 moveto 46 (Electivo) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1155 60 moveto
+1250 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1174 41.8 moveto 57 (3 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 1155 31 moveto
+1250 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1200.5 12.3 moveto 4 ( ) alignedtext
+grestore
+% TD090->TD100
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1167 168.82 moveto
+1167 159.8 1167 150.48 1167 141.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1170.5 141.01 moveto
+1167 131.01 lineto
+1163.5 141.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1170.5 141.01 moveto
+1167 131.01 lineto
+1163.5 141.01 lineto
+closepath stroke
+grestore
+% IN100
+gsave
+0.33333 1 0.80392 nodecolor
+newpath 900 1 moveto
+900 131 lineto
+1066 131 lineto
+1066 1 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 1 moveto
+900 131 lineto
+1066 131 lineto
+1066 1 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+907 106.3 moveto 152 (IN100. Proyecto de Tesis II) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 89 moveto
+1066 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+919.5 70.8 moveto 29 (HT:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 60 moveto
+968 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+920 41.8 moveto 28 (HP:6) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 900 31 moveto
+968 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+917.5 12.3 moveto 33 (TH: 8) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 1 moveto
+968 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+985.5 70.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 60 moveto
+1066 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+988.5 41.8 moveto 57 (5 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 968 31 moveto
+1066 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1015 12.3 moveto 4 ( ) alignedtext
+grestore
+% IN090->IN100
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 983 168.82 moveto
+983 159.8 983 150.48 983 141.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 986.5 141.01 moveto
+983 131.01 lineto
+979.5 141.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 986.5 141.01 moveto
+983 131.01 lineto
+979.5 141.01 lineto
+closepath stroke
+grestore
+% SE101
+gsave
+0.043137 0.68627 1 nodecolor
+newpath 2144 1 moveto
+2144 131 lineto
+2310 131 lineto
+2310 1 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2144 1 moveto
+2144 131 lineto
+2310 131 lineto
+2310 1 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2079 106.3 moveto 296 (SE101. El Negocio de Empresas de Base Tecnológica) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2144 89 moveto
+2310 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2163.5 70.8 moveto 29 (HT:1) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2144 60 moveto
+2212 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2164 41.8 moveto 28 (HP:2) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2144 31 moveto
+2212 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2161.5 12.3 moveto 33 (TH: 3) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2212 1 moveto
+2212 89 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2229.5 70.8 moveto 63 (Obligatorio) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2212 60 moveto
+2310 60 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2232.5 41.8 moveto 57 (2 Créditos) alignedtext
+1 setlinewidth
+filled
+0 0 1 nodecolor
+newpath 2212 31 moveto
+2310 31 lineto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2259 12.3 moveto 4 ( ) alignedtext
+grestore
+% 3er Sem (Créditos cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2075 1242 87.61 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2015.5 1238.3 moveto 119 (3er Sem \(Créditos cr\)) alignedtext
+grestore
+% 4to Sem (4 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2032 1074 62.09 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1992 1070.3 moveto 80 (4to Sem \(4 cr\)) alignedtext
+grestore
+% 5to Sem (4 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2289 906 62.09 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2249 902.3 moveto 80 (5to Sem \(4 cr\)) alignedtext
+grestore
+% 6to Sem (3 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2289 738 62.09 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2249 734.3 moveto 80 (6to Sem \(3 cr\)) alignedtext
+grestore
+% 7mo Sem (3 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2313 402 67.39 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2269 398.3 moveto 88 (7mo Sem \(3 cr\)) alignedtext
+grestore
+% 8vo Sem (4 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2463 402 64.02 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2421.5 398.3 moveto 83 (8vo Sem \(4 cr\)) alignedtext
+grestore
+% 9no Sem (2 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2344 234 64.02 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2302.5 230.3 moveto 83 (9no Sem \(2 cr\)) alignedtext
+grestore
+% 10mo Sem (2 cr)
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2399 66 71.24 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2352 62.3 moveto 94 (10mo Sem \(2 cr\)) alignedtext
+grestore
+% Inglés(200)
+gsave
+0.53725 0.24706 0.90196 nodecolor
+newpath 1315.27 1428 moveto
+1236.73 1428 lineto
+1236.73 1392 lineto
+1315.27 1392 lineto
+closepath fill
+1 setlinewidth
+filled
+0.53725 0.24706 0.90196 nodecolor
+newpath 1315.27 1428 moveto
+1236.73 1428 lineto
+1236.73 1392 lineto
+1315.27 1392 lineto
+closepath stroke
+1 setlinewidth
+filled
+0.53725 0.24706 0.90196 nodecolor
+newpath 1319.25 1432 moveto
+1232.75 1432 lineto
+1232.75 1388 lineto
+1319.25 1388 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1244.5 1406.3 moveto 63 (Inglés\(200\)) alignedtext
+grestore
+% Inglés(200)->EL030
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1278.28 1387.98 moveto
+1280.23 1370.03 1283.15 1343.1 1285.94 1317.31 curveto
+stroke
+0 0 0 edgecolor
+newpath 1289.45 1317.44 moveto
+1287.05 1307.12 lineto
+1282.49 1316.69 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1289.45 1317.44 moveto
+1287.05 1307.12 lineto
+1282.49 1316.69 lineto
+closepath stroke
+grestore
+% Inglés(300)
+gsave
+0.53725 0.24706 0.90196 nodecolor
+newpath 1186.27 1092 moveto
+1107.73 1092 lineto
+1107.73 1056 lineto
+1186.27 1056 lineto
+closepath fill
+1 setlinewidth
+filled
+0.53725 0.24706 0.90196 nodecolor
+newpath 1186.27 1092 moveto
+1107.73 1092 lineto
+1107.73 1056 lineto
+1186.27 1056 lineto
+closepath stroke
+1 setlinewidth
+filled
+0.53725 0.24706 0.90196 nodecolor
+newpath 1190.25 1096 moveto
+1103.75 1096 lineto
+1103.75 1052 lineto
+1190.25 1052 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1115.5 1070.3 moveto 63 (Inglés\(300\)) alignedtext
+grestore
+% Inglés(300)->TD050
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1144.85 1051.98 moveto
+1143.01 1034.03 1140.25 1007.1 1137.61 981.31 curveto
+stroke
+0 0 0 edgecolor
+newpath 1141.07 980.71 moveto
+1136.57 971.12 lineto
+1134.1 981.43 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1141.07 980.71 moveto
+1136.57 971.12 lineto
+1134.1 981.43 lineto
+closepath stroke
+grestore
+% Inglés(400)
+gsave
+0.53725 0.24706 0.90196 nodecolor
+newpath 1668.27 756 moveto
+1589.73 756 lineto
+1589.73 720 lineto
+1668.27 720 lineto
+closepath fill
+1 setlinewidth
+filled
+0.53725 0.24706 0.90196 nodecolor
+newpath 1668.27 756 moveto
+1589.73 756 lineto
+1589.73 720 lineto
+1668.27 720 lineto
+closepath stroke
+1 setlinewidth
+filled
+0.53725 0.24706 0.90196 nodecolor
+newpath 1672.25 760 moveto
+1585.75 760 lineto
+1585.75 716 lineto
+1672.25 716 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1597.5 734.3 moveto 63 (Inglés\(400\)) alignedtext
+grestore
+% Inglés(400)->SC070
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1624.31 715.98 moveto
+1620.3 697.95 1614.26 670.87 1608.49 644.97 curveto
+stroke
+0 0 0 edgecolor
+newpath 1611.88 644.12 moveto
+1606.29 635.12 lineto
+1605.05 645.64 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1611.88 644.12 moveto
+1606.29 635.12 lineto
+1605.05 645.64 lineto
+closepath stroke
+grestore
+% SC060
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+620 570 34.17 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+601.5 566.3 moveto 37 (SC060) alignedtext
+grestore
+% SC060->EL080
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 624.97 552.17 moveto
+630.24 534.33 638.92 504.91 647.19 476.89 curveto
+stroke
+0 0 0 edgecolor
+newpath 650.62 477.64 moveto
+650.09 467.06 lineto
+643.9 475.66 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 650.62 477.64 moveto
+650.09 467.06 lineto
+643.9 475.66 lineto
+closepath stroke
+grestore
+% SN070
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+301 570 35.15 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+282 566.3 moveto 38 (SN070) alignedtext
+grestore
+% SN070->SC080
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 301 551.86 moveto
+301 534.08 301 505.05 301 477.32 curveto
+stroke
+0 0 0 edgecolor
+newpath 304.5 477.19 moveto
+301 467.19 lineto
+297.5 477.19 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 304.5 477.19 moveto
+301 467.19 lineto
+297.5 477.19 lineto
+closepath stroke
+grestore
+% HU071
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2144 570 36.1 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2124 566.3 moveto 40 (HU071) alignedtext
+grestore
+% HU071->HU080
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 2144 551.86 moveto
+2144 534.08 2144 505.05 2144 477.32 curveto
+stroke
+0 0 0 edgecolor
+newpath 2147.5 477.19 moveto
+2144 467.19 lineto
+2140.5 477.19 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 2147.5 477.19 moveto
+2144 467.19 lineto
+2140.5 477.19 lineto
+closepath stroke
+grestore
+% SE090
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2227 234 34.17 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+2208.5 230.3 moveto 37 (SE090) alignedtext
+grestore
+% SE090->SE101
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 2227 215.86 moveto
+2227 198.08 2227 169.05 2227 141.32 curveto
+stroke
+0 0 0 edgecolor
+newpath 2230.5 141.19 moveto
+2227 131.19 lineto
+2223.5 141.19 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 2230.5 141.19 moveto
+2227 131.19 lineto
+2223.5 141.19 lineto
+closepath stroke
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 36 36 2764 1688
+end
+restore
+%%EOF

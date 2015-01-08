@@ -1,0 +1,6 @@
+ls *.tex | xargs perl -pi -e 's/\{sumilla\}/\{syllabus\}/g'
+ls *.tex | xargs perl -pi -e 's/\{fundamentacion\}/\{justification\}/g'
+ls *.tex | xargs perl -pi -e 's/\{bibliografia\}/\{bibliography\}/g'
+ls *.tex | xargs perl -pi -e 's/\{objetivosdelcurso\}/\{goals\}/g'
+ls *.tex | xargs perl -pi -e 's/\{topicos\}/\{topics\}/g'
+ls *.tex | xargs perl -pi -e 's/\{objetivos\}/\{unitgoals\}/g'

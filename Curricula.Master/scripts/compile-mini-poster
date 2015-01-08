@@ -1,0 +1,52 @@
+#!/bin/csh
+# ./scripts/gen-malla.pl UCSP,SPC final CS
+# ./scripts/gen-eps-files CS UCSP
+./scripts/update-page-numbers CS UCSP
+./scripts/gen-graph CS UCSP big
+
+set inf  = mini-computing-poster    # file1 (tex)
+set outf = CS-UCSP-mini-poster    # file2 (pdf)
+
+rm $inf.tex $inf.ps $inf.dvi $inf.aux  $inf.log
+cp base-tex/$inf.tex .
+latex $inf
+latex $inf
+latex $inf
+
+#dvips -Ppdf -j0 -u ps2pk.map -G0 -p 2 $inf.dvi -o
+dvips -Ppdf -j0 -G0 -p 2 $inf.dvi -o
+ps2pdf -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -dSubsetFonts=false $inf.ps pdfs/$outf.pdf
+
+#render the high resolution PDF from the DVI file:
+#Notes:
+# -j0 -G0: tells dvips to embed the fonts 100%
+# -Pdownload35 or -u ps2pk.map: configuration of PostScript Type 1 fonts
+# - Dvipsone Names: they have to be activated in the style file of the publisher
+
+#dvips -j0 -Ppdf -u ps2pk.map -G0 -t letter -D 1200 -Z -mode ljfzzz\
+#	$inf.dvi -o - | gs -q -dNOPAUSE -dBATCH \
+#	-sDEVICE=pdfwrite -dPDFSETTINGS=/prepress\
+#	-dCompatibilityLevel=1.3 \
+#	-dCompressPages=true -dUseFlateCompression=false \
+#	-sPAPERSIZE=letter \
+#	-dSubsetFonts=true -dEmbedAllFonts=true \
+#	-dProcessColorModel=/DeviceGray \
+#	-dDetectBlends=true -dOptimize=true \
+#	-dDownsampleColorImages=true -dColorImageResolution=1200 \
+#	-dColorImageDownsampleType=/Average -dColorImageFilter=/FlateEncode \
+#	-dAutoFilterColorImages=false -dAntiAliasColorImages=false \
+#	-dColorImageDownsampleThreshold=1.50000 \
+#	-dDownsampleGrayImages=true -dGrayImageResolution=1200 \
+#	-dGrayImageDownsampleType=/Average -dGrayImageFilter=/FlateEncode \
+#	-dAutoFilterGrayImages=false -dAntiAliasGrayImages=false \
+#	-dGrayImageDownsampleThreshold=1.50000 \
+#	-dDownsampleMonoImages=true -dMonoImageResolution=1200 \
+#	-dMonoImageDownsampleType=/Average -dMonoImageFilter=/FlateEncode \
+#	-dAutoFilterMonoImages=false -dAntiAliasMonoImages=false \
+#	-dMonoImageDownsampleThreshold=1.50000 \
+#	-sOutputFile=pdfs/$outf.pdf \
+#	-c save pop -
+
+cp $inf.ps pdfs/$outf.ps
+rm $inf.tex $inf.dvi $inf.aux  $inf.log
+rm $inf.ps

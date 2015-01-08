@@ -1,0 +1,4 @@
+#!/bin/csh
+set filter=$1
+
+scp -r html/UCSP html/index.html html/figs spc@sandiego.eddas.com.pe:~/Virtual/www/www.spc.org.pe/education/PCC/.

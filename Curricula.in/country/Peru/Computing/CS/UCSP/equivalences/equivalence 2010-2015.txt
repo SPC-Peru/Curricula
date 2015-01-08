@@ -1,0 +1,98 @@
+{1}{CS101F}{Introducción a la Programación}{4}{CS111}% Programación de Video Juegos, 4
+{1}{CS105}{Estructuras Discretas I}{4}{CS1D1}% Estructuras Discretas I, 4
+{1}{CB101}{Álgebra y Geometría}{5}{MA101}% Álgebra y Geometría, 5
+{1}{FG102}{Metodología del Estudio}{3}{FG102}% Metodología del Estudio, 3
+{1}{FG103}{Introducción a la Vida Universitaria}{3}{FG103}% Introducción a la Vida Universitaria, 3
+{1}{FG101}{Comunicación}{3}{FG101}% Comunicación, 3
+
+
+{2}{CS100}{Introducción a la Ciencia de la Computación}{3}{CS100}% Introducción de Ciencia de la Computación, 3
+{2}{CS101O}{Introducción a la Programación Orientada a Objetos}{5}{CS112}% Ciencia de la Computación I, 5
+{2}{CS106}{Estructuras Discretas II}{4}{CS1D2}% Estructuras Discretas II, 4
+{2}{CB102}{Análisis Matemático I}{5}{MA102}% Análisis Matemático I, 5
+{2}{FG104}{Introducción a la Filosofía}{3}{FG104}% Introducción a la Filosofía, 3
+{2}{FG105}{Apreciación de la Música}{2}{FG105}% Apreciación de la Música, 2
+{2}{FG112}{Matrimonio y Familia}{2}{FG112}% Matrimonio y Familia, 2
+
+
+{3}{CS102O}{Objetos y Abstracción de Datos}{4}{CS113}% Ciencia de la Computación II, 4
+{3}{CS107}{Estructuras Discretas III}{3}{CS1D3}% Álgebra Abstracta, 3
+{3}{CB103}{Análisis Matemático II}{5}{MA103}% Análisis Matemático II, 5
+{3}{CS130}{Introducción a Internet}{3}{CS2B1}% Desarrollo Basado en Plataformas, 3
+{3}{CS220T}{Arquitectura de Computadores}{3}{CS221}% Arquitectura de Computadores, 3
+{3}{FG107}{Fundamentos Antropológicos de la Ciencia}{2}{FG107}% Fundamentos Antropológicos de la Ciencia, 2
+{3}{FG201}{Artes Plásticas}{2}{FG201}% Artes Plásticas, 2
+{3}{FG202}{Apreciación Literaria}{2}{FG202}% Apreciación Literaria, 2
+
+
+
+{4}{CS103O}{Algoritmos y Estructuras de Datos}{4}{CS210}% Algoritmos y Estructuras de Datos, 4
+{4}{CS211T}{Teoría de la Computación}{4}{CS211}% Teoría de la Computación, 4
+{4}{CS270T}{Bases de Datos I}{5}{CS271}% Bases de Datos I, 5
+{4}{CB203}{Estadística y Probabilidades}{4}{MA203}% Estadística y Probabilidades, 4
+{4}{CB201}{Análisis Matemático III}{5}{MA201}% Análisis Matemático III, 5
+
+
+
+{5}{CS290T}{Ingeniería de Software I}{4}{CS291}% Ingeniería de Software I, 4
+{5}{CS210T}{Análisis y Diseño de Algoritmos}{4}{CS212}% Análisis y Diseño de Algoritmos, 4
+{5}{CS271T}{Base de Datos II}{3}{CS272}% Bases de Datos II, 3
+{5}{CB306}{Análisis Numérico}{3}{MA306}% Análisis Numérico, 3
+{5}{CB111}{Física Computacional}{4}{MA111}% Física Computacional, 4
+{5}{FG210}{Ética}{2}{FG210}% Ética, 2
+{10}{FG350}{Liderazgo y Desempeño}{2}{FG350}% Liderazgo y Desempeño, 2
+
+
+
+{6}{CS390}{Ingeniería de Software II}{4}{CS292}% Ingeniería de Software II, 4
+{6}{}{}{}{CS311}% Programación Competitiva, 4
+{6}{CS315}{Estructuras de Datos Avanzadas}{4}{CS312}% Estructuras de Datos Avanzadas, 4
+{6}{CS225T}{Sistemas Operativos}{4}{CS2S1}% Sistemas Operativos, 4
+{6}{CB307}{Matemática Aplicada a la Computación}{4}{MA307}% Matemática aplicada a la computación, 4
+{6}{FG204}{Teología I}{2}{FG204}% Teología I, 2
+{3}{FG203}{Oratoria y Expresión Personal}{2}{FG203}% Oratoria y Expresión Personal, 2
+{2}{FG106}{Teatro}{2}{FG106}% Teatro, 2
+
+
+
+{7}{CS343}{Lenguajes de Programación}{4}{CS341}% Lenguajes de Programación, 4
+{8}{CS230W}{Computación Centrada en Redes}{3}{CS231}% Redes y Comunicación, 3
+{7}{CS401}{Proyecto I}{2}{CS401}% Metodología de la Investigación en Computación, 2
+{8}{CS255}{Computación Gráfica}{4}{CS251}% Computación Gráfica, 4
+{7}{CS314}{Algoritmos Paralelos}{4}{CS3P1}% Computación Paralela y Distribuída, 4
+{7}{FG204A}{Teología II}{2}{FG204A}% Teología II, 2
+{8}{CS391}{Calidad de Software}{3}{CS391}% Ingeniería de Software III, 3
+
+
+
+{8}{CS240S}{Compiladores}{4}{CS342}% Compiladores, 4
+{8}{CS402}{Proyecto II}{3}{CS402}% Proyecto de Final de Carrera I, 3
+{7}{CS336}{Seguridad en Computación}{3}{CS3I1}% Seguridad en Computación, 3
+{7}{CS250W}{Interacción Humano Computador}{3}{CS2H1}% Interacción Humano Computador, 3
+{8}{CS280T}{Aspectos Sociales y Profesionales de la Computación}{2}{CS281}% Computación en la Sociedad, 2
+{7}{CS261T}{Inteligencia Artificial}{4}{CS261}% Inteligencia Artificial, 4
+{8}{FG205}{Historia de la Cultura}{3}{FG205}% Historia de la Cultura, 3
+
+
+
+{9}{}{}{}{CS370}% Big Data, 3
+{9}{CB309}{Computación Molecular Biológica}{4}{CB309}% Computación Molecular Biológica, 2
+{9}{}{}{}{CS392}% Tópicos Avanzados en Ingeniería de Software, 4
+{9}{CS403}{Proyecto de Tesis}{3}{CS403}% Proyecto de Final de Carrera II, 3
+{9}{ET101}{Formación de Empresas de Base Tecnológica I}{3}{ET201}% Formación de Empresas de Base Tecnológica I, 3
+{9}{CS355}{Tópicos en Computación Gráfica}{4}{CS351}% Tópicos en Computación Gráfica, 4
+{9}{CS361}{Tópicos en Inteligencia Artificial}{4}{CS361}% Tópicos en Inteligencia Artificial, 4
+{9}{FG221}{Historia de la Ciencia y Tecnología}{2}{FG221}% Historia de la Ciencia y Tecnología, 2
+{9}{FG301}{Enseñanza Social de la Iglesia}{3}{FG301}% Enseñanza Social de la Iglesia, 3
+
+
+
+{10}{CS367}{Robótica}{4}{CS362}% Robótica, 4
+{10}{}{}{}{CS393}% Sistemas de Infomación, 4
+{10}{CS331}{Claud Computing}{3}{CS3P2}% Cloud Computing, 3
+{10}{CS404}{Seminario de Tesis}{3}{CS404}% Proyecto de Final de Carrera III, 3
+{10}{ET102}{Formación de Empresas de Base Tecnológica II}{3}{ET302}% Formación de Empresas de Base Tecnológica III, 3
+{10}{FG220}{Análisis de la Realidad Peruana}{2}{FG220}% Análisis de la Realidad Peruana, 2
+{10}{FG211}{Ética Profesional}{2}{FG211}% Ética Profesional, 3
+{5}{FG209}{Psicología}{2}{FG209}% Psicología, 2
+{5}{FG206}{Sociología}{2}{FG206}% Sociología, 2

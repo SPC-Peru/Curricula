@@ -1,0 +1,104 @@
+\Errorenel-expand-outcomes.tex
+
+\newcommand{\ExpandItemLong}[2]{\item[\ref{out:#1})] #2}
+
+\newcommand{\BloomLevel}{Nivel Bloom\xspace}
+
+\newcommand{\ExpandOutcome}[2]%
+{%
+\ifthenelse{\equal{#1}{a}}{\ExpandItemLong{Outcomea}{\textbf{[\BloomLevel #2]} \Outcomea}}{}%
+\ifthenelse{\equal{#1}{b}}{\ExpandItemLong{Outcomeb}{\textbf{[\BloomLevel #2]}  \Outcomeb}}{}%
+\ifthenelse{\equal{#1}{c}}{\ExpandItemLong{Outcomec}{\textbf{[\BloomLevel #2]}  \Outcomec}}{}%
+\ifthenelse{\equal{#1}{d}}{\ExpandItemLong{Outcomed}{\textbf{[\BloomLevel #2]}  \Outcomed}}{}%
+%
+\ifthenelse{\equal{#1}{e}}{\ExpandItemLong{Outcomee}{\textbf{[\BloomLevel #2]}  \Outcomee}}{}%
+\ifthenelse{\equal{#1}{f}}{\ExpandItemLong{Outcomef}{\textbf{[\BloomLevel #2]}  \Outcomef}}{}%
+\ifthenelse{\equal{#1}{g}}{\ExpandItemLong{Outcomeg}{\textbf{[\BloomLevel #2]}  \Outcomeg}}{}%
+\ifthenelse{\equal{#1}{h}}{\ExpandItemLong{Outcomeh}{\textbf{[\BloomLevel #2]}  \Outcomeh}}{}%
+%
+\ifthenelse{\equal{#1}{i}}{\ExpandItemLong{Outcomei}{\textbf{[\BloomLevel #2]}  \Outcomei}}{}%
+\ifthenelse{\equal{#1}{j}}{\ExpandItemLong{Outcomej}{\textbf{[\BloomLevel #2]}  \Outcomej}}{}%
+\ifthenelse{\equal{#1}{k}}{\ExpandItemLong{Outcomek}{\textbf{[\BloomLevel #2]}  \Outcomek}}{}%
+\ifthenelse{\equal{#1}{l}}{\ExpandItemLong{Outcomel}{\textbf{[\BloomLevel #2]}  \Outcomel}}{}%
+\ifthenelse{\equal{#1}{m}}{\ExpandItemLong{Outcomem}{\textbf{[\BloomLevel #2]}  \Outcomem}}{}%
+%
+\ifthenelse{\equal{#1}{HU}}{\ExpandItemLong{OutcomeHU}{\textbf{[\BloomLevel #2]}  \OutcomeHU}}{}%
+\ifthenelse{\equal{#1}{FH}}{\ExpandItemLong{OutcomeFH}{\textbf{[\BloomLevel #2]}  \OutcomeFH}}{}%
+\ifthenelse{\equal{#1}{TASDSH}}{\ExpandItemLong{OutcomeTASDSH}{\textbf{[\BloomLevel #2]}  \OutcomeTASDSH}}{}%
+}
+
+\newcommand{\OutcomeLong}[2]{{\small \textbf{\ref{out:#1}}) #2}}
+
+\newcommand{\PrintOutcome}[1]%
+{%
+\ifthenelse{\equal{#1}{a}}{\OutcomeLong{Outcomea}{\OutcomeaShort}}{}%
+\ifthenelse{\equal{#1}{b}}{\OutcomeLong{Outcomeb}{\OutcomebShort}}{}%
+\ifthenelse{\equal{#1}{c}}{\OutcomeLong{Outcomec}{\OutcomecShort}}{}%
+\ifthenelse{\equal{#1}{d}}{\OutcomeLong{Outcomed}{\OutcomedShort}}{}%
+%
+\ifthenelse{\equal{#1}{e}}{\OutcomeLong{Outcomee}{\OutcomeeShort}}{}%
+\ifthenelse{\equal{#1}{f}}{\OutcomeLong{Outcomef}{\OutcomefShort}}{}%
+\ifthenelse{\equal{#1}{g}}{\OutcomeLong{Outcomeg}{\OutcomegShort}}{}%
+\ifthenelse{\equal{#1}{h}}{\OutcomeLong{Outcomeh}{\OutcomehShort}}{}%
+%
+\ifthenelse{\equal{#1}{i}}{\OutcomeLong{Outcomei}{\OutcomeiShort}}{}%
+\ifthenelse{\equal{#1}{j}}{\OutcomeLong{Outcomej}{\OutcomejShort}}{}%
+\ifthenelse{\equal{#1}{k}}{\OutcomeLong{Outcomek}{\OutcomekShort}}{}%
+\ifthenelse{\equal{#1}{l}}{\OutcomeLong{Outcomel}{\OutcomelShort}}{}%
+\ifthenelse{\equal{#1}{m}}{\OutcomeLong{Outcomem}{\OutcomemShort}}{}%
+%
+\ifthenelse{\equal{#1}{HU}}{\OutcomeLong{OutcomeHU}{\OutcomeHUShort}}{}%
+\ifthenelse{\equal{#1}{FH}}{\OutcomeLong{OutcomeFH}{\OutcomeFHShort}}{}%
+\ifthenelse{\equal{#1}{TASDSH}}{\OutcomeLong{OutcomeTASDSH}{\OutcomeTASDSHShort}}{}%
+}
+
+\newcommand{\OutcomeLongWOLetter}[2]{{\small #2}}
+
+\newcommand{\PrintOutcomeWOLetter}[1]%
+{%
+\ifthenelse{\equal{#1}{a}}{\OutcomeLongWOLetter{Outcomea}{\OutcomeaShort}}{}%
+\ifthenelse{\equal{#1}{b}}{\OutcomeLongWOLetter{Outcomeb}{\OutcomebShort}}{}%
+\ifthenelse{\equal{#1}{c}}{\OutcomeLongWOLetter{Outcomec}{\OutcomecShort}}{}%
+\ifthenelse{\equal{#1}{d}}{\OutcomeLongWOLetter{Outcomed}{\OutcomedShort}}{}%
+%
+\ifthenelse{\equal{#1}{e}}{\OutcomeLongWOLetter{Outcomee}{\OutcomeeShort}}{}%
+\ifthenelse{\equal{#1}{f}}{\OutcomeLongWOLetter{Outcomef}{\OutcomefShort}}{}%
+\ifthenelse{\equal{#1}{g}}{\OutcomeLongWOLetter{Outcomeg}{\OutcomegShort}}{}%
+\ifthenelse{\equal{#1}{h}}{\OutcomeLongWOLetter{Outcomeh}{\OutcomehShort}}{}%
+%
+\ifthenelse{\equal{#1}{i}}{\OutcomeLongWOLetter{Outcomei}{\OutcomeiShort}}{}%
+\ifthenelse{\equal{#1}{j}}{\OutcomeLongWOLetter{Outcomej}{\OutcomejShort}}{}%
+\ifthenelse{\equal{#1}{k}}{\OutcomeLongWOLetter{Outcomek}{\OutcomekShort}}{}%
+\ifthenelse{\equal{#1}{l}}{\OutcomeLongWOLetter{Outcomel}{\OutcomelShort}}{}%
+\ifthenelse{\equal{#1}{m}}{\OutcomeLongWOLetter{Outcomem}{\OutcomemShort}}{}%
+%
+\ifthenelse{\equal{#1}{HU}}{\OutcomeLongWOLetter{OutcomeHU}{\OutcomeHUShort}}{}%
+\ifthenelse{\equal{#1}{FH}}{\OutcomeLongWOLetter{OutcomeFH}{\OutcomeFHShort}}{}%
+\ifthenelse{\equal{#1}{TASDSH}}{\OutcomeLongWOLetter{OutcomeTASDSH}{\OutcomeTASDSHShort}}{}%
+}
+
+\newcommand{\OutcomeLetter}[2]{{\small \textbf{\ref{out:#1}})\ \ }}
+
+
+\newcommand{\PrintOutcomeLetter}[1]%
+{%
+\ifthenelse{\equal{#1}{a}}{\OutcomeLetter{Outcomea}{\OutcomeaShort}}{}%
+\ifthenelse{\equal{#1}{b}}{\OutcomeLetter{Outcomeb}{\OutcomebShort}}{}%
+\ifthenelse{\equal{#1}{c}}{\OutcomeLetter{Outcomec}{\OutcomecShort}}{}%
+\ifthenelse{\equal{#1}{d}}{\OutcomeLetter{Outcomed}{\OutcomedShort}}{}%
+%
+\ifthenelse{\equal{#1}{e}}{\OutcomeLetter{Outcomee}{\OutcomeeShort}}{}%
+\ifthenelse{\equal{#1}{f}}{\OutcomeLetter{Outcomef}{\OutcomefShort}}{}%
+\ifthenelse{\equal{#1}{g}}{\OutcomeLetter{Outcomeg}{\OutcomegShort}}{}%
+\ifthenelse{\equal{#1}{h}}{\OutcomeLetter{Outcomeh}{\OutcomehShort}}{}%
+%
+\ifthenelse{\equal{#1}{i}}{\OutcomeLetter{Outcomei}{\OutcomeiShort}}{}%
+\ifthenelse{\equal{#1}{j}}{\OutcomeLetter{Outcomej}{\OutcomejShort}}{}%
+\ifthenelse{\equal{#1}{k}}{\OutcomeLetter{Outcomek}{\OutcomekShort}}{}%
+\ifthenelse{\equal{#1}{l}}{\OutcomeLetter{Outcomel}{\OutcomelShort}}{}%
+\ifthenelse{\equal{#1}{m}}{\OutcomeLetter{Outcomem}{\OutcomemShort}}{}%
+%
+\ifthenelse{\equal{#1}{HU}}{\OutcomeLetter{OutcomeHU}{\OutcomeHUShort}}{}%
+\ifthenelse{\equal{#1}{FH}}{\OutcomeLetter{OutcomeFH}{\OutcomeFHShort}}{}%
+\ifthenelse{\equal{#1}{TASDSH}}{\OutcomeLetter{OutcomeTASDSH}{\OutcomeTASDSHShort}}{}%
+}

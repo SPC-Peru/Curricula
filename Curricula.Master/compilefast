@@ -1,0 +1,16 @@
+#!/bin/csh
+#--BEGIN-FILTERS--
+set area=$1
+set institution=$2
+#--END-FILTERS--
+
+echo "Compiling bibliography wait ..."
+./scripts/compbib.sh curricula-main > ./out/errors-bib.txt
+latex curricula-main
+
+dvips -o curricula-main.ps curricula-main.dvi
+ps2pdf curricula-main.ps curricula-main.pdf
+cp curricula-main.pdf out/pdfs/$area-$institution.pdf
+#rm curricula-main.ps curricula-main.dvi
+
+

@@ -1,0 +1,28 @@
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+\begin{thebibliography}{}
+
+\bibitem[{Association for Computing Machinery}, 2008]{acm}
+{Association for Computing Machinery} (2008).
+\newblock {\em Digital Libray}.
+\newblock Association for Computing Machinery.
+\newblock http://portal.acm.org/dl.cfm.
+
+\bibitem[{CiteSeer.IST}, 2008]{citeseer}
+{CiteSeer.IST} (2008).
+\newblock {\em Scientific Literature Digital Libray}.
+\newblock College of Information Sciences and Technology, Penn State
+  University.
+\newblock http://citeseer.ist.psu.edu.
+
+\bibitem[{IEEE-Computer Society}, 2008]{ieee}
+{IEEE-Computer Society} (2008).
+\newblock {\em Digital Libray}.
+\newblock IEEE-Computer Society.
+\newblock http://www.computer.org/publications/dlib.
+
+\end{thebibliography}
+\csname bt@warn@outdated\endcsname{curricula-main61}
+\csname bt@warn@outdated\endcsname{curricula-main61}

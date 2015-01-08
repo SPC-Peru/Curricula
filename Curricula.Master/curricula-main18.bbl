@@ -1,0 +1,61 @@
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+\begin{thebibliography}{}
+
+\bibitem[Denning, 2005]{Denning2005}
+Denning, P.~J. (2005).
+\newblock The locality principle.
+\newblock {\em Commun. ACM}, 48(7):19--24.
+
+\bibitem[Dongarra, 2006]{Dongarra2006}
+Dongarra, J. (2006).
+\newblock Trends in high performance computing: a historical overview and
+  examination of future developments.
+\newblock {\em Circuits and Devices Magazine, IEEE}, 22(1):22--27.
+
+\bibitem[El-Rewini and Abd-El-Barr, 2005]{ElRewini2005}
+El-Rewini, H. and Abd-El-Barr, M. (2005).
+\newblock {\em Advanced Computer Architecture and Parallel Processing}.
+\newblock John Wiley \& Sons, Hoboken, NJ.
+
+\bibitem[Hennessy and Patterson, 2006]{Hennessy2006}
+Hennessy, J.~L. and Patterson, D.~A. (2006).
+\newblock {\em Computer Architecture: A Quantitative Approach}.
+\newblock Morgan Kaufman, San Mateo, CA, 4th edition.
+
+\bibitem[Johnson, 1991]{Johnson1991}
+Johnson, M. (1991).
+\newblock {\em Superscalar microprocessor design}.
+\newblock Prentice Hall series in innovative technology. Prentice Hall.
+
+\bibitem[Parhami, 2002]{Parhami2002}
+Parhami, B. (2002).
+\newblock {\em Introduction to parallel processing: algorithms and
+  architectures}.
+\newblock Plenum series in computer science. Plenum Press.
+
+\bibitem[Parhami, 2005]{Parhami2005}
+Parhami, B. (2005).
+\newblock {\em Computer Architecture: From Microprocessors to Supercomputers}.
+\newblock Oxford Univ. Press, New York.
+
+\bibitem[Patterson and Hennessy, 2004]{Patterson2004}
+Patterson, D.~A. and Hennessy, J.~L. (2004).
+\newblock {\em Computer Organization and Design: The Hardware/Software
+  Interface}.
+\newblock Morgan Kaufman, San Mateo, CA, 3 edition.
+
+\bibitem[Stalings, 2010]{Stallings2010}
+Stalings, W. (2010).
+\newblock {\em Computer Organization and Architecture: Designing for
+  Performance}.
+\newblock Prentice Hall, Upper Saddle River, NJ, 8th edition.
+
+\end{thebibliography}
+\csname bt@warn@outdated\endcsname{curricula-main18}
+\csname bt@warn@outdated\endcsname{curricula-main18}
+\csname bt@warn@outdated\endcsname{curricula-main18}

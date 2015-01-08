@@ -1,0 +1,27 @@
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+\begin{thebibliography}{}
+
+\bibitem[Roy and Haridi, 2004]{vanroy}
+Roy, P.~V. and Haridi, S. (2004).
+\newblock {\em Concepts, Techniques, and Models of Computer Programming}.
+\newblock MIT Press, Cambridge, MA, USA.
+
+\bibitem[Sebesta, 2012]{robsebesta}
+Sebesta, R.~W. (2012).
+\newblock {\em Concepts of Programming Languages}.
+\newblock Addison-Wesley Publishing Company, USA, 10th edition.
+
+\bibitem[Webber, 2010]{webber}
+Webber, A.~B. (2010).
+\newblock {\em Modern Programming Languages: A Practical Introduction}.
+\newblock Franklin, Beedle and Associates, Inc, 2nd edition.
+
+\end{thebibliography}
+\csname bt@warn@outdated\endcsname{curricula-main45}
+\csname bt@warn@outdated\endcsname{curricula-main45}
+\csname bt@warn@outdated\endcsname{curricula-main45}

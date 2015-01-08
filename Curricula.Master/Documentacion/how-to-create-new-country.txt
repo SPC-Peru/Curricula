@@ -1,0 +1,12 @@
+- Crear el ./in/country.Peru/country-info.tex
+- Crear el ./in/country.Peru/logos
+- Crear el ./in/country.Peru/country-extra-environments.sty
+- Crear el ./in/country.Peru/country-extra-macros.tex
+- Crear el ./in/country.Peru/country-info.tex
+- Crear el ./in/country.Peru/dot/big-graph-item1.dot
+- Crear el ./in/country.Peru/dot/big-graph-item2.dot
+- Crear el ./in/country.Peru/dot/small-graph-item1.dot
+- Crear el ./in/country.Peru/dot/small-graph-item2.dot
+- Crear el ./in/country.Peru/CS.tex/Main.tex
+
+- Crear una institución de acuerdo al "how-to-create-new-institution.txt"

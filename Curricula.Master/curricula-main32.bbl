@@ -1,0 +1,27 @@
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+\begin{thebibliography}{}
+
+\bibitem[David~Kincaid, 1994]{Kinkaid94}
+David~Kincaid, W.~C. (1994).
+\newblock {\em Análisis Numérico}.
+\newblock Addison Wesley Iberoamericana.
+
+\bibitem[Richard L.~Burden, 2002]{Burden02}
+Richard L.~Burden, J. D.~F. (2002).
+\newblock {\em Análisis Numérico}.
+\newblock Thomson Learning.
+
+\bibitem[Steven C.~Chapra, 1988]{Chapra88}
+Steven C.~Chapra, R. P.~C. (1988).
+\newblock {\em Métodos Numéricos para Ingenieros McGraw}.
+\newblock MacGraw Hill.
+
+\bibitem[Zill, 2002]{Zill02}
+Zill, D.~G. (2002).
+\newblock {\em Ecuaciones Diferenciales con Problemas de Valores en la
+  Frontera}.
+\newblock Thomson Learning.
+
+\end{thebibliography}
+\csname bt@warn@outdated\endcsname{curricula-main32}

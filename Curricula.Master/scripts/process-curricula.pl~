@@ -1,0 +1,101 @@
+#!/usr/bin/perl -w
+use strict;
+use scripts::Lib::Common;
+use scripts::Lib::GenSyllabi;
+use scripts::Lib::GeneralInfo;
+use Data::Dumper;
+
+if( defined($ENV{'CurriculaParam'}))	{ $Common::command = $ENV{'CurriculaParam'};	}
+if(defined($ARGV[0])) { $Common::command = shift or Util::halt("There is no command to process (i.e. AREA-INST)");	}
+
+# ok, Here we replace \'a by á, etc
+sub replacecodes()
+{
+	Util::precondition("parse_courses");
+	Common::replace_special_characters_in_syllabi();
+}
+
+sub generate_general_info()
+{
+	Common::read_all_min_max();
+	Util::precondition("gen_syllabi");
+
+	GeneralInfo::generate_bok_index();
+	GeneralInfo::generate_lu_index();
+	GeneralInfo::generate_description_foreach_area();		# CS: Computer Science, ...
+	GeneralInfo::generate_course_tables(); 				# Tables by semester
+	GeneralInfo::generate_laboratories(); 				# List of Laboratories
+	GeneralInfo::generate_distribution_area_by_semester();		# Table area by semester
+	
+ 	GeneralInfo::generate_pie("credits");
+ 	GeneralInfo::generate_pie("hours");
+
+ 	GeneralInfo::generate_pie_by_levels();
+
+ 	GeneralInfo::generate_curricula_in_dot("small");
+	GeneralInfo::generate_curricula_in_dot("big");
+
+ 	GeneralInfo::generate_poster();
+ 
+ 	GeneralInfo::generate_all_topics_by_course();
+ 	GeneralInfo::generate_all_outcomes_by_course();
+
+ 	GeneralInfo::generate_list_of_courses_by_area();
+  	GeneralInfo::generate_compatibility_with_standards();
+
+# 	GeneralInfo::generate_faculty_info();
+ 	# convalidaciones
+# 	if($Common::command eq "CS-UCSP")
+# 	{
+# 	    GeneralInfo::generate_equivalence_old();
+# 	    GeneralInfo::generate_equivalence(); ;
+# 	}
+
+# 	generate_sql_for_new_courses();
+# 	
+# 	generate_tables_for_advance();
+# 	generate_courses_for_advance();
+# 
+# 	Common::generate_bok_sql("CS-bok-macros.sty", "$Common::out_sql_dir/bok.sql");
+# 	print "gen-malla OK !\n";
+#  	print "alias de HU302 = $Common::course_info{HU302}{alias}\n";
+}
+
+sub copy_basic_files()
+{
+        #system("cp ".Common::get_template("out-current-institution-file")." ".Common::get_template("OutputTexDir"));
+        system("cp ".Common::get_template("InLogosDir")."/$Common::config{institution}* ".Common::get_template("OutputFigDir"));
+        system("cp ".Common::get_template("in-small-graph-curricula-file")." ".Common::get_template("OutputTexDir"));
+        #system("cp ".Common::get_template("in-pdf-icon-file")." ".Common::get_template("OutputHtmlFigsDir"));
+}
+
+sub main()
+{
+	Util::begin_time();
+	Common::setup();
+	
+# 	read_bok(); 	
+# 	read_bok_order();
+	
+	Common::gen_only_macros();
+	Common::check_preconditions();
+	replacecodes();
+
+	GenSyllabi::process_syllabi();
+	GenSyllabi::gen_short_descriptions();
+	GenSyllabi::gen_list_of_units_by_course();
+	GenSyllabi::gen_bibliography_list();
+
+	generate_general_info();
+
+        copy_basic_files();
+#         Util::generate_batch_to_gen_figs(Common::get_template("out-batch-to-gen-figs-file"));
+# 	
+# 	Common::generate_html_index_by_country();
+# 	Util::print_time_elapsed();
+# 	Util::print_message("process-curricula finished ok ...");
+ 	#print Dumper(\%{$Common::config{faculty}{"acuadros\@ucsp.edu.pe"}});
+}
+
+main();
+

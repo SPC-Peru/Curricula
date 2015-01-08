@@ -1,0 +1,150 @@
+% Semester #1 .
+% CS101F(CS101F). Introducción a la Programación (Obligatorio)
+CS101F->e.vidal@ucsp.edu.pe,apaz@ucsp.edu.pe,glovon@ucsp.edu.pe
+% CS105(CS105). Estructuras Discretas I (Obligatorio)
+CS105->raquel.patino@gmail.com,luzmarina.vasquez@gmail.com,yamis940@gmail.com
+% CB101(CB101). Álgebra y Geometría (Obligatorio)
+CB101->xortix@gmail.com,mcarpio@ucsp.edu.pe
+% FG103(FG103). Introducción a la Vida Universitaria (Obligatorio)
+FG103->ebmedina@gmail.com,glinares@ucsp.edu.pe
+% FG102(FG102). Metodología del Estudio (Obligatorio)
+FG102->achavezc@peru.com,e.vidal@ucsp.edu.pe
+% FG101(FG101). Comunicación (Obligatorio)
+FG101->lizetvalgui@yahoo.com,libertad_paredesv@hotmail.com
+
+% Semester #2 .
+% CS106(CS106). Estructuras Discretas II (Obligatorio)
+CS106->yamis940@gmail.com
+% CS101O(CS101O). Introducción a la Programación Orientada a Objetos (Obligatorio)
+CS101O->patomc3@gmail.com,jpenarrieta@ucsp.edu.pe
+% CS100(CS100). Introducción a la Ciencia de la Computación (Obligatorio)
+CS100->ecuadros@spc.org.pe
+% CB102(CB102). Análisis Matemático I (Obligatorio)
+CB102->luzmarina.vasquez@gmail.com
+% FG105(FG105). Apreciación de la Música (Electivo)
+FG105->gmaldonado@ucsp.edu.pe
+% FG106(FG106). Teatro (Electivo)
+FG106->acuareladelol@peru.com
+% FG104(FG104). Introducción a la Filosofía (Obligatorio)
+FG104->edymorel@yahoo.com
+
+% Semester #3 .
+% CS107(CS107). Álgebra Abstracta (Obligatorio)
+CS107->anamariacuadros@gmail.com
+% CS220T(CS220T). Arquitectura de Computadores (Obligatorio)
+CS220T->racosta@ucsp.edu.pe
+% CS130(CS130). Introducción a Internet (Obligatorio)
+CS130->jpenarrieta@ucsp.edu.pe,js@trypry.com,glovon@ucsp.edu.pe
+% CS102O(CS102O). Objetos y Abstracción de Datos (Obligatorio)
+CS102O->criloal23@gmail.com,jpenarrieta@ucsp.edu.pe
+% CB103(CB103). Análisis Matemático II (Obligatorio)
+CB103->anitagmamani@gmail.com
+% FG203(FG203). Oratoria y Expresión Personal (Electivo)
+FG203->asalazar@ucsp.edu.pe
+% FG202(FG202). Apreciación Literaria (Electivo)
+FG202->libertad_paredesv@hotmail.com
+% FG201(FG201). Artes Plásticas (Electivo)
+FG201->viasase@hotmail.com
+% FG107(FG107). Fundamentos Antropológicos de la Ciencia (Obligatorio)
+FG107->storres@fraternas.org
+
+% Semester #4 .
+% CS211T(CS211T). Teoría de la Computación (Obligatorio)
+CS211T->dennisbarrios@gmail.com
+% CS270T(CS270T). Bases de Datos I (Obligatorio)
+CS270T->rtherrera@ucsp.edu.pe,glovon@ucsp.edu.pe
+% CS103O(CS103O). Algoritmos y Estructuras de Datos (Obligatorio)
+CS103O->alex.jcv@gmail.com,jpenarrieta@ucsp.edu.pe
+% CB201(CB201). Análisis Matemático III (Obligatorio)
+CB201->luzmarina.vasquez@gmail.com
+% CB203(CB203). Estadística y Probabilidades (Obligatorio)
+CB203->dmayori@ucsp.edu.pe
+
+% Semester #5 .
+% CS210T(CS210T). Análisis y Diseño de Algoritmos (Obligatorio)
+CS210T->criloal23@gmail.com
+% CS290T(CS290T). Ingeniería de Software I (Obligatorio)
+CS290T->jcano@bcp.com.pe
+% CS271T(CS271T). Bases de Datos II (Obligatorio)
+CS271T->rtherrera@ucsp.edu.pe,glovon@ucsp.edu.pe
+% CB111(CB111). Física Computacional (Obligatorio)
+CB111->rubel7523@hotmail.com
+% CB306(CB306). Análisis Numérico (Obligatorio)
+CB306->xortix@gmail.com
+% FG210(FG210). Ética (Obligatorio)
+FG210->rsilva@ucsp.edu.pe
+
+% Semester #6 .
+% CS225T(CS225T). Sistemas Operativos (Obligatorio)
+CS225T->dennisbarrios@gmail.com
+% CS260(CS260). Lógica Computacional (Obligatorio)
+CS260->luzmarina.vasquez@gmail.com
+% CS390(CS390). Ingeniería de Software II (Obligatorio)
+CS390->e.vidal@ucsp.edu.pe
+% CS315(CS315). Estructuras de Datos Avanzadas (Obligatorio)
+CS315->ecuadros@spc.org.pe,wilfre_br@yahoo.es
+% CB307(CB307). Matemática aplicada a la computación (Obligatorio)
+CB307->l.diaz@usp.edu.pe
+% FG204(FG204). Teología I (Obligatorio)
+FG204->claq84@gmail.com
+
+% Semester #7 .
+% CS250W(CS250W). Interacción Humano Computador (Obligatorio)
+CS250W->anamariacuadros@gmail.com
+% CS401(CS401). Proyecto I (Obligatorio)
+CS401->dennisbarrios@gmail.com,criloal23@gmail.com
+% CS261T(CS261T). Inteligencia Artificial (Obligatorio)
+CS261T->jcgutierrezc@gmail.com
+% CS343(CS343). Lenguajes de Programación (Obligatorio)
+CS343->apaz@ucsp.edu.pe
+
+% Semester #8 .
+% CS402(CS402). Proyecto II (Obligatorio)
+CS402->raquel.patino@gmail.com,cjdelgado@ucsp.edu.pe
+% CS391(CS391). Calidad de Software (Obligatorio)
+CS391->ezarate@egasa.com.pe
+% CS230W(CS230W). Computación Centrada en Redes (Obligatorio)
+CS230W->js@trypry.com
+% CS255(CS255). Computación Gráfica (Obligatorio)
+CS255->alex.jcv@gmail.com,anamariacuadros@gmail.com
+% CS280T(CS280T). Aspectos sociales y profesionales de la computación (Obligatorio)
+CS280T->dmatos@ucsp.edu.pe
+% CS240S(CS240S). Compiladores (Obligatorio)
+CS240S->dennisbarrios@gmail.com
+% FG205(FG205). Historia de la Cultura (Obligatorio)
+FG205->monicawidmann@yahoo.es
+
+% Semester #9 .
+% CS403(CS403). Proyecto de Tesis (Obligatorio)
+CS403->cjdelgado@ucsp.edu.pe,jcgutierrezc@gmail.com
+% CS393(CS393). Métodos Formales (Electivo)
+CS393->e.vidal@ucsp.edu.pe
+% CS370(CS370). Tópicos en Bases de Datos (Obligatorio)
+CS370->jtejada@ucsp.edu.pe
+% CS361(CS361). Tópicos en Inteligencia Artificial (Electivo)
+CS361->raquel.patino@gmail.com
+% CS360(CS360). Computación Bioinspirada (Electivo)
+CS360->dennisbarrios@gmail.com
+% CB309(CB309). Computación Molecular Biológica (Electivo)
+CB309->criloal23@gmail.com
+% FG301(FG301). Enseñanza Social de la Iglesia (Obligatorio)
+FG301->darias@ucsp.edu.pe
+% FG221(FG221). Historia de la Ciencia y Tecnología (Obligatorio)
+FG221->tmedina@ucsp.edu.pe
+% ET101(ET101). Formación de Empresas de Base Tecnológica I (Obligatorio)
+ET101->nickingca@yahoo.es
+
+% Semester #10 .
+% CS356(CS356). Programación de Video Juegos (Electivo)
+CS356->jcgutierrezc@gmail.com
+% CS404(CS404). Seminario de Tesis (Obligatorio)
+CS404->alex.jcv@gmail.com,jcgutierrezc@gmail.com,jtejada@ucsp.edu.pe
+% FG350(FG350). Liderazgo y Desempeño (Obligatorio)
+FG350->pllerenab@isur.edu.pe
+% FG211(FG211). Ética Profesional (Obligatorio)
+FG211->yamis940@gmail.com
+% FG220(FG220). Análisis de la Realidad Peruana (Obligatorio)
+FG220->claq84@gmail.com
+% ET102(ET102). Formación de Empresas de Base Tecnológica II (Obligatorio)
+ET102->hsalasjb@hotmail.com
+

@@ -1,0 +1,110 @@
+% Semester #1 .
+% CS101F. Introducción a la Programación (Obligatorio)
+CS101F->apaz@ucsp.edu.pe,e.vidal@ucsp.edu.pe
+% CS105. Estructuras Discretas I (Obligatorio)
+CS105->luzmarina.vasquez@gmail.com,yamis940@gmail.com
+% CB101. Álgebra y Geometría (Obligatorio)
+CB101->haydect@gmail.com,mercapto_one@hotmail.com,xortix@gmail.com
+% HU102. Metodología del Estudio (Obligatorio)
+HU102->achavezc@peru.com,mprondon@gmail.com
+% HU103. Introducción a la Vida Universitaria (Obligatorio)
+HU103->ebmedina@gmail.com
+% HU101. Comunicación (Obligatorio)
+HU101->libertad_paredesv@hotmail.com
+
+% Semester #2 .
+% CS100. Introducción a la Ciencia de la Computación (Obligatorio)
+CS100->ecuadros@spc.org.pe
+% CS101O. Introducción a la Programación Orientada a Objetos (Obligatorio)
+CS101O->raquel.patino@gmail.com
+% CS106. Estructuras Discretas II (Obligatorio)
+CS106->luzmarina.vasquez@gmail.com
+% CB102. Análisis Matemático I (Obligatorio)
+CB102->luzmarina.vasquez@gmail.com
+% HU104. Fundamentos de Filosofía (Obligatorio)
+HU104->prodriguez@ucsp.edu.pe
+% HU105. Apreciación de la Música (Electivo)
+HU105->j.lovon@usp.edu.pe
+
+% Semester #3 .
+% CS102O. Objetos y Abstracción de Datos (Obligatorio)
+CS102O->criloal23@gmail.com
+% CS107. Estructuras Discretas III (Obligatorio)
+CS107->anamariacuadros@gmail.com
+% CB103. Análisis Matemático II (Obligatorio)
+CB103->anitagmamani@gmail.com
+% CB111. Física I (Obligatorio)
+CB111->rubel7523@hotmail.com
+% CS130. Introducción a Internet (Obligatorio)
+CS130->dennisbarrios@gmail.com
+% HU201. Artes Plásticas (Electivo)
+HU201->maria_alejandra@cuzzi.net
+
+% Semester #4 .
+% CS103O. Algoritmos y Estructuras de Datos (Obligatorio)
+CS103O->alex.jcv@gmail.com,grasmelo@gmail.com
+% CS211T. Teoría de la Computación (Obligatorio)
+CS211T->wilber20@gmail.com
+% CB203. Estadística y Probabilidades (Obligatorio)
+CB203->jfloresenator@gmail.com
+% CB201. Análisis Matemático III (Obligatorio)
+CB201->osorioaqp@gmail.com,luzmarina.vasquez@gmail.com
+% CB112. Física II (Obligatorio)
+CB112->enzoheredia@gmail.com
+
+% Semester #5 .
+% CS290T. Ingeniería de Software I (Obligatorio)
+CS290T->jcano@bcp.com.pe
+% CS210T. Análisis y Diseño de Algoritmos (Obligatorio)
+CS210T->criloal23@gmail.com,cjdelgado@ucsp.edu.pe
+% CS220T. Arquitectura de Computadores (Obligatorio)
+CS220T->l.lenin@ucsp.edu.pe
+% CS270T. Bases de Datos I (Obligatorio)
+CS270T->rtherrera@ucsp.edu.pe
+% CB306. Análisis Numérico (Obligatorio)
+CB306->mercapto_one@hotmail.com
+
+% Semester #6 .
+% CS390. Ingeniería de Software II (Obligatorio)
+CS390->pvelasquez@adesur.com.pe,jcano@bcp.com.pe
+% CS315. Estructuras de Datos Avanzadas (Obligatorio)
+CS315->ecuadros@spc.org.pe
+% CS343. Lenguajes de Programación (Obligatorio)
+CS343->apaz@ucsp.edu.pe
+% CS271T. Bases de Datos II (Obligatorio)
+CS271T->rtherrera@ucsp.edu.pe
+% CS260. Lógica Computacional (Obligatorio)
+CS260->wilber20@gmail.com,wilber20@gmail.com
+% CS225T. Sistemas Operativos (Obligatorio)
+CS225T->dennisbarrios@gmail.com
+
+% Semester #7 .
+% CS391. Calidad de Software (Obligatorio)
+CS391->ezarate@egasa.com.pe
+% CS255. Computación Gráfica (Obligatorio)
+CS255->alex.jcv@gmail.com
+% CB307. Matemática aplicada a la computación (Obligatorio)
+CB307->l.diaz@usp.edu.pe
+% CS401. Proyecto I (Obligatorio)
+CS401->grasmelo@gmail.com,apaz@ucsp.edu.pe
+% CB309. Computación Molecular Biológica (Obligatorio)
+CB309->grasmelo@gmail.com
+% CS250W. Interacción Humano Computador (Obligatorio)
+CS250W->anamariacuadros@gmail.com
+
+% Semester #8 .
+% CS240S. Compiladores (Obligatorio)
+CS240S->ecastrog@gmail.com
+% CS402. Proyecto II (Obligatorio)
+CS402->jcgutierrezc@gmail.com,cjdelgado@ucsp.edu.pe
+
+% Semester #9 .
+% CS230W. Computación Centrada en Redes I (Obligatorio)
+CS230W->l.lenin@ucsp.edu.pe
+% CS403. Proyecto de Tesis (Obligatorio)
+CS403->cjdelgado@ucsp.edu.pe,jcgutierrezc@gmail.com
+
+% Semester #10 .
+% CS404. Seminario de Tesis (Obligatorio)
+CS404->ecuadros@spc.org.pe,alex.jcv@gmail.com,jcgutierrezc@gmail.com
+

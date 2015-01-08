@@ -1,0 +1,43 @@
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+\begin{thebibliography}{}
+
+\bibitem[Biblia, 1975]{Biblia}
+Biblia (1975).
+\newblock {\em Sagrada Biblia}.
+\newblock Editorial Descleé de Brower Bilbao España.
+
+\bibitem[{Comisión Redactora del Catecismo}, 1993]{Catecismo}
+{Comisión Redactora del Catecismo} (1993).
+\newblock {\em Catecismo de la Iglesia Católica}.
+\newblock Conferencia Episcopal de Colombia.
+
+\bibitem[{Concilio Vaticano II}, ]{Concilio}
+{Concilio Vaticano II}.
+\newblock {\em Constitución Gaudium et spes}.
+
+\bibitem[{Consejo Pontificio para la Vida}, 2004]{Consejo}
+{Consejo Pontificio para la Vida} (2004).
+\newblock {\em Lexicón. Términos ambiguos y discutidos sobre familia, vida y
+  cuestiones éticas}.
+\newblock Ediciones Palabra.
+
+\bibitem[{Pontificio Consejo Justicia y Paz}, 2005]{Pontificio}
+{Pontificio Consejo Justicia y Paz} (2005).
+\newblock {\em Compendio de la Doctrina Social de la Iglesia}.
+
+\bibitem[Ratzinger, 2001]{Ratzinger}
+Ratzinger, J. (2001).
+\newblock {\em Introducción al Cristianismo}.
+\newblock Sígueme.
+
+\bibitem[{Santa Sede}, 1983]{SantaSede}
+{Santa Sede} (1983).
+\newblock {\em Carta de los Derechos de la Familia}.
+
+\bibitem[{S.S Juan Pablo II}, ]{JuanPabloII}
+{S.S Juan Pablo II}.
+\newblock {\em Exhortación Apostólica Post Sinodal Familiaris Consortio}.
+
+\end{thebibliography}
+\csname bt@warn@outdated\endcsname{curricula-main13}

@@ -1,0 +1,154 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: curricula-main41.aux
+The style file: apalike.bst
+Database file #1: /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+I was expecting a `,' or a `}'---line 21 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+ :   
+ :   year =   "1998"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 27 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+ :   
+ :   year =   "1985"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 108 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+ : @book{Bernedo
+ :              ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 181 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+ :   title =  "Identidad y Misión "
+ :                                 10 Años Comprometidos con el Futuro" Mensajes por el X Aniversario de la UCSP",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 273 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+ :   
+ :   note = "UCSP:262.91 J81F4"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 335 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+ :   
+ :   note = "UCSP:SU 142.78 L37"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 541 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+ :   
+ :   note = "UCSP:150.195 A128"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--string name "ediciones" is undefined
+--line 738 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+I was expecting a `,' or a `}'---line 738 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+ :   publisher =ediciones 
+ :                        Paidos Iberica",
+I'm skipping whatever remains of this entry
+Repeated entry---line 1043 of file /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG101.bib
+ : @book{JuanPabloII1998
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author, editor, or key in Identidad
+Warning--to sort, need author, editor, or key in HomoCapax
+Warning--empty author and editor in HomoCapax
+Warning--empty year in HomoCapax
+Warning--empty publisher in HomoCapax
+Warning--empty author and editor in Identidad
+Warning--empty year in Identidad
+Warning--empty publisher in Identidad
+Warning--empty year in Amengual
+Warning--empty publisher in Amengual
+Warning--empty year in Aristoteles
+Warning--empty publisher in Aristoteles
+Warning--empty year in Buber
+Warning--empty publisher in Buber
+Warning--empty publisher in Buendia
+Warning--empty year in CARRAZCO
+Warning--empty publisher in CARRAZCO
+Warning--empty year in StoTomas
+Warning--empty publisher in StoTomas
+Warning--empty year in SanAnselmo
+Warning--empty publisher in SanAnselmo
+Warning--empty year in ReydeCastro
+Warning--empty publisher in ReydeCastro
+Warning--empty year in ReydeCastro2
+Warning--empty publisher in ReydeCastro2
+Warning--empty year in Unamuno
+Warning--empty publisher in Unamuno
+Warning--empty year in Droste
+Warning--empty publisher in Droste
+Warning--empty year in Fromm
+Warning--empty publisher in Fromm
+Warning--empty year in GARAYCOCHEA
+Warning--empty publisher in GARAYCOCHEA
+Warning--empty year in DeiVerbum
+Warning--empty publisher in DeiVerbum
+Warning--empty year in VaticanoIILumen
+Warning--empty publisher in VaticanoIILumen
+Warning--empty publisher in JuanPabloC
+Warning--empty publisher in JuanPabloB
+Warning--empty publisher in Lego
+Warning--empty year in Marcel
+Warning--empty publisher in Marcel
+Warning--empty publisher in MorandeCFP
+Warning--empty publisher in MorandeP2
+Warning--empty publisher in MorandeP
+Warning--empty publisher in Congregacion1
+Warning--empty publisher in Congregacion2
+Warning--empty year in Congregacion
+Warning--empty publisher in Congregacion
+Warning--empty publisher in Diario
+Warning--empty publisher in Conferencia
+Warning--empty year in GarciaQuesada
+Warning--empty publisher in GarciaQuesada
+Warning--empty year in principito
+Warning--empty publisher in principito
+Warning--empty year in Edith
+Warning--empty publisher in Edith
+Warning--empty year in Wojtyla2
+Warning--empty publisher in Wojtyla2
+Warning--empty year in Wojtyla
+Warning--empty publisher in BenedictoRatisbona
+Warning--empty publisher in Benedicto2011
+Warning--empty year in GarciaCuadrado
+Warning--empty publisher in GarciaCuadrado
+You've used 153 entries,
+            1935 wiz_defined-function locations,
+            1217 strings with 15714 characters,
+and the built_in function-call counts, 42367 in all, are:
+= -- 3825
+> -- 1105
+< -- 153
++ -- 323
+- -- 318
+* -- 2726
+:= -- 7772
+add.period$ -- 441
+call.type$ -- 153
+change.case$ -- 772
+chr.to.int$ -- 148
+cite$ -- 219
+duplicate$ -- 2145
+empty$ -- 3531
+format.name$ -- 485
+if$ -- 8297
+int.to.chr$ -- 6
+int.to.str$ -- 0
+missing$ -- 303
+newline$ -- 748
+num.names$ -- 453
+pop$ -- 1292
+preamble$ -- 1
+purify$ -- 924
+quote$ -- 0
+skip$ -- 1475
+stack$ -- 0
+substring$ -- 1838
+swap$ -- 155
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 614
+warning$ -- 64
+while$ -- 302
+width$ -- 0
+write$ -- 1777
+(There were 9 error messages)

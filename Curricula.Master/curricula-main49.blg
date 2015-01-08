@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: curricula-main49.aux
+The style file: apalike.bst
+Database file #1: /home/ecuadros/Articles/2015/Curricula2015/../Curricula2015.in/lang/Espanol/cycle/2015-1/Syllabi/GeneralEducation/FG204.bib
+Warning--there's a number but no volume in arrayas2006
+Warning--empty journal in XVI2011
+Warning--empty journal in Homo
+You've used 27 entries,
+            1935 wiz_defined-function locations,
+            601 strings with 6102 characters,
+and the built_in function-call counts, 7478 in all, are:
+= -- 693
+> -- 189
+< -- 29
++ -- 55
+- -- 54
+* -- 481
+:= -- 1396
+add.period$ -- 78
+call.type$ -- 27
+change.case$ -- 144
+chr.to.int$ -- 26
+cite$ -- 30
+duplicate$ -- 367
+empty$ -- 604
+format.name$ -- 81
+if$ -- 1450
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 45
+newline$ -- 135
+num.names$ -- 81
+pop$ -- 193
+preamble$ -- 1
+purify$ -- 162
+quote$ -- 0
+skip$ -- 273
+stack$ -- 0
+substring$ -- 349
+swap$ -- 25
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 122
+warning$ -- 3
+while$ -- 56
+width$ -- 0
+write$ -- 325
+(There were 3 warnings)

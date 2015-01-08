@@ -1,0 +1,3028 @@
+Nombre:DS1 Funciones, Relaciones y Conjuntos
+
+Horas:6
+
+Tópicos:
+
+(inicio_topico)
+ Funciones (surjeción, injección, inversos, composición)
+ Relaciones (reflexibilidad, simetría, transitividad, relaciones de equivalencia)
+ Conjuntos (Diagramas de Venn, complementos, Producto cartesiano, conjuntos potencia)
+ Principio de las casillas (\textit{pigeonhole})
+ Cardinalidad y Conteo
+(fin_topico)
+
+Objetivos:
+
+(inicio_objetivo)
+1.-Explicar con ejemplos la terminología básica de funciones, relaciones y conjuntos
+2.-Desarrollar las operaciones asociadas con conjuntos, funciones y relaciones
+3.-Relacionar ejemplos prácticos al modelo apropiado de conjunto, función o relación e interpretar la operación asociada y terminología en el contexto
+4.-Demostrar los principios básicos del conteo, incluyendo el uso de la diagonalización y el principio de las casillas (\textit{pigeonhole}) 
+(fin_objetivo)
+
+Nombre:DS2  Lógica Básica
+
+Horas:10
+
+Tópicos:
+
+(inicio_topico)
+Lógica proposicional
+Conectivos lógicos
+Tablas de verdad
+Formas normales (conjuntiva y disyuntiva)
+Validación
+Lógica de predicados
+Cuantificación universal y existencial
+Modus ponens y modus tollens
+Limitaciones de la lógica de predicados
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Aplicar métodos formales de lógica simbólica proposicional y de predicados
+2.-Describir como las herramientas formales de lógica simbólica son utilizadas para modelar algoritmos en situaciones reales
+3.-Usar demostraciones lógico-formales y razonamiento lógico para solucionar problemas tales como rompecabezas (\textit{puzzles})
+4.-Describir la importancia y limitaciones de la lógica de predicados
+(fin_objetivo)
+
+Nombre:DS3. Técnicas de Validación
+
+Horas:12
+
+Tópicos:
+
+(inicio_topico)
+Nociones de implicación, converso, inversa, contrapositiva, negación y contradicción
+Estructura de pruebas formales
+Pruebas Directas
+Pruebas y contra-ejemplos
+Pruebas por contraposición
+Pruebas por contradicción
+Inducción Matemática
+Inducción fuerte
+Definiciones matemáticas recursivas
+El principio del buen orden
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Bosquejar la estructura básica y dar ejemplos de cada tipo de prueba descrita en esta unidad
+2.-Discutir que tipo de prueba es mejor para un problema dado
+3.-Relacionar las ideas de inducción matemática con la recursividad y con estructuras definidas recursivamente
+4.-Identificar las diferencias entre inducción matemática e inducción fuerte dando ejemplos de su apropiado uso en cada caso
+(fin_objetivo)
+
+Nombre:DS4  Conceptos Básicos de Conteo
+
+Horas:5
+
+Tópicos:
+(inicio_topico)
+Argumentos de conteo
+(inicio_sub_topico)
+-Reglas de suma y producto
+-Principios de inclusión y exclusión
+-Progresiones aritméticas y geométricas
+-Números de Fibonacci
+(fin_sub_topico)
+Principio de las casillas (\textit{pigeonhole})
+Permutaciones y combinaciones
+(inicio_sub_topico)
+-Definiciones básicas
+-Identidad de Pascal
+-El teorema del binomio
+(fin_sub_topico)
+Solución de relaciones de recurrencia
+(inicio_sub_topico)
+-Ejemplos comunes
+-El teorema maestro
+(fin_sub_topico)
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Calcular permutaciones y combinaciones de un conjunto e interpretar el significado en el contexto de la aplicación particular
+2.-Establecer la definición del Teorema Maestro
+3.-Solucionar una clase de ecuaciones recurrentes básicas
+4.-Analizar un problema para crear ecuaciones de recurrencia relevantes o identificar preguntas importantes de conteo
+(fin_objetivo)
+
+Nombre:DS5. Gráfos y Árboles
+
+Horas:4
+
+Tópicos:
+(inicio_topico)
+Árboles
+Grafos no dirigidos
+Grafos dirigidos
+Árboles de expansión
+Estrategias de recorrido (\textit{traversal strategies})
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Ilustrar con ejemplos la terminología básica de teoría de grafos, y algunas de las propiedades y casos especiales de cada una
+2.-Mostrar diferentes métodos de recorrido en árboles y grafos
+3.-Modelar problemas en Ciencias de la Computación usando grafos y árboles
+4.-Relacionar grafos y árboles con estructura de datos, algoritmos y conteo
+(fin_objetivo)
+
+Nombre:DS6  Probabilidad Discreta
+
+Horas:6
+
+Tópicos:
+(inicio_topico)
+Espacios de probabilidad finita, medidas de probabilidad, eventos
+Probabilidad condicional, independencia, Teorema de Bayes
+Variables aleatorias enteras, esperanza
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Calcular las probabilidades de eventos y la esperanza de variables aleatorias para problemas elementales como juegos de azar
+2.-Diferenciar entre eventos dependientes e indepedientes
+3.-Aplicar el teorema del binomio a eventos independientes y el teorema Bayes a eventos dependientes
+4.-Aplicar las herramientas de probabilidad para resolver problemas tales como el método de Monte Carlo y el análisis de caso promedio de algoritmos, y (\textit{hashing})
+(fin_objetivo)
+
+Nombre:PF1. Fundamentos de  Programación
+
+Horas:9 
+
+Tópicos:
+(inicio_topico)
+Sintaxis básica y semántica de un lenguaje de más alto nivel
+Variables, tipos, expresiones, y asignaciones
+Entrada y salida simple
+Estructuras de control condicionales e iterativas
+Funciones y paso de parámetros
+Descomposición estructurada
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Analizar y explicar el comportamiento de programas simples involucrando las estructuras de programación fundamental cubiertas por esta unidad
+2.-Modificar y extender programas cortos que usan condicionales estándar, estructuras de control iterativo y funciones
+3.-Diseñar, implementar, probar y depurar un programa que use cada una de  las siguientes estructuras fundamentales de programación: cálculos básicos, entrada y salida simple, estructuras estándar condicionales e iterativas y definición de funciones
+4.-Escoger la estructura apropiada condicional y/o iterativa para una estructura de programación dada
+5.-Aplicar técnicas de descomposición  estructurada o funcional para dividir un programa en pequeñas partes
+6.-Describir los mecanismos de paso de parámetros
+(fin_objetivo)
+
+Nombre:PF2. Algoritmos y Resolución de Problemas
+
+Horas:6 
+
+Tópicos:
+(inicio_topico)
+Estrategias para la solución de problemas
+El rol de los algoritmos en el proceso de solución de problemas
+Estrategias de implementación para algoritmos
+Estrategias de depuración
+El Concepto y propiedades de algoritmos
+(fin_topico)
+
+Objetivos  Aprendidos
+(inicio_objetivo)
+1.-Discutir la importancia de los algoritmos en el proceso de solución de problemas
+2.-Identificar las propiedades necesarias de un buen algoritmo
+3.-Crear algoritmos para resolver  problemas simples
+4.-Usar pseudocódigo o un lenguaje de programación para implementar, probar y depurar algoritmos para resolver problemas simples
+5.-Describir estrategias útiles para depuración
+(fin_objetivo)
+
+Nombre:PF3 Estructuras de Datos Fundamentales
+
+Horas:14
+
+Topicos:
+
+(inicio_topico)
+Tipos primitivos
+Arreglos
+Registros
+Cadenas y procesamiento de cadenas
+Representación de datos en memoria
+Asignación de memoria estática, en la pila y en el montículo (\textit{heap})
+Administración del almacenamiento en tiempo de ejecución
+Punteros y referencias
+Estructuras enlazadas
+Estrategias de implementación para pilas, colas y tablas \textit{hash}
+Estrategias de implementación para grafos y árboles
+Estrategias para escoger la estructura de datos correcta
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Discutir la representación y uso de tipos de datos primitivos y estructuras de datos incorporadas en el lenguaje
+2.-Describir como la estructuras de datos en la lista de temas son asignadas y usadas en memoria
+3.-Describir aplicaciones comunes para cada estructura de datos en la lista de temas
+4.-Implementar estructuras de datos  definidas por el usuario en un lenguaje de alto nivel
+5.-Comparar implementaciones alternativas de estructuras de datos considerando su desempeño
+6.-Escribir programas que usan cada una de las siguientes estructuras de datos: arreglos, registros, cadenas, listas enlazadas, pilas, colas y tablas \textit{hash}
+7.-Comparar y contrastar los costos y beneficios de las implementaciones dinámicas y estáticas de las estructuras de datos
+8.-Escoger la estructura de datos apropiada para modelar un problema dado
+(fin_objetivo)
+
+Nombre:PF4  Recursividad
+
+Horas:5
+
+Tópicos:
+(inicio_topico)
+El concepto de recursividad
+Funciones matemáticas recursivas
+Procedimientos recursivos simples
+Estrategias de dividir y conquistar
+Backtracking recursivo
+Implementación de recursividad
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Describir el concepto de recursividad y dar ejemplos de su uso
+2.-Identificar el caso base y el caso general de un problema definido recursivamente
+3.-Comparar soluciones iterativas y recursivas para problemas elementales tal como factorial
+4.-Describir la técnica dividir y conquistar
+5.-Implementar, probar y depurar funciones y procedimientos recursivos simples
+6.-Describir como la recursividad puede ser implementada usando una pila
+7.-Discutir problemas para los cuales el backtracking es una solución apropiada
+8.-Determinar cuando una solución recursiva es apropiada para un problema
+(fin_objetivo)
+
+Nombre:PF5 Programación Orientada a Eventos
+
+Horas:4
+
+Tópicos:
+(inicio_topico)
+Métodos para la manipulación de eventos
+Propagación de eventos
+Manejo de excepciones
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Explicar la diferencia entre programación orientada a eventos y programación por línea de comandos
+2.-Diseñar, codificar, probar y depurar programas de manejo de eventos simples que respondan a eventos del usuario
+3.-Desarrollar código que responda a las condiciones de excepción lanzadas durante la ejecución
+(fin_objetivo)
+
+Nombre:AL1.  Análisis de Algoritmos Básicos
+
+Horas:4
+
+Tópicos:
+(inicio_topico)
+Análisis asintótico de límites en los casos promedio y superior
+Identificar la diferencias entre casos de mejor, mediano y peor comportamiento
+Notación grande O, pequeña o, omega y theta
+Clases de complejidad estándar
+Medidas empíricas de desempeño
+Cambios de tiempo y espacio en algoritmos
+Usar relación de recurrencia para analizar algoritmos recursivos
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Explicar el uso de anotaciones big O, omega y theta para describir la cantidad de trabajo hecha por un algoritmo
+2.-Usar anotaciones big O, omega y theta y dar límites superior, bajos y estrechos en complejidad de algoritmos en tiempo y espacio
+3.-Determinar la complejidad de tiempo y espacios de algoritmos simples
+4.-Deducir relación de recurrencia que describe la complejidad de tiempo de algoritmos definidos recursivamente
+5.-Solucionar relaciones de recurrencia elemental
+(fin_objetivo)
+
+Nombre:AL2 Estrategias Algorítmicas
+
+Horas:6 
+
+Tópicos:
+(inicio_topico)
+Algoritmos de fuerza bruta (\textit{brute-force})
+Algoritmos golosos (\textit{greedy})
+Dividir y coquistar
+Regresión (\textit{Backtracking})
+Bifurcación y límites
+Heurísticas
+Casamiento de patrones y algoritmos de cadenas/texto
+Algoritmos de aproximación numérica
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Describir el defecto de los algoritmos de fuerza bruta
+2.-Para cada una de las diferentes clases de algoritmos (fuerza bruta, golosos, dividir y conquistar, regresión, bifurcación y límites, y heurístico), identificar un ejemplo del comportamiento humano cotidiano que ejemplifique el concepto básico
+3.-Implementar un algoritmo goloso para solucionar un problema dado
+4.-Implementar un algoritmo de dividir y conquistar para solucionar un problema apropiado
+5.-Utilizar regresión para solucionar problemas tal como el de navegación en un laberinto
+6.-Describir varios métodos de solución de problemas heurísticos
+7.-Utilizar casamiento de patrones para analizar subcadenas
+8.-Utilizar aproximación numérica para resolver problemas matemáticos, tal como el de encontrar las raíces de un polinomio
+(fin_objetivo)
+
+Nombre:AL3 Algoritmos de Computación Fundamental
+
+Horas:12
+
+Tópicos:
+(inicio_topico)
+Algoritmos numéricos simples
+Búsqueda secuencial y binaria
+Algoritmos cuadráticos de ordenamiento (selección, inserción)
+Algoritmos de tipo O(N log N) (Quicksort, heapsort, mergesort)
+Tablas (\textit{hash}) incluyendo estrategias de solución para las coliciones
+Árboles de búsqueda binaria
+Representación de grafos (Listas y Matrices de adyacencia)
+Recorridos por amplitud y profundidad
+El algoritmo del camino más corto (algoritmos de Dijkstra y Floyd)
+Cerradura transitiva (algoritmo de Floyd)
+Árbol de expansión mínima (algoritmos de Kruskal y Prim)
+Ordenamiento Topológico
+(fin_topico)
+
+(inicio_objetivo)
+1.-Implementar los algoritmos cuadráticos más comunes y los algoritmos de ordenamiento O(N log N)
+2.-Diseñar e implementar una función (\textit{hash}) apropiada para una aplicación
+3.-Diseñar e implementar un algoritmo de resolución de colisiones para tablas hash
+4.-Discutir la eficiencia computacional de los principales algoritmos de ordenamiento, búsqueda y (\textit{hashing})
+5.-Discutir factores distintos a la eficiencia computacional que influyen en la elección de los algoritmos, tales como tiempo de programación, mantenibilidad y el uso de patrones específicos de aplicación en los datos de entrada
+6.-Resolver problemas usando los algoritmos de grafos fundamentales, incluyendo búsqueda por amplitud y profundidad; caminos más cortos con una fuente y con múltiples fuentes, cerradura transitiva, ordenamiento topológico, y al menos un algoritmo de árbol de expansión mínima
+7.-Demostrar las siguientes capacidades: evaluar algoritmos, seleccionar una opción de un rango posible, proveer una justificación para tal elección e implementar el algoritmo. 
+(fin_objetivo)
+
+Nombre:AL4. Algoritmos Distribuidos
+
+Horas: 3
+
+(inicio_topico)
+Consenso y elección
+Detección de terminación
+Tolerancia a fallas
+Estabilización
+(fin_topico)
+
+(inicio_objetivo)
+1.-Explicar el paradigma distribuido
+2.-Explicar un algoritmo distribuido simple
+3.-Determinar cuando usar los algoritmos de consenso o elección
+4.-Distinguir entre relojes físicos y lógicos
+5.-Describir el ordenamiento relativo de eventos en un algoritmo distribuido
+(fin_objetivo)
+
+Nombre:AL5. Computabilidad Básica 
+
+Horas: 6
+
+(inicio_topico)
+Máquinas de estado finito
+Gramáticas libres del contexto
+Problemas tratables e intratables
+Funciones no computables
+El problema de la parada
+Implicaciones de la no-computabilidad
+(fin_topico)
+
+(inicio_objetivo)
+1.-Discutir el concepto de máquinas de estado finito
+2.-Explicar las gramáticas libres de contexto
+3.-Diseñar una máquina de estados finitos determinística para aceptar un lenguage específico
+4.-Explicar cómo algunos problemas no tienen solución algorítmica
+5.-Proveer ejemplos que ilustren el concepto de no-computabilidad
+(fin_objetivo)
+
+Nombre:AL6. Clases de Complejidad P y NP
+(inicio_topico)
+Definición de las clases P y NP
+NP-completitud (El teorema de Cook)
+Problemas NP-completos estándares
+Técnicas de reducción
+(fin_topico)
+
+(inicio_objetivo)
+1.-Definir las clases P y NP
+2.-Explicar el significado de la NP-Completitud
+3.-Probar que un problema es NP-completo a partir de la reducción de un problema NP-Completo clásico conocido
+(fin_objetivo)
+
+Nombre:AL7. Teoría de Autómatas
+
+(inicio_topico)
+Autómatas finitos deterministas (DFA)
+Autómatas finitos no deterministas (NFA)
+Equivalencias entre los DFA y NFA
+Expresiones regulares
+El teorema del bombeo (\textit{pumping}) para expresiones regulares
+Autómatas de pila (PDA)
+Relación entre los PDA y las gramáticas libres del contexto
+Propiedades de las gramáticas libres del contexto
+Máquinas de Turing
+Máquinas de Turing no determinísticas
+Conjuntos y lenguajes
+La jerarquía de Chomsky
+La tesis de Church-Turing
+(fin_topico)
+
+(inicio_objetivo)
+1.-Determinar la localización de un lenguaje en la jerarquía de Chomsky (conjuntos regulares, libres del contexto, sensibles al contexto y lenguajes enumerables recursivos)
+2.-Probar que un lenguaje se encuentra en una clase específica y que este no se encuentra en la siguiente clase inferior
+3.-Conversiones entre notaciones potentes equivalentes para un lenguaje, incluyendo conversiones entre DFAs, NFAs, y expresiones regulares, y entre PDA y CFG
+4.-Explicar al menos un algoritmo de \textit{parsing top-down} (de análisis de arriba hacia abajo) o \textit{bottom-up} (de análisis abajo hacia arriba)
+5.-Explicar la tesis de Church-Turing y su importancia
+(fin_objetivo)
+
+Nombre:AL8. Análisis Avanzado de Algoritmos
+(inicio_topico)
+Análisis amortizado
+Algoritmos en línea (\textit{online}) y fuera de línea (\textit{offline})
+Algoritmos aleatorios
+Programación dinámica
+Optimización combinatoria
+(fin_topico)
+
+(inicio_objetivo)
+1.-Usar el método potencial para proveer un análisis amortizado sobre una estructura de datos no vista previamente, dando la función potencial
+2.-Explicar porqué el análisis competitivo es una medida apropiada para los algoritmos en línea
+3.-Explicar el uso de aleatorización en el diseño de algoritmos para un problema donde un algoritmo determinístico es desconocido o mucho más difícil
+4.-Diseñar e implementar soluciones con programación dinámica para un problema
+(fin_objetivo)
+
+Nombre:AL9. Algoritmos Criptográficos
+(inicio_topico)
+Revisión histórica de la criptografía
+Criptografía de llaves privadas y el problema del intercambio de llaves
+Criptografía de llaves públicas
+Firmas digitales
+Protocolos de seguridad
+Aplicaciones (pruebas de cero-conocimiento, autenticación y otros)
+(fin_topico)
+(inicio_objetivo)
+1.-Describir algoritmos numérico-teóricos básicos eficientes, incluyendo el máximo común divisor, inversa multiplicativa mod n, y elevar a potencias mod n
+2.-Describir al menos un cripto-sistema de llave pública, incluyendo una presunsición necesaria de complejidad teórica sobre su seguridad
+3.-Crear extensiones simples de protocolos criptográficos, usando protocolos conocidos y primitivas criptográficas
+(fin_objetivo)
+
+Nombre:AL10. Algoritmos Geométricos
+(inicio_topico)
+Segmentos de líneas: propiedades, intersecciones
+Algoritmos de búsqueda \textit{convex hull}
+(fin_topico)
+
+(inicio_objetivo)
+1.-Describir y obtener un análisis del tiempo para al menos dos algoritmos de búsqueda de un convex hull
+2.-Justificar la cota inferior Omega(N log N) para encontrar el convex hull
+3.-Describir adicionalmente al menos un algoritmo geométrico computacional eficiente, tal como el de encontrar el par más cercano de puntos, capas convexas o capas máximas
+(fin_objetivo)
+
+Nombre:AL11. Algoritmos Paralelos
+(inicio_topico)
+El modelo PRAM
+Lecturas y escrituras exclusivas y concurrentes
+Salto de punteros
+El teorema de Brent y el trabajo eficiente
+(fin_topico)
+(inicio_objetivo)
+1.-Describir la implementación de lístas enlazadas en un PRAM
+2.-Usar operaciones prefijas-paralelas para implementar cálculos simples eficientes en paralelo
+3.-Explicar el teorema de Brent y su relevancia
+(fin_objetivo)
+
+Nombre:AR1. L\'ogica Digital y Sistemas Digitales 
+
+Horas:6 
+
+Tópicos:
+(inicio_topico)
+Vista panorámica e historia de la arquitectura de computadores
+Bloques fundamentales de construcción (compuertas lógicas, flip-flops, contadores, registros)
+Expresiones lógicas, minimización, suma de formas de productos
+Notación  de transferencia de registro
+Consideraciones físicas (compuertas de demora, \textit{fan-in}, \textit{fan-out})
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Describe la progresión de la arquitectura del computador desde tubos de vacío a VLSI
+2.-Demostrar cierto entendimiento de los bloques de construcción básicos y su rol en el desarrollo histórico de la arquitectura del computador
+3.-Uso de expresiones matemáticas para describir las funciones combinacionales simples y circuitos secuenciales
+4.-Diseñar un circuito simple usando los bloques de construcción fundamentales
+(fin_objetivo)
+
+Nombre:AR2. Representación de Datos a Nivel de M\'aquina
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Bits, bytes y palabras
+Representación datos numéricos  y bases numéricas
+Sistemas de punto flotante y fijos
+Representacion de complemento a dos y señalizada
+Representación de datos no numéricos  (código de caracteres, datos gráficos)
+Representación de  registros y arrays
+(fin_topico)
+
+(inicio_objetivo)
+1.-Explicar la razón de uso de diferentes formatos para representar datos numéricos
+2.-Explicar como los enteros negativos son almacenados en las representaciones de complemento a dos y señalizada
+3.-Convertir datos numéricos de un formato a otro
+4.-Discutir como la representación de números de longitud fija afecta la precisión y exactitud
+5.-Describir la representación interna de datos no numéricos
+6.-Descripción de la representación interna de caracteres, cadenas, registros y arreglos
+(fin_objetivo)
+
+Nombre:AR3. Organización de M\'aquina a Nivel de Ensamble
+
+Horas:9
+
+Tópicos:
+(inicio_topico)
+Organización básica de la máquina de Von Neumann
+Unidad de control, instrucción de búsqueda (\textit{fetch}), decodificación, y ejecución
+Conjuntos de instrucción y tipos (manipulación de datos, control de entrada y salida)
+Lenguaje de programación de máquina y ensamblador
+Formatos de instrucciones
+Modos de direccionamiento
+Llamada de subrutinas y retorno de mecanismos
+Entradas/salidas e interrupciones
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar la organización de la máquina clásica de Von Neumann y su unidad funcional mayor
+2.-Explicar como una instrucción es ejecutada en una máquina clásica de Von Neumann
+3.-Resumir  como las instrucciones son representadas tanto a nivel de máquina y en el contexto simbólico de ensamblaje
+4.-Explicar los diferentes formatos de instruciones, tales como dirección por instrucción, formatos de longitud variable vs. formatos de longitud fija
+5.-Escribir segmentos simples de programa en lenguaje ensamblador
+6.-Demostrar como la construcción de lenguajes de programación de alto nivel fundamentales son implementados a nivel de lenguaje de máquina
+7.-Explicar como las llamadas a subrutinas son manejadas a nivel de ensamblador
+8.-Explicar los conceptos básicos de interrupciones y operaciones de entrada/salida. 
+(fin_objetivo)
+
+Nombre:AR4. Organización de Sistemas de Memoria y Arquitectura
+
+Horas:9
+
+Tópicos:
+(inicio_topico)
+Sistemas de almacenamiento y su tecnología
+Codificación, compresión de datos e integridad de datos
+Jerarquía de memoria
+Organización de la memoria principal y operaciones
+Latencia, ciclos de tiempo, ancho de banda e interposición
+Memorias cache, (mapeo de direcciones, tamaño de bloques, políticas de reemplazo y almacenamiento)
+Memoria Virtual (tablas de paginación, TBL)
+Manejo de fallas y confiabilidad
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Identificar los tipos principales de la tecnologia de memoria
+2.-Explicar el efecto de latencia de memoria en tiempo de ejecución
+3.-Explicar el uso de jerarquía de memoria  para reducir la latencia de memoria efectiva
+4.-Describir los principios de administracion de memoria
+5.-Describir el rol de la memoria cache y virtual
+6.-Explicar el trabajo de un sistema con gerenciamiento de memoria virtual
+(fin_objetivo)
+
+Nombre:AR5. Comunicación e Interfase
+
+Horas:9
+
+Tópicos:
+(inicio_topico)
+Fundamentos de entrada y salida: \textit{buffering}, \textit{handshaking}, entradas y salidas programadas, entradas y salidas manejadas por interrupciones
+Estructuras de interrupción: vectorizadas y priorizadas, reconocimiento de una interrupción
+Almacenamiento externo, organización física y \textit{drivers}
+Buses: protocolos de buses, arbitraje, acceso directo a memoria (DMA)
+Introducción a redes
+Soporte multimedia
+Arquitecturas RAID
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar como las interrupciones son usadas para implementar control de entrada/salida y transferencia de datos
+2.-Indentificar varios tipos  de buses en un sistema de computador
+3.-Describir el acceso a datos desde discos magnéticos
+4.-Comparar las configuraciones de redes comunes
+5.-Identificar las interfaces necesarias  para soporte multimedia
+6.-Describir las ventajas y limitaciones de las arquitecturas RAID
+(fin_objetivo)
+
+Nombre:AR6. Organización Funcional
+
+Horas:7
+
+Tópicos:
+(inicio_topico)
+Implementación de caminos de datos simples
+Unidad de control: entendimiento de incrustación en el hardware vs. microprogramación
+Instrucción de \textit{pipelining}
+Introducción al paralelismo a nivel de instrucción (IPL)
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Comparar implementaciones alternativas de caminos de datos
+2.-Discutir el concepto de puntos de control y generación de señales de control usando incrustación en el hardware o microprogramación
+3.-Explicar el paralelismo a nivel de instrucciones básicas usando \textit{pipelining} y explicar los principales riesgos del uso
+(fin_objetivo)
+
+
+Nombre:AR7. Multiprocesamiento y Arquitecturas Alternativas
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Introducción a SIMD, MIMD, VLIW, EPIC
+Arquitectura sistólica
+Interconección de redes (Hipercubo, intercambio aleatorio, malla, barra transversal )
+Sistemas de memoria compartida
+Coherencia de cache
+Modelos de memoria y consistencia de memoria
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Discutir el concepto de procesamiento paralelo mas allá del modelo clásico de Von Meumann
+2.-Describir arquitecturas alternativas tales como SIMD, MIMD, y VLIW
+3.-Explicar el concepto de interconexión de redes y caracterizar diferentes métodos
+4.-Discutir las características especiales que los sistemas de multiprocesamiento presentan con respecto a la administración de memoria y describir como estas son direccionadas
+(fin_objetivo)
+
+Nombre:AR8. Mejora del Desempeño
+
+Tópicos:
+(inicio_topico)
+Arquitectura superescalar
+Predicción de la ramificación
+Prebúsqueda (\textit{prefetching})
+Ejecución especulativa
+Multi-hebras
+Escalabilidad
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Describir arquitecturas superescalares y sus ventajas
+2.-Explicar el concepto de predicción de ramificación y su utilidad
+3.-Caracterizar el costo y los beneficios de prebúsqueda
+4.-Explicar la ejecución especulativa e identificar las condiciones que la justifican
+5.-Discutir las ventajas en el desempeño que las multihebras pueden ofrecer en una arquitectura, además de los factores que dificultan obtener el máximo beneficio de este método
+6.-Describir la relevancia de la escalabilidad para el desempeño
+(fin_objetivo)
+
+
+Nombre:AR9. Arquitectura para Redes y Sistemas Distribu\'idos
+
+Tópicos:
+(inicio_topico)
+Introducción a LANs y WANs
+Diseño de protocolos por capas ISO/OSI, IEEE 802
+Impacto de los tópicos arquitecturales sobre los algoritmos distribuidos
+Computación de redes
+Multimedia Distribuida
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Explicar los componentes básicos de sistemas de redes y distinguir entre LANs y WANs
+2.-Discutir los tópicos arquitecturales relacionados con el diseño de un protocolos de red por capas
+3.-Explicar en qué se diferencian las arquitecturas de redes y de sistemas distribuidos
+4.-Discutir los tópicos arquitecturales relacionados con computación de redes y multimedia distribuida
+(fin_objetivo)
+
+Nombre:OS1.  Visión General de los Sistemas Operativos 
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Rol y propósito de los sistemas operativos
+Historia del desarrollo de los sistemas operativos
+Funcionalidad de un sistema operativo típico
+Mecanismos de soporte a modelos cliente-servidor, dispositivos \textit{hand-held}
+Tópicos de Diseño (eficiencia, robustez, flexibilidad, portabilidad, seguridad, compatibilidad)
+Influencias de la seguridad, redes, multimedia, ventanas
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar los objetivos y funciones de los sistemas operativos modernos
+2.-Describir como los sistemas operativos han evolucionado en el tiempo desde sistemas primitivos batch a sofisticados sistemas multiusuarios
+3.-Analizar las ventajas y desventajas inherentes en el diseño de sistemas operativos
+4.-Describir las funciones de un sistema operativo contemporáneo con respecto a la conveniencia, eficiencia y la habilidad para evolucionar
+5.-Discutir sistemas operativos de tipos: distribuido, para redes y ciente-servidor, y como ellos difieren  de un sistema operativo para un usuario
+6.-Identificar las amenazas potenciales a sistemas operativos y las características de seguridad diseñadas para resguardarlos
+7.-Describir como los temas tales como el software de código abierto y el incremento del uso de Internet están influenciando en el diseño de sistemas operativos
+(fin_objetivo)
+
+Nombre:OS2. Principios de los Sistemas Operativos
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Métodos Estructurados (monolíticos, por capas, modulares, modelos de microkernel)
+Abstracciones, procesos y recursos
+Conceptos de APIs
+Necesidad de las aplicaciones  y evolución de las técnicas de hardware y software
+Organización de dispositivos
+Interrupciones: métodos e implementaciones
+Concepto de estado de usuario/sistema y protección, transición al modo Kernel
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar el concepto de una capa lógica
+2.-Explicar los beneficios de la construcción de capas abstractas en las formas jerárquicas
+3.-Defender la necesidad de APIs y \textit{middleware}
+4.-Describir como los recursos computacionales son utilizados por software de aplicación  y administrados por software del sistema
+5.-Contrastar el modo usuario y el modo kernel en un sistema operativo
+6.-Discutir las ventajas y desventajas de utilizar procesamiento de interrupciones
+7.-Comparar y contrastar las diversas formas de estructurar un sistema operativo tales como orientado a objetos, modular, microkernel, y por capas
+8.-Explicar el uso de un conjunto de dispositivos y drivers de entrada y salida
+(fin_objetivo)
+
+Nombre:OS3.  Concurrencia
+
+Horas:6
+
+Tópicos:
+(inicio_topico)
+Estados y diagramas de estados
+Estructuras (lista, bloques de control de procesos, etc. )
+Despachos y conmutación según el contexto
+El rol de las interrupciones
+Ejecución concurrente: ventajas y desventajas
+El problema de exclusión mutua y algunas soluciones
+Deadlock: causas, condiciones y prevención
+Modelos y mecanismos (semáforos, monitores, variables de condición y \textit{rendezvous})
+Problemas del consumidor-productor y sincronización
+Problemas de multiprocesamiento (Spin-Locks, reentrada)
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Describir la necesidad de la concurrencia dentro de la estructura de un sistema operativo
+2.-Demostrar los problemas potenciales en tiempo de ejecución originados por la operación concurrente de muchas tareas separadas
+3.-Resumir la gama de mecanismos que pueden ser empleados en el nivel de sistemas operativos para entender los sistemas concurrentes y describir los beneficios de cada uno
+4.-Explicar los diferentes estados que una tarea podría atravesar y las estructuras de datos necesarias para soportar la administración de muchas tareas
+5.-Listar los diferentes métodos para resolver el problema de la exclusión mutua en un sistema operativo
+6.-Describir las razones por las cuales utilizar interrupciones, despachos y cambio de contexto para soportar la concurrencia en un sistema operativo
+7.-Crear estados y diagramas de transición para el dominio de problemas simples
+8.-Discutir la utilidad de estructuras de datos, tales como pilas y colas en el manejo de concurrencia
+9.-Explicar las condiciones  que nos conducen al \textit{deadlock}
+(fin_objetivo)
+
+Nombre:OS4. Calendarización y Despacho 
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Planeamiento preventivo y no preventivo
+Planeamiento y políticas
+Procesos y hebras
+\textit{Deadlines} y problemas de tiempo real
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Comparar y contrastar los algoritmos comunes usados para el planeamiento preventivo y no preventivo de tareas en sistemas operativos, tales como prioridad, desempeño, comparación y esquemas de partición justa
+2.-Describir las relaciones entre los algoritmos de planeamiento y dominios de aplicación
+3.-Discutir los tipos de planeamiento del procesador tales como: término corto (short-term), término medio (medium-term), término largo (long-term) y entrada/salida
+4.-Describir la diferencia entre procesos y hebras
+5.-Comparar y contrastar las aproximaciones dinámicas y estáticas de planeamiento en tiempo real
+6.-Discutir la necesidad de planeamiento preventivo y planeamiento por plazos (deadline)
+7.-Identificar las formas en que la lógica incorporada en los algoritmos de planeamiento son aplicables a otros dominios, tales como entrada/salida de disco, planeamiento de red, planeamiento del proyecto y otros problemas no relacionados a la computación
+(fin_objetivo)
+
+Nombre:OS5. Administración de Memoria
+
+Horas: 5
+
+(inicio_topico)
+Revisión de la memoria física y de la administración de la memoria de hardware
+Retardos, intercambios y particiones
+Paginamiento y segmentación
+Políticas de asignación y de reemplazo
+Conjuntos de trabajos y \textit{trashing}
+Caching
+(fin_topico)
+(inicio_objetivo)
+1.-Explicar la jerarquía de la memoria y el costo-desempeño en los intercambios
+2.-Explicar el concepto de memoria virtual y cómo esta es soportada por el hardware y software
+3.-Listar los principios de memoria virtual aplicados a \textit{caching}, paginamiento y segmentación
+4.-Evaluar los intercambios en términos de tamaño de memoria (memoria principal, memoria cache, memoria auxiliar) y velocidad del procesador
+5.-Sustentar las distintas opciones de asignación de memoria a las tareas, citando las ventajas de cada una
+6.-Describir las razones para la existencia y uso de la memoria cache
+7.-Comparar y contrastar las técnicas de paginamiento y segmentación
+8.-Discutir el concepto de \textit{trashing}, tanto en términos del porqué de su ocurrencia y de las técnicas usadas para reconocer y administrar el problema
+9.-Analizar las distintas técnicas de particionamiento de memoria incluyendo demoras, intercambios y las políticas de asignación y reemplazo
+(fin_objetivo)
+
+
+Nombre:OS6. Administración de Dispositivos
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Características de dispositivos seriales y paralelos
+Diferencias de abstracción de dispositivos
+Estrategias de buffering
+Acceso directo a memoria
+Recuperación de fallas
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Explicar la diferencia clave entre dispositivos seriales y paralelos, e identificar las condiciones en las cuales cada uno es apropiada
+2.-Identificar las relaciones entre el hardware físico y los dispositivos virtuales mantenidos por el sistema operativo
+3.-Explicar el buffering y describir las estrategias de como implementarlo
+4.-Diferenciar los mecanismos usados en interfaces con diversos dispositivos (incluyendo dispositivos \textit{handheld}, redes, multimedia) en una computadora y explicar las implicancias de esto para el diseño de un sistema operativo
+5.-Describir las ventajas y desventajas del acceso directo a memoria y discutir las circunstancias en las cuales su uso es garantizado
+6.-Identificar los requerimientos para la recuperación de fallas
+7.-Implementar un driver simple para un conjunto de posibles dispositivos
+(fin_objetivo)
+
+Nombre:OS7. Seguridad y Protección
+
+Tópicos:
+(inicio_topico)
+Visión paranorámica de la seguridad del sistema
+Política y mecanismos de separación
+Métodos de seguridad y dispositivos
+Protección, acceso y autenticación
+Modelos de protección
+Protección de memoria
+Encriptación
+Administración de recuperación
+(fin_topico)
+
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Defender las necesidades de protección y seguridad, y el rol de las consideraciones éticas en el uso de la computadora
+2.-Listar las características y limitaciones de un sistema operativo usado para brindar protección y seguridad
+3.-Comparar y contrastar los métodos actuales para implementar la seguridad
+4.-Comparar y contrastar las fortalezas y debilidades de dos o más sistemas operativos populares con respecto a la seguridad
+5.-Comparar y contrastar la fortaleza y debilidades de dos o más sistemas operativos populares  con respecto a la administración de recuperación
+(fin_objetivo)
+
+Nombre:OS8. Sistema de Archivos
+
+Tópicos:
+(inicio_topico)
+Archivos: datos, metadatos, operaciones, organización, bufering, secuenciales, no secuenciales
+Directorios: contenidos y estructura
+Sistemas de archivos: particionamiento, montaje/desmontaje, sistemas de archivos virtuales
+Técnicas de implementación estándares
+Archivos mapeados en memoria
+Sistemas de archivos de propósito especial
+Nombrado, búsqueda, acceso, copias de respaldo
+(fin_topico)
+
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Listar la completa gama de consideraciones que soporten los sistemas de archivos
+2.-Comparar y contrastar los diferentes abordajes de la organización de archivos reconociendo las fortalezas y debilidades de cada uno
+3.-Sumarizar como el desarrollo del hardware ha conducido los cambios en nuestras prioridades para el diseño y la administración de sistemas de archivos
+(fin_objetivo)
+
+Nombre:OS9. Sistemas Dedicados y de Tiempo Real  
+
+Tópicos:
+(inicio_topico)
+Planeamiento de tareas y procesos
+Requerimientos de la administración memoria/disco en un ambiente de tiempo real
+Fallos, riesgos, y recuperación
+Preocupaciones especiales en sistemas de tiempo real
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Describir que hace a un sistema ser un sistema en tiempo real
+2.-Explicar la presencia y describir las características de latencia en sistemas de tiempo real
+3.-Listar las preocupaciones especiales que presentan los sistemas en tiempo real y como esas preocupaciones son abordadas
+(fin_objetivo)
+
+Nombre:OS10. Tolerancia a Fallas
+
+Tópicos:
+(inicio_topico)
+Conceptos fundamentales: confiabilidad y sistemas disponibles
+Redundancia espacial y temporal
+Métodos usados para implementar la tolerancia a fallas
+Ejemplos de sistemas confiables
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Explicar la relevancia de los términos: tolerancia a fallas, confiabilidad y disponibilidad
+2.-Delinear un conjunto de métodos para implementar la tolerancia a fallas en un sistema operativo
+3.-Explicar como un sistema operativo puede continuar funcionando después de que las fallas ocurran
+(fin_objetivo)
+
+Nombre:OS11. Evaluación del Desempeño de Sistemas
+
+Tópicos:
+(inicio_topico)
+Por qué el desempeño de sistemas necesita ser evaluado
+Qué es lo que va a ser evaluado
+Políticas para cache, paginamiento, planeamiento, administración de memoria, seguridad y otros
+Modelos de evaluación: determinísticos, analíticos, de simulación o especificos de la implementación
+Como recolectar datos de evaluación (mecanismos de perfiles y seguimiento)
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Describir las métricas de desempeño utilizadas para determinar como el sistema funciona
+2.-Explicar los principales modelos usados para evaluar un sistema
+(fin_objetivo)
+
+Nombre:OS12 Scripting 
+
+Tópicos:
+(inicio_topico)
+Scripting y el rol de los lenguajes scripts
+Comandos básicos del sistema
+Creación de scripts, paso de parámetros
+Ejecución de un script
+Influencias del scripting en la programación
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Resumir un conjunto de comandos típicos proveidos por el sistema operativo
+2.-Demostrar la funcionalidad típica de un lenguaje script e interpretar las implicaciones para la programación
+3.-Demostrar los mecanismos de implementación de scripts y el rol de los scripts en la implementación del sistema y su integración
+4.-Implementar un script simple que muestre el paso de parámetros
+(fin_objetivo)
+
+Nombre:NC1. Introducción a la Computación Centrada en Redes
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Historia de las redes y de la Internet
+Arquitecturas de redes
+Especializaciones dentro de la computación centrada en redes
+(inicio_sub_topico)
+-Redes y protocolos
+-Sistemas de redes multimedia
+-Computación distribuida
+-Computación móvil e inalámbrica
+(fin_sub_topico)
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Discutir la evolución de las primeras redes y de la Internet
+2.-Demostrar la habilidad para usar efectivamente un conjunto de aplicaciones de red incluyendo e-mail, telnet, FTP, newgroups, navegadores web, cursos en línea, y mensajería instantáneos
+3.-Explicar la estructura jerarquíca y por capas de una arquitectura de redes típica
+4.-Describir las tecnologías emergentes en el área de la computación centrada en redes, evaluar sus capacidades, limitaciones actuales y su potencial cercano. 
+(fin_objetivo)
+
+Nombre:NC2. Comunicación y Redes 
+
+Horas:7
+
+Tópicos:
+(inicio_topico)
+Estándares de redes y estandarización de cuerpos
+El modelo de referencia ISO 7-capas en general y su instanciación en TCP/IP
+Conmutación de paquetes y conmutación de circuitos
+Flujos y Datagramas
+Conceptos de redes de capa física (bases teóricas, medios de transmisión, estándares)
+Conceptos de la capa de enlaces de datos (paquetes, control de errores, control de flujos, protocolos)
+Trabajo en Internet y ruteo (algoritmos de ruteo, trabajo entre redes, control de la congestión)
+Servicios de transporte por capas (establecimiento de la conexión, asuntos de desempeño)
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Discutir estándares importantes de redes en su contexto histórico
+2.-Describir las responsabilidades de las primeras cuatro capas del modelo de referencia ISO
+3.-Discutir las diferencias entre la conmutación de paquetes y la conmutación de circuitos así como las ventajas y desventajas de cada una
+4.-Explicar como una red puede detectar y corregir la errores de trasmisión
+5.-Ilustrar como  un paquete es enrutado sobre la Internet
+6.-Instalar una red simple con dos clientes y un servidor utilizando software estándar para la configuración del servidor tal como DHCP
+(fin_objetivo)
+
+Nombre:NC3. Seguridad de Red 
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Fundamentos de criptografía
+Algoritmos de clave secreta
+Algoritmos de clave pública
+Autenticación de protocolos
+Firmas digitales
+Ejemplos
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Discutir las ideas fundamentales de criptografía de clave pública
+2.-Describir  como la criptografía de clave pública trabaja
+3.-Distinguir entre  el uso de algoritmos de clave privada y pública
+4.-Resumir los protocolos comunes de autenticación
+5.-Generar y distribuir un par de claves PGP y usar el paquete PGP para enviar un mensaje de correo electrónico encriptado
+6.-Resumir las capacidades y limitaciones del significado de criptografía que se encuentran disponibles para el público en general
+(fin_objetivo)
+
+Nombre:NC4 La Web Como un Ejemplo de Computación Cliente Servidor 
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Tecnologías Web
+(inicio_sub_topico)
+Programas del lado del servidor
+Programas CGI
+Scripts del lado del cliente
+EL conceptos de applet
+(fin_sub_topico)
+Características de los servidores web
+(inicio_sub_topico)
+Manejo de permisos
+Administración de archivos
+Capacidades de las arquitecturas comunes de servidores
+(fin_sub_topico)
+Rol de las computadoras cliente
+Naturaleza de la relación cliente-servidor
+Protocolos web
+Herramientas de soporte para la creación y mantenimiento de sitios web
+Desarrollo de servidores de información Internet
+Publicación de información y aplicaciones
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar los diferentes roles y repsonsabilidades de los clientes y servidores para un conjunto de posibles aplicaciones
+2.-Seleccionar un conjunto de  herramientas que aseguren un método eficiente para implementar varias posibilidades cliente-servidor
+3.-Diseñar y construir una aplicación interactiva simple basada en la web (por ejemplo un fomulario web simple que colecte información desde el cliente y almacene esto en un archivo en el servidor)
+(fin_objetivo)
+
+Nombre:NC5. Construcción de Aplicaciones Web 
+
+Tópicos:
+(inicio_topico)
+Protocolos en la capa de aplicación
+Principios de la ingeniería web
+Sitios web orientados a bases de datos
+Llamadas a procedimientos remotos (RPC)
+Objetos ligeros distribuidos
+El rol de middleware
+Herramientas de soporte
+Tópicos de seguridad en sistemas de objetos distribuidos
+Aplicaciones empresariales basadas en web
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Ilustrar como aplicaciones web interactivas cliente-servidor de tamaño medio pueden ser construidas usando diferentes tipos de tecnologias web
+2.-Demostrar como implementar un sitio web basado en bases de datos, explicando las tecnologías relevantes involucradas en cada parte de la arquitectura y los límites de desempeño correspondientes
+3.-Implementar un sistema distribuido utilizando dos frameworks de objetos distribuidos y compararlos con respecto al desempeño y seguridad
+4.-Discutir asuntos de seguridad  y estrategias en una aplicación empresarial basada en web
+(fin_objetivo)
+
+Nombre:NC6 Administración de Trabajo en Red 
+
+Tópicos:
+(inicio_topico)
+Vista general de la administración de redes
+Uso de contraseñas y mecanismos de control de acceso
+Nombres de dominio y servicios de nombre
+Proveedores de servicio de Internet (ISPs)
+Asuntos de seguridad y muros de fuego (\textit{firewalls})
+Asuntos de calidad de servicio: desempeño, recuperación de errores
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar los asuntos de la administración de redes resaltando amenazas de seguridad, virus, gusanos, troyanos y ataques de negación de servicios
+2.-Listar las fortalezas y debilidades asociadas con los diferentes métodos de seguridad
+3.-Desarrollar una estrategia para asegurar niveles apropiados de seguridad en un sistema diseñado para un propósito particular
+4.-Implementar un muro de fuego de red
+(fin_objetivo)
+
+Nombre:NC7. Compresión y Descompresión
+
+Tópicos:
+(inicio_topico)
+Representaciones analógicas y digitales
+Algoritmos de codificación y de decodificación
+Compresión con perdida y sin perdida
+Compresión de datos: codificación de Huffman y el algoritmo de Zip-Lempel
+Audio: Compresión y descompresión
+Imágenes: Compresión y descompresión
+Video: Compresión y descompresión
+Medidas de desempeño: tiempo, factor de compresión, adaptabilidad para uso en tiempo real
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Resumir las caracteristicas básicas de muestreo y cuantificación para representación digital
+2.-Seleccionar la técnica de compresión más adecuada para texto, audio, imágenes y video dando razones que sean sensibles para la aplicación específica y circunstancias particulares
+3.-Explicar la propiedad de asimetría los algoritmos de compresión y descompresión
+4.-Ilustrar el concepto de codificación en longitud de corrida
+5.-Ilustrar como un programa tal como el compress de UNIX, que utiliza la codificación de Huffman y el algoritmo de  Zip-Lempel, podría comprimir texto típico
+(fin_objetivo)
+
+Nombre:NC8. Tecnología de Datos Multimedia 
+
+Tópicos:
+(inicio_topico)
+Sonido y audio, imágenes y gráficos, animación y video
+Estándares multimedia (audio, música, imágenes, telefonía, video, TV)
+Planeamiento de capacidad y asuntos de desempeño
+Dispositivos de entrada/salida (scaners, cámaras digitales, pantallas de tacto, activación por voz)
+Teclado MIDI, sintetizadores
+Estándares de almacenamiento (discos ópticos magnéticos, CDROM, DVD)
+Servidores multimedia y sistemas de archivos
+Herramientas para soporte al desarrollo multimedia
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Para cada uno de los varios estándares multimedia, describir en un lenguaje no técnico lo que el estándar realiza, y explicar como los aspectos de percepción humana podrían ser sensibles a las limitaciones de dicho estándar
+2.-Evaluar el potencial de un sistema de computadores para alojar una aplicación de un grupo de posibles  aplicaciones multimedia, incluyendo una evaluación de requerimientos de sistemas  multimedia en la tecnología de redes sobre la que se trabaja
+3.-Describir las características de un sistema de computador (incluyendo identificación de herramientas de soporte  y estándares apropiados) que tienen que alojar la implementación de una de varias aplicaciones multimedia posibles
+4.-Implemetar una aplicación multimedia de tamaño moderado
+(fin_objetivo)
+
+Nombre:NC9. Computación Móvil e Inalámbrica
+
+Tópicos:
+(inicio_topico)
+Vista general de la historia, evolución y compatibilidad de los estándares inalámbricos
+Los problemas especiales de la computación inalámbrica y móvil
+Redes inalámbricas de área local y redes basadas en satélites
+Ciclos inalámbricos locales
+Protocolos de Internet móvil
+Adaptación conciente a dispositivos móviles
+Extensión del modelo cliente servidor para adaptarse a la movilidad
+Acceso a datos móviles: diseminación de datos en el servidor y administración del cache del cliente
+Soporte de paquetes de software para computación inalámbrica y móvil
+El rol del middleware y herramientas de soporte
+Problemas de desempeño
+Tecnologías emergentes
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Describir  las principales características de IP móvil, y explicar como difiere del IP con respecto a la administración de la movilidad, ubicación y desempeño
+2.-Ilustrar (con agentes locales y externos) como el e-mail u otro tipo de tráfico es ruteado usando IP móvil
+3.-Implementar una aplicación simple que se base en comunicación móvil e inalámbrica de datos
+4.-Describir las áreas actuales y de interés emergente en computación inalámbrica y móvil, y evaluar las capacidades, limitaciones y potencial en cada uno
+(fin_objetivo)
+
+Nombre:PL1. Visión General de los Lenguajes de Programación
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Historia de los lenguajes de programación
+Breve revisión de los paradigmas de programación
+(inicio_sub_topico)
+Lenguajes procedurales
+Lenguajes orientados a objetos
+Lenguajes funcionales
+Lenguajes declarativos y no algorítmicos
+Lenguajes de scripts
+(fin_sub_topico)
+Los efectos de la escala en las metodologías de programación
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Listar la evolución de los lenguajes de programación identificando como es que su historia nos ha conducido a los paradigmas actuales
+2.-Identificar al menos una característica distintiva para cada uno de los paradigmas de programación cubiertos en esta unidad
+3.-Evaluar las ventajas y desventajas entre los diferentes paradigmas, considerando temas tales como: eficiencia de espacio, efiencia en el tiempo (para ambas partes computadora y programador), seguridad, y el poder de las expresiones
+4.-Distinguir entre la programación a menor y mayor escala
+(fin_objetivo)
+
+Nombre:PL2. Máquinas Virtuales 
+
+Horas:1
+
+Tópicos:
+(inicio_topico)
+El concepto de máquina virtual
+Jerarquías de las máquinas virtuales
+Lenguajes intermedios
+Temas de seguridad relacionados a ejecutar código sobre una máquina diferente
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Describir la importancia y poder de la abstracción en el contexto de máquinas virtuales
+2.-Explicar los beneficios de los lenguajes intermedios en el proceso de compilación
+3.-Evaluar las ventajas y desventajas entre desempeño vs. portabilidad
+4.-Explicar como los programas ejecutables pueden romper la seguridad de sistema de un computador accediendo a archivos de disco y memoria
+(fin_objetivo)
+
+Nombre:PL3. Introducción a la Traducción de Lenguajes
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Comparación entre intérpretes y compiladores
+Fases de traducción del lenguaje (análisis léxico, análisis sintáctico, generación de código, optimización)
+Aspectos de traducción  en  máquinas dependientes  e independientes
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Contrastar y comparar modelos de ejecución interpretados y compilados, resaltando los méritos de cada uno
+2.-Describir las fases de la traducción de programas desde el código fuente a código ejeutable y los archivos producidos por estas fases
+3.-Explicar las diferencias entre máquinas dependientes e independientes de la traducción y donde estas diferencias son evidentes en el proceso de traducción
+(fin_objetivo)
+
+Nombre:PL4. Declaración y Tipos
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+La concepción de tipos como un conjunto de valores unidos a un conjunto de operaciones
+Declaración de modelos (enlace, visibilidad, alcance, y tiempo de vida)
+Vista general de la revisión de tipos
+Recolección de basura
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar el valor de los modelos de declaración, especialmente con respecto a la programación en mayor escala
+2.-Identificar y describir las propiedades de una variable, tales como su: dirección asociada, valor, ámbito, persistencia y tamaño
+3.-Discutir la incompatibilidad de tipos
+4.-Demostrar las diferentes formas  de enlace, visibilidad, ámbito, manejo del tiempo de vida
+5.-Defender la importancia de los tipos y el chequeo de tipos para brindar abstracción y seguridad
+6.-Evaluar las ventajas y desventajas en el manejo del tiempo de vida (conteo por referencia vs. recolección de basura)
+(fin_objetivo)
+
+Nombre:PL5. Mecanismos de Abstracción  
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Procedimientos, funciones e iteradores como mecanismos de abstracción
+Mecanismos de parametrización (referencia vs. valor)
+Registros de activación y administración del almacenamiento
+Parámetros de tipos y tipos parametrizados
+Módulos en lenguajes de programación
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar como los mecanismos de abstracción soportan la creación de componentes de software reusables
+2.-Demostrar la diferencia entre paso de parámetros por valor y por referencia
+3.-Defender la importancia de la abstracción especilamente con respecto a la programación en mayor escala
+4.-Describir como el sistema de computador usa registros de activación para administrar módulos y sus datos
+(fin_objetivo)
+
+Nombre:PL6. Programación Orientada a Objetos
+
+Horas:10
+
+Tópicos:
+(inicio_topico)
+Diseño orientado a objetos
+Encapsulación y ocultamiento de la información
+Separación de comportamiento e implementación
+Clases y subclases
+Herencia (sobreescritura, despacho dinámico)
+Polimorfismo (polimorfismo de subtipo vs. herencia)
+Jerarquías de clases
+Colección de clases y protocolos de iteración
+Representaciones internas de objetos y tablas método
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Justificar la filosofía de diseño orientado a objetos y los conceptos de encapsulación, abstracción, herencia y polimorfismo
+2.-Diseñar, implementar, probar, y depurar programas simples en un lenguaje de programación orientado a objetos
+3.-Describir como los mecanismos de clases soportan encapsulación y ocultamiento de la información
+4.-Diseñar, implementar y probar la implementacion de la relación es-un \textit{IsKindOf} entre objetos usando jerarquía de clases y herencia
+5.-Comparar y contrastar las nociones de sobrecarga y sobreescritura de métodos en un lenguaje orientado a objetos
+6.-Explicar la relación entre estructuras estáticas de la clase y las estructuras dinámicas de las instancias de las clases
+7.-Describir como los iteradores acceden a los elementos de un contenedor
+(fin_objetivo)
+
+Nombre:PL7. Programación Funcional  
+
+Tópicos:
+(inicio_topico)
+Panorama general y motivación de los lenguajes funcionales
+Recursión sobre listas, números naturales, árboles, y otros datos definidos recursivamente
+Pragmáticas (depuración dividir y vencerás, persistencia de las estructuras de datos)
+Eficiencia amortizada para estructuras de datos funcionales
+Cerraduras y uso de funciones como datos (conjuntos infinitos, flujos)
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Delinear las fortalezas y debilidades del paradigma de programación funcional
+2.-Diseñar, codificar, probar y depurar programas usando el paradigma funcional
+3.-Explicar el uso de funciones como datos, incluyendo el concepto de cerraduras
+(fin_objetivo)
+
+Nombre:PL8. Sistemas de Traducción del Lenguaje 
+
+Tópicos:
+(inicio_topico)
+Aplicación de las expresiones regulares en analizadores léxicos
+Análisis sintáctico (sintaxis concreta y abstracta, árboles de sintaxis abstracta)
+Aplicación de las gramáticas libres de contexto en un parseo dirigido por tablas o descendente recursivo
+Administración de tablas de símbolos 
+Generación de código por seguimiento de un árbol
+Operaciones específicas de la arquitectura: selección de instrucciones y alocación de registros
+Técnicas de optimización
+El uso de herramientas como soporte en el proceso de traducción y las ventajas de éste
+Librerías de programas y compilación separada
+Construcción de herramientas dirigidas por la sintaxis
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Describir los pasos y algoritmos usados por lenguajes traductores
+2.-Reconocer los modelos formales subyacentes tales como los autómatas finitos, autómatas de pila y su conexión con la definición del lenguaje a través de expresiones regulares y gramáticas
+3.-Discutir la efectividad de la optimización
+4.-Explicar el impacto de la facilidad de la compilación separada y la existencia de librerías de programas en el proceso de compilación
+(fin_objetivo)
+
+Nombre:PL9. Sistemas Tipo 
+
+Tópicos:
+(inicio_topico)
+Tipos de datos como un conjunto de valores con un conjunto de operaciones
+Tipos de datos:
+(inicio_sub_topico)
+Tipos elementales
+Tipos producto y coproducto
+Tipos algebraicos
+Tipos recursivos
+Tipos flechas (funciones)
+Tipos parametrizados
+(fin_sub_topico)
+Modelos de verificación de tipos
+Modelos semánticos de tipos definidos por el usuario
+(inicio_sub_topico)
+Abreviaciones de tipo
+Abstracción de tipos de datos
+Equivalencia de tipos
+(fin_sub_topico)
+Polimorfismo paramétrico
+Polimorfismo de subtipos
+Algoritmos de verificación de tipos
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Formalizar la noción de tipos
+2.-Describir cada uno de los tipos de datos elementales
+3.-Explicar el concepto de tipo abstracto de datos
+4.-Reconocer la importacia de los tipos de datos para la abstracción y la seguridad
+5.-Diferenciar entre tipado dinámico y estático
+6.-Diferenciar entre declaraciones de tipos e inferencia de tipos
+7.-Evaluar lenguajes con respecto al tipado
+(fin_objetivo)
+
+Nombre:PL10. Semántica de los Lenguajes de Programación
+
+Tópicos:
+(inicio_topico)
+Semántica informal
+Panorama general de la semántica formal
+Semántica denotacional
+Semántica axiomática
+Semántica operacional
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar la importancia de la semántica formal
+2.-Diferenciar entre semántica formal e informal
+3.-Describir los diferentes métodos de la semántica formal
+4.-Evaluar las diferentes abordajes de la semántica formal
+(fin_objetivo)
+
+Nombre:PL11. Diseño de Lenguajes de Programación 
+
+Tópicos:
+(inicio_topico)
+Principios generales del diseño de lenguajes
+Diseño de objetivos
+Regímenes de tipado
+Modelos de estructuras de datos
+Modelos de estructuras de control
+Mecanismos de abstracción
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Evaluar el impacto de los diferentes regímenes de tipado sobre el diseño del lenguaje, uso de le lenguaje, y el proceso de traducción
+2.-Explicar el rol de los diferentes mecanismos de abstracción en la creación de facilidades definidas del usuario
+(fin_objetivo)
+
+Nombre:HC1. Fundamentos de la Iteracción Hombre-Computador 
+
+Horas:6
+
+Tópicos:
+(inicio_topico)
+Motivación: ?`Qué es lo que nos importa de las personas?
+Contexto de HCI (herramientas, hipermedios web, comunicación)
+Desarrollo y evaluación centrado en el hombre
+Modelos de desempeño del hombre: percepción, movimiento y cognición
+Modelos de desempeño del hombre: cultura, comunicación y organización
+Diversidad del comfort humano
+Principios de un buen diseño y un buen diseñador; ingeniería de la evaluación
+Introducción a la prueba de usabilidad
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Discutir las razones del desarrollo de software centrado en el humano
+2.-Listar la ciencia básica de la interacción social y psicológica
+3.-Diferenciar entre el rol de la hipótesis y los resultados experimentales vs. las correlaciones
+4.-Desarollar un vocabulario conceptual para analizar la interacción del hombre con el software, modelos conceptuales, retroalimentación, etc
+5.-Distinguir entre las diferentes interpretaciones que un ícono, símbolo, palabra, o color dado pueden tener en (a)dos culturas diferentes y (b) en una cultura y una de sus subculturas
+6.-De qué maneras podría el diseño de un sistema de computador o aplicación tener éxito o fallar en términos de respeto a la diversidad humana
+7.-Crear y conducir una prueba de usabilidad simple para una aplicación de software existente
+(fin_objetivo)
+
+Nombre:HC2. Construcción de una Interfaz Gráfica de Usuario Sencilla
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Principios de las interfaces gráficas de usuario (GUIs)
+Conjunto de herramientas GUI
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Identificar los varios principios fundamentales para el diseño efectivo de GUI
+2.-Usar el conjunto de herramientas (\textit{toolkit}) para crear una aplicación simple que soporte una interfaz grafica de usuario
+3.-Ilustrar el efecto de los principios fundamentales del diseño en la estructura de una interfaz gráfica de usuario
+4.-Conducir una simple prueba de usabilidad para cada instancia y comparar los resultados de la prueba
+(fin_objetivo)
+
+Nombre:HC3. Evaluación de Software Centrado en el Humano
+
+Tópicos:
+(inicio_topico)
+Establecer objetivos para la evaluación
+Evaluación sin usuarios: KLM, pasos, guías y estándares
+Evaluación con usuarios: Pruebas de usabilidad, entrevistas, encuestas, experimentos
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Discutir el criterio de evaluación: aprendizaje, tiempo de las tareas y completitud, aceptabilidad
+2.-Conducir un ensayo y un análisis del modelo de nivel Keystroke (KLM)
+3.-Listar las principales guías y estándares
+4.-Conducir una prueba de usabilidad, una entrevista y una encuesta
+5.-Comparar una prueba de usabilidad con un experimento controlado
+6.-Evaluar un sistema interactivo existente con un criterio enfocado en el humano y una prueba de usabilidad
+(fin_objetivo)
+
+Nombre:HC4. Desarrollo de Software Centrado en el Humano 
+
+Tópicos:
+(inicio_topico)
+Enfoques, características y listado de procesos
+Funcionalidad y usabilidad: análisis de tareas, entrevistas, encuestas
+Especificación de interacción y presentación
+Técnicas de prototipado y herramientas
+(inicio_sub_topico)
+Secuencia de pantallas en papel
+Herencia y despacho dinámico
+Lenguajes de prototipado y constructores de GUI
+(fin_sub_topico)
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar los tipos básicos y características del desarrollo orientado al humano
+2.-Comparar el desarrollo centrado al humano con los métodos tradicionales de ingeniería del software
+3.-Establecer tres requerimientos funcionales y tres requerimientos de usabilidad
+4.-Especificar un objeto iteractivo con redes de transición, diseño OO, o descripción de escenarios
+5.-Discutir las ventajas y desventajas del desarrollo con prototipos de software y en papel
+(fin_objetivo)
+
+Nombre:HC5. Diseño de la Interfaz Gráfica de Usuario. 
+
+Tópicos:
+(inicio_topico)
+Selección de estilos de interacción y técnicas de interacción
+Aspectos de tipo HCI en \textit{widgets} comunes
+Aspectos de tipo HCI en el diseño de pantallas: esquemas, color, fuentes y etiquetado
+Manejo de fallas humanas
+Más allá del diseño de ventanas simples: visualización, representación y metáforas
+Interación multimodal: gráficos, sonidos, y \textit{haptics}
+Interación 3D y realidad virtual
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Listar los estilos comunes de interacción
+2.-Explicar los principios del buen diseño de cada uno de los siguientes tópicos: \textit{widgets} comunes, presentación de pantallas secuenciadas, diálogos de captura de errores, manuales de usuario
+3.-Diseñar, prototipar y evaluar una GUI 2D simple ilustrando el conocimiento de los conceptos enseñados HC3 y HC4
+4.-Discutir los retos que existen en la interacción del movimiento de interacciones 2D a 3D
+(fin_objetivo)
+
+Nombre:HC6. Programación de Interfaces Gráficas de Usuario
+
+Tópicos:
+(inicio_topico)
+UIMS, independencia de diálogos y análisis de niveles, el modelo Seeheim
+Clases \textit{Widgets}
+Administración de eventos e interacción de usuario
+Administración de geometría
+Constructores de GUI y entornos de programación UI
+Diseño de cruce de plataformas
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Diferenciar entre las responsabilidades de la UIMS y la aplicación
+2.-Diferenciar entre los modelos basados en \textit{kernel} y cliente-servidor para la UI
+3.-Comparar los paradigmas orientados a eventos con los procedimientos tradicionales para la UI
+4.-Describir la agregación de \textit{widgets} y la administracion de la geometría basada en restricciones
+5.-Explicar los \textit{callbacks} y su rol en los constructores de GUI
+6.-Identificar al menos tres diferencias comunes en el diseño de cruce de plataformas UI
+7.-Identificar las características comunes que se puedan encontrar en las diferentes plataformas UIs
+(fin_objetivo)
+
+Nombre:HC7. Aspectos de Sistemas de Multimedia
+
+Tópicos:
+(inicio_topico)
+Categorización y arquitecturas de información: jerarquías e hipermedia
+Recuperación de información y desempeño humano
+(inicio_sub_topico)
+Búsqueda Web
+Usabilidad de los lenguajes de consultas a base de datos
+Gráficos
+Sonido
+(fin_sub_topico)
+Diseño HCI de sistemas de información con multimedia
+Reconocimiento de voz y procesamiento de lenguaje natural
+Implicancias de la información y computación móvil
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Discutir en que se diferencia la recuperación de información del procesamiento de transacciones
+2.-Explicar como la organización de la información soporta la recuperación
+3.-Describir los principales problemas en lenguajes de consultas de bases de datos
+4.-Explicar en particular el estado actual de la tecnología de reconocimiento de voz y en general el estado del procesamiento de lenguaje natural
+5.-Diseñar, prototipar y evaluar un sistema de información multimedia simple ilustrando el conocimiento de los conceptos mostrados en HC4, HC5 y HC7
+(fin_objetivo)
+
+Nombre:HC8. Aspectos de Colaboración y Comunicación
+
+Tópicos:
+(inicio_topico)
+\textit{Groupware} para soporte de tareas especializadas: preparación de documentos, juegos para multi-jugadores
+Comunicación asíncrona de grupo: \textit{e-mail}, boletines
+Comunicación de grupo sincronizada: salas de chat, conferencias
+Comunidades en línea: MUDs/MOOs
+Agentes de software y agentes inteligentes
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Comparar los temas HCI en interacción individual con interaciones grupales
+2.-Discutir los diferentes tópicos relacionados a aspectos sociales del software colaborativo
+3.-Discutir tópicos HCI en software que incluye la intervención del hombre
+4.-Describir las diferencias entre comunicación asíncrona y síncrona
+5.-Diseñar, prototipar, y evaluar un \textit{groupware} simple o aplicaciones de comunicación de grupos ilustrando los conomientos de los conceptos enseñados en HC4, HC5 y HC8
+6.-Participar en un equipo de proyectos mediante interacciones interpersonales reales y entornos de software
+7.-Describir las similitudes y diferencias entre el software interpersonal y el software colaborativo
+(fin_objetivo)
+
+Nombre:GV1. Técnicas Fundamentales en Gráficos
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Jerarquía de software gráfico
+Usando APIs gráficas
+Modelos simples de color (RGB, HSB, CMYK)
+Coordenadas Homogéneas
+Transformaciones afines (escala, rotación, translación)
+Transformación de vistas
+Recorte de escenas
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Distinguir las capacidades de diferentes niveles de software gráfico y describir el uso apropiado de cada uno
+2.-Crear imágenes utilizando interfaces estándar API
+3.-Usar las facilidades proporcionadas por las API estándares para realizar transformaciones tales como escala, rotación y traslación
+4.-Implementar procedimientos simples para realizar operaciones de transformación y de recorte en una imagen simple bidimensional
+5.-Discutir el sistema de coordenadas tridimensional y los cambios necesarios para extender operaciones de transformación 2D a 3D
+(fin_objetivo)
+
+Nombre:GV2. Sistemas Gráficos
+
+Horas:1
+
+Tópicos:
+(inicio_topico)
+Sistemas de gráficos de vector y \textit{raster}. 
+Dispositivos de video
+Dispositivos de entrada físicos y lógicos. 
+Temas para atacar el desarrollo de sistemas gráficos
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Describir el uso apropiado de las arquitecturas gráficas para determinadas aplicaciones
+2.-Explicar la función de varios dispositivos de entrada
+3.-Comparar y constrastar las técnicas de gráficos por vector o gráficos \textit{raster}
+4.-Usar el hardware y software actual para crear y mostrar gráficos
+5.-Discutir las capacidades expandidas de hardware y software emergente para la creación de gráficos
+(fin_objetivo)
+
+Nombre:GV3. Comunicación Gráfica. 
+
+Tópicos:
+(inicio_topico)
+Psicodinámica del color e interacción entre colores
+Modificaciones del color para deficiencias de visión
+Significado cultural de los diferentes colores
+Uso de paletas de pseudocolor para imágenes para audiencias específicas
+Estructurar una vista para un entendimiento efectivo
+Modificaciones de imágenes para video y copias en disco efectivas
+Uso de leyendas para asociar información a colores u otros datos visuales
+Uso de texto en imágenes para presentar información de contexto de fondo
+Retroalimentación visual del usuario en operaciones gráficas
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar el valor del uso de colores y pseudocolores
+2.-Demostrar la habilidad para crear video efectivo y copias en disco de imágenes
+3.-Identificar ejemplos efectivos e inefectivos de comunicación usando gráficos
+4.-Crear ejemplos efectivos de comunicación de gráfica, haciendo apropiado uso de color, leyendas, texto y/o video
+5.-Crear dos ejemplos que comuniquen el mismo contenido: uno diseñado para presentación a partir de una copia en disco y la otra diseñada para una presentación en línea
+6.-Discutir las diferencias en criterios de diseño para copias en disco y presentaciones en línea
+(fin_objetivo)
+
+Nombre:GV4. Modelamiento Geométrico 
+
+Tópicos:
+(inicio_topico)
+Representación poligonal de objetos 3D
+Curvas poligonales paramétricas y superficies
+Representación de geometría sólida constructiva (CSG)
+Representación implícita de curvas y superficies
+Técnicas de subdivisión espacial
+Modelos procedurales
+Modelos deformables
+Subdivisión de superficies
+Modelamiento de multiresolución
+Reconstrucción
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Crear modelos polihedrales simples usando superficies hechas con polígonos básicos
+2.-Construir modelos CSG a partir de primitivas simples tales como cubos y superficies cuadráticas
+3.-Generar una  representación de mallas a partir de una superficie implicita
+4.-Generar un modelo fractal utilizando un método procedural
+5.-Generar una malla a partir de  puntos adquiridos con  un \textit{scanner} laser
+(fin_objetivo)
+
+Nombre:GV5. \textit{Rendering} Básico
+ 
+Tópicos:
+(inicio_topico)
+Algoritmos de generación de línea (Bresenham)
+Generación de fuentes: delineadas vs. bitmaps
+Propiedades de fuente de luz y material
+Reflexión difusa, especular y de ambiente
+Modelo de reflexión de Phong
+\textit{Rendering} de superficies poligonales; \textit{flat}, Gourand, y sombreado Phong
+Mapeo de textura, texturas \textit{bump}, mapa de ambiente
+Introducción al trazamiento de rayos (\emph{ray tracing})
+Síntesis de imágen, técnicas de muestreo y \textit{anti-aliasing}
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar la operación del algoritmo de Bresenham para realizar \textit{rendering} en un dispositivo de pixels
+2.-Explicar el concepto y aplicaciones de cada una de estas técnicas
+3.-Demostrar cada una de estas técnicas creando una imagen usando una API estándar
+4.-Describir como una imagen gráfica ha sido creada
+(fin_objetivo)
+
+Nombre:GV6. \textit{Rendering} Avanzado 
+
+Tópicos:
+(inicio_topico)
+Ecuaciones de transporte
+Algoritmos de trazo de rayos (\textit{ray tracing})
+\textit{Photon tracing}
+Radiocidad para el cálculo de la iluminación global, factores de forma
+Métodos eficientes para iluminación global
+Métodos Monte Carlo para iluminación global
+\textit{Rendering} basado en imágenes, visión panorámica, modelaje de la función plenóptica
+\textit{Rendering} de fenómenos complejos naturales
+\textit{Rendering} no fotorealístico
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Describir varias ecuaciones de transporte al detalle, resaltando sus efectos
+2.-Describir algoritmos eficientes para radiocidad y compararlos de acuerdo a sus desempeños algorítmicos y de exactitud
+3.-Describir el impacto de los esquemas de mallas
+4.-Explicar las técnicas de \textit{rendering} basadas en imágenes, campos de luz y tópicos asociados
+(fin_objetivo)
+
+Nombre:GV7. Técnicas Avanzadas 
+
+Tópicos:
+(inicio_topico)
+Cuantización de colores
+Conversión de primitivas 2D de escaneo, diferenciación hacia adelante (\textit{forward differencing})
+Poligonización (\textit{tessellation}) de superficies curvas
+Métodos de remoción de superficies ocultas
+\textit{Z-buffer} y  \textit{frame buffer}, canales de color (un canal para la opacidad)
+Técnicas de modelamiento de geometría avanzada
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Describir las técnicas identificadas en esta sección
+2.-Explicar como reconocer las técnicas gráficas usadas para crear una imagen particular
+3.-Implementar cualquiera de las técnicas gráficas especificadas utilizando un sistema gráfico primitivo a nivel de pixel
+4.-Utilizar un software de animación común para construir una forma orgánica simple usando metabolas y esqueletos
+(fin_objetivo)
+
+Nombre:GV8. Animación por Computador 
+
+Tópicos:
+(inicio_topico)
+Animación \textit{key-frame}
+Animación de cámara
+Sistema de scripts
+Animación de estructuras articuladas: kinemática inversa
+Captura de movimiento
+Animación procedural
+Deformación
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar el método de interpolación \textit{spline} para producir posiciones (\textit{in-between}) y orientaciones
+2.-Comparar y contrastar varias tecnologías para captura de movimiento
+3.-Utilizar la función  de partícula en software de animación común para generar una animación simple tal como \textit{fireworks}
+4.-Utilizar técnicas de deformación de forma libre para crear varias deformaciones
+(fin_objetivo)
+
+Nombre:GV9. Visualización 
+
+Tópicos:
+(inicio_topico)
+Vista básica y funciones de interrogación para visualización
+Visualización de campos de vectores, tensores, y flujo de datos
+Visualización de campos escalares o de campos de altura: iso-superficies usando el método \textit{marching cubes}
+\textit{Rendering} volumétrico directo: \textit{ray-casting}, funciones de transferencia, segmentación, hardware
+Visualización de información: métodos de coordenadas paralela y proyección
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Describir los algoritmos básicos detrás de la visualización de escalares y vectores
+2.-Comparar los algoritmos en términos de precisión y desempeño
+3.-Emplear la teoría disponible para explicar los efectos de las operaciones de visualización
+4.-Describir el impacto de la presentación y la interacción del usuario en exploración
+(fin_objetivo)
+
+Nombre:GV10. Realidad Virtual 
+
+Tópicos:
+(inicio_topico)
+Vista estereoscópica
+Simulación \textit{force feedback}, dispositivos \textit{haptic}
+\textit{Tracking viewer}
+Detección de colisiones
+Cálculo de visibilidad
+\textit{Rendering} de tiempo crítico, múltiples niveles de detalles (LOD)
+Sistemas de realidad virtual basados en imágenes
+Realidad virtual distribuida, colaboración sobre una red de computadores
+Modelamiento interactivo
+Temas de interfaz del usuario
+Aplicaciones en medicina, simulación y entrenamiento
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Describir el modelo óptico realizado por un sistema de computación gráfica para sintetizar vistas estereoscópicas
+2.-Describir los principios de diferentes tecnologías de \textit{tracking viewer}
+3.-Explicar los principios de los algoritmos de detección de colisión eficientes para poliedros convexos
+4.-Describir las diferencias entre realidad virtual basada en imágenes y basada en geometría
+5.-Describir los tópicos de sincronización de acciones de usuario y consistencia de datos en un ambiente de redes
+6.-Determinar los requerimientos básicos en configuraciones de interface, hardware y software de un sistema de realidad virtual para una aplicación específica
+(fin_objetivo)
+
+Nombre:GV11. Visión Computacional
+
+(inicio_topico)
+Adquisición de imágenes
+Las imágenes digitales y sus propiedades
+Preprocesamiento de imágenes
+Segmentación (segmentación basadas en regiones, contornos y \textit{thresholding})
+Representación de figuras y reconocimiento de objetos
+Análisis de movimiento
+Casos de estudio (reconocimiento de objetos, seguimiento de objetos)
+(fin_topico)
+(inicio_objetivo)
+1.-Explicar el proceso de formación de imágenes
+2.-Explicar las ventajas de dos o más cámaras y visión estereo
+3.-Explicar varias técnicas de segmentación, sus características, diferencias, fortalezas y debilidades
+4.-Describir el reconocimiento de objetos basados en contornos, regiones y representación de la forma
+5.-Explicar métodos de análisis de movimiento diferencial
+6.-Describir las diferencias en métodos de seguimiento de objetos
+(fin_objetivo)
+
+
+Nombre:IS1.  Tópicos Fundamentales en Sistemas Inteligentes
+
+Horas:1
+
+Tópicos :
+(inicio_topico)
+Historia de la inteligencia artificial
+Cuestiones filosóficas
+La prueba de Turing
+Experimento de pensamiento del ``Cuarto Chino'' de Searle
+Temas éticos en IA
+Definiciones fundamentales
+Razonamiento óptimo vs. razonamiento actuando como humano
+Comportamiento óptimo vs. comportamiento actuando como humano
+Preguntas filosóficas
+Modelando el mundo
+El rol de la heurística
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Describir la prueba de Turing  y el experimento de pensamiento del ``Cuarto Chino'' 
+2.-Diferenciar los conceptos de razonamiento óptimo y razonamiento actuando como humano
+3.-Diferenciar los conceptos de comportamiento óptimo y comportamiento actuando como humano
+4.-Lista de ejemplos de sistemas inteligentes que dependen del modelo del mundo
+5.-Describir el rol de la heurística y la necesidad de un punto medio entre la optimización y la eficiencia
+(fin_objetivo)
+
+
+Nombre:IS2.   Búsqueda y Satisfacción de la Restricción
+
+Horas:5
+
+Tópicos :
+(inicio_topico)
+Problemas de espacio
+Búsqueda de fuerza bruta (respiro primero, profundidad primero, profundidad primero con profundización iterativa)
+Búsqueda del mejor primero  (mejor primero genérico,  algoritmo de Dijkstra, A*, admisibilidad de A*)
+Juegos de dos jugadores (búsqueda mínima , poda alfa-beta)
+Satisfacción de la restricción ( \textit{backtracking} métodos de búsqueda local y seguimiento)
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Formular un eficiente problema expresado en el idioma español, caracterizando este problema en términos  de estados, operadores, estado inicial, y una descripción del estado final
+2.-Describir el problema de explosión combinatoria y sus consecuencias
+3.-Seleccionar un algoritmo apropiado de búsqueda de fuerza bruta para un problema, implementarlo y caracterizar sus complejidades de tiempo y espacio
+4.-Seleccionar un algoritmo de búsqueda heurística para un problema, implementarlo por medio del diseño de la función de evaluación heurística necesaria
+5.-Describir bajo que condiciones los algoritmos de heurística garantizan una solución óptima
+6.-Implementar la búsqueda mínima con poda alfa-beta para juegos de dos
+7.-Formular un problema en español utilizando un algoritmo de backtracking cronológico
+(fin_objetivo)
+
+Nombre:IS3.  Representación del Conocimiento y Razonamiento
+
+Horas:4
+
+Tópicos :
+(inicio_topico)
+Repaso de lógica proposicional y lógica de predicados
+Resolución y prueba  de teoremas
+Inferencia no monotónica
+Razonamiento probabilístico
+Teorema de Bayes 
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar la operación de la técnica de resolución para probar teoremas
+2.-Explicar la diferencia entre inferencia monotónica  y no monotónica
+3.-Discutir las ventajas y defectos del razonamiento probabilístico
+4.-Aplicar el teorema de Bayes para determinar probabilidades condicionales
+(fin_objetivo)
+
+
+Nombre:IS4.  Búsqueda Avanzada 
+
+Tópicos :
+(inicio_topico)
+Algoritmos genéticos
+\textit{Simulated annealing}
+Búsqueda local
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Explicar que son los algoritmos genéticos y contrastar su efectividad con las soluciones de problemas clásicos y técnicas de búsqueda clásicas
+2.-Explicar como simulated annealing puede ser usado para reducir la complejidad y contrastar su operación con técnicas de búsqueda clásica
+3.-Aplicar técnicas de búsqueda local a un dominio clásico
+(fin_objetivo)
+
+Nombre:IS5. Representación Avanzada del Conocimiento y Razonamiento. 
+
+Tópicos :
+(inicio_topico)
+Representación estructurada 
+(inicio_sub_topico)
+Frames y objetos
+Lógicas de descripción
+Sistemas de herencia
+(fin_sub_topico)
+Razonamiento no monotónico
+(inicio_sub_topico)
+Lógicas no clásicas
+Razonamiento por defecto
+Revisión de creencias
+Lógicas de preferencia
+Integración de fuentes de conocimiento
+Agregación de creencias conflictivas
+(fin_sub_topico)
+Razonamiento sobre acción y cambio
+(inicio_sub_topico)
+Cálculo de situaciones
+Cálculo de eventos
+Problemas de ramificación
+(fin_sub_topico)
+Razonamiento temporal y espacial
+Incerteza
+(inicio_sub_topico)
+Razonamiento probabilístico
+Redes Bayesianas
+Conjuntos difusos y teoría de la posibilidad
+Teoría de la decisión
+(fin_sub_topico)
+Representación del conocimiento por diagnóstico, representación cualitativa
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Comparar y contrastar los modelos más comunes usados para representación de conocimiento estructurado, resaltando sus fortalezas y debilidades
+2.-Caracterizar los componentes de razonamiento no monotónico y su utilidad como un mecanismo de representación para sistemas de creencia
+3.-Aplicar cálculos de situaciones y eventos para problemas de acción y cambio
+4.-Articular la distinción entre razonamiento temporal y espacial, explicando como se interrelacionan
+5.-Describir y contrastar las técnicas básicas para representar incerteza
+6.-Describir y contrastar las técnicas básicas para diagnóstico y representación cualitativa
+(fin_objetivo)
+
+Nombre:IS6.  Agentes
+
+Tópicos :
+(inicio_topico)
+Definición de agentes
+Aplicación exitosa y estado del arte de los sistemas basados en agentes
+Arquitectura de agentes
+(inicio_sub_topico)
+Agentes reactivos simples
+Planeadores reactivos
+Arquitecturas de capas
+Ejemplos de arquitecturas y aplicaciones
+(fin_sub_topico)
+Teoría de agentes
+(inicio_sub_topico)
+Acuerdos
+Intenciones
+Agentes de decisión teórica
+Procesos de decisión de Markov (PDM)
+(fin_sub_topico)
+Agentes de software, asistentes personales y acceso a la información
+(inicio_sub_topico)
+Agentes colaborativos
+Agentes recolectores de información
+(fin_sub_topico)
+Agentes creíbles (caracteres sintéticos, modelo de emociones en agentes ) 
+Agentes que aprenden
+Sistemas multiagente
+(inicio_sub_topico)
+Sistemas multiagente inspirados económicamente
+Agentes colaborativos
+Equipos de agentes
+Modelando agentes
+Aprendizaje multiagente
+(fin_sub_topico)
+Introducción a agentes robóticos
+Agentes móviles
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Explicar en qué difiere un agente de otras categorías de sistemas inteligentes
+2.-Caracterizar y contrastar las arquitecturas estándar de agentes
+3.-Describir las aplicaciones de la teoría de agentes para dominios tales como agentes de software, asistentes personales y agentes creíbles
+4.-Describir la distinción entre agentes que aprenden y no aprenden
+5.-Demostrar usando ejemplos apropiados cómo los sistemas multiagente soportan interacción de agentes
+6.-Describir y contrastar agentes móviles y robóticos
+(fin_objetivo)
+
+Nombre:IS7.  Procesamiento de Lenguaje Natural
+
+Tópicos :
+(inicio_topico)
+Gramáticas determinísticas y estocásticas
+Algoritmos de \textit{parsing}
+Métodos basados en corpus
+Recuperación de información
+Traslación de lenguaje
+Reconocimiento del habla
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Definir y contrastar gramáticas determinísticas y estocásticas, proveyendo ejemplos para mostrar la adecuación de cada una
+2.-Identificar algoritmos de \textit{parsing} clásicos para parsing de lenguaje natural
+3.-Defender la necesidad de un corpus establecido
+4.-Dar ejemplos de catálogos y procedimientos de búsqueda en un método basado en corpus
+5.-Articular la distinción entre técnicas para recuperación de información, traducción del lenguaje, y reconocimiento de voz
+(fin_objetivo)
+
+Nombre:IS8.  Aprendizaje de Máquina y Redes Neuronales
+
+Tópicos :
+(inicio_topico)
+Definición y ejemplos de aprendizaje de máquina
+Aprendizaje supervisado
+Árboles de aprendizaje por decisión
+Redes neuronales de aprendizaje
+Redes de aprendizaje por creencia
+Algoritmo del vecino más cercano
+Teoría de aprendizaje
+El problema del sobreajuste
+Aprendizaje no supervisado
+Aprendizaje por refuerzo
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar las diferencias entre tres principales estilos de aprendizaje: supervisado, no supervisado y por refuerzo
+2.-Implementar algoritmos simples para aprendizaje supervisado, aprendizaje por refuerzo y aprendizaje no supervisado
+3.-Determinar cuales de los tres estilos de aprendizaje es apropiado para un dominio de problema en particular
+4.-Comparar y contrastar cada una de las siguientes técnicas, proveer ejemplos de cuando cada estrategia es superior: árboles de decisión, redes neuronales, y redes de creencia. 
+5.-Implementar de manera apropiada un sistema de aprendizaje simple, usando árboles de decisión, redes neuronales y/o redes de creencia
+6.-Caracterizar el estado del arte en teoría del aprendizaje, incluyendo logros y defectos
+7.-Explicar el algoritmo del vecino más cercano y su lugar dentro de la teoría del aprendizaje. 
+8.-Explicar el problema de sobreajuste, a través de técnicas para detectar y manejar el problema
+(fin_objetivo) 
+
+
+Nombre:IS9.  Sistemas de Planeamiento en IA
+
+Tópicos :
+(inicio_topico)
+Definición y ejemplos de sistemas de planeamiento
+Planeamiento como búsqueda
+Planeamiento basado en operadores
+Planeamiento proposicional
+Sistemas de planeamiento extendido (basado en casos, aprendizaje y sistemas probabilísticos)
+Sistemas de planeamiento para un mundo estático
+Planeamiento y ejecución
+Planeamiento y robótica
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Definir el concepto de un sistema de planeamiento
+2.-Explicar como los sistemas de planeamiento difieren de técnicas de búsqueda clásicas
+3.-Articular las diferencias entre planeamiento como búsqueda, planeamiento basado en operadores y planeamiento proposicional, proveyendo ejemplos de dominios donde cada uno es más aplicable
+4.-Definir y proveer ejemplos para cada una de las siguientes técnicas: basada en casos, aprendizaje y planeamiento probabilístico
+5.-Comparar y contrastar sistemas de planeamiento para un mundo estático con necesidad de ejecución dinámica
+6.-Explicar el impacto de planeamiento dinámico en robótica
+(fin_objetivo)
+
+
+Nombre:IS10.  Robótica
+
+Tópicos :
+(inicio_topico)
+Visión general 
+(inicio_sub_topico)
+Estado del arte de sistemas de robot
+Planeamiento vs. control reactivo
+Incerteza en control
+Sentido
+Modelos del mundo
+(fin_sub_topico)
+Espacios de configuración
+Planeamiento
+Sentido
+Programación de robots
+Navegación y control
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Sintetizar el potencial y limitaciones del estado del arte de los sistemas de robot de hoy
+2.-Implementar los algoritmos de configuración de espacio para un robot 2D y polígonos complejos
+3.-Implementar algoritmos de planeamiento de movimientos simples
+4.-Explicar las incertezas asociadas con sensores y cómo tratar con estas incertezas
+5.-Diseñar una arquitectura de control simple
+6.-Describir varias estrategias para navegación en ambientes desconocidos, incluyendo las fortalezas y defectos de cada una
+7.-Describir varias estrategias para navegación con la ayuda de hitos, incluyendo las fortalezas y defectos de cada una
+(fin_objetivo)
+
+
+Nombre:IM1. Modelos de Información y Sistemas
+
+Horas:3
+
+Tópicos :
+(inicio_topico)
+Historia y motivación para los sistemas de información
+Almacenamiento y recuperación de información (IS\&R)
+Aplicaciones de administración de la información
+Representación y captura de la información
+Indexación y análisis
+Búsqueda, recuperación, enlace, navegación
+Privacidad, integridad, seguridad y preservación de la información 
+Escalabilidad, eficiencia y efectividad
+(fin_topico)
+Objetivos de aprendizaje 
+(inicio_objetivo)
+1.-Comparar y contrastar la información con datos y conocimiento
+2.-Listar la evolución de los sistemas de información desde las visiones tempranas hasta las propuestas modernas, distinguiendo sus respectivas capacidades y potenciales futuros
+3.-Criticar y defender las aplicaciones de información de tamaño pequeño y mediano con respecto a la satisfacción de las necesidades reales del usuario
+4.-Describir varias soluciones técnicas para problemas relacionados a la privacidad, integridad, seguridad y preservación de la información
+5.-Explicar las medidas de eficiencia (estimación, tiempo de respuesta) y efectividad (\textit{precision - recall})
+6.-Describir métodos para asegurar que los sistemas de información pueden escalar de lo individual a lo global
+(fin_objetivo)
+
+Nombre:IM2. Sistemas de Base de Datos 
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Historia y motivación de los sistemas de base datos
+Componentes de los sistemas de base de datos
+Funciones DBMS 
+Arquitectura de base de datos e independencia de datos
+Uso de un lenguaje de consultas de base de datos
+(fin_topico) 
+Objetivos de aprendizaje 
+(inicio_objetivo)
+1.-Explicar las características que distinguen los métodos de base de datos de los métodos tradicionales de programación con archivos de datos
+2.-Citar las metas básicas como funciones, modelos, componentes, aplicaciones y el impacto social de los sistemas de bases de datos
+3.-Describir los componentes de un sistema de base de datos y dar ejemplos de su uso
+4.-Identificar las funciones superiores DBMS y describir su rol en un sistema de base de datos
+5.-Explicar los conceptos de independencia de datos y su importancia en un sistema de base de datos
+6.-Usar un lenguaje de consulta para elicitar la información de una base de datos
+(fin_objetivo)
+
+
+Nombre:IM3. Modelamiento de Datos 
+
+Horas:4
+
+Tópicos :
+(inicio_topico)
+Modelamiento de datos
+Modelos conceptuales (incluyendo entidad-relación, y UML)
+Modelo orientado a objetos
+Modelo de datos relacional
+(fin_topico) 
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Categorizar los modelos de datos basados en los tipos de conceptos que ellos proveen para describir la estructura de las bases de datos, esto es, el modelo de datos conceptual, el modelo de datos físico y el modelo de datos representacional
+2.-Describir los conceptos de modelado y la notación del modelo entidad-relación y UML, incluyendo su uso en modelamiento de datos
+3.-Describir los principales conceptos del modelo OO tal como la identidad del objeto, constructores de tipos, encapsulación, herencia, polimorfismo y creación de versiones
+4.-Definir la terminología fundamental usada en el modelo de datos relacional
+5.-Describir los principios básicos del modelo de datos relacional
+6.-Ilustrar los conceptos de modelamiento y notación del modelo de datos relacional
+(fin_objetivo)
+
+Nombre:IM4. Base de Datos Relacionales
+
+Tópicos:
+(inicio_topico)
+Mapeo del esquema conceptual al esquema relacional
+Entidad e integridad referencial
+Álgebra relacional y cálculo relacional
+(fin_topico) 
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Preparar un esquema relacional de un modelo conceptual usando el modelo entidad-relación
+2.-Explicar y demostrar los conceptos de restricciones de la integridad de la entidad y restricciones de la integridad referencial (incluyendo la definición del concepto de llave foránea)
+3.-Demostrar el uso de las operaciones del álgebra relacional desde la teoría de conjuntos matemáticos (unión, intersección, diferencia y producto cartesiano) y las operaciones de álgebra relacional desarrolladas específicamente para bases de datos relacionales (select, product, join y division)
+4.-Demostrar consultas en el álgebra relacional
+5.-Demostrar consultas en el cálculo relacional de tuplas
+(fin_objetivo)
+
+Nombre:IM5. Lenguajes de Consultas de Base de Datos 
+
+Tópicos:
+(inicio_topico)
+Síntesis de los lenguajes de bases de datos
+SQL (definición de datos, formulación de consultas, actualización del sublenguaje, restricciones e integridad)
+Optimización de consultas
+QBE y entornos de 4º generación
+Consultas no procedimentales incrustadas en un lenguaje procedimental
+Introducción al lenguaje Objecto-consulta
+(fin_topico)  
+Objetivos de aprendizaje 
+(inicio_objetivo)
+1.-Crear un esquema de base de datos relacional en SQL que incorpora restricciones de integridad referencial, integridad-entidad, clave
+2.-Demostrar la definición de datos en SQL y recuperar información de una base de datos usando la sentencia SQL SELECT
+3.-Evaluar un conjunto de estrategias de procesamiento de consultas y seleccionar la óptima. 
+4.-Crear una consulta no procedimental por medio de llenado de plantillas de relaciones para construir un ejemplo del resultado de la consulta deseada
+5.-Incrustar consultas orientadas a objetos en un lenguaje independiente tales como C++ o Java (ejemplo, SELECT Col. Method() FROM Objet)
+(fin_objetivo)
+
+
+Nombre:IM6. Diseño de Bases de Datos Relacionales 
+
+Tópicos:
+(inicio_topico)
+Diseño base de datos
+Dependencia funcional
+Formas normales (1NF, 2NF, 3NF, BCNF)
+Dependencia multivaluada(4NF)
+Dependencia de grupos (PJNF; 5NF)
+Representación teórica
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Determinar la dependencia funcional entre dos o más atributos que son un subconjunto de una relación
+2.-Describir que significa 1NF, 2NF, 3NF y BCNF
+3.-Identificar si una relación es una 1NF, 2NF, 3NF o BCNF
+4.-Normalizar una 1NF en un conjunto de relaciones en 3NF (o BCNF) y desnormalizar un esquema relacional
+5.-Explicar el impacto de la normalización sobre la eficiencia de las operaciones de base de datos, especialmente la utilización de consultas
+6.-Describir que es una dependencia multivaluada y que tipo de restricciones ésta especifica
+7.-Explicar por qué 4NF es útil en el diseño del esquema
+(fin_objetivo)
+
+
+Nombre:IM7. Procesamiento de Transacciones
+
+Tópicos:
+(inicio_topico)
+Transacciones
+Recuperación y falla
+Control de concurrencia
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Crear una transacción mediante la incrustación de SQL en un programa de aplicación
+2.-Explicar el concepto de compromiso implícito
+3.-Describir los temas específicos para la ejecución de transacciones eficientes
+4.-Explicar cuándo y por qué el \textit{rollback} y cómo el \textit{logging} asegura un \textit{rollback} apropiado
+5.-Explicar los efectos de los diferentes niveles de aislamiento sobre los mecanismos de control de concurrencia
+6.-Escoger el nivel de aislamiento apropiado para implementar un protocolo de transacción especificado
+(fin_objetivo)
+
+Nombre:IM8. Bases de Datos Distribuidas
+
+Tópicos:
+(inicio_topico)
+Almacenamiento de datos distribuido
+Procesamiento de consultas distribuidas
+Modelo de transacción distribuido
+Control de concurrencia
+Soluciones heterogéneas y homogéneas
+Cliente-servidor
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar las técnicas usadas para la fragmentación, replicación, alocación de datos durante el proceso de diseño de bases de datos distribuidas
+2.-Evaluar estrategias simples para ejecutar una consulta distribuida para seleccionar la estrategia que minimice la cantidad de transferencia de datos
+3.-Explicar cómo el protocolo de compromiso en dos fases es usado para tratar una transacción que accese a una base de datos almacenada en múltiples nodos
+4.-Describir el control de concurrencia distribuido basado en la distinción de técnicas de copiado y el método de elección
+5.-Describir los tres niveles de software en el modelo cliente-servidor
+(fin_objetivo)
+
+
+Nombre:IM9. Diseño Físico de Bases de Datos
+
+Tópicos:
+(inicio_topico)
+Almacenamiento y estructura de archivo
+Archivos indexados
+Archivos \textit{hashed}
+Archivos \textit{signature}
+Arboles B
+Archivos con índice denso
+Archivos con registros de longitud de variable
+Eficiencia de la base de datos y \textit{tuning}
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Explicar los conceptos de registros, tipos de registros, y archivos, así como también las diferentes técnicas para colocar registros de archivos en un disco
+2.-Dar ejemplos de aplicaciones de índices primarios, secundarios y clusterizados
+3.-Distinguir entre un índice denso y un no denso
+4.-Implementar índices multinivel dinámico usando árboles B
+5.-Explicar la teoría y aplicación de técnicas \textit{hash}
+6.-Usar \textit{hash} para facilitar la expansión de archivos dinámicos
+7.-Describir las relaciones entre compresión \textit{hash} y búsquedas eficientes en base de datos
+8.-Evaluar costos y beneficios de diferentes esquemas \textit{hash}
+9.-Explicar cómo el diseño la base de datos físicas afecta a la eficiencia de las transacciones en base de datos. 
+(fin_objetivo)
+
+
+Nombre:IM10. Minería de Datos
+
+Tópicos:
+(inicio_topico)
+La utilidad de la minería de datos
+Patrones secuenciales y asociativos
+Clusterización de datos
+Análisis de canastas de mercado
+Limpieza de datos 
+Visualización de datos
+(fin_topico)
+
+Objetivos:
+(inicio_objetivo)
+1.-Comparar y contrastar diferentes concepciones de minería de datos, mostrando evidencias en investigación y aplicación
+2.-Explicar el rol al encontrar asociaciones en información manejada por la industria comercial
+3.-Caracterizar los tipos de patrones que pueden ser descubiertos por la minería de reglas de asociación
+4.-Describir cómo extender un sistema relacional para encontrar patrones usando reglas de asociación
+5.-Evaluar temas metodológicos subrayando la efectiva aplicación de minería de datos
+6.-Identificar y caracterizar fuentes de ruido, redundancia y \textit{outlier} en los datos presentados
+7.-Identificar mecanismos (agregación en línea, comportamiento en cualquier tiempo, visualización interactiva) para cerrar el ciclo en el proceso de minería de datos
+8.-Describir por qué los varios procesos de cerrado de ciclo mejoran la efectividad de la minería de datos
+(fin_objetivo)
+
+
+Nombre:IM11. Almacenamiento y Recuperación de Información
+
+Tópicos:
+(inicio_topico)
+Caracteres, cadenas, códigos, texto
+Documentos, publicación electrónica, marcado, y lenguaje de marcado
+Árboles digitales, archivos invertidos, árboles PAT, archivos \textit{signature}, indexación
+Análisis morfológico, stemming, frases, \textit{stocklist}
+Distribución de la frecuencia de términos, incerteza, difusibilidad, weighting
+Modelos avanzados, lógicos, probabilísticos y de espacio vectorial
+Necesidad de información, relevancia, evaluación, efectividad
+Tesauro, ontologías, clasificación y categorización, metadata
+Información bibliográfica, bibliometría, citaciones
+Enrutado y filtrado
+Búsqueda y estrategias de búsqueda, comportamiento de búsqueda de información, modelamiento de usuario, retroalimentación
+Sumarización de información y visualización  
+Integración de citaciones, palabras clave, esquemas de clasificación y otros términos. 
+Sistemas y protocolos (incluyendo Z39.50, OPACs, motores WWW, sistemas de investigación)  
+(fin_topico) 
+Objetivos:
+(inicio_objetivo)
+1.-Explicar el almacenamiento de información básico y conceptos de recuperación.  
+2.-Describir qué temas son específicos para la recuperación de información eficiente
+3.-Dar aplicaciones de estrategias de búsqueda alternativa y explicar por qué la estrategia de búsqueda particular es apropiada para la aplicación
+4.-Desempeñar investigación basada en Internet
+5.-Diseñar e implementar un sistema de almacenamiento y recuperación de tamaño pequeño a medio
+(fin_objetivo)
+
+Nombre:IM12. Hipertexto e Hipermedia 
+
+Tópicos:
+(inicio_topico)
+Modelos hipertexto (historia inicial, web, Dexter, Amsterdam, Hytime)
+Servicios de enlace, ingeniería, y arquitecturas de hipertexto (distribuido)
+Nodos compuestos y anclas
+Dimensiones, unidades, locaciones y spans
+\textit{Browsing}, navegación, vistas, \textit{zooming}
+Generación y enlaces automáticos
+Presentación, transformación, sincronización
+\textit{Authoring}, lectura y anotaciones
+Sistemas y protocolos (incluyendo web, HTTP)
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Listar la evolución de modelos de hipertexto e hipermedia desde las versiones iniciales hasta las presentaciones actuales, distinguiendo sus respectivas capacidades y limitaciones
+2.-Explicar conceptos básicos de hipertexto e hipermedia
+3.-Demostrar un entendimiento fundamental de la presentación de la información, transformación, y sincronización
+4.-Comparar y contrastar la entrega de hipermedia basado en protocolos y sistemas usados
+5.-Diseñar e implementar aplicaciones de recuperación de información basados en web usando herramientas authoring apropiadas
+(fin_objetivo)
+
+Nombre:IM13. Sistemas e Información Multimedia
+
+Tópicos:
+(inicio_topico)
+Dispositivos, \textit{drivers} de dispositivo, señales de control y protocolos, DSPs
+Aplicaciones, editores media, sistemas y \textit{authoring}
+Flujos/estructuras, captura/representación/transformación, espacios/dominios, compresión/codificación
+Análisis basado en el contenido, indexación, y recuperación de audio, imágenes y video
+Presentación, \textit{rendering}, sincronización, integración multimodal/interfases
+Entrega en tiempo real, calidad del servicio, conferencia de audio/video, demanda sobre video
+(fin_topico) 
+Objetivos:
+(inicio_objetivo)
+1.-Describir la \textit{media} y soportar dispositivos comúnmente asociados con información multimedia y sistemas
+2.-Explicar conceptos de presentación multimedia básica
+3.-Demostrar el uso del análisis de la información basada en contenido en un sistema de información multimedia
+4.-Presentaciones multimedia críticas en términos de su apropiado uso de audio, video, gráficos, color y otros conceptos de presentación de información
+5.-Implementar una aplicación multimedia, usando un sistema \textit{authoring} comercial
+(fin_objetivo)
+
+Nombre:IM14. Librerías Digitales
+
+Tópicos:
+(inicio_topico)
+Digitalización, almacenamiento e intercambio
+Objetos digitales, compuestos y paquetes
+Metadata, catalogamiento, registro de autores
+Archivos, repositorios, nombramientos
+Espacios (conceptual, geográfico, 2-3D, VR)
+Arquitecturas (agentes, buses, wrappers/mediadores), interoperabilidad
+Servicios (búsqueda, enlace, navegación, etc)
+Administración de los derechos de la propiedad intelectual, privacidad, protección (watermarking) 
+Archivamiento y preservación, integridad
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar los conceptos técnicos subyacentes en la construcción de una librería digital
+2.-Describir los requerimientos de servicio básico para la búsqueda, enlace y navegación
+3.-Criticar escenarios que envuelven apropiados e inapropiados usos de una librería digital, así como también determinar las consecuencias económicas, legales y sociales para cada escenario
+4.-Describir algunas de las soluciones técnicas para los problemas relacionados al archivamiento y preservación de la información en una librería digital
+5.-Diseñar e implementar una pequeña librería digital
+(fin_objetivo)
+
+
+Nombre:SP1. Historia de la Computación
+
+Horas:1
+
+Tópicos:
+(inicio_topico)
+Prehistoria - el mundo antes de 1946
+Historia del hardware de computadoras, software, redes
+Pioneros de la computación
+(fin_topico)  
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Listar las contribuciones de varios pioneros en el campo de la computación
+2.-Comparar la vida diaria antes y después del advenimiento de las computadoras personales e Internet
+3.-Identificar las tendencias continuamente significativas en la historia del campo de la computación
+(fin_objetivo)
+
+Nombre:SP2. Contexto Social de la Computación 
+ 
+Horas: 3
+
+Tópicos:
+(inicio_topico)
+Introducción a las implicaciones sociales de la computación
+Implicaciones sociales de las redes de comunicación
+Crecimiento, control y acceso a la Internet
+Temas relacionados al género 
+Temas internacionales
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Interpretar el contexto social de una implementación particular
+2.-Identificar suposiciones y valores insertados en un diseño particular
+3.-Evaluar una implementación particular a través del uso de datos empíricos
+4.-Describir las formas positivas o negativas en las cuales la computación altera los modos de interacción entre las personas
+5.-Explicar por qué el acceso a redes de computadores y computadoras es restringido en algunos países
+(fin_objetivo)
+
+
+Nombre:SP3. Métodos y Herramientas de Análisis 
+ 
+Horas: 2
+
+Tópicos:
+(inicio_topico)
+Creación y evaluación de argumentos éticos
+Identificación y evaluación de elecciones éticas
+Entendimiento del contexto social del diseño
+Identificación de suposiciones y valores 
+(fin_topico) 
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Analizar un argumento para identificar premisas y conclusiones
+2.-Ilustrar el uso del ejemplo, de la analogía, analogía contraria en argumentos éticos
+3.-Detectar el uso de falacias lógicas en un argumento
+4.-Identificar los inversionistas en un determinado asunto y nuestras obligaciones hacia ellos
+5.-Articular los puntos medios éticos en una decisión ética
+(fin_objetivo)
+
+Nombre:SP4. Responsabilidades Profesionales y Éticas 
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Valores de la comunidad y las leyes con las que vivimos
+La naturaleza del profesionalismo
+Varias formas de acreditación profesional y las ventajas y desventajas
+El rol de la profesión en la política pública
+Prestar atención de las consecuencias
+Discrepancia ética y \textit{whistle-blowing}
+Códigos de ética, conducta y práctica (IEEE, ACM, SE, AITP, etc)
+Tratar con el acoso y discriminación
+Políticas de uso aceptable para la computación en el lugar de trabajo
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Identificar los estados progresivos en un incidente \textit{whistle-blowing}
+2.-Especificar las fortalezas y debilidades de códigos profesionales relevantes como expresiones de profesionalismo y guías para la toma de decisiones
+3.-Identificar los tópicos éticos que alcanzan el desarrollo de software, determinar cómo direccionar éstos técnicamente y éticamente
+4.-Desarrollar una política para el uso de la computadora con medidas de refuerzo
+5.-Analizar un tema de computación global observando el rol de los profesionales y gobierno en tratar el problema
+6.-Evaluar los códigos profesionales de la ética de organizaciones como la ACM, la IEEE Computer Society, y otras
+(fin_objetivo) 
+
+Nombre:SP5. Riesgos y Responsabilidades de los Sistemas Basados en Computadoras
+ 
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Ejemplos históricos de los riesgos del software (tal como el caso Therac-25)
+Implicaciones de la complicidad del software
+Administración y evaluación del riesgo
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Explicar las limitaciones de la prueba como un medio para asegurar corrección
+2.-Describir las diferencias entre corrección, confiabilidad y seguridad
+3.-Discutir el potencial de los problemas ocultos en el reuso de componentes existentes
+4.-Describir los métodos actuales para administrar el riesgo y caracterizar las fortalezas y debilidades de cada uno
+(fin_objetivo)
+
+Nombre:SP6. Propiedad Intelectual 
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Fundamentos de la propiedad intelectual
+\textit{Copyrights}, patentes y secretos del negocio
+Piratería de software
+Patentes de software
+Asuntos transnacionales concernientes a la propiedad intelectual
+(fin_topico) 
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Distinguir entre patentes, \textit{copyright}, y protección de secretos del negocio
+2.-Discutir el fondo legal del \textit{copyright} en las leyes nacionales e internacionales
+3.-Explicar como las leyes de patentes y el \textit{copyright} pueden variar internacionalmente
+4.-Resumir el desarrollo histórico de las patentes de software
+5.-Discutir las consecuencias de la piratería de software sobre los desarrolladores de software y el rol de las organizaciones de soporte relevante
+(fin_objetivo)
+
+Nombre:SP7. Libertades Civiles y Privacidad
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Bases legales y éticas para la protección y la privacidad
+Implicaciones de la privacidad en los sistemas de base de datos masivas
+Estrategias tecnológicas para la protección de la privacidad
+Libertad de expresión en el ciber espacio
+Implicaciones internacionales e interculturales
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Listar las bases legales para el derecho a la privacidad y a la libertad de expresión en las naciones de cada uno, y como estos conceptos varían de país en país
+2.-Describir las actuales amenazas a la privacidad basadas en computadoras 
+3.-Explicar cómo la Internet puede cambiar el balance histórico en la protección a la libertad de expresión
+4.-Explicar las ventajas y desventajas de la libre expresión en el ciber espacio
+5.-Describir las tendencias en la protección de la privacidad con ejemplos en la tecnología
+(fin_objetivo)
+
+Nombre:SP8. Crimen Informático
+ 
+Tópicos:
+(inicio_topico)
+Historia y ejemplos del crimen informático
+\textit{Cracking}, \textit{hacking} y sus efectos
+Virus, gusanos y troyanos
+Estrategias de prevención del crimen
+(fin_topico)  
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Resumir las bases técnicas de los virus y los ataques de negación de servicio
+2.-Enumerar técnicas para combatir los ataques de crackers
+3.-Discutir los diferentes métodos de crackers y sus motivaciones
+4.-Identificar el rol de los profesionales en la seguridad y los inconvenientes relacionados
+(fin_objetivo)
+
+Nombre:SP9. Temas Económicos en Computación
+ 
+Tópicos:
+(inicio_topico)
+Monopolios y sus implicaciones económicas
+Efectos de los suministros de labor calificada y la demanda de calidad en los productos computacionales
+Estrategias de adjudicación de precios en el dominio de la computación
+Diferencias en el acceso a los recursos computacionales y los posibles efectos de esta
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Listar la cuestión de fondo de los esfuerzos anti-monopolio
+2.-Describir las diferentes formas en las cuales la industria de la tecnología de la información es afectada por recortes en los suministros de labor
+3.-Sugerir y defender las formas para direccionar las limitaciones del acceso a la computación
+4.-Sintetizar la evolución de las estrategias de adjudicación de precios para los bienes computacionales y servicios
+(fin_objetivo)
+
+
+Nombre:SP10. Estructuras de Trabajo Filosóficas
+
+Tópicos:
+(inicio_topico)
+Estructuras de trabajo filosóficas, particularmente utilitarianismo y teorías deontológicas
+Problemas de relativismo ético
+Ética científica en la perspectiva histórica
+Diferencias en los métodos filosóficos y científicos
+(fin_topico)
+Objetivos de aprendizaje
+(inicio_objetivo)
+1.-Listar los conceptos básicos de relativismo, utilitarianismo y teorías deontológicas
+2.-Reconocer la distinción entre teoría ética y ética profesional
+3.-Identificar la debilidad del método ``agente empleado'', legalidad estricta, egoísmo novato, relativismo novato, como estructuras de trabajo éticas. 
+(fin_objetivo)
+
+Nombre:SE1. Diseño de Software
+
+Horas:8
+
+Tópicos:
+(inicio_topico)
+Conceptos fundamentales de diseño y principios
+Patrones de diseño
+Arquitectura de software
+Diseño estructural
+Análisis y diseño orientado a objetos
+Diseño a nivel componente
+Diseño para reuso
+(fin_topico) 
+Objetivos:
+(inicio_objetivo)
+1.-Discutir las propiedades del buen diseño de software
+2.-Comparar y contrastar el análisis orientado a objetos con el análisis y diseño estructural
+3.-Evaluar la calidad de múltiples diseños de software basados en principios de diseño, claves y conceptos
+4.-Seleccionar y aplicar patrones de diseño apropiados en la construcción de una aplicación de software
+5.-Crear y especificar el diseño de software para un producto de software de tamaño medio usando una especificación de requerimientos de software, una metodología de diseño de programas aceptado (ejemplo orientado a objetos o estructurado), y una notación de diseño apropiada
+6.-Conducir una síntesis de diseño de software usando la guía apropiada
+7.-Evaluar un diseño de software a nivel componente.  
+8.-Evaluar un diseño de software a nivel componente desde la perspectiva de reuso
+(fin_objetivo)
+
+
+Nombre:SE2. Usando APIs
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Programación API
+\textit{Class browsers} y herramientas relacionadas
+Programación por el ejemplo
+Depuración en el entorno API
+Introducción a la computación basada en componentes
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar el valor de las interfaces para programación de aplicaciones (APIs) en el desarrollo de software
+2.-Usar  c\textit{lass browsers} y herramientas relacionadas durante el desarrollo de aplicaciones usando APIs
+3.-Diseñar, implementar, testa, y depurar programas que usan paquetes API de larga escala
+(fin_objetivo)
+
+
+Nombre:SE3. Herramientas de Software y Entornos
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Entornos de programación
+Análisis de requerimientos y herramientas de modelamiento de diseño
+Herramientas de pruebas
+Herramientas de administración de configuración
+Mecanismos de integración de herramientas
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Seleccionar con justificación un apropiado conjunto de herramientas para soportar el desarrollo de un rango de productos de software
+2.-Analizar y evaluar un conjunto de herramientas en una área dada del desarrollo de software (ejemplo, administración, modelamiento, o pruebas) 
+3.-Demostrar la capacidad para usar un rango de herramientas de software en soporte del desarrollo de un producto de software de tamaño medio
+(fin_objetivo)
+
+
+Nombre:SE4. Procesos de Software
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Ciclo de vida del software y modelos de procesos
+Modelos de evaluación de procesos
+Métricas del proceso de software
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar el ciclo de vida del software y sus fases incluyendo las entregas que son producidas
+2.-Seleccionar con justificación los modelos de desarrollo de software más apropiados para el desarrollo y mantenimiento de un diverso rango de productos de software
+3.-Explicar el rol del proceso de modelos de madurez
+4.-Comparar el modelo tradicional cascada con el modelo incremental, el modelo orientado a objetos, y otros modelos apropiados
+5.-Para cada uno de los diferentes escenarios de proyectos de software, describir la posición del proyecto en el ciclo de vida del software, identificar las tareas particulares que deben ser desarrolladas seguidamente e identificar las métricas apropiadas para estas tareas
+(fin_objetivo)
+
+Nombre:SE5. Requerimientos de Software y Especificaciones
+
+Horas:4
+
+Tópicos:
+(inicio_topico)
+Elicitación de requerimientos
+Técnicas de modelamiento del análisis de requerimientos
+Requerimientos funcionales y no funcionales
+Prototipeo
+Conceptos básicos de técnicas de especificación formal
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Aplicar elementos clave y métodos comunes para la elicitación y análisis, para producir un conjunto de requerimientos de software para un sistema de tamaño medio
+2.-Discutir los retos de mantener software heredado
+3.-Usar un método común, no formal para modelar y especificar (en la forma de un documento de especificación de requerimientos) los requerimientos para un sistema de software de tamaño medio
+4.-Conducir una visión general  de un documento de requerimientos de software, usando las mejores prácticas para determinar la calidad del documento
+5.-Traducir  en lenguaje natural una especificación de requerimientos de software escrita en un lenguaje de especificación formal comúnmente usado
+(fin_objetivo)
+
+Nombre:SE6. Validación de Software
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Planeamiento de la validación
+Prueba fundamental, incluyendo la creación de planes de prueba y la generación de casos de prueba
+Técnicas de prueba de caja blanca y caja negra
+Unidad, integración, validación y sistemas de prueba
+Prueba orientado a objetos
+Inspecciones  
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Distinguir entre validación de programas y verificación
+2.-Describir el rol que las herramientas pueden jugar en la validación de software
+3.-Distinguir entre los diferentes tipos y niveles de pruebas (unidad, integración, sistemas, y aceptación) para productos de software de tamaño medio
+4.-Crear, evaluar e implementar un plan de prueba para segmentos de código de tamaño medio
+5.-Encargarse, como parte de una actividad de equipo, de una inspección de un segmento de código de tamaño medio
+6.-Discutir los temas concernientes a la prueba de software orientado a objetos.  
+(fin_objetivo)
+
+Nombre:SE7. Evolución del Software
+
+Horas:2
+
+Tópicos:
+(inicio_topico)
+Mantenimiento de software
+Características del software mantenible
+Reingeniería
+Sistemas heredados
+Reuso de software
+(fin_topico) 
+Objetivos:
+(inicio_objetivo)
+1.-Identificar los temas principales asociados con la evolución del software y explicar su impacto sobre el ciclo de vida del software
+2.-Discutir los desafíos de mantener sistemas heredados y la necesidad de la ingeniería reversa
+3.-Remarcar el proceso de pruebas de regresión y su rol en la administración del lanzamiento
+4.-Estimar el impacto de un cambio de requerimiento para un producto existente de tamaño medio
+5.-Desarrollar un plan para hacer reingeniería a un producto de tamaño medio como respuesta a un cambio de requerimientos
+6.-Discutir las ventajas y desventajas del reuso de software
+7.-Explotar las oportunidades para reusar software en un contexto dado
+(fin_objetivo)
+
+Nombre:SE8. Administración de Proyectos de Software
+
+Horas:3
+
+Tópicos:
+(inicio_topico)
+Administración de equipos
+(inicio_sub_topico)
+Procesos de equipo
+Organización de equipos y toma de decisiones
+Roles y responsabilidades en un equipo de software
+Identificación y asignación de roles
+Seguimiento del proyecto
+Resolución de problemas de equipo
+(fin_sub_topico)
+Asignación de tiempos y tareas al proyecto
+Medición de software y técnicas de estimación
+Análisis de riesgos
+Aseguramiento de la calidad de software
+Administración de la configuración de software
+Herramientas de administración de proyectos
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Demostrar, involucrándose en un equipo de proyecto los elementos centrales de la construcción y administración de un equipo 
+2.-Preparar un plan para un proyecto de software que incluye estimación de tamaño y esfuerzo, asignación de tiempos y tareas, ubicación de recursos, control de configuración, administración de cambios e identificación y administración de los riesgos del proyecto
+3.-Comparar y contrastar los diferentes métodos y técnicas usados para asegurar la calidad de un producto de software
+(fin_objetivo)
+
+Nombre:SE9. Computación Basada en Componentes 
+
+Tópicos:
+(inicio_topico)
+Fundamentos
+(inicio_sub_topico)
+La definición y naturaleza de los componentes
+Componentes e interfaces
+Interfaces como contratos
+Los beneficios de los componentes
+(fin_sub_topico)
+Técnicas básicas
+(inicio_sub_topico)
+Diseño de componentes y ensamblaje
+Relaciones con el modelo cliente-servidor y con patrones
+Uso de objetos y servicios del ciclo de vida del objeto
+Uso de objetos \textit{brokers}
+\textit{Marshalling}
+(fin_sub_topico)
+Aplicaciones (incluyendo el uso de componentes para móviles)
+Arquitectura de sistemas basados en componentes
+Diseño orientado a componentes
+Manejo de eventos: detección, notificación y respuesta
+\textit{Middleware}
+(inicio_sub_topico)
+El paradigma orientado a objetos dentro del \textit{middleware}
+\textit{Object request brokers}
+Monitores del procesamiento de transacciones
+Sistemas \textit{workflow}
+-Estado del arte de las herramientas
+(fin_sub_topico)
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Explicar y aplicar principios reconocidos para la construcción de componentes de software de alta calidad
+2.-Discutir y seleccionar una arquitectura, para un sistema basado en componentes, disponible para un escenario dado
+3.-Identificar el tipo de manejo de eventos implementado en una o mas APIs dadas
+4.-Explicar el rol de los objetos en sistemas \textit{middleware} y la relación con componentes
+5.-Aplicar métodos orientados a componentes para el diseño de un rango de software incluyendo aquellos requeridos para concurrencia y transacciones, servicios de comunicación confiables, servicios incluyendo interacción de bases de datos para consulta remota y administración de bases de datos, comunicación segura y acceso
+(fin_objetivo)  
+
+Nombre:SE10. Métodos Formales
+
+Tópicos:
+(inicio_topico)
+Conceptos de métodos formales
+Lenguajes de especificación formal
+Especificaciones ejecutables y no ejecutables
+Pre-aserciones y post-aserciones
+Verificación formal
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Aplicar técnicas de verificación formal a segmentos de software con baja complejidad
+2.-Discutir el rol de las técnicas de verificación formal en el contexto de la validación de software y prueba
+3.-Explicar los beneficios potenciales y los defectos de usar lenguajes de especificación formal
+4.-Crear y evaluar pre y post-aserciones para una variedad de situaciones desde lo simple hasta lo complejo
+5.-Usar un lenguaje de especificación formal común, formular la especificación de un sistema de software y demostrar los beneficios desde una perspectiva de calidad
+(fin_objetivo)
+
+Nombre:SE11. Confiabilidad del Software
+
+Tópicos:
+(inicio_topico)
+Modelos de confiabilidad de software
+Redundancia y tolerancia a fallas
+Clasificación de defectos
+Métodos de análisis probabilísticos
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Demostrar la habilidad para aplicar múltiples métodos para desarrollar estimadores de confiabilidad para un sistema de software
+2.-Identificar y aplicar redundancia y tolerancia a fallas para una aplicación de tamaño medio
+3.-Explicar los problemas que existen para lograr altos niveles de confiabilidad
+4.-Identificar métodos que lleven hacia la realización de una arquitectura de software que logre un nivel de confiabilidad específico
+(fin_objetivo) 
+
+Nombre:SE12. Desarrollo de Sistemas Especializados
+ 
+Tópicos:
+(inicio_topico)
+Sistemas en tiempo real
+Sistemas cliente-servidor
+Sistemas distribuidos
+Sistemas paralelos
+Sistemas basados en web
+Sistemas de alta integridad
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Identificar y discutir diferentes sistemas especializados
+2.-Discutir el ciclo de vida y tópicos sobre el proceso de software en el ámbito de sistemas diseñados para un contexto especializado
+3.-Seleccionar, con la justificación apropiada, métodos que darán como resultado el desarrollo eficiente y efectivo, y el mantenimiento de sistemas de software especializado
+4.-Dado un contexto específico y un conjunto de tópicos profesionales relacionados, discutir como, un ingeniero de software envuelto en el desarrollo de sistemas especializados, debe de responder a estos tópicos
+5.-Sintetizar los temas técnicos centrales asociados con la implementación del crecimiento de sistemas especializados.  
+(fin_objetivo)
+
+Nombre:CN1. Análisis Numérico
+
+Tópicos:
+(inicio_topico)
+Aritmética de punto flotante
+Error, estabilidad, convergencia
+Series de Taylor
+Soluciones iterativas para encontrar raíces (Método de Newton)
+Ajuste de curva, función de aproximación
+Diferenciación numérica e integración (regla de Simpson)
+Métodos implícito y explicito
+Ecuaciones diferenciales (Método de Euler)
+Álgebra lineal
+Diferencia finita
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Comparar y contrastar las técnicas de análisis numérico presentadas en esta unidad
+2.-Definir error, estabilidad y conceptos de precisión de máquina, así como también la inexactitud de las aproximaciones computacionales
+3.-Identificar las fuentes de inexactitud en aproximaciones computacionales
+4.-Diseñar, codificar, probar y depurar programas que implementen métodos numéricos
+(fin_objetivo)
+
+
+Nombre:CN2. Investigación de Operaciones
+
+Tópicos:
+(inicio_topico)
+Programación lineal
+(inicio_sub_topico)
+Programación de enteros
+El método Simplex
+(fin_sub_topico)
+Modelamiento probabilístico
+Teoría de colas
+(inicio_sub_topico)
+Redes de Petri
+Modelos y cadenas de Markov
+(fin_sub_topico)
+Optimización
+Análisis de redes de trabajo y algoritmos de enrutamiento
+Predicción y estimación
+(inicio_sub_topico)
+Análisis de decisión
+Predicciones
+Administración de riesgos
+Econometría, microeconomía
+Análisis de sensibilidad
+(fin_sub_topico)
+Programación dinámica
+Ejemplos de aplicación
+Herramientas de software
+(fin_topico)
+Objetivos:
+(inicio_objetivo)
+1.-Aplicar las técnicas fundamentales de investigación de operaciones
+2.-Describir varias técnicas establecidas para la predicción y estimación
+3.-Diseñar, codificar, probar y depurar programas de aplicación para resolver problemas en el dominio de la investigación de operaciones. 
+(fin_objetivo)
+
+
+Nombre:CN3. Modelamiento y Simulación 
+
+Tópicos:
+(inicio_topico)
+Números aleatorios
+(inicio_sub_topico)
+Generación de números pseudoaleatorios y pruebas
+Métodos de Monte Carlo
+Introducción a la distribución de funciones
+(fin_sub_topico)
+Modelamiento de simulaciones
+(inicio_sub_topico)
+Simulación de eventos discretos
+Simulación continua
+(fin_sub_topico)
+Verificación y validación de modelos de simulación
+(inicio_sub_topico)
+Análisis de entrada
+Análisis de salida
+(fin_sub_topico)
+Modelos de teoría de colas
+Ejemplos de aplicación
+(fin_topico) 
+Objetivos:
+(inicio_objetivo)
+1.-Discutir los conceptos fundamentales de la simulación por computadora
+2.-Evaluar modelos para la simulación por computadora
+3.-Comparar y contrastar métodos para la generación aleatoria de números
+4.-Diseñar, codificar, probar y depurar programas de simulación
+(fin_objetivo)
+
+Nombre:CN4. Computación de Alto Desempeño 
+
+Tópicos:
+(inicio_topico)
+Introducción a la computación de alto desempeño
+(inicio_sub_topico)
+Historia e importancia de la ciencia computacional
+Visión de las áreas de aplicación
+Revisión de las habilidades requeridas
+(fin_sub_topico) 
+Computación de alto desempeño
+(inicio_sub_topico)
+Arquitecturas de procesadores
+-Sistemas de memoria para alto desempeño
+Dispositivos de entrada/salida
+Pipelining
+Lenguajes paralelos y arquitecturas
+(fin_sub_topico)
+Visualización científica
+(inicio_sub_topico)
+Presentación de resultados
+Formatos de datos
+Herramientas de visualización y paquetes
+(fin_sub_topico)
+Problemas de ejemplo
+(inicio_sub_topico)
+Modelos de la atmósfera y el océano
+Propagación de las ondas sísmicas
+Sistemas de N-cuerpos (el algoritmo de Barnes-Hut)
+Reacciones químicas
+Transición de fases
+(fin_sub_topico)
+Flujo de fluidos
+(fin_topico)   
+Objetivos:
+(inicio_objetivo)
+1.-Reconocer las áreas problemáticas donde el modelado computacional mejora los métodos de investigación actuales
+2.-Comparar y contrastar arquitecturas para la computación científica y paralela, reconociendo las fortalezas y debilidades de cada una
+3.-Implementar mediciones de desempeño simples para sistemas de alto desempeño
+4.-Diseñar, codificar, probar y depurar programas usando técnicas de análisis numérico, simulación por computadora y visualización científica
+(fin_objetivo)

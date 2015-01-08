@@ -1,0 +1,11 @@
+%%% produced automatically by bibtopic.sty v1.1
+%%% produced automatically by bibtopic.sty v1.1
+\begin{thebibliography}{}
+
+\bibitem[Cormen et~al., 2009]{Cormen2009}
+Cormen, T.~H., Leiserson, C.~E., Rivest, R.~L., and Stein, C. (2009).
+\newblock {\em Introduction to Algorithms}.
+\newblock MIT Press.
+
+\end{thebibliography}
+\csname bt@warn@outdated\endcsname{curricula-main36}

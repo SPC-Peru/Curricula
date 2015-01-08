@@ -1,0 +1,10 @@
+
+
+<HASH name=countries>
+Español     =>
+</HASH>
+
+<HASH name=countries>
+Perú        =>
+Ecuador     =>
+</HASH>

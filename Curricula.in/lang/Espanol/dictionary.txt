@@ -1,0 +1,136 @@
+COURSECODE= Código
+COURSENAME= Curso
+THEORY    = HT
+Theory    = Teoría
+PRACTICE  = HP
+Practice  = Práctica
+LABORATORY= HL
+Laboratory= Laboratorio
+CREDITS   = Cr
+cr        = cr
+Credits   = Créditos
+TYPE      = T
+PREREQ    = Requisitos
+Prerequisites=Prerrequisitos
+Syllabus  = Sílabo
+SyllabusOf= Silabus de
+Syllabi   = Syllabi
+Plan	  = Plan
+BloomLevel= Nivel Bloom
+
+Semester	   =Semestre
+Sem		   =Sem
+Semesters	   =Semestres
+Mandatory	   =Obligatorio
+MandatoryShort	   =O
+Core-Tier1	   =Core Tier1
+Core-Tier2	   =Core Tier2
+Elective	   =Electivos
+Electives          =Electivos
+ElectiveShort	   =E
+None		   =Ninguno
+hours		   =horas
+hrs		   =hr(s)
+hour		   =hora
+HoursOfThisCourse  =Horas del curso
+Total		   =Total
+Pag                =Pág.
+TeamTitle          =Equipo de Trabajo
+FinalReport	   =Reporte Final
+LastModification   =Última modificación
+Justification	   = Justificación
+GeneralGoals	   = Objetivos Generales
+ContributionToOutcomes=Contribución a los resultados
+Units		   =Unidades
+Topics             =Tópicos
+UnitGoals          =Objetivos
+LearningOutcomes   =Objetivos de Aprendizaje
+LearningObjectives
+UnitNotDefined     =Unidad no definida
+BibliographySection=Referencias Bibliográficas
+
+nocorehours        =Sin mínimo de horas
+corehours	   =horas como mínimo
+ThisSchool	   =Esta carrera
+
+AdviceRecCourses		=Se recomienda que el alumno haya llevado
+FreeCreditsAdvice		=Otros cursos (<NFREECREDITS> <CREDITS>) podrían ser agregados aquí
+TotalNumberOfCreditsMsg		=Total de créditos de la carrera
+DistributionCreditsByArea	=Distribución de cursos por áreas
+TableOfTopicByCourseCaption	=Tópicos por curso del <BEGIN_SEM> al <END_SEM> <SEMESTER>
+TableOfOutcomesByCourseCaption  =Resultados esperados por curso <BEGIN_SEM> al <END_SEM> <SEMESTER>
+Skill				=Habilidad o Competencia
+ComparisonWithStandardCaption=Comparación <AREA>-\siglas~Vs. <STANDARD> de <STANDARD_REF_INSTITUTION>.
+InstitutionToCompareWith=IEEE-CS/ACM
+Yes 	= Si
+No 	= No
+
+<HASH name=learning_outcomes>
+Familiarity=>Familiarizarse
+Usage=>Usar
+Assessment=>Evaluar
+</HASH>
+
+<HASH name=standards_long_name>
+CE=>Ingeniería de Computación--{\it Computer Engineering}
+CS=>Ciencia de la Computación--{\it Computer Science}
+IS=>Sistemas de Información--{\it Information Systems}
+IT=>Tecnología de Información--{\it Information Technology}
+SE=>Ingeniería de Software--{\it Software Engineering}
+</HASH>
+
+% Labels for spider charts
+<HASH name=all_areas>
+CS => Ciencia de la<ENTER>Computación
+MC => Matemática para<ENTER>Computación
+CB => Ciencias<ENTER>Básicas
+SE => Ingeniería<ENTER>de Software
+HW => Hardware y<ENTER>Arquitectura
+IT => Tecnología<ENTER>de Información
+IS => Sistemas de<ENTER>Información
+OG => Contenido<ENTER>Empresarial
+FG => Formación<ENTER>General
+</HASH>
+
+<HASH name=semester_ordinal>
+1=>Primer
+2=>Segundo
+3=>Tercer
+4=>Cuarto
+5=>Quinto
+6=>Sexto
+7=>Séptimo
+8=>Octavo
+9=>Noveno
+10=>Décimo
+</HASH>
+
+<HASH name=ordinal_postfix>
+1=>er
+2=>do
+3=>er
+4=>to
+5=>to
+6=>to
+7=>mo
+8=>vo
+9=>no
+10=>mo
+</HASH>
+
+<HASH name=labels_per_level>
+1=>Introductorio
+2=>Intermedio
+3=>Avanzado
+4=>Proyecto Final
+</HASH>
+
+<HASH name=Acronyms>
+SI=>Sistemas de Información
+TI=>Tecnología de la Información
+BD=>Bases de Datos
+POO=>Programación Orientada a Objetos
+ADS=>Análisis y Diseño de Sistemas
+ADA=>Análisis y Diseño de Algoritmos
+#IVU= >Introducción a la Vida Universitaria
+</HASH>

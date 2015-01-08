@@ -1,0 +1,36 @@
+
+% Semester #1 .
+
+
+% Semester #2 .
+% CS100(CS100). Introducción a la Ciencia de la Computación (Obligatorio)
+CS100->ecuadros@spc.org.pe
+
+
+% Semester #3 .
+
+
+% Semester #4 .
+% CS103O(CS103O). Algoritmos y Estructuras de Datos (Obligatorio)
+CS103O->ecuadros@spc.org.pe
+
+
+% Semester #5 .
+
+
+% Semester #6 .
+% CS315(CS315). Estructuras de Datos Avanzadas (Obligatorio)
+CS315->ecuadros@spc.org.pe
+
+
+% Semester #7 .
+
+
+% Semester #8 .
+
+
+% Semester #9 .
+
+
+% Semester #10 .
+

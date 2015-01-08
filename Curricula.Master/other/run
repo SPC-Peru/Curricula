@@ -1,0 +1,2 @@
+java ToLatex < description-in.txt > CS-bok-macros.sty
+java ToApendice < description-in.txt > CS-bok-body.tex

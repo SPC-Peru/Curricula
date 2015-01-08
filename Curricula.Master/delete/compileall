@@ -1,0 +1,33 @@
+#!/bin/csh
+
+rm -rf html/CS-SPC CS-SPC-big-main.*
+rm -rf html/CS-UCSP CS-UCSP-big-main.*
+rm -rf html/CS-UNI CS-UNI-big-main.*
+rm -rf html/CS-UNSA CS-UNSA-big-main.*
+rm -rf html/CS-UNU CS-UNU-big-main.*
+rm -rf html/CS-USGP CS-USGP-big-main.*
+
+./scripts/updatelog.pl "SPC: Starting compilation ..."
+./compile  CS-SPC 
+./gen-html CS-SPC
+
+./scripts/updatelog.pl "UCSP: Starting compilation ..."
+./compile  CS-UCSP 
+./gen-html CS-UCSP
+
+./scripts/updatelog.pl "UNI: Starting compilation ..."
+./compile  CS-UNI 
+./gen-html CS-UNI
+
+./scripts/updatelog.pl "UNSA: Starting compilation ..."
+./compile  CS-UNSA 
+./gen-html CS-UNSA
+
+./scripts/updatelog.pl "UNU: Starting compilation ..."
+./compile  CS-UNU 
+./gen-html CS-UNU
+
+./scripts/updatelog.pl "USGP: Starting compilation ..."
+./compile  CS-USGP 
+./gen-html CS-USGP
+

@@ -1,0 +1,25 @@
+\newcommand{\bigfigsize}{0.80\textwidth}
+\newcommand{\tinyfigsize}{0.20\textwidth}
+
+\newcommand{\poster}[2]
+{
+       \begin{Parallel}{\bigfigsize}{\tinyfigsize}
+       \ParallelLText
+       {
+           	\begin{minipage}[t]{\bigfigsize}
+                    {#1}
+           	\end{minipage}
+       }
+       \ParallelRText
+       {
+		\vspace{-10cm}
+              	\colorbox[rgb]{0.290196078431373,0.43921568627451,0.545098039215686}{
+		    \begin{minipage}[t]{\tinyfigsize}
+			    \rule{0pt}{100pt}
+			    {#2}
+			    \rule{0pt}{10pt}
+		    \end{minipage}
+		}
+       }
+       \end{Parallel}
+}

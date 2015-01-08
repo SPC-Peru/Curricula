@@ -1,0 +1,21 @@
+\newcommand{\minitab}[2][l]{\begin{tabular}{#1}#2\end{tabular}}
+
+\newcommand{\ingles}[1]
+{\emph{#1}\xspace}
+
+\newcommand{\cur}[8]%
+{%
+	\psframebox[linewidth=0.4pt,fillcolor=#2,fillstyle=solid,shadow=true]%
+	{%
+		\Tr[fillstyle=solid,fillcolor=#2,name=#1,shadow=true]{%
+%			\begin{tabular}[t]{|p{3cm}|c|}\hline%
+%					#3         &  #4  \\ \hline%
+%					(#1 -- #7) &  #5  \\ \hline%
+%						   &  #6   \\ \hline%
+         \begin{tabular}[t]{|p{0.07cm}|p{0.07cm}|p{0.07cm}|}\hline%
+            \multicolumn{3}{|c|}{\begin{tiny}\textbf{#1/#7}\end{tiny}}\\ \hline%
+            \begin{scriptsize}#4\end{scriptsize} & \begin{scriptsize}#5\end{scriptsize} & \begin{scriptsize}#6\end{scriptsize} \\ \hline%
+			\end{tabular}%
+		}%
+	}%	
+}
