@@ -172,9 +172,9 @@ sub get_small_icon($$)
 
 sub format_semester_label($)
 {
-      my $semester = (@_);
+      my ($semester) = (@_);
       if(not $semester eq "" )
-      {		return "$semester\$^{$config{dictionary}{ordinal_postfix}{$semester}}\$ $config{dictionary}{Sem}";	}
+      {		return "$semester\$^{$config{dictionary}{ordinal_postfix}{$semester}}\$";	}
       return "";
 }
 
@@ -1224,7 +1224,7 @@ sub verify_dependencies()
 sub set_initial_configuration($)  
 {
 	my ($command) = (@_);
-	$config{projectname} = "Curricula2015";
+	$config{projectname} = "Curricula";
 	($config{in}, $config{out})		= ("../$config{projectname}.in", "../$config{projectname}.out");
 	($path_map{InDir}, $path_map{OutDir})	= ($config{in}, $config{out});
 	$config{macros_file} = "";

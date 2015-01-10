@@ -1560,9 +1560,8 @@ sub generate_equivalence_old2new($)
 	foreach my $semester (sort {$a <=> $b} keys %{$Common::general_info{equivalences}{$old_curricula}}	)
 	{
 		my $begintable  	= "";
-		$begintable .= "\\begin{tabularx}{23cm}{|p{1.3cm}|X|p{0.6cm}||p{1.3cm}|X|p{1.2cm}|p{0.6cm}|}\\hline\n";
-		$begintable .= "\\multicolumn{7}{|l|}{\\textbf{$Common::config{dictionary}{semester_ordinal}{$semester} $Common::config{dictionary}{Semester}}} \\\\ \\hline\n";
-		$begintable .= "\\multicolumn{3}{|c|}{\\textbf{$Common::config{dictionary}{Plan} $old_curricula}} & \\multicolumn{4}{|c|}{\\textbf{$Common::config{dictionary}{Plan} $new_curricula}} \\\\ \\hline\n";
+		$begintable .= "\\begin{tabularx}{23cm}{|p{1.3cm}|X|p{0.6cm}||p{1.3cm}|X|p{0.7cm}|p{0.6cm}|}\\hline\n";
+		$begintable .= "\\multicolumn{3}{|c||}{\\textbf{$Common::config{dictionary}{semester_ordinal}{$semester} $Common::config{dictionary}{Semester}} -- \\textbf{$Common::config{dictionary}{Plan} $old_curricula}} & \\multicolumn{4}{|c|}{\\textbf{$Common::config{dictionary}{Plan} $new_curricula}} \\\\ \\hline\n";
 		$begintable .= "\\textbf{$Common::config{dictionary}{COURSECODE}} & ";
 		$begintable .= "\\textbf{$Common::config{dictionary}{COURSENAME}} & ";
 		$begintable .= "\\textbf{$Common::config{dictionary}{CREDITS}}    & ";
@@ -1578,18 +1577,31 @@ sub generate_equivalence_old2new($)
 			my $this_line 	= $Common::general_info{equivalences}{$old_curricula}{$semester}{$old_course_codcour}{oldfirstcols};
 			my $codcour 	= $Common::general_info{equivalences}{$old_curricula}{$semester}{$old_course_codcour}{codcour};
 			my $codcour_label 	= Common::get_label($codcour);
-			$codcour_label = "\\htmlref{\\colorbox{$Common::course_info{$codcour}{bgcolor}}{$codcour_label}}{sec:$codcour}";
+			$codcour_label = "\\htmlref{\\colorbox{$Common::course_info{$codcour}{bgcolor}}{$codcour_label}}{sec:$codcour}"; 
 			my $course_name = "\\htmlref{$Common::course_info{$codcour}{course_name}}{sec:$codcour}";
-			
 			
 			$this_line .= "$codcour_label & ";
 			$this_line .= "$course_name & ";
-			my $semester_label = Common::format_semester_label($Common::course_info{$codcour}{semester});
-			$this_line .= "$semester_label & ";
-			$this_line .= "$Common::general_info{equivalences}{$old_curricula}{$semester}{$old_course_codcour}{old_course_cr} \\\\ \\hline\n";
+ 			my $semester_label = Common::format_semester_label($Common::course_info{$codcour}{semester});
+# 			Util::print_message("codcour=$codcour, Semester = $Common::course_info{$codcour}{semester}, Label= $semester_label");
+			
+			if($semester != $Common::course_info{$codcour}{semester})
+			{	$this_line .= "\\colorbox{honeydew3}{\\textcolor{black}{$semester_label}} &";		}
+			else{	$this_line .= "$semester_label & "; 	}
+			
+			my $old_course_cr = $Common::general_info{equivalences}{$old_curricula}{$semester}{$old_course_codcour}{old_course_cr};
+ 			Util::print_message("old_course_codcour= $old_course_codcour, old_course_cr=$old_course_cr, new_cr = $Common::course_info{$codcour}{cr} ");
+			if( not $old_course_cr eq "" && not $old_course_cr eq $Common::course_info{$codcour}{cr} )
+			{	$this_line .= "\\colorbox{honeydew3}{\\textcolor{black}{$Common::course_info{$codcour}{cr}}}";	}
+			else{	$this_line .= "$Common::course_info{$codcour}{cr}";		}
+			$this_line .= " \\\\ \\hline\n";
+			
 			$output_txt .= $this_line;
 		}
 		$output_txt .= "$endtable";
+	}
+#  	exit;
+	
       # 		    $this_line =~ s/<COURSENAME>/$course_name/g;
       # 
       # 			
@@ -1638,7 +1650,7 @@ sub generate_equivalence_old2new($)
       # 			#Util::print_message("this_line = $this_line ...");
       # 			$output_txt .= "$endtable";
       # 		}
-	}
+	
 	Util::write_file($outfile, $output_txt);
         Util::check_point("generate_equivalence_old2new");
 	Util::print_message("generate_equivalence OK!");
