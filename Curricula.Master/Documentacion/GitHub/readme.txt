@@ -15,3 +15,4 @@ git rm *.lot
 git rm *.brf
 git rm *~ *.tmp
 
+git push origin master
